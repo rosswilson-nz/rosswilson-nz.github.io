@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.269">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Ross Wilson - My Research</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publications .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publications'] = new List('listing-publications', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-conferences .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-conferences'] = new List('listing-conferences', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-other-reports .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-other-reports'] = new List('listing-other-reports', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/ou-logo.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./research.html" aria-current="page">
+ <span class="menu-text">Research</span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul class="collapse">
+  <li><a href="#research-projects" id="toc-research-projects" class="nav-link active" data-scroll-target="#research-projects">Research Projects</a></li>
+  <li><a href="#publications-and-outputs" id="toc-publications-and-outputs" class="nav-link" data-scroll-target="#publications-and-outputs">Publications and outputs</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">My Research</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="research-projects" class="level2">
+<h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
+<section id="measuring-the-health-state-preferences-of-new-zealanders-2022-2026" class="level3">
+<h3 class="anchored" data-anchor-id="measuring-the-health-state-preferences-of-new-zealanders-2022-2026">Measuring the health state preferences of New Zealanders (2022 – 2026)</h3>
+<p>I was awarded a project grant from the Health Research Council of New Zealand to investigate the validity of the SF-6D health state utility instrument in the New Zealand population, to derive a NZ population value set for the SF-6D, and to develop tools to support the use of the instrument for population health and equity monitoring and cost-effectiveness evaluation of healthcare in the NZ health system. At present the SF-6D, and the SF-12 health status questionnaire from which it is derived, is widely used in clinical practice, population health monitoring, and health research in NZ, without evidence of its validity for this population or the availability of a utility value set based on preferences elicited from the NZ population. This mixed methods project will combine qualitative kaupapa Māori research methods to evaluate the appropriateness of the SF-6D for the NZ, and especially Māori, population; instrument development if required to refine the SF-6D to meet the needs of the NZ population and healthcare system; and cutting-edge discrete choice experiment (DCE) survey methods to develop a value set reflecting the preferences of the NZ population for the trade-offs between health-related quality of life domains inherent in healthcare prioritisation and funding decisions.</p>
+</section>
+<section id="the-primary-care-management-and-impact-of-osteoarthritis-2018-2021" class="level3">
+<h3 class="anchored" data-anchor-id="the-primary-care-management-and-impact-of-osteoarthritis-2018-2021">The primary care management and impact of osteoarthritis (2018 – 2021)</h3>
+<p>I was part of a team awarded a Health Research Council project grant to investigate the prevalence, management pathways, and health and economic impacts of hip and knee osteoarthritis in primary care in New Zealand. Most osteoarthritis care and management, in New Zealand and elsewhere, is delivered in primary care, but very little is known, at a systematic level, about how many patients present to primary care with osteoarthritis symptoms, what treatments they are offered, and how much it costs both the health system and patients themselves. This project will combine novel large-scale data extraction from primary care patient records with the wealth of data on secondary care utilization, pharmaceutical prescriptions, and wider economic and social indicators available from the Statistics New Zealand Integrated Data Infrastructure (IDI), to address these important questions.</p>
+</section>
+<section id="chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing" class="level3">
+<h3 class="anchored" data-anchor-id="chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing">Chronic opioid use following joint replacement surgery (2018 – ongoing)</h3>
+<p>I have received grants from the Otago Medical Research Foundation and the H.S and J.C Anderson Charitable Trust for studies of the prevalence, risk factors, and consequences of chronic opioid use before and after total hip and knee replacement surgery, using linked national population data from the IDI. We showed, using a comprehensive dataset including all joint replacement surgeries performed in the NZ public healthcare system, the continued prevalence of opioid use for as long as three years after surgery; this work has been published in the New Zealand Medical Journal and presented to the NZ Orthopaedic Association Annual Scientific Meeting. A second paper from this project identifies several important risk factors that can to help identify patients at high risk of such prolonged post-surgical opioid use, which could be useful in identifying targeted interventions to reduce opioid exposure for these at-risk groups; this paper has been published in the Journal of Arthroplasty. Further studies are now investigating the long-term health, economic, and social impacts of perioperative opioid prescribing.</p>
+</section>
+<section id="the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing" class="level3">
+<h3 class="anchored" data-anchor-id="the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing">The health economic case for implementing ACL injury prevention interventions (2020 – ongoing)</h3>
+<p>I am part of a project, led by Dr Yana Pryymachenko, that has received preliminary funding from the Health Research Council of New Zealand to investigate the impact of ACL injury prevention programmes on long-term outcomes, including the incidence and associated health and economic burden of early knee osteoarthritis. This prelimnary project involves investigating the feasibility of using matching methods to identify comparable groups of individuals with and without the occurence of an ACL injury, using comprehensive linked national data from the IDI, and to use these matched cohorts to evaluate long-term outcomes following an ACL injury. If this feasibility study proves successful, we intend to use this approach to inform cost-effectiveness evaluations of injury prevention strategies to support the implementation and uptake of such programmes across the New Zealand population (for example, via schools, sports clubs, and workplaces where people are at risk of ACL injury).</p>
+</section>
+<section id="total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing" class="level3">
+<h3 class="anchored" data-anchor-id="total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing">Total joint replacement and non-operative management for late-stage hip and knee osteoarthritis (ongoing)</h3>
+<p>I have been involved in several studies using data from patients undergoing total joint replacement or non-operative management for late-stage hip and knee osteoarthritis at Dunedin Public Hospital, investigating the outcomes of each of these management pathways and the optimal selection of patients for surgery. These studies have included evaluations of the ‘Joint Clinic’, a multidisciplinary chronic disease management pathway designed to improve access to joint replacement surgery for patients with hip and knee osteoarthritis by providing optimal non-operative management for patients with lower need for immediate surgery, with two articles published in the Journal of Arthroplasty; evaluation of the relationship between preoperative health status and postoperative improvement to help inform rationing decisions, published in Arthroplasty Today; and cost-effectiveness analysis of total joint replacement surgery based on preoperative patient characteristics and duration of follow-up, with a manuscript forthcoming in the Journal of Arthroplasty.</p>
+</section>
+<section id="computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing" class="level3">
+<h3 class="anchored" data-anchor-id="computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing">Computer simulation modelling for osteoarthritis in New Zealand (2015 – ongoing)</h3>
+<p>This work was part of a project, led by Prof.&nbsp;Haxby Abbott at the Centre for Musculoskeletal Outcomes Research, to develop and evaluate a novel, early, coordinated programme of care for osteoarthritis in the New Zealand healthcare system. For this programme, I have led the development of a new microsimulation model of the population health impacts, healthcare costs, and treatment outcomes of osteoarthritis in New Zealand, which will be used for evaluating the cost-effectiveness of the proposed programme of care. A journal article reporting on the model development and validation was published in Osteoarthritis and Cartilage, a study applying the model to provide projections of the future burden of osteoarthritis to the NZ health system and society has been published in the New Zealand Medical Journal, and an application of the model to cost-effectiveness analysis of interventions for the management of osteoarthritis in the NZ population has recently been published in Osteoarthritis and Cartilage Open as well as being presented at several conferences (including the OARSI World Congress, ISPOR European Congress, SMDM Annual Meeting, NZ Orthopaedic Association Annual Scientific Meeting, and Australian Physiotherapy Conference).</p>
+</section>
+<section id="trends-in-population-bmi-in-new-zealand-2017" class="level3">
+<h3 class="anchored" data-anchor-id="trends-in-population-bmi-in-new-zealand-2017">Trends in population BMI in New Zealand (2017)</h3>
+<p>This study analysed the increasing trends seen in population BMI in New Zealand over recent decades, using an Age-Period-Cohort (APC) analysis, and provides medium-term predictions of mean BMI and obesity prevalence for the next 20 years. APC analysis is a statistical methodology, widely used in disease epidemiology as well as the social sciences, for decomposing longitudinal trends in outcomes such as disease prevalence into the contributions of life-course changes (age effects), generational replacement (cohort effects), and secular time trends (period effects). In the case of BMI trends in New Zealand, we found that almost all of the observed and predicted increase in BMI was due to secular period trends, reflecting the effects of the increasingly obesogenic environment in which we live (such as the increasing availability of low-nutrient, high-energy ‘junk foods’, and reduced levels of physical activity due to sedentary occupations and passive leisure activities). A journal article reporting on these findings has been published in the Australian and New Zealand Journal of Public Health.</p>
+</section>
+<section id="the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019" class="level3">
+<h3 class="anchored" data-anchor-id="the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019">The health impact of osteoarthritis: health-loss burden and cross-instrument mapping (2017 – 2019)</h3>
+<p>This project, which was funded by a Jack Thomson Arthritis Grant from the Otago Medical Research Foundation, includes two studies looking at the evaluation of the health-related quality of life impacts associated with osteoarthritis. The first study provides estimates of the health utility losses across multiple dimensions of health associated with radiographic knee osteoarthritis. To evaluate the cost-effectiveness of disease prevention strategies for osteoarthritis requires such estimates; this was the first study worldwide to provide these for radiographic knee osteoarthritis. An article reporting on this study has been published in Rheumatology. The second study provides a tool to map from a generic quality of life measure (the SF-12) to health utility values in populations with osteoarthritis. The SF-12 is widely used in outcomes research in osteoarthritis, but the outcome measures commonly reported do not provide the utility values needed for cost-effectiveness analysis. This mapping will therefore greatly increase the range of studies available to inform economic analyses. A journal article reporting on this study is currently being finalised.</p>
+</section>
+</section>
+<section id="publications-and-outputs" class="level2">
+<h2 class="anchored" data-anchor-id="publications-and-outputs">Publications and outputs</h2>
+<section id="journal-articles" class="level3">
+<h3 class="anchored" data-anchor-id="journal-articles">Journal articles</h3>
+<div id="listing-publications" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-publications-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-publications'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Author
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Author</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-date-sort="1672657200000" data-listing-file-modified-sort="1677316436917" data-listing-reading-time-sort="0.005" data-listing-title-sort="Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial" data-listing-filename-sort="gluteal-tendinopathy-econ-eval.qmd">
+<td class="listing-date">
+Jan 3, 2023
+</td>
+<td class="listing-title">
+<a href="./publications/gluteal-tendinopathy-econ-eval.html" class="title">Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial</a>
+</td>
+<td class="listing-author">
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="conference-presentations" class="level3">
+<h3 class="anchored" data-anchor-id="conference-presentations">Conference presentations</h3>
+<div id="listing-conferences" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody class="list">
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="other-reports" class="level3">
+<h3 class="anchored" data-anchor-id="other-reports">Other reports</h3>
+<div id="listing-other-reports" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+</tr>
+</thead>
+<tbody class="list">
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

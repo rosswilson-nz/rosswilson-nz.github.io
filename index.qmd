@@ -1,11 +1,18 @@
 ---
-title: "rosswilson-nz.github.io"
+title: "Ross Wilson"
+image: images/profile.jpg
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/rosswilson-nz
 ---
 
-This is a Quarto website.
+I am a research fellow in the Centre for Musculoskeletal Outcomes Research at the Dunedin School of Medicine, University of Otago.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+My research area is health economics, with a specific focus on the measurement and valuation of health-related quality of life, economic evaluation of healthcare interventions, and simulation modelling of disease epidemiology and treatment to inform health policy.
 
-```{r}
-1 + 1
-```
+Further details on my research interests and publications can be found under the [Research](research.qmd) tab above.
+
+I can be reached at <ross.wilson@otago.ac.nz>.
