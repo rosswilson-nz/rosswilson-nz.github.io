@@ -7,6 +7,11 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/rosswilson-nz
+    - icon: google
+      text: Scholar
+      href: https://scholar.google.co.nz/citations?user=PnU5IYEAAAAJ&hl=en
+    - text: ResearchGate
+      href: https://www.researchgate.net/profile/Ross_Wilson2
 ---
 
 I am a research fellow in the Centre for Musculoskeletal Outcomes Research at the Dunedin School of Medicine, University of Otago.

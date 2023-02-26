@@ -3,14 +3,17 @@ title: "My Research"
 
 listing:
   - id: publications
-    contents: publications
-    type: table
+    contents: "publications/*.qmd"
+    template: publications/citations.ejs
+    sort: "date desc"
   - id: conferences
     contents: conferences
     type: table
+    sort: "date desc"
   - id: other-reports
     contents: other-reports
     type: table
+    sort: "date desc"
 
 format:
   html:

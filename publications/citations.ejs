@@ -1,0 +1,12 @@
+```{=html}
+<% for (const item of items) { %>
+  <div <%= metadataAttrs(item) %> class="listing-citation">
+    <a href="<%- item.path %>"><%= item.title %></a>.
+    <% for (const author of item.citation['author']) { %>
+      <%= author %>,
+    <% } %>
+    <i><%= item.citation['container-title'] %></i>
+    <%= item.citation['issued'] %>; <%= item.citation['volume'] %><% if (item.citation['issue']) { %>(<%= item.citation['issue'] %>)<% } %><% if (item.citation['page']) { %>:<%= item.citation['page'] %><% } %>.
+  </div>
+<% } %>
+```
