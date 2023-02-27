@@ -1,0 +1,9 @@
+```{=html}
+<% for (const item of items) { %>
+  <div <%= metadataAttrs(item) %> class="listing-citation">
+    <%= item.subtitle %>.
+    <%= item['location'] %>, <%= item['meeting-date'] %>.
+    <i><%= item.title %></i> [<%= item['type'] %>]
+  </div>
+<% } %>
+```

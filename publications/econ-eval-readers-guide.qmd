@@ -1,7 +1,7 @@
 ---
 title: "Economic evaluation: a reader’s guide to studies of cost-effectiveness"
 subtitle: Archives of Physiotherapy
-date: "2022/12/15"
+date: "2022-12-15"
 abstract: |
   **Background**
   Understanding what an economic evaluation is, how to interpret it, and what it means for making choices in a health delivery context is necessary to contribute to decisions about healthcare resource allocation. The aim of this paper to demystify the working parts of a health economic evaluation, and explain to clinicians and clinical researchers how to read and interpret cost-effectiveness research.
@@ -15,14 +15,18 @@ citation:
   type: article-journal
   container-title: "Archives of Physiotherapy"
   author:
-    - J Haxby Abbott
-    - Ross Wilson
-    - Yana Pryymachenko
-    - Saurab Sharma
-    - Anupa Pathak
-    - Jason Y. Y. Chua
+    - name:
+        family: Abbott
+        given: J. Haxby
+    - name: Ross Wilson
+    - name: Yana Pryymachenko
+    - name: Saurab Sharma
+    - name: Anupa Pathak
+    - name:
+        family: Chua
+        given: Jason Y. Y.
   volume: 12
-  issue: 28
+  page: "28"
   issued: 2022
   doi: 10.1186/s40945-022-00154-1
 ---

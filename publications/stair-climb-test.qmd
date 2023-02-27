@@ -1,0 +1,41 @@
+---
+title: "Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis"
+subtitle: "Arthritis Care & Research"
+date: "2021-11-21"
+abstract: |
+  **Objective**
+  The Osteoarthritis Research Society International (OARSI) recommends assessment of physical function using a performance-based test of stair negotiation but was unable to recommend any specific test. We assessed the reliability, validity, responsiveness, measurement error, and minimum important change (MIC) of the 6-step timed Stair Climb Test (SCT).
+  
+  **Methods**
+  We used pooled data from 397 participants with hip or knee osteoarthritis (54% women) from 4 clinical trials (86% retained at 12-week follow-up). Construct validity was assessed by testing 6 a priori hypotheses against other OARSI-recommended physical function measures. A self-reported Global Rating of Change scale was used to classify participants as worsened, improved, and stable. Participants who worsened in physical function were excluded from all analyses. Responsiveness and MIC were assessed using multiple anchor-based and distribution-based approaches. Test–retest reliability, standard error of measurement (SEM), and smallest detectable change (SDC) were assessed on stable participants.
+  
+  **Results**
+  Five of 6 hypotheses (83%) for construct validity were met. Test–retest reliability was excellent (intraclass correlation coefficient2,1 0.83; 95% confidence interval 0.71–0.90). The SEM and SDC values were 0.44 and 1.21 seconds, respectively. We did not find adequate support for responsiveness. The MIC values ranged from 0.78 to 1.95 seconds using different approaches (median 1.37 seconds).
+  
+  **Conclusion**
+  The 6-step timed SCT adequately assesses the construct of physical function in individuals with hip or knee osteoarthritis with excellent 12-week test–retest reliability. However, support for its responsiveness was inadequate to recommend its use as an outcome measure in people with osteoarthritis for research and clinical practice.
+citation: 
+  type: article-journal
+  container-title: "Arthritis Care & Research"
+  author:
+    - name: Saurab Sharma
+    - name: Ross Wilson
+    - name: Yana Pryymachenko
+    - name: Anupa Pathak
+    - name: Jason Chua
+    - name: David Gwynne-Jones
+    - name:
+        family: Bennell
+        given: Kim L.
+    - name: Ben Metcalf
+    - name:
+        family: Hinman
+        given: Rana S.
+    - name: Boon-Whatt Lim
+    - name:
+        family: Abbott
+        given: J. Haxby
+  volume: In press
+  issued: 2023
+  doi: 10.1002/acr.24821
+---

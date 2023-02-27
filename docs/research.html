@@ -70,9 +70,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-appendix-cite-as','listing-language','listing-title','listing-subtitle','listing-date','listing-abstract','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-appendix-cite-as','listing-title','listing-subtitle','listing-date','listing-abstract','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-appendix-cite-as","listing-language","listing-title","listing-subtitle","listing-date","listing-abstract","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-appendix-cite-as","listing-title","listing-subtitle","listing-date","listing-abstract","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -98,9 +98,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subtitle','listing-date','listing-location','listing-meeting-date','listing-type','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subtitle","listing-date","listing-location","listing-meeting-date","listing-type","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -191,9 +191,24 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
+  <ul>
+  <li><a href="#research-projects" id="toc-research-projects" class="nav-link active" data-scroll-target="#research-projects">Research Projects</a>
   <ul class="collapse">
-  <li><a href="#research-projects" id="toc-research-projects" class="nav-link active" data-scroll-target="#research-projects">Research Projects</a></li>
-  <li><a href="#publications-and-outputs" id="toc-publications-and-outputs" class="nav-link" data-scroll-target="#publications-and-outputs">Publications and outputs</a></li>
+  <li><a href="#measuring-the-health-state-preferences-of-new-zealanders-2022-2026" id="toc-measuring-the-health-state-preferences-of-new-zealanders-2022-2026" class="nav-link" data-scroll-target="#measuring-the-health-state-preferences-of-new-zealanders-2022-2026">Measuring the health state preferences of New Zealanders (2022 – 2026)</a></li>
+  <li><a href="#the-primary-care-management-and-impact-of-osteoarthritis-2018-2021" id="toc-the-primary-care-management-and-impact-of-osteoarthritis-2018-2021" class="nav-link" data-scroll-target="#the-primary-care-management-and-impact-of-osteoarthritis-2018-2021">The primary care management and impact of osteoarthritis (2018 – 2021)</a></li>
+  <li><a href="#chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing" id="toc-chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing" class="nav-link" data-scroll-target="#chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing">Chronic opioid use following joint replacement surgery (2018 – ongoing)</a></li>
+  <li><a href="#the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing" id="toc-the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing" class="nav-link" data-scroll-target="#the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing">The health economic case for implementing ACL injury prevention interventions (2020 – ongoing)</a></li>
+  <li><a href="#total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing" id="toc-total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing" class="nav-link" data-scroll-target="#total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing">Total joint replacement and non-operative management for late-stage hip and knee osteoarthritis (ongoing)</a></li>
+  <li><a href="#computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing" id="toc-computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing" class="nav-link" data-scroll-target="#computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing">Computer simulation modelling for osteoarthritis in New Zealand (2015 – ongoing)</a></li>
+  <li><a href="#trends-in-population-bmi-in-new-zealand-2017" id="toc-trends-in-population-bmi-in-new-zealand-2017" class="nav-link" data-scroll-target="#trends-in-population-bmi-in-new-zealand-2017">Trends in population BMI in New Zealand (2017)</a></li>
+  <li><a href="#the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019" id="toc-the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019" class="nav-link" data-scroll-target="#the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019">The health impact of osteoarthritis: health-loss burden and cross-instrument mapping (2017 – 2019)</a></li>
+  </ul></li>
+  <li><a href="#publications-and-outputs" id="toc-publications-and-outputs" class="nav-link" data-scroll-target="#publications-and-outputs">Publications and outputs</a>
+  <ul class="collapse">
+  <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link" data-scroll-target="#journal-articles">Journal articles</a></li>
+  <li><a href="#conference-presentations" id="toc-conference-presentations" class="nav-link" data-scroll-target="#conference-presentations">Conference presentations</a></li>
+  <li><a href="#other-reports" id="toc-other-reports" class="nav-link" data-scroll-target="#other-reports">Other reports</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -257,7 +272,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="journal-articles" class="level3">
 <h3 class="anchored" data-anchor-id="journal-articles">Journal articles</h3>
 <div id="listing-publications" class="quarto-listing quarto-listing-container-custom">
-  <div data-index="0" data-listing-date-sort="1672657200000" data-listing-file-modified-sort="1677400220709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="0" data-listing-date-sort="1672657200000" data-listing-file-modified-sort="1677450609784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/gluteal-tendinopathy-econ-eval.html">Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial</a>.
       Ross Wilson,
       J. Haxby Abbott,
@@ -268,30 +283,30 @@ ul.task-list li input[type="checkbox"] {
     <i>Journal of Physiotherapy</i>
     2023; 69(1):35-41.
   </div>
-  <div data-index="1" data-listing-date-sort="1671706800000" data-listing-file-modified-sort="1677399956248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="1" data-listing-date-sort="1671706800000" data-listing-file-modified-sort="1677450638765" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/epidemiology-of-acl-injury-in-nz.html">Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status</a>.
       Yana Pryymachenko,
       Ross Wilson,
-      J Haxby Abbott,
+      J. Haxby Abbott,
     <i>Injury Prevention</i>
     2022; In press.
   </div>
-  <div data-index="2" data-listing-date-sort="1671015600000" data-listing-file-modified-sort="1677399970270" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="2" data-listing-date-sort="1671015600000" data-listing-file-modified-sort="1677460835780" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/econ-eval-readers-guide.html">Economic evaluation: a reader’s guide to studies of cost-effectiveness</a>.
-      J Haxby Abbott,
+      J. Haxby Abbott,
       Ross Wilson,
       Yana Pryymachenko,
       Saurab Sharma,
       Anupa Pathak,
       Jason Y. Y. Chua,
     <i>Archives of Physiotherapy</i>
-    2022; 12(28).
+    2022; 12:28.
   </div>
-  <div data-index="3" data-listing-date-sort="1670238000000" data-listing-file-modified-sort="1677368360182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="3" data-listing-date-sort="1670238000000" data-listing-file-modified-sort="1677450677053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/free-implementation-evaluation.html">A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis</a>.
       Ross Wilson,
       Yana Pryymachenko,
-      J Haxby Abbott,
+      J. Haxby Abbott,
       Sarah Dean,
       James Stanley,
       Sue Garrett,
@@ -301,6 +316,117 @@ ul.task-list li input[type="checkbox"] {
     <i>Applied Health Economics and Health Policy</i>
     2023; 21:253-262.
   </div>
+  <div data-index="4" data-listing-date-sort="1652097600000" data-listing-file-modified-sort="1677459842816" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/psfs-measurement-properties.html">Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines</a>.
+      Anupa Pathak,
+      Ross Wilson,
+      Saurab Sharma,
+      Yana Pryymachenko,
+      Daniel Cury Ribeiro,
+      Jason Chua,
+      J. Haxby Abbott,
+    <i>Journal of Orthopaedic &amp; Sports Physical Therapy</i>
+    2022; 52(5):262-275.
+  </div>
+  <div data-index="5" data-listing-date-sort="1643367600000" data-listing-file-modified-sort="1677459764260" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/mcda-and-cea.html">Prioritizing Healthcare Interventions: A Comparison of Multicriteria Decision Analysis and Cost-Effectiveness Analysis</a>.
+      Ross Wilson,
+      Jason Chua,
+      Yana Pryymachenko,
+      Anupa Pathak,
+      Saurab Sharma,
+      J. Haxby Abbott,
+    <i>Value in Health</i>
+    2022; 25(2):268-275.
+  </div>
+  <div data-index="6" data-listing-date-sort="1637406000000" data-listing-file-modified-sort="1677459073851" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/stair-climb-test.html">Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis</a>.
+      Saurab Sharma,
+      Ross Wilson,
+      Yana Pryymachenko,
+      Anupa Pathak,
+      Jason Chua,
+      David Gwynne-Jones,
+      Kim L. Bennell,
+      Ben Metcalf,
+      Rana S. Hinman,
+      Boon-Whatt Lim,
+      J. Haxby Abbott,
+    <i>Arthritis Care &amp; Research</i>
+    2023; In press.
+  </div>
+  <div data-index="7" data-listing-date-sort="1628251200000" data-listing-file-modified-sort="1677460822288" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/moa-ii-cea.html">Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial</a>.
+      Yana Pryymachenko,
+      Ross Wilson,
+      Saurab Sharma,
+      Anupa Pathak,
+      J. Haxby Abbott,
+    <i>Musculoskeletal Science and Practice</i>
+    2021; 56:102439.
+  </div>
+  <div data-index="8" data-listing-date-sort="1621425600000" data-listing-file-modified-sort="1677461429995" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/tja-highly-cost-effective.html">Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up</a>.
+      Ross A. Wilson,
+      David P. Gwynne-Jones,
+      Trudy A. Sullivan,
+      J. Haxby Abbott,
+    <i>Journal of Arthroplasty</i>
+    2021; 36(6):1864-1872.e10.
+  </div>
+  <div data-index="9" data-listing-date-sort="1602500400000" data-listing-file-modified-sort="1677461765116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/chronic-opioid-risk-factors.html">Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data</a>.
+      Yana Pryymachenko,
+      Ross A. Wilson,
+      J. Haxby Abbott,
+      Michelle M. Dowsee,
+      Peter F. M. Choong,
+    <i>Journal of Arthroplasty</i>
+    2020; 35(11):3099-3107.e14.
+  </div>
+  <div data-index="10" data-listing-date-sort="1600603200000" data-listing-file-modified-sort="1677462737679" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/outcomes-joint-clinic-5-years-response.html">Response to Letter to the Editor on "The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?"</a>.
+      David P. Gwynne-Jones,
+      Julia H. Gwynne-Jones,
+      Ross A. Wilson,
+    <i>Journal of Arthroplasty</i>
+    2020; 35(10):3060-3061.
+  </div>
+  <div data-index="11" data-listing-date-sort="1598875200000" data-listing-file-modified-sort="1677462348117" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/tja-qol-scores.html">The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?</a>.
+      David P. Gwynne-Jones,
+      Trudy Sullivan,
+      Ross Wilson,
+      J. Haxby Abbott,
+    <i>Arthroplasty Today</i>
+    2020; 6(3):585-589.e1.
+  </div>
+  <div data-index="12" data-listing-date-sort="1597665600000" data-listing-file-modified-sort="1677462587506" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/outcomes-joint-clinic-5-years.html">The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?</a>.
+      David P. Gwynne-Jones,
+      Julia H. Gwynne-Jones,
+      Ross A. Wilson,
+    <i>Journal of Arthroplasty</i>
+    2020; 35(9):2350-2356.e1.
+  </div>
+  <div data-index="13" data-listing-date-sort="1590408000000" data-listing-file-modified-sort="1677462075197" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/national-referral-prioritisation-tool.html">National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery</a>.
+      David P. Gwynne-Jones,
+      Ross Wilson,
+      Chris McEwan,
+    <i>ANZ Journal of Surgery</i>
+    2020; 90(9):1738-1742.
+  </div>
+  <div data-index="14" data-listing-date-sort="1589889600000" data-listing-file-modified-sort="1677464032723" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <a href="./publications/joint-clinic-outcomes.html">The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery</a>.
+      Julia H. Gwynne-Jones,
+      Ross A. Wilson,
+      Jeremy M. Y. Wong,
+      J. Haxby Abbott,
+      David P. Gwynne-Jones,
+    <i>Journal of Arthroplasty</i>
+    2020; 35(6):1497-1503.
+  </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -308,23 +434,42 @@ No matching items
 </section>
 <section id="conference-presentations" class="level3">
 <h3 class="anchored" data-anchor-id="conference-presentations">Conference presentations</h3>
-<div id="listing-conferences" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody class="list">
-</tbody>
-
-</table>
+<div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
+  <div data-index="0" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1677466050005" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    New Zealand Orthopaedic Association Annual Scientific Meeting 2019.
+    Dunedin, October 2019.
+    <i>The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure</i> [podium presentation]
+  </div>
+  <div data-index="1" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1677466195273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    OARSI World Congress 2019.
+    Toronto, May 2019.
+    <i>The cost-effectiveness of recommended adjunctive osteoarthritis management options: Results from a computer simulation model</i> [poster presentation]
+  </div>
+  <div data-index="2" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1677466145009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    OARSI World Congress 2019.
+    Toronto, May 2019.
+    <i>Integrating values and preferences with the best available evidence: A multi-criteria decision analysis approach</i> [poster presentation]
+  </div>
+  <div data-index="3" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1677466216901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    OARSI World Congress 2019.
+    Toronto, May 2019.
+    <i>Projecting the healthcare burden of knee osteoarthritis in New Zealand: Results from a computer simulation model</i> [poster presentation]
+  </div>
+  <div data-index="4" data-listing-date-sort="1477911600000" data-listing-file-modified-sort="1677466494865" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    ISPOR 19<sup>th</sup> Annual European Congress.
+    Vienna, October–November 2016.
+    <i>Modelling total knee replacement surgery for osteoarthritis in New Zealand: Validation of a population-based state-transition microsimulation model</i> [poster presentation]
+  </div>
+  <div data-index="5" data-listing-date-sort="1475233200000" data-listing-file-modified-sort="1677466484845" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    Society for Medical Decision Making 38<sup>th</sup> Annual Meeting.
+    Vancouver, October 2016.
+    <i>The health-loss burden of osteoarthritis in New Zealand: Results from a new computer simulation model</i> [poster presentation]
+  </div>
+  <div data-index="6" data-listing-date-sort="1456743600000" data-listing-file-modified-sort="1677466550081" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    OARSI World Congress 2016.
+    Amsterdam, March–April 2016.
+    <i>Health-loss burden of osteoarthritis in New Zealand: Computer-simulation estimate and between-model cross-validation</i> [poster presentation]
+  </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -332,23 +477,9 @@ No matching items
 </section>
 <section id="other-reports" class="level3">
 <h3 class="anchored" data-anchor-id="other-reports">Other reports</h3>
-<div id="listing-other-reports" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<p>To be added</p>
+<div id="listing-other-reports" class="quarto-listing quarto-listing-container-custom">
 
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-</tr>
-</thead>
-<tbody class="list">
-</tbody>
-
-</table>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

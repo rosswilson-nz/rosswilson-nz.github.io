@@ -7,18 +7,18 @@ listing:
     template: publications/citations.ejs
     sort: "date desc"
   - id: conferences
-    contents: conferences
-    type: table
+    contents: "conferences/*.qmd"
+    template: conferences/citations.ejs
     sort: "date desc"
   - id: other-reports
-    contents: other-reports
-    type: table
+    contents: "other-reports/*.qmd"
+    template: other-reports/citations.ejs
     sort: "date desc"
 
 format:
   html:
     toc: true
-    toc-depth: 2
+    toc-depth: 3
 ---
 
 ## Research Projects
@@ -69,5 +69,8 @@ The second study provides a tool to map from a generic quality of life measure (
 :::
 
 ### Other reports
+
+To be added
+
 :::{#other-reports}
 :::

@@ -1,0 +1,46 @@
+---
+title: "Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines"
+subtitle: "Journal of Orthopaedic & Sports Physical Therapy"
+date: "2022-05-10"
+abstract: |
+  **Objective**
+  To systematically review measurement properties, including acceptability, feasibility, and interpretability, and current uses of the Patient-Specific Functional Scale (PSFS).
+  
+  **Design**
+  Systematic review of a patient-reported outcome measure using the COnsensus-based Standards for the selection of health status Measurement INstruments (COSMIN) guidelines.
+  
+  **Literature Search**
+  We searched 11 databases from January 2010 to July 2020 for articles on measurement properties or use of PSFS.
+  
+  **Study Selection Criteria**
+  Published primary articles without language restrictions.
+  
+  **Data Synthesis**
+  Two independent reviewers screened all records, extracted data, and performed risk of bias assessments using COSMIN guidelines. We qualitatively synthesized findings for each measurement property in musculoskeletal and nonmusculoskeletal conditions, and 2 reviewers independently performed Grading of Recommendations Assessment, Development and Evaluation assessments. This study was preregistered with the Open Science Framework ( https://doi.org/10.17605/OSF.IO/42UZT).
+  
+  **Results**
+  Of the 985 articles screened, we included 57 articles on measurement properties and 255 articles on the use of PSFS. The PSFS had sufficient test-retest reliability in musculoskeletal (22 studies, 845 participants, low-to-moderate certainty) and nonmusculoskeletal conditions (6 studies, 197 participants, very low certainty), insufficient construct validity as a measure of physical function (21 studies, 2 945 participants, low-to-moderate certainty), and sufficient responsiveness (32 studies, 13 770 participants, moderate-to-high certainty). The standard error of measurement ranged from 0.35 to 1.5. The PSFS was used in 87 unique health conditions, some without prior evidence of validity.
+  
+  **Conclusion**
+  The PSFS is an easy-to-use, reliable, and responsive scale in numerous musculoskeletal conditions, but the construct validity of PSFS remains uncertain. Further study of the measurement properties of the PSFS in nonmusculoskeletal conditions is necessary before clinical use.
+citation: 
+  type: article-journal
+  container-title: "Journal of Orthopaedic & Sports Physical Therapy"
+  author:
+    - name: Anupa Pathak
+    - name: Ross Wilson
+    - name: Saurab Sharma
+    - name: Yana Pryymachenko
+    - name:
+        family: Ribeiro
+        given: Daniel Cury
+    - name: Jason Chua
+    - name:
+        family: Abbott
+        given: J. Haxby
+  volume: 52
+  issue: 5
+  page: "262-275"
+  issued: 2022
+  doi: 10.2519/jospt.2022.10727
+---

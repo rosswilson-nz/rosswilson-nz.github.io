@@ -1,0 +1,8 @@
+---
+title: "The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure"
+subtitle: "New Zealand Orthopaedic Association Annual Scientific Meeting 2019"
+date: "2019-10"
+location: "Dunedin"
+meeting-date: "October 2019"
+type: "podium presentation"
+---

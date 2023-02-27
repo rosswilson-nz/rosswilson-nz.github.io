@@ -1,0 +1,31 @@
+---
+title: "National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery"
+subtitle: "ANZ Journal of Surgery"
+date: "2020-05-26"
+abstract: |
+  **Background**
+  Most public hospitals are receiving more referrals for first specialist assessment than they have capacity to see. Traditional priority categories are too broad for effective discrimination. In New Zealand (NZ) explicit prioritization is required by legislation and supported by the Medical Council of NZ. A new generic National Referral Prioritization tool (NRPT) has been developed which includes a patient impact on life score. This study reports its trial implementation in orthopaedic surgery in a single centre.
+  
+  **Methods**
+  Four months of referrals to the orthopaedic department were prioritized using the new NRPT and traditional clinical priority categories. Scores and acceptances were compared across conditions, surgeons and against the traditional categories.
+  
+  **Results**
+  The mean NRPT was 60.1 (range 23–99). The correlation with impact on life was 0.59. There was good consistency of scores between surgeons. The NRPT score was significantly different across clinical priority categories (urgent, semi-urgent, routine). A total of 305 referrals (49%) were accepted using the NRPT compared with 493 (79%) if the traditional tool had been used. Patients with foot and ankle, carpal tunnel syndrome and upper limb conditions had the lowest scores and were more likely to be declined.
+  
+  **Conclusions**
+  The NRPT is the first tool designed to prioritize referral letters. It is more discriminating than the clinical priority categories used previously. It allows fine-tuning of a threshold score to balance acceptances and capacity.
+citation: 
+  type: article-journal
+  container-title: "ANZ Journal of Surgery"
+  author:
+    - name:
+        family: Gwynne-Jones
+        given: David P.
+    - name: Ross Wilson
+    - name: Chris McEwan
+  volume: 90
+  issue: 9
+  page: "1738-1742"
+  issued: 2020
+  doi: 10.1111/ans.16002
+---

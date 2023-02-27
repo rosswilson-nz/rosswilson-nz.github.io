@@ -1,0 +1,23 @@
+---
+title: "Response to Letter to the Editor on \"The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?\""
+subtitle: "Journal of Arthroplasty"
+date: "2020-09-21"
+citation: 
+  type: article-journal
+  container-title: "Journal of Arthroplasty"
+  author:
+    - name:
+        family: Gwynne-Jones
+        given: David P.
+    - name:
+        family: Gwynne-Jones
+        given: Julia H.
+    - name:
+        family: Wilson
+        given: Ross A.
+  volume: 35
+  issue: 10
+  page: "3060-3061"
+  issued: 2020
+  doi: 10.1016/j.arth.2020.05.054
+---

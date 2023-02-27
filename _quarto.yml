@@ -19,8 +19,8 @@ format:
     page-layout: full
     css: styles.css
     toc: false
+    csl: vancouver.csl
 
-appendix-cite-as: "display"
 language:
   section-title-citation: "Recommended citation:"
   appendix-attribution-cite-as: " "

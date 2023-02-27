@@ -1,0 +1,8 @@
+---
+title: "Health-loss burden of osteoarthritis in New Zealand: Computer-simulation estimate and between-model cross-validation"
+subtitle: "OARSI World Congress 2016"
+date: "2016-03"
+location: "Amsterdam"
+meeting-date: "March–April 2016"
+type: "poster presentation"
+---

@@ -1,0 +1,8 @@
+---
+title: "The health-loss burden of osteoarthritis in New Zealand: Results from a new computer simulation model"
+subtitle: "Society for Medical Decision Making 38<sup>th</sup> Annual Meeting"
+date: "2016-10"
+location: "Vancouver"
+meeting-date: "October 2016"
+type: "poster presentation"
+---
