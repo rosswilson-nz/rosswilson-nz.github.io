@@ -1,0 +1,31 @@
+---
+title: "Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial"
+subtitle: "Osteoarthritis and Cartilage"
+date: "2018-12-13"
+abstract: |
+  **Objective**
+  To investigate the clinical- and cost-effectiveness at 2-year follow-up of providing individual, supervised exercise physiotherapy and/or manual physiotherapy in addition to usual medical care.
+  
+  **Method**
+  People with hip or knee osteoarthritis meeting the American College of Rheumatology clinical diagnostic criteria were randomised (1:1, concealed, assessor-blinded) to four groups: usual medical care; supervised exercise physiotherapy; manual physiotherapy; or combined exercise and manual physiotherapy. Physiotherapy group participants were provided 10 50-min treatment sessions including booster sessions at 4 and 13 months, in addition to usual care. The primary outcome at 2-year follow-up was incremental cost-utility ratio (ICUR) of each physiotherapy intervention in addition to usual care, compared with usual care alone, from the health system and societal perspectives. To allow interpretation of negative ICURs, we report incremental net benefit (INB). The primary clinical outcome was the Western Ontario and McMaster Osteoarthritis Index (WOMAC).
+  
+  **Results**
+  Of 206 patients, 186 (90.3%) were retained at 2-year follow-up. Exercise physiotherapy and manual physiotherapy dominated usual care, demonstrating cost savings; combined therapy did not. Exercise therapy had the highest incremental net benefits (INBs), statistically significant at all willingness-to-pay (base-case: societal New Zealand (NZ)$6,312, 95%CI 334 to 12,279; health system NZ$8,065, 95%CI 136 to 15,994). Clinical improvements were superior to usual care only in the exercise physiotherapy group (−28.2 WOMAC points, 95%CI -49.2 to −7.1). No serious adverse events were recorded.
+  
+  **Conclusion**
+  Individually supervised exercise therapy is cost-effective and clinically effective in addition to usual medical care at 2-year follow-up, and leads to cost savings for the health system and society.
+citation: 
+  type: article-journal
+  container-title: "Osteoarthritis and Cartilage"
+  author:
+    - J. Haxby Abbott
+    - Ross Wilson
+    - Daniel Pinto
+    - Cathy M. Chapple
+    - Alexis A. Wright
+  volume: 27
+  issue: 3
+  page: "424-434"
+  issued: 2019
+  doi: 10.1016/j.joca.2018.12.004
+---

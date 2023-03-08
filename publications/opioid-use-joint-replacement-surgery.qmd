@@ -1,0 +1,29 @@
+---
+title: "Long-term opioid medication use before and after joint replacement surgery in New Zealand"
+subtitle: "New Zealand Medical Journal"
+date: "2019-12-13"
+abstract: |
+  **Aim**
+  To describe the use of opioid analgesics over three years before and after total joint replacement surgery in New Zealand.
+  
+  **Method**
+  We extracted information on all individuals undergoing publicly funded total hip or knee replacement surgery in New Zealand between June 2011 and December 2014, and linked data on opioid prescribing, from the Statistics New Zealand Integrated Data Infrastructure. We analysed monthly opioid use over the three years before and after surgery and the transition from pre-operative and/or immediate post-operative use to chronic post-operative use.
+  
+  **Results**
+  The prevalence of opioid use increased from 7% three years before surgery to 22% immediately prior to surgery, was common (75%) in the month following surgery and declined rapidly to 10--12% per month over the following years. Patients dispensed opioids prior to surgery or in the post-operative recovery period were at significantly higher risk of subsequent chronic opioid use.
+  
+  **Conclusion**
+  Opioid analgesic prescribing was reduced following joint replacement surgery, although a substantial minority of patients remained long-term opioid users. Avoiding unnecessary pre-operative opioid use and limiting opioid use for post-operative pain management where appropriate could help to reduce the risk of potentially ineffective or harmful long-term opioid use in these patients.
+citation: 
+  type: article-journal
+  container-title: "New Zealand Medical Journal"
+  author:
+    - Ross Wilson
+    - Yana Pryymachenko
+    - Richard Audas
+    - J. Haxby Abbott
+  volume: 132
+  issue: 1507
+  page: "33-47"
+  issued: 2019
+---

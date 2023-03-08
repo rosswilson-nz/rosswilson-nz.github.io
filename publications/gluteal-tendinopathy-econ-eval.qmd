@@ -27,14 +27,12 @@ citation:
   type: article-journal
   container-title: "Journal of Physiotherapy"
   author:
-    - name: Ross Wilson
-    - name:
-        family: Abbott
-        given: J. Haxby
-    - name: Rebecca Mellor
-    - name: Alison Grimaldi
-    - name: Kim Bennell
-    - name: Bill Vicenzino
+    - Ross Wilson
+    - J. Haxby Abbott
+    - Rebecca Mellor
+    - Alison Grimaldi
+    - Kim Bennell
+    - Bill Vicenzino
   volume: 69
   issue: 1
   page: 35-41

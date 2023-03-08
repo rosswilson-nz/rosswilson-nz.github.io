@@ -18,23 +18,17 @@ citation:
   type: article-journal
   container-title: "Arthritis Care & Research"
   author:
-    - name: Saurab Sharma
-    - name: Ross Wilson
-    - name: Yana Pryymachenko
-    - name: Anupa Pathak
-    - name: Jason Chua
-    - name: David Gwynne-Jones
-    - name:
-        family: Bennell
-        given: Kim L.
-    - name: Ben Metcalf
-    - name:
-        family: Hinman
-        given: Rana S.
-    - name: Boon-Whatt Lim
-    - name:
-        family: Abbott
-        given: J. Haxby
+    - Saurab Sharma
+    - Ross Wilson
+    - Yana Pryymachenko
+    - Anupa Pathak
+    - Jason Chua
+    - David Gwynne-Jones
+    - Kim L. Bennell
+    - Ben Metcalf
+    - Rana S. Hinman
+    - Boon-Whatt Lim
+    - J. Haxby Abbott
   volume: In press
   issued: 2023
   doi: 10.1002/acr.24821
