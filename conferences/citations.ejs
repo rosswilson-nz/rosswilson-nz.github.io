@@ -3,7 +3,8 @@
   <div <%= metadataAttrs(item) %> class="listing-citation">
     <%= item.subtitle %>.
     <%= item['location'] %>, <%= item['meeting-date'] %>.
-    <i><%= item.title %></i> [<%= item['type'] %>]
+    <i><%= item.title %></i>
+    <% if (item['type']) { %>[<%= item['type'] %>]<% } %>
   </div>
 <% } %>
 ```
