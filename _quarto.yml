@@ -17,8 +17,8 @@ website:
 format:
   html:
     theme:
-      - slate
-      - custom.scss
+      dark: slate
+      light: flatly
     page-layout: full
     css: styles.css
     toc: false
