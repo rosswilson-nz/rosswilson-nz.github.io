@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-99.9.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -71,25 +71,27 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <a href="https://uo-cmor.github.io" class="navbar-brand navbar-brand-logo">
     <img src="../images/ou-logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.html">
+    <a class="nav-link" href="../research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -138,53 +140,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Recommended citation:</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@article{wilson2020,
-  author = {Ross Wilson and Jason Chua and Andrew M. Briggs and J. Haxby
-    Abbott},
-  title = {The Cost-Effectiveness of Recommended Adjunctive
-    Interventions for Knee Osteoarthritis: {Results} from a Computer
-    Simulation Model},
-  journal = {Osteoarthritis and Cartilage Open},
-  volume = {2},
-  number = {4},
-  pages = {100123},
-  date = {2020},
-  doi = {10.1016/j.ocarto.2020.100123},
-  langid = {en},
-  abstract = {**Objective** To estimate the potential lifetime health
-    gains, healthcare costs, and cost-effectiveness of recommended
-    adjunctive treatments for knee osteoarthritis delivered in addition
-    to established core treatments, relative to core treatment only,
-    from the perspective of the New Zealand (NZ) healthcare sector.
-    **Design** Recommended adjunctive knee osteoarthritis treatments
-    were identified in clinical practice guidelines. Evidence of
-    effectiveness was sourced from existing systematic reviews and
-    meta-analyses. Treatment costs were calculated by applying local
-    reference prices to estimated resource use. We used a validated
-    computer simulation model of the impacts of knee osteoarthritis to
-    estimate the cost-effectiveness of each adjunctive treatment at
-    willingness-to-pay thresholds of one (primary), two, and three times
-    per-capita GDP (\$NZ52 300). **Results** Data were collected on nine
-    recommended adjunctive treatments: aquatic-based exercise, heat
-    therapy, massage therapy, walking cane, cognitive behavioural
-    therapy (CBT), topical non-steroidal anti-inflammatory drugs
-    (NSAIDs), oral NSAIDs, intra-articular corticosteroids, and
-    duloxetine. Relative to core treatments only, walking cane and heat
-    therapy were cost-saving and provided greater QALYs; aquatic
-    exercise and intra-articular corticosteroids were also
-    cost-effective at all WTP thresholds. Topical NSAIDs and CBT were
-    cost-effective only at higher WTP thresholds, while duloxetine,
-    massage therapy, and oral NSAIDs were not cost-effective at any
-    relevant threshold. Results were generally robust to varying
-    modelling assumptions, although topical and oral NSAIDs and CBT
-    became cost-effective in some scenarios. **Conclusions** Delivering
-    high-value, low-cost adjunctive interventions for knee
-    osteoarthritis, alongside recommended core treatment, could deliver
-    substantial health gains at low cost to the health system.}
-}
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label"> </div><div id="ref-wilson2020" class="csl-entry quarto-appendix-citeas" role="doc-biblioentry">
-<div class="">Ross
-Wilson, Jason Chua, Andrew M. Briggs, J. Haxby Abbott. <a href="https://doi.org/10.1016/j.ocarto.2020.100123">The
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Recommended citation:</h2><div><div class="quarto-appendix-secondary-label"> </div><div id="ref-wilson2020" class="csl-entry quarto-appendix-citeas" role="listitem">
+<div class="">Wilson R, Chua J, M.Briggs A, HaxbyAbbott J. <a href="https://doi.org/10.1016/j.ocarto.2020.100123">The
 cost-effectiveness of recommended adjunctive interventions for knee
 osteoarthritis: Results from a computer simulation model</a>.
 Osteoarthritis and Cartilage Open. 2020;2(4):100123. </div>
@@ -283,6 +240,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

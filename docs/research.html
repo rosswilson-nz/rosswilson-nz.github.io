@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-99.9.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,10 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-appendix-cite-as','listing-title','listing-subtitle','listing-date','listing-abstract','listing-citation','listing-path','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-appendix-cite-as','listing-title','listing-subtitle','listing-date','listing-abstract','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-appendix-cite-as","listing-title","listing-subtitle","listing-date","listing-abstract","listing-citation","listing-path","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-appendix-cite-as","listing-title","listing-subtitle","listing-date","listing-abstract","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -99,9 +101,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-date','listing-location','listing-meeting-date','listing-type','listing-path','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subtitle','listing-date','listing-location','listing-meeting-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-title","listing-subtitle","listing-date","listing-location","listing-meeting-date","listing-type","listing-path","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subtitle","listing-date","listing-location","listing-meeting-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-type"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -127,9 +129,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-description','listing-url','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-subtitle','listing-published',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-description","listing-url","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-subtitle","listing-published"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -159,25 +161,28 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <a href="https://uo-cmor.github.io" class="navbar-brand navbar-brand-logo">
     <img src="./images/ou-logo.png" alt="" class="navbar-logo">
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page">
+    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -191,17 +196,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#research-projects" id="toc-research-projects" class="nav-link active" data-scroll-target="#research-projects">Research Projects</a>
-  <ul class="collapse">
-  <li><a href="#measuring-the-health-state-preferences-of-new-zealanders-2022-2026" id="toc-measuring-the-health-state-preferences-of-new-zealanders-2022-2026" class="nav-link" data-scroll-target="#measuring-the-health-state-preferences-of-new-zealanders-2022-2026">Measuring the health state preferences of New Zealanders (2022 – 2026)</a></li>
-  <li><a href="#the-primary-care-management-and-impact-of-osteoarthritis-2018-2021" id="toc-the-primary-care-management-and-impact-of-osteoarthritis-2018-2021" class="nav-link" data-scroll-target="#the-primary-care-management-and-impact-of-osteoarthritis-2018-2021">The primary care management and impact of osteoarthritis (2018 – 2021)</a></li>
-  <li><a href="#chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing" id="toc-chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing" class="nav-link" data-scroll-target="#chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing">Chronic opioid use following joint replacement surgery (2018 – ongoing)</a></li>
-  <li><a href="#the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing" id="toc-the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing" class="nav-link" data-scroll-target="#the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing">The health economic case for implementing ACL injury prevention interventions (2020 – ongoing)</a></li>
-  <li><a href="#total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing" id="toc-total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing" class="nav-link" data-scroll-target="#total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing">Total joint replacement and non-operative management for late-stage hip and knee osteoarthritis (ongoing)</a></li>
-  <li><a href="#computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing" id="toc-computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing" class="nav-link" data-scroll-target="#computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing">Computer simulation modelling for osteoarthritis in New Zealand (2015 – ongoing)</a></li>
-  <li><a href="#trends-in-population-bmi-in-new-zealand-2017" id="toc-trends-in-population-bmi-in-new-zealand-2017" class="nav-link" data-scroll-target="#trends-in-population-bmi-in-new-zealand-2017">Trends in population BMI in New Zealand (2017)</a></li>
-  <li><a href="#the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019" id="toc-the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019" class="nav-link" data-scroll-target="#the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019">The health impact of osteoarthritis: health-loss burden and cross-instrument mapping (2017 – 2019)</a></li>
-  </ul></li>
+  <li><a href="#research-projects" id="toc-research-projects" class="nav-link active" data-scroll-target="#research-projects">Research Projects</a></li>
   <li><a href="#publications-and-outputs" id="toc-publications-and-outputs" class="nav-link" data-scroll-target="#publications-and-outputs">Publications and outputs</a>
   <ul class="collapse">
   <li><a href="#journal-articles" id="toc-journal-articles" class="nav-link" data-scroll-target="#journal-articles">Journal articles</a></li>
@@ -233,37 +228,57 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="research-projects" class="level2">
 <h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
-<section id="measuring-the-health-state-preferences-of-new-zealanders-2022-2026" class="level3">
-<h3 class="anchored" data-anchor-id="measuring-the-health-state-preferences-of-new-zealanders-2022-2026">Measuring the health state preferences of New Zealanders (2022 – 2026)</h3>
+<section id="reducing-the-burden-of-osteoarthritis-in-aotearoa-new-zealand-2022-2027" class="level4">
+<h4 class="anchored" data-anchor-id="reducing-the-burden-of-osteoarthritis-in-aotearoa-new-zealand-2022-2027">Reducing the burden of osteoarthritis in Aotearoa New Zealand (2022 – 2027)</h4>
+<p>Our research centre was awarded an HRC Programme grant to investigate optimal ways to improve the management of osteoarthritis in NZ. This research programme involves a randomised clinical trial of a novel lifestyle intervention consisting of exercise therapy, dietary change, and self-management education, for people with osteoarthritis and multimorbidity; epidemiological and health economic research on the impacts of osteoarthritis prevention and management strategies, and health economic simulation modelling to evaluate the effectiveness and cost-effectiveness of novel treatment pathways and models of care for osteoarthritis in the New Zealand healthcare system. I am leading the simulation modelling project within this research programme. For more information on this programme, please see the <a href="https://uo-cmor.github.io/our-work/">CMOR website</a>.</p>
+</section>
+<section id="measuring-the-health-state-preferences-of-new-zealanders-2022-2026" class="level4">
+<h4 class="anchored" data-anchor-id="measuring-the-health-state-preferences-of-new-zealanders-2022-2026">Measuring the health state preferences of New Zealanders (2022 – 2026)</h4>
 <p>I was awarded a project grant from the Health Research Council of New Zealand to investigate the validity of the SF-6D health state utility instrument in the New Zealand population, to derive a NZ population value set for the SF-6D, and to develop tools to support the use of the instrument for population health and equity monitoring and cost-effectiveness evaluation of healthcare in the NZ health system. At present the SF-6D, and the SF-12 health status questionnaire from which it is derived, is widely used in clinical practice, population health monitoring, and health research in NZ, without evidence of its validity for this population or the availability of a utility value set based on preferences elicited from the NZ population. This mixed methods project will combine qualitative kaupapa Māori research methods to evaluate the appropriateness of the SF-6D for the NZ, and especially Māori, population; instrument development if required to refine the SF-6D to meet the needs of the NZ population and healthcare system; and cutting-edge discrete choice experiment (DCE) survey methods to develop a value set reflecting the preferences of the NZ population for the trade-offs between health-related quality of life domains inherent in healthcare prioritisation and funding decisions.</p>
 </section>
-<section id="the-primary-care-management-and-impact-of-osteoarthritis-2018-2021" class="level3">
-<h3 class="anchored" data-anchor-id="the-primary-care-management-and-impact-of-osteoarthritis-2018-2021">The primary care management and impact of osteoarthritis (2018 – 2021)</h3>
-<p>I was part of a team awarded a Health Research Council project grant to investigate the prevalence, management pathways, and health and economic impacts of hip and knee osteoarthritis in primary care in New Zealand. Most osteoarthritis care and management, in New Zealand and elsewhere, is delivered in primary care, but very little is known, at a systematic level, about how many patients present to primary care with osteoarthritis symptoms, what treatments they are offered, and how much it costs both the health system and patients themselves. This project will combine novel large-scale data extraction from primary care patient records with the wealth of data on secondary care utilization, pharmaceutical prescriptions, and wider economic and social indicators available from the Statistics New Zealand Integrated Data Infrastructure (IDI), to address these important questions.</p>
+<section id="chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing" class="level4">
+<h4 class="anchored" data-anchor-id="chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing">Chronic opioid use following joint replacement surgery (2018 – ongoing)</h4>
+<p>I have received grants from the Otago Medical Research Foundation and the H.S and J.C Anderson Charitable Trust for studies of the prevalence, risk factors, and consequences of chronic opioid use before and after total hip and knee replacement surgery, using linked national population data from the IDI. We showed, using a comprehensive dataset including all joint replacement surgeries performed in the NZ public healthcare system, the continued prevalence of opioid use for as long as three years after surgery; this work has been published in the New Zealand Medical Journal and presented to the NZ Orthopaedic Association Annual Scientific Meeting. A second paper from this project identifies several important risk factors that can to help identify patients at high risk of such prolonged post-surgical opioid use, which could be useful in identifying targeted interventions to reduce opioid exposure for these at-risk groups; this paper has been published in the Journal of Arthroplasty. A further study investigating the long-term health, economic, and social impacts of perioperative opioid prescribing is now under review for publication.</p>
 </section>
-<section id="chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing" class="level3">
-<h3 class="anchored" data-anchor-id="chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing">Chronic opioid use following joint replacement surgery (2018 – ongoing)</h3>
-<p>I have received grants from the Otago Medical Research Foundation and the H.S and J.C Anderson Charitable Trust for studies of the prevalence, risk factors, and consequences of chronic opioid use before and after total hip and knee replacement surgery, using linked national population data from the IDI. We showed, using a comprehensive dataset including all joint replacement surgeries performed in the NZ public healthcare system, the continued prevalence of opioid use for as long as three years after surgery; this work has been published in the New Zealand Medical Journal and presented to the NZ Orthopaedic Association Annual Scientific Meeting. A second paper from this project identifies several important risk factors that can to help identify patients at high risk of such prolonged post-surgical opioid use, which could be useful in identifying targeted interventions to reduce opioid exposure for these at-risk groups; this paper has been published in the Journal of Arthroplasty. Further studies are now investigating the long-term health, economic, and social impacts of perioperative opioid prescribing.</p>
+<section id="the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing" class="level4">
+<h4 class="anchored" data-anchor-id="the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing">The health economic case for implementing ACL injury prevention interventions (2020 – ongoing)</h4>
+<p>I am part of a project, led by Dr Yana Pryymachenko, that has received preliminary funding from the Health Research Council of New Zealand to investigate the impact of ACL injury prevention programmes on long-term outcomes, including the incidence and associated health and economic burden of early knee osteoarthritis. This preliminary project involves investigating the feasibility of using matching methods to identify comparable groups of individuals with and without the occurrence of an ACL injury, using comprehensive linked national data from the IDI, and to use these matched cohorts to evaluate long-term outcomes following an ACL injury. If this feasibility study proves successful, we intend to use this approach to inform cost-effectiveness evaluations of injury prevention strategies to support the implementation and uptake of such programmes across the New Zealand population (for example, via schools, sports clubs, and workplaces where people are at risk of ACL injury).</p>
+<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Previous research projects
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<section id="the-primary-care-management-and-impact-of-osteoarthritis-2018-2021" class="level4">
+<h4 class="anchored" data-anchor-id="the-primary-care-management-and-impact-of-osteoarthritis-2018-2021">The primary care management and impact of osteoarthritis (2018 – 2021)</h4>
+<p>I was part of a team awarded a Health Research Council project grant to investigate the prevalence, management pathways, and health and economic impacts of hip and knee osteoarthritis in primary care in New Zealand. Most osteoarthritis care and management, in New Zealand and elsewhere, is delivered in primary care, but very little is known, at a systematic level, about how many patients present to primary care with osteoarthritis symptoms, what treatments they are offered, and how much it costs both the health system and patients themselves. This project combined novel large-scale data extraction from primary care patient records with the wealth of data on secondary care utilization, pharmaceutical prescriptions, and wider economic and social indicators available from the Statistics New Zealand Integrated Data Infrastructure (IDI), to address these important questions. Final research papers on the health and economics impacts of osteoarthritis diagnosed and managed in primary care in NZ are now being completed for publication.</p>
 </section>
-<section id="the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing" class="level3">
-<h3 class="anchored" data-anchor-id="the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing">The health economic case for implementing ACL injury prevention interventions (2020 – ongoing)</h3>
-<p>I am part of a project, led by Dr Yana Pryymachenko, that has received preliminary funding from the Health Research Council of New Zealand to investigate the impact of ACL injury prevention programmes on long-term outcomes, including the incidence and associated health and economic burden of early knee osteoarthritis. This prelimnary project involves investigating the feasibility of using matching methods to identify comparable groups of individuals with and without the occurence of an ACL injury, using comprehensive linked national data from the IDI, and to use these matched cohorts to evaluate long-term outcomes following an ACL injury. If this feasibility study proves successful, we intend to use this approach to inform cost-effectiveness evaluations of injury prevention strategies to support the implementation and uptake of such programmes across the New Zealand population (for example, via schools, sports clubs, and workplaces where people are at risk of ACL injury).</p>
-</section>
-<section id="total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing" class="level3">
-<h3 class="anchored" data-anchor-id="total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis-ongoing">Total joint replacement and non-operative management for late-stage hip and knee osteoarthritis (ongoing)</h3>
-<p>I have been involved in several studies using data from patients undergoing total joint replacement or non-operative management for late-stage hip and knee osteoarthritis at Dunedin Public Hospital, investigating the outcomes of each of these management pathways and the optimal selection of patients for surgery. These studies have included evaluations of the ‘Joint Clinic’, a multidisciplinary chronic disease management pathway designed to improve access to joint replacement surgery for patients with hip and knee osteoarthritis by providing optimal non-operative management for patients with lower need for immediate surgery, with two articles published in the Journal of Arthroplasty; evaluation of the relationship between preoperative health status and postoperative improvement to help inform rationing decisions, published in Arthroplasty Today; and cost-effectiveness analysis of total joint replacement surgery based on preoperative patient characteristics and duration of follow-up, with a manuscript forthcoming in the Journal of Arthroplasty.</p>
-</section>
-<section id="computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing" class="level3">
-<h3 class="anchored" data-anchor-id="computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-ongoing">Computer simulation modelling for osteoarthritis in New Zealand (2015 – ongoing)</h3>
+<section id="computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-2020" class="level4">
+<h4 class="anchored" data-anchor-id="computer-simulation-modelling-for-osteoarthritis-in-new-zealand-2015-2020">Computer simulation modelling for osteoarthritis in New Zealand (2015 – 2020)</h4>
 <p>This work was part of a project, led by Prof.&nbsp;Haxby Abbott at the Centre for Musculoskeletal Outcomes Research, to develop and evaluate a novel, early, coordinated programme of care for osteoarthritis in the New Zealand healthcare system. For this programme, I have led the development of a new microsimulation model of the population health impacts, healthcare costs, and treatment outcomes of osteoarthritis in New Zealand, which will be used for evaluating the cost-effectiveness of the proposed programme of care. A journal article reporting on the model development and validation was published in Osteoarthritis and Cartilage, a study applying the model to provide projections of the future burden of osteoarthritis to the NZ health system and society has been published in the New Zealand Medical Journal, and an application of the model to cost-effectiveness analysis of interventions for the management of osteoarthritis in the NZ population has recently been published in Osteoarthritis and Cartilage Open as well as being presented at several conferences (including the OARSI World Congress, ISPOR European Congress, SMDM Annual Meeting, NZ Orthopaedic Association Annual Scientific Meeting, and Australian Physiotherapy Conference).</p>
 </section>
-<section id="trends-in-population-bmi-in-new-zealand-2017" class="level3">
-<h3 class="anchored" data-anchor-id="trends-in-population-bmi-in-new-zealand-2017">Trends in population BMI in New Zealand (2017)</h3>
+<section id="total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis" class="level4">
+<h4 class="anchored" data-anchor-id="total-joint-replacement-and-non-operative-management-for-late-stage-hip-and-knee-osteoarthritis">Total joint replacement and non-operative management for late-stage hip and knee osteoarthritis</h4>
+<p>I have been involved in several studies using data from patients undergoing total joint replacement or non-operative management for late-stage hip and knee osteoarthritis at Dunedin Public Hospital, investigating the outcomes of each of these management pathways and the optimal selection of patients for surgery. These studies have included evaluations of the ‘Joint Clinic’, a multidisciplinary chronic disease management pathway designed to improve access to joint replacement surgery for patients with hip and knee osteoarthritis by providing optimal non-operative management for patients with lower need for immediate surgery, with two articles published in the Journal of Arthroplasty; evaluation of the relationship between preoperative health status and postoperative improvement to help inform rationing decisions, published in Arthroplasty Today; and cost-effectiveness analysis of total joint replacement surgery based on preoperative patient characteristics and duration of follow-up, with a manuscript forthcoming in the Journal of Arthroplasty.</p>
+</section>
+<section id="trends-in-population-bmi-in-new-zealand-2017" class="level4">
+<h4 class="anchored" data-anchor-id="trends-in-population-bmi-in-new-zealand-2017">Trends in population BMI in New Zealand (2017)</h4>
 <p>This study analysed the increasing trends seen in population BMI in New Zealand over recent decades, using an Age-Period-Cohort (APC) analysis, and provides medium-term predictions of mean BMI and obesity prevalence for the next 20 years. APC analysis is a statistical methodology, widely used in disease epidemiology as well as the social sciences, for decomposing longitudinal trends in outcomes such as disease prevalence into the contributions of life-course changes (age effects), generational replacement (cohort effects), and secular time trends (period effects). In the case of BMI trends in New Zealand, we found that almost all of the observed and predicted increase in BMI was due to secular period trends, reflecting the effects of the increasingly obesogenic environment in which we live (such as the increasing availability of low-nutrient, high-energy ‘junk foods’, and reduced levels of physical activity due to sedentary occupations and passive leisure activities). A journal article reporting on these findings has been published in the Australian and New Zealand Journal of Public Health.</p>
 </section>
-<section id="the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019" class="level3">
-<h3 class="anchored" data-anchor-id="the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019">The health impact of osteoarthritis: health-loss burden and cross-instrument mapping (2017 – 2019)</h3>
-<p>This project, which was funded by a Jack Thomson Arthritis Grant from the Otago Medical Research Foundation, includes two studies looking at the evaluation of the health-related quality of life impacts associated with osteoarthritis. The first study provides estimates of the health utility losses across multiple dimensions of health associated with radiographic knee osteoarthritis. To evaluate the cost-effectiveness of disease prevention strategies for osteoarthritis requires such estimates; this was the first study worldwide to provide these for radiographic knee osteoarthritis. An article reporting on this study has been published in Rheumatology. The second study provides a tool to map from a generic quality of life measure (the SF-12) to health utility values in populations with osteoarthritis. The SF-12 is widely used in outcomes research in osteoarthritis, but the outcome measures commonly reported do not provide the utility values needed for cost-effectiveness analysis. This mapping will therefore greatly increase the range of studies available to inform economic analyses. A journal article reporting on this study is currently being finalised.</p>
+<section id="the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019" class="level4">
+<h4 class="anchored" data-anchor-id="the-health-impact-of-osteoarthritis-health-loss-burden-and-cross-instrument-mapping-2017-2019">The health impact of osteoarthritis: health-loss burden and cross-instrument mapping (2017 – 2019)</h4>
+<p>This project, which was funded by a Jack Thomson Arthritis Grant from the Otago Medical Research Foundation, includes two studies looking at the evaluation of the health-related quality of life impacts associated with osteoarthritis. The first study provides estimates of the health utility losses across multiple dimensions of health associated with radiographic knee osteoarthritis. To evaluate the cost-effectiveness of disease prevention strategies for osteoarthritis requires such estimates; this was the first study worldwide to provide these for radiographic knee osteoarthritis. An article reporting on this study has been published in Rheumatology.</p>
+<p>The second study provides a tool to map from a generic quality of life measure (the SF-12) to health utility values in populations with osteoarthritis. The SF-12 is widely used in outcomes research in osteoarthritis, but the outcome measures commonly reported do not provide the utility values needed for cost-effectiveness analysis. This mapping will therefore greatly increase the range of studies available to inform economic analyses. A journal article reporting on this study is currently being finalised.</p>
+</section>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="publications-and-outputs" class="level2">
@@ -271,7 +286,7 @@ ul.task-list li input[type="checkbox"] {
 <section id="journal-articles" class="level3">
 <h3 class="anchored" data-anchor-id="journal-articles">Journal articles</h3>
 <div id="listing-publications" class="quarto-listing quarto-listing-container-custom">
-  <div data-index="0" data-listing-date-sort="1672657200000" data-listing-file-modified-sort="1678306793452" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="0" data-listing-date-sort="1672657200000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/gluteal-tendinopathy-econ-eval.html">Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial</a>.
       Ross Wilson,
       J. Haxby Abbott,
@@ -282,7 +297,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Journal of Physiotherapy</i>
     2023; 69(1):35-41.
   </div>
-  <div data-index="1" data-listing-date-sort="1671706800000" data-listing-file-modified-sort="1678306764639" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="1" data-listing-date-sort="1671706800000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/epidemiology-of-acl-injury-in-nz.html">Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status</a>.
       Yana Pryymachenko,
       Ross Wilson,
@@ -290,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Injury Prevention</i>
     2022; In press.
   </div>
-  <div data-index="2" data-listing-date-sort="1671015600000" data-listing-file-modified-sort="1678306756255" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="2" data-listing-date-sort="1671015600000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/econ-eval-readers-guide.html">Economic evaluation: a reader’s guide to studies of cost-effectiveness</a>.
       J. Haxby Abbott,
       Ross Wilson,
@@ -301,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Archives of Physiotherapy</i>
     2022; 12:28.
   </div>
-  <div data-index="3" data-listing-date-sort="1670238000000" data-listing-file-modified-sort="1678306780520" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="3" data-listing-date-sort="1670238000000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/free-implementation-evaluation.html">A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis</a>.
       Ross Wilson,
       Yana Pryymachenko,
@@ -315,7 +330,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Applied Health Economics and Health Policy</i>
     2023; 21:253-262.
   </div>
-  <div data-index="4" data-listing-date-sort="1655294400000" data-listing-file-modified-sort="1678308618221" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="4" data-listing-date-sort="1655294400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/master-feasibility-trial.html">Tailored exercise and manual therapy versus standardised exercise for patients with shoulder subacromial pain: a feasibility randomised controlled trial (the Otago MASTER trial)</a>.
       Daniel C. Ribeiro,
       Zohreh Jafarian Tangrood,
@@ -325,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
     <i>BMJ Open</i>
     2022; 12:e053572.
   </div>
-  <div data-index="5" data-listing-date-sort="1652097600000" data-listing-file-modified-sort="1678306911081" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="5" data-listing-date-sort="1652097600000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/psfs-measurement-properties.html">Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines</a>.
       Anupa Pathak,
       Ross Wilson,
@@ -337,7 +352,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Journal of Orthopaedic &amp; Sports Physical Therapy</i>
     2022; 52(5):262-275.
   </div>
-  <div data-index="6" data-listing-date-sort="1643367600000" data-listing-file-modified-sort="1678306838016" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="6" data-listing-date-sort="1643367600000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/mcda-and-cea.html">Prioritizing Healthcare Interventions: A Comparison of Multicriteria Decision Analysis and Cost-Effectiveness Analysis</a>.
       Ross Wilson,
       Jason Chua,
@@ -348,7 +363,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Value in Health</i>
     2022; 25(2):268-275.
   </div>
-  <div data-index="7" data-listing-date-sort="1637406000000" data-listing-file-modified-sort="1678306937250" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="7" data-listing-date-sort="1637406000000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/stair-climb-test.html">Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis</a>.
       Saurab Sharma,
       Ross Wilson,
@@ -364,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Arthritis Care &amp; Research</i>
     2023; In press.
   </div>
-  <div data-index="8" data-listing-date-sort="1628251200000" data-listing-file-modified-sort="1678306850465" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="8" data-listing-date-sort="1628251200000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/moa-ii-cea.html">Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial</a>.
       Yana Pryymachenko,
       Ross Wilson,
@@ -374,7 +389,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Musculoskeletal Science and Practice</i>
     2021; 56:102439.
   </div>
-  <div data-index="9" data-listing-date-sort="1621425600000" data-listing-file-modified-sort="1678306955202" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="9" data-listing-date-sort="1621425600000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/tja-highly-cost-effective.html">Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up</a>.
       Ross A. Wilson,
       David P. Gwynne-Jones,
@@ -383,7 +398,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Journal of Arthroplasty</i>
     2021; 36(6):1864-1872.e10.
   </div>
-  <div data-index="10" data-listing-date-sort="1611831600000" data-listing-file-modified-sort="1678308880097" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="10" data-listing-date-sort="1611831600000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/healthcare-costs-lbp-sydney.html">Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia</a>.
       Danielle M. Coombs,
       Gustavo C. Machado,
@@ -395,7 +410,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Lancet Regional Health - Western Pacific</i>
     2021; 7:100089.
   </div>
-  <div data-index="11" data-listing-date-sort="1608548400000" data-listing-file-modified-sort="1678309241254" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="11" data-listing-date-sort="1608548400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/cost-effectiveness-adjunctive-interventions.html">The cost-effectiveness of recommended adjunctive interventions for knee osteoarthritis: Results from a computer simulation model</a>.
       Ross Wilson,
       Jason Chua,
@@ -404,7 +419,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Osteoarthritis and Cartilage Open</i>
     2020; 2(4):100123.
   </div>
-  <div data-index="12" data-listing-date-sort="1608548400000" data-listing-file-modified-sort="1678309186513" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="12" data-listing-date-sort="1608548400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/stakeholders-preferences-oa-interventions.html">Stakeholders’ preferences for osteoarthritis interventions in health services: A cross-sectional study using multi-criteria decision analysis</a>.
       Jason Chua,
       Paul Hansen,
@@ -415,7 +430,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Osteoarthritis and Cartilage Open</i>
     2020; 2(4):100110.
   </div>
-  <div data-index="13" data-listing-date-sort="1602500400000" data-listing-file-modified-sort="1678306739855" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="13" data-listing-date-sort="1602500400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/chronic-opioid-risk-factors.html">Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data</a>.
       Yana Pryymachenko,
       Ross A. Wilson,
@@ -425,7 +440,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Journal of Arthroplasty</i>
     2020; 35(11):3099-3107.e14.
   </div>
-  <div data-index="14" data-listing-date-sort="1600603200000" data-listing-file-modified-sort="1678306876569" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="14" data-listing-date-sort="1600603200000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/outcomes-joint-clinic-5-years-response.html">Response to Letter to the Editor on "The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?"</a>.
       David P. Gwynne-Jones,
       Julia H. Gwynne-Jones,
@@ -433,7 +448,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Journal of Arthroplasty</i>
     2020; 35(10):3060-3061.
   </div>
-  <div data-index="15" data-listing-date-sort="1598875200000" data-listing-file-modified-sort="1678306970102" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="15" data-listing-date-sort="1598875200000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/tja-qol-scores.html">The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?</a>.
       David P. Gwynne-Jones,
       Trudy Sullivan,
@@ -442,7 +457,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Arthroplasty Today</i>
     2020; 6(3):585-589.e1.
   </div>
-  <div data-index="16" data-listing-date-sort="1597665600000" data-listing-file-modified-sort="1678306895733" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="16" data-listing-date-sort="1597665600000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/outcomes-joint-clinic-5-years.html">The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?</a>.
       David P. Gwynne-Jones,
       Julia H. Gwynne-Jones,
@@ -450,7 +465,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Journal of Arthroplasty</i>
     2020; 35(9):2350-2356.e1.
   </div>
-  <div data-index="17" data-listing-date-sort="1597579200000" data-listing-file-modified-sort="1678309433833" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="17" data-listing-date-sort="1597579200000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/opioid-use-tjr.html">Opioid Use and Total Joint Replacement</a>.
       Cade Shadbolt,
       Chris Shilling,
@@ -463,7 +478,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Current Rheumatology Reports</i>
     2020; 22:58.
   </div>
-  <div data-index="18" data-listing-date-sort="1597579200000" data-listing-file-modified-sort="1678309516754" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="18" data-listing-date-sort="1597579200000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/projected-burden-knee-oa-response.html">Opioid Use and Total Joint Replacement</a>.
       Cade Shadbolt,
       Chris Shilling,
@@ -476,7 +491,7 @@ ul.task-list li input[type="checkbox"] {
     <i>Current Rheumatology Reports</i>
     2020; 22:58.
   </div>
-  <div data-index="19" data-listing-date-sort="1590408000000" data-listing-file-modified-sort="1678306860617" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="19" data-listing-date-sort="1590408000000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/national-referral-prioritisation-tool.html">National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery</a>.
       David P. Gwynne-Jones,
       Ross Wilson,
@@ -484,7 +499,7 @@ ul.task-list li input[type="checkbox"] {
     <i>ANZ Journal of Surgery</i>
     2020; 90(9):1738-1742.
   </div>
-  <div data-index="20" data-listing-date-sort="1589889600000" data-listing-file-modified-sort="1678306819876" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="20" data-listing-date-sort="1589889600000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/joint-clinic-outcomes.html">The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery</a>.
       Julia H. Gwynne-Jones,
       Ross A. Wilson,
@@ -494,14 +509,14 @@ ul.task-list li input[type="checkbox"] {
     <i>Journal of Arthroplasty</i>
     2020; 35(6):1497-1503.
   </div>
-  <div data-index="21" data-listing-date-sort="1580986800000" data-listing-file-modified-sort="1678309716717" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="21" data-listing-date-sort="1580986800000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/projected-burden-knee-oa-reponse.html">The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision---a response</a>.
       J. Haxby Abbott,
       Ross Wilson,
     <i>New Zealand Medical Journal</i>
     2020; 133(1509):77-78.
   </div>
-  <div data-index="22" data-listing-date-sort="1576148400000" data-listing-file-modified-sort="1678307239890" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="22" data-listing-date-sort="1576148400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/opioid-use-joint-replacement-surgery.html">Long-term opioid medication use before and after joint replacement surgery in New Zealand</a>.
       Ross Wilson,
       Yana Pryymachenko,
@@ -510,14 +525,14 @@ ul.task-list li input[type="checkbox"] {
     <i>New Zealand Medical Journal</i>
     2019; 132(1507):33-47.
   </div>
-  <div data-index="23" data-listing-date-sort="1570100400000" data-listing-file-modified-sort="1678307360736" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="23" data-listing-date-sort="1570100400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/projected-burden-knee-oa.html">The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision</a>.
       Ross Wilson,
       J. Haxby Abbott,
     <i>New Zealand Medical Journal</i>
     2019; 132(1503):53-65.
   </div>
-  <div data-index="24" data-listing-date-sort="1567944000000" data-listing-file-modified-sort="1678309941232" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="24" data-listing-date-sort="1567944000000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/free-approach-rct.html">The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial</a>.
       Ben Darlow,
       James Stanley,
@@ -530,7 +545,7 @@ ul.task-list li input[type="checkbox"] {
     <i>PLOS Medicine</i>
     2019; 16(9):e1002897.
   </div>
-  <div data-index="25" data-listing-date-sort="1544612400000" data-listing-file-modified-sort="1678308295629" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="25" data-listing-date-sort="1544612400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/moa-trial-2-year-cost-effectiveness.html">Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial</a>.
       J. Haxby Abbott,
       Ross Wilson,
@@ -540,14 +555,14 @@ ul.task-list li input[type="checkbox"] {
     <i>Osteoarthritis and Cartilage</i>
     2019; 27(3):424-434.
   </div>
-  <div data-index="26" data-listing-date-sort="1530619200000" data-listing-file-modified-sort="1678308274632" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="26" data-listing-date-sort="1530619200000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/apc-effects-bmi-nz.html">Age, period and cohort effects on body mass index in New Zealand, 1997--2038</a>.
       Ross Wilson,
       J. Haxby Abbott,
     <i>Australian and New Zealand Journal of Public Health</i>
     2018; 42(4):396-402.
   </div>
-  <div data-index="27" data-listing-date-sort="1519124400000" data-listing-file-modified-sort="1678308239536" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="27" data-listing-date-sort="1519124400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/oa-impacts-multiple-dimensions-hrqol.html">Radiographic knee osteoarthritis impacts multiple dimensions of health-related quality of life: Data from the Osteoarthritis Initiative</a>.
       Ross Wilson,
       Tony Blakely,
@@ -555,14 +570,14 @@ ul.task-list li input[type="checkbox"] {
     <i>Rheumatology</i>
     2018; 57(5):891-899.
   </div>
-  <div data-index="28" data-listing-date-sort="1515495600000" data-listing-file-modified-sort="1678308256656" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="28" data-listing-date-sort="1515495600000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/development-nzmoa-model.html">Development and validation of a new population-based simulation model of osteoarthritis in New Zealand</a>.
       Ross Wilson,
       J. Haxby Abbott,
     <i>Osteoarthritis and Cartilage</i>
     2018; 26(4):531-539.
   </div>
-  <div data-index="29" data-listing-date-sort="1508756400000" data-listing-file-modified-sort="1678308195551" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="29" data-listing-date-sort="1508756400000" data-listing-file-modified-sort="1678419212835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     <a href="./publications/qol-burden-knee-oa.html">The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation</a>.
       J. Haxby Abbott,
       Ilana M. Usiskin,
@@ -583,40 +598,67 @@ No matching items
 <section id="conference-presentations" class="level3">
 <h3 class="anchored" data-anchor-id="conference-presentations">Conference presentations</h3>
 <div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
-  <div data-index="0" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1678306677758" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="0" data-listing-date-sort="1667214000000" data-listing-file-modified-sort="1678422722697" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    Osteoarthritis Aotearoa New Zealand Research Network conference.
+    Wellington, November 2022.
+    <i>Navigating the early-mid career research pathway</i>
+    [invited presentation]
+  </div>
+  <div data-index="1" data-listing-date-sort="1667214000000" data-listing-file-modified-sort="1678422689453" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    Osteoarthritis Aotearoa New Zealand Research Network conference.
+    Wellington, November 2022.
+    <i>Optimal treatment of hip and knee OA across the disease course</i>
+  </div>
+  <div data-index="2" data-listing-date-sort="1635678000000" data-listing-file-modified-sort="1678422461007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    University of Otago Division of Health Sciences, Early and Mid-Career Researcher Annual Conference 2021.
+    Dunedin, November 2021.
+    <i>Incorporating economic evaluation in clinical research to support research impact</i>
+  </div>
+  <div data-index="3" data-listing-date-sort="1635678000000" data-listing-file-modified-sort="1678422610120" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    2021 Back and Neck Pain Forum.
+    Global virtual conference, November 2021.
+    <i>The effect of a guideline-implementation intervention (the FREE approach) on the primary care management of low back pain: Economic evaluation</i>
+  </div>
+  <div data-index="4" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1678422563440" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     New Zealand Orthopaedic Association Annual Scientific Meeting 2019.
     Dunedin, October 2019.
-    <i>The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure</i> [podium presentation]
+    <i>The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure</i>
   </div>
-  <div data-index="1" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1678306677758" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="5" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1677466195273" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     OARSI World Congress 2019.
     Toronto, May 2019.
-    <i>The cost-effectiveness of recommended adjunctive osteoarthritis management options: Results from a computer simulation model</i> [poster presentation]
+    <i>The cost-effectiveness of recommended adjunctive osteoarthritis management options: Results from a computer simulation model</i>
+    [poster presentation]
   </div>
-  <div data-index="2" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1678306677758" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="6" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1677466145009" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     OARSI World Congress 2019.
     Toronto, May 2019.
-    <i>Integrating values and preferences with the best available evidence: A multi-criteria decision analysis approach</i> [poster presentation]
+    <i>Integrating values and preferences with the best available evidence: A multi-criteria decision analysis approach</i>
+    [poster presentation]
   </div>
-  <div data-index="3" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1678306677758" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="7" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1677466216901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     OARSI World Congress 2019.
     Toronto, May 2019.
-    <i>Projecting the healthcare burden of knee osteoarthritis in New Zealand: Results from a computer simulation model</i> [poster presentation]
+    <i>Projecting the healthcare burden of knee osteoarthritis in New Zealand: Results from a computer simulation model</i>
+    [poster presentation]
   </div>
-  <div data-index="4" data-listing-date-sort="1477911600000" data-listing-file-modified-sort="1678306677758" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="8" data-listing-date-sort="1477911600000" data-listing-file-modified-sort="1677466494865" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     ISPOR 19<sup>th</sup> Annual European Congress.
     Vienna, October–November 2016.
-    <i>Modelling total knee replacement surgery for osteoarthritis in New Zealand: Validation of a population-based state-transition microsimulation model</i> [poster presentation]
+    <i>Modelling total knee replacement surgery for osteoarthritis in New Zealand: Validation of a population-based state-transition microsimulation model</i>
+    [poster presentation]
   </div>
-  <div data-index="5" data-listing-date-sort="1475233200000" data-listing-file-modified-sort="1678306677758" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="9" data-listing-date-sort="1475233200000" data-listing-file-modified-sort="1677466484845" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     Society for Medical Decision Making 38<sup>th</sup> Annual Meeting.
     Vancouver, October 2016.
-    <i>The health-loss burden of osteoarthritis in New Zealand: Results from a new computer simulation model</i> [poster presentation]
+    <i>The health-loss burden of osteoarthritis in New Zealand: Results from a new computer simulation model</i>
+    [poster presentation]
   </div>
-  <div data-index="6" data-listing-date-sort="1456743600000" data-listing-file-modified-sort="1678306677758" data-listing-reading-time-sort="0.005" class="listing-citation">
+  <div data-index="10" data-listing-date-sort="1456743600000" data-listing-file-modified-sort="1677466550081" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
     OARSI World Congress 2016.
     Amsterdam, March–April 2016.
-    <i>Health-loss burden of osteoarthritis in New Zealand: Computer-simulation estimate and between-model cross-validation</i> [poster presentation]
+    <i>Health-loss burden of osteoarthritis in New Zealand: Computer-simulation estimate and between-model cross-validation</i>
+    [poster presentation]
   </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -625,9 +667,44 @@ No matching items
 </section>
 <section id="other-reports" class="level3">
 <h3 class="anchored" data-anchor-id="other-reports">Other reports</h3>
-<p>To be added</p>
 <div id="listing-other-reports" class="quarto-listing quarto-listing-container-custom">
 
+  <div data-index="0" data-listing-date-sort="1627300800000" data-listing-file-modified-sort="1678421825314" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <i>The long-term impacts of opioid use before and after joint replacement surgery: Report on finding the optimal matching model</i>.
+      With Yana Pryymachenko and Haxby Abbott.
+      
+      Available at <a href="https://hdl.handle.net/10523/12166">https://hdl.handle.net/10523/12166</a>
+  </div>
+  <div data-index="1" data-listing-date-sort="1617102000000" data-listing-file-modified-sort="1678421839098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <i>How New Zealand's healthcare system is failing people with osteoarthritis</i>.
+      With Haxby Abbott.
+      An article for a general audience on problems with the management of osteoarthritis in the New Zealand healthcare system, and recommendations for delivering more effective and cost-effective treatments, based on our HRC-funded research.
+      The Conversation, 31 March 2021.
+      Available at <a href="https://theconversation.com/how-new-zealands-healthcare-system-is-failing-people-with-osteoarthritis-157138">https://theconversation.com/how-new-zealands-healthcare-system-is-failing-people-with-osteoarthritis-157138</a>
+  </div>
+  <div data-index="2" data-listing-date-sort="1606734000000" data-listing-file-modified-sort="1678421786546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <i>CMOR Evidence Table</i>.
+      An interactive web application presenting results from a research project, <i>The Impact and Management of Rising Osteoarthritis Burden</i>, on stakeholder preferences and cost-effectiveness of different treatments for knee osteoarthritis
+      Available at <a href="http://cmor-shiny.otago.ac.nz">http://cmor-shiny.otago.ac.nz</a>
+  </div>
+  <div data-index="3" data-listing-date-sort="1598875200000" data-listing-file-modified-sort="1678421969010" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <i>Baseline Data Capture: Cultural Safety, Partnership, and Health Equity Initiatives</i>.
+      With Shirley Simmonds, Marnie Carter, and Nick Preval.
+      For the Medical Council of New Zealand.
+      Allen + Clarke, Wellington, September 2020.
+  </div>
+  <div data-index="4" data-listing-date-sort="1582974000000" data-listing-file-modified-sort="1678422104830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <i>Evaluation of the Mobility Action Programme (MAP), Cycle 2 report</i>.
+      With Jessie Wilson, Haxby Abbott, Brendan Stevenson, and Yasmine Kayem.
+      For the New Zealand Ministry of Health.
+      Allen + Clarke, Wellington, March 2020.
+  </div>
+  <div data-index="5" data-listing-date-sort="1543575600000" data-listing-file-modified-sort="1678422144938" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="0.005" class="listing-citation">
+    <i>Evaluation of the Mobility Action Programme (MAP), Cycle 1 report</i>.
+      With Nicole Waru, Jessie Wilson, Carolyn Hooper, Nick Preval, and J Haxby Abbott.
+      For the New Zealand Ministry of Health.
+      Allen + Clarke, Wellington, December 2018.
+  </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -659,6 +736,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'alternate';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -733,6 +925,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
