@@ -7,6 +7,7 @@ website:
   navbar:
     title: false
     logo: images/ou-logo.png
+    logo-href: https://uo-cmor.github.io
     left:
       - href: index.qmd
         text: Home
@@ -15,7 +16,9 @@ website:
 
 format:
   html:
-    theme: slate
+    theme:
+      - slate
+      - custom.scss
     page-layout: full
     css: styles.css
     toc: false
