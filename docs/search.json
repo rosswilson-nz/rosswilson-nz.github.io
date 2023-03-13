@@ -11,7 +11,7 @@
     "href": "teaching.html#resources",
     "title": "Teaching",
     "section": "Resources",
-    "text": "Resources\nIntroduction to R and RStudio [presentation slides]"
+    "text": "Resources\nIntroduction to R and RStudio [presentation slides]\n\nSections:\n\nGetting Started\nWorking with Data Frames\nData Analysis (Regression) [to be added]\nData Visualisation [to be added]\nWorkflow and Project Organisation\nWriting in R (R Markdown/Quarto) [to be added]\nAutomation [to be added]\nProgramming/Package Development [to be added]"
   },
   {
     "objectID": "index.html",
