@@ -1,0 +1,13 @@
+---
+title: "Teaching"
+link-external-newwindow: true
+anchor-sections: false
+---
+
+I convene a weekly *Lunch'n'Learn* workshop/seminar series for PhD students and early career researchers at CMOR.
+
+Some of the slide decks and other resources from these workshops are available below (more to be added)
+
+## Resources
+
+[Introduction to R and RStudio](https://rosswilson-nz.github.io/CMOR-Intro-to-R) [presentation slides]

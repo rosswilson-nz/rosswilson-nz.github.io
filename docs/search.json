@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I convene a weekly Lunch’n’Learn workshop/seminar series for PhD students and early career researchers at CMOR.\nSome of the slide decks and other resources from these workshops are available below (more to be added)"
+  },
+  {
+    "objectID": "teaching.html#resources",
+    "href": "teaching.html#resources",
+    "title": "Teaching",
+    "section": "Resources",
+    "text": "Resources\nIntroduction to R and RStudio [presentation slides]"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Ross Wilson",
