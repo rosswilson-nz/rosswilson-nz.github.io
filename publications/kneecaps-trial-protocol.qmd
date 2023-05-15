@@ -1,0 +1,29 @@
+---
+title: "Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS)"
+subtitle: "Musculoskeletal Care"
+date: "2023-05-13"
+citation: 
+  type: article-journal
+  container-title: "Musculoskeletal Care"
+  author:
+    - Ben Darlow
+    - Melanie Brown
+    - James Stanley
+    - Haxby Abbott
+    - Andrew Briggs
+    - Jane Clark
+    - Gareth Frew
+    - Rebecca Grainger
+    - Fiona Hood
+    - Ben Hudson
+    - Rāwiri Keenan
+    - Carlo Marra
+    - Eileen McKinlay
+    - Alison Pask
+    - Andrés Pierobon
+    - Shirley Simmonds
+    - Loren Vincent
+    - Sarah Dean
+  volume: In Press
+  issued: 2023
+---
