@@ -1,7 +1,7 @@
 ---
 title: "Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis"
 subtitle: "Arthritis Care & Research"
-date: "2021-11-21"
+date: "2023-04-24"
 abstract: |
   **Objective**
   The Osteoarthritis Research Society International (OARSI) recommends assessment of physical function using a performance-based test of stair negotiation but was unable to recommend any specific test. We assessed the reliability, validity, responsiveness, measurement error, and minimum important change (MIC) of the 6-step timed Stair Climb Test (SCT).

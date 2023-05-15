@@ -1,0 +1,16 @@
+---
+title: "Who should judge treatment effects as unimportant?"
+subtitle: "Journal of Physiotherapy"
+date: "2023-05-15"
+citation: 
+  type: article-journal
+  container-title: "Journal of Physiotherapy"
+  author:
+    - Christina Abdel-Shaheed
+    - Stephanie Mathieson
+    - Ross Wilson
+    - Ann-Mason Furmage
+    - Chris Maher
+  volume: In Press
+  issued: 2023
+---
