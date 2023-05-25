@@ -2,8 +2,10 @@
   {
     "listing": "/research.html",
     "items": [
+      "/publications/mcda-viewpoint.html",
       "/publications/kneecaps-trial-protocol.html",
       "/publications/stair-climb-test.html",
+      "/publications/extensor-tendon-trial.html",
       "/publications/gluteal-tendinopathy-econ-eval.html",
       "/publications/epidemiology-of-acl-injury-in-nz.html",
       "/publications/econ-eval-readers-guide.html",
