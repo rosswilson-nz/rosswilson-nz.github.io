@@ -1,7 +1,7 @@
 ---
 title: "Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status"
 subtitle: Injury prevention
-date: "2022-12-23"
+date: "2023-05-19"
 abstract: |
   **Objectives**
   To investigate the temporal trends and ethnic and socioeconomic disparities in cruciate ligament (CL) injury incidence and associated costs in New Zealand over a 14-year period.
@@ -22,6 +22,6 @@ citation:
     - Ross Wilson
     - J. Haxby Abbott
   volume: In press
-  issued: 2022
+  issued: 2023
   doi: 10.1136/ip-2022-044761
 ---
