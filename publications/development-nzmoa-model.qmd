@@ -1,7 +1,7 @@
 ---
 title: "Development and validation of a new population-based simulation model of osteoarthritis in New Zealand"
 subtitle: "Osteoarthritis and Cartilage"
-date: "2018-01-10"
+date: "2018-03-23"
 abstract: |
   **Objective**
   To describe the construction and preliminary validation of a new population-based microsimulation model developed to analyse the health and economic burden and cost-effectiveness of treatments for knee osteoarthritis (OA) in New Zealand (NZ).

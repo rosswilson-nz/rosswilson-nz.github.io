@@ -1,7 +1,7 @@
 ---
 title: "A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis"
 subtitle: Applied Health Economics and Health Policy
-date: "2022-12-06"
+date: "2023-03-01"
 abstract: |
   **Background**
   Real-world adherence to clinical practice guidelines is often poor, resulting in sub-standard patient care and unnecessary healthcare costs. This study evaluates the effect of a guideline-implementation intervention for the management of low back pain (LBP) in general practice–the Fear Reduction Exercised Early (FREE) approach—on LBP-related injury insurance claims, healthcare utilisation, and costs of treatment.

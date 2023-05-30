@@ -1,30 +1,17 @@
 ---
-title: "Opioid Use and Total Joint Replacement"
-subtitle: "Current Rheumatology Reports"
-date: "2020-08-17"
+title: "The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision---a response"
+subtitle: "New Zealand Medical Journal"
+date: "2020-02-07"
 abstract: |
-  **Purpose of Review**
-  We provide an overview of recent research into the relationship between preoperative opioid use and total joint replacement outcomes.
-  
-  **Recent Findings**
-  Recent findings indicate that total joint replacement patients with a history of preoperative opioid use experience higher rates of infection, revision, short-term complications, and prolonged postoperative opioid use, along with fewer improvements in pain and function following surgery. These risks are particularly pronounced among chronic opioid users. While the baseline risk profiles of these patients may contribute to higher rates of adverse outcomes, it is also plausible that certain outcomes are directly impacted by opioid use through mechanisms such as opioid-induced hyperalgesia and immunosuppression. There is little available data on the efficacy of interventions that aim to mitigate these risks.
-  
-  **Summary**
-  Well-designed clinical trials are needed to evaluate the efficacy of targeted perioperative interventions that aim to improve outcomes for this high-risk surgical population. Where such trials are not feasible, additional high-quality observational studies are necessary to further our understanding of the mechanisms underlying the relationships between opioid use and specific adverse outcomes.
+  The main purpose of our analysis was to investigate to what extent healthcare costs (including TKR demand) will increase as a result of increasing population obesity in New Zealand. This focus required delimiting the population to that for which we had reliable population data and evidence of the association between obesity, OA and those effects. Among the top 20 causes of disability-related life-years lost in adults, many (such as cardiovascular causes and cancer) have shown decreases between 1990 and 2018, but OA has shown among the greatest rises. This is largely driven by people living longer with OA, rising obesity rates, increasing injury rates and earlier onset of OA.
 citation: 
   type: article-journal
-  container-title: "Current Rheumatology Reports"
+  container-title: "New Zealand Medical Journal"
   author:
-    - Cade Shadbolt
-    - Chris Shilling
-    - Maria C. Inacio
     - J. Haxby Abbott
-    - Yana Pryymachenko
     - Ross Wilson
-    - Peter F. M. Choong
-    - Michelle M. Dowsey
-  volume: 22
-  page: "58"
+  volume: 133
+  issue: 1509
+  page: "77-78"
   issued: 2020
-  doi: 10.1007/s11926-020-00929-0
 ---
