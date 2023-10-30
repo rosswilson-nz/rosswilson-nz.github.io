@@ -1,6 +1,6 @@
 ---
 title: "Optimal treatment of hip and knee OA across the disease course"
-subtitle: "Osteoarthritis Aotearoa New Zealand Research Network conference"
+subtitle: "Osteoarthritis Aotearoa Research Network conference"
 date: "2022-11"
 location: "Wellington"
 meeting-date: "November 2022"

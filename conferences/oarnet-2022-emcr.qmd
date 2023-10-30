@@ -1,6 +1,6 @@
 ---
 title: "Navigating the early-mid career research pathway"
-subtitle: "Osteoarthritis Aotearoa New Zealand Research Network conference"
+subtitle: "Osteoarthritis Aotearoa Research Network conference"
 date: "2022-11"
 location: "Wellington"
 meeting-date: "November 2022"
