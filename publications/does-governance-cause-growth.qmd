@@ -8,7 +8,7 @@ citation:
   type: article-journal
   container-title: "World Development"
   author:
-    - Ross wilson
+    - Ross Wilson
   volume: 79
   page: "138-151"
   issued: 2016

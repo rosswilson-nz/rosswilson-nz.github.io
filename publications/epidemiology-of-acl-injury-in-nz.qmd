@@ -21,7 +21,8 @@ citation:
     - Yana Pryymachenko
     - Ross Wilson
     - J. Haxby Abbott
-  volume: In press
+  volume: 29
+  page: "213-218"
   issued: 2023
   doi: 10.1136/ip-2022-044761
 ---

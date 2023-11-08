@@ -29,7 +29,9 @@ citation:
     - Rana S. Hinman
     - Boon-Whatt Lim
     - J. Haxby Abbott
-  volume: In press
+  volume: 75
+  issue: 5
+  page: "1147-1157"
   issued: 2023
   doi: 10.1002/acr.24821
 ---

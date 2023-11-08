@@ -1,7 +1,7 @@
 ---
 title: "Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial"
 subtitle: "Journal of Hand Therapy"
-date: "2023-04-10"
+date: "2023-08-28"
 abstract: |
   **Introduction**
   There is no comparative evidence for relative motion extension (RME) orthosis with dynamic wrist-hand-finger-orthosis (WHFO) management of zones V-VI extensor tendon repairs.
@@ -34,6 +34,8 @@ citation:
     - Jamie Gough
     - Ross Wilson
     - J. Haxby Abbott
-  volume: In Press
+  volume: 36
+  issue: 2
+  page: "363-377"
   issued: 2023
 ---

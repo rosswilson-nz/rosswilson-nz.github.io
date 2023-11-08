@@ -1,7 +1,7 @@
 ---
 title: "Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS)"
 subtitle: "Musculoskeletal Care"
-date: "2023-05-13"
+date: "2023-05-22"
 citation: 
   type: article-journal
   container-title: "Musculoskeletal Care"
