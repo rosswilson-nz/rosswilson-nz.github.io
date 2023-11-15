@@ -18,9 +18,15 @@ citation:
   type: article-journal
   container-title: "Journal of Arthroplasty"
   author:
-    - David P. Gwynne-Jones
-    - Julia H. Gwynne-Jones
-    - Ross A. Wilson
+    - name:
+        given: David P.
+        family: Gwynne-Jones
+    - name:
+        given: Julia H.
+        family: Gwynne-Jones
+    - name:
+        given: Ross A.
+        family: Wilson
   volume: 35
   issue: 9
   page: "2350-2356.e1"

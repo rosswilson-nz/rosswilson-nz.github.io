@@ -18,11 +18,17 @@ citation:
   type: article-journal
   container-title: "Journal of Arthroplasty"
   author:
-    - Yana Pryymachenko
-    - Ross A. Wilson
-    - J. Haxby Abbott
-    - Michelle M. Dowsee
-    - Peter F. M. Choong
+    - name: Yana Pryymachenko
+    - name: Ross A. Wilson
+    - name:
+        given: J. Haxby
+        family: Abbott
+    - name:
+        given: Michelle M.
+        family: Dowsee
+    - name:
+        given: Peter F. M.
+        family: Choong
   volume: 35
   issue: 11
   page: "3099-3107.e14"

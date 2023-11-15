@@ -21,11 +21,17 @@ citation:
   type: article-journal
   container-title: "BMJ Open"
   author:
-    - Daniel C. Ribeiro
-    - Zohreh Jafarian Tangrood
-    - Ross Wilson
-    - Gisela Sole
-    - J. Haxby Abbott
+    - name:
+        given: Daniel C.
+        family: Ribeiro
+    - name:
+        given: Zohreh Jafarian
+        family: Tangrood
+    - name: Ross Wilson
+    - name: Gisela Sole
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 12
   page: "e053572"
   issued: 2022

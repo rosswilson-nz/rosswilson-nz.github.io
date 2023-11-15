@@ -18,11 +18,15 @@ citation:
   type: article-journal
   container-title: "PLoS ONE"
   author:
-    - J. Haxby Abbott
-    - Ilana M. Usiskin
-    - Ross Wilson
-    - Paul Hansen
-    - Elena Losina
+    - name:
+        given: J. Haxby
+        family: Abbott
+    - name:
+        given: Ilana M.
+        family: Usiskin
+    - name: Ross Wilson
+    - name: Paul Hansen
+    - name: Elena Losina
   volume: 12
   issue: 10
   page: "e0185676"

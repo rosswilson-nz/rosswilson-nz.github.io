@@ -18,12 +18,16 @@ citation:
   type: article-journal
   container-title: "Osteoarthritis and Cartilage Open"
   author:
-    - Jason Chua
-    - Paul Hansen
-    - Andrew M. Briggs
-    - Ross Wilson
-    - David Gwynne-Jones
-    - J. Haxby Abbott
+    - name: Jason Chua
+    - name: Paul Hansen
+    - name:
+        given: Andrew M.
+        family: Briggs
+    - name: Ross Wilson
+    - name: David Gwynne-Jones
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 2
   issue: 4
   page: "100110"

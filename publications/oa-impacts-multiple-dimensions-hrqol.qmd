@@ -18,9 +18,11 @@ citation:
   type: article-journal
   container-title: "Rheumatology"
   author:
-    - Ross Wilson
-    - Tony Blakely
-    - J. Haxby Abbott
+    - name: Ross Wilson
+    - name: Tony Blakely
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 57
   issue: 5
   page: "891-899"

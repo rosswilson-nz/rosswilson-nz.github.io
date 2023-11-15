@@ -18,15 +18,17 @@ citation:
   type: article-journal
   container-title: "Applied Health Economics and Health Policy"
   author:
-    - Ross Wilson
-    - Yana Pryymachenko
-    - J. Haxby Abbott
-    - Sarah Dean
-    - James Stanley
-    - Sue Garrett
-    - Fiona Mathieson
-    - Anthony Dowell
-    - Ben Darlow
+    - name: Ross Wilson
+    - name: Yana Pryymachenko
+    - name:
+        given: J. Haxby
+        family: Abbott
+    - name: Sarah Dean
+    - name: James Stanley
+    - name: Sue Garrett
+    - name: Fiona Mathieson
+    - name: Anthony Dowell
+    - name: Ben Darlow
   volume: 21
   page: "253-262"
   issued: 2023

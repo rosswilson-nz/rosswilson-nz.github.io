@@ -18,10 +18,14 @@ citation:
   type: article-journal
   container-title: "Arthroplasty Today"
   author:
-    - David P. Gwynne-Jones
-    - Trudy Sullivan
-    - Ross Wilson
-    - J. Haxby Abbott
+    - name:
+        given: David P.
+        family: Gwynne-Jones
+    - name: Trudy Sullivan
+    - name: Ross Wilson
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 6
   issue: 3
   page: "585-589.e1"

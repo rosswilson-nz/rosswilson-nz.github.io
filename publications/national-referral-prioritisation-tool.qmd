@@ -18,9 +18,11 @@ citation:
   type: article-journal
   container-title: "ANZ Journal of Surgery"
   author:
-    - David P. Gwynne-Jones
-    - Ross Wilson
-    - Chris McEwan
+    - name:
+        given: David P.
+        family: Gwynne-Jones
+    - name: Ross Wilson
+    - name: Chris McEwan
   volume: 90
   issue: 9
   page: "1738-1742"

@@ -18,9 +18,11 @@ citation:
   type: article-journal
   container-title: "Injury Prevention"
   author:
-    - Yana Pryymachenko
-    - Ross Wilson
-    - J. Haxby Abbott
+    - name: Yana Pryymachenko
+    - name: Ross Wilson
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 29
   page: "213-218"
   issued: 2023

@@ -21,10 +21,12 @@ citation:
   type: article-journal
   container-title: "Injury Prevention"
   author:
-    - Ross Wilson
-    - Sarah Derrett
-    - Paul Hansen
-    - John Desmond Langley
+    - name: Ross Wilson
+    - name: Sarah Derrett
+    - name: Paul Hansen
+    - name:
+        given: John Desmond
+        family: Langley
   volume: 19
   page: "124-129"
   issued: 2013

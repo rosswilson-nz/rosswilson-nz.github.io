@@ -18,8 +18,10 @@ citation:
   type: article-journal
   container-title: "New Zealand Medical Journal"
   author:
-    - Ross Wilson
-    - J. Haxby Abbott
+    - name: Ross Wilson
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 132
   issue: 1503
   page: "53-65"

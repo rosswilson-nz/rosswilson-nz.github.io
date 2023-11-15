@@ -18,10 +18,12 @@ citation:
   type: article-journal
   container-title: "Rural and Remote Health"
   author:
-    - Martyn Williamson
-    - Ross Wilson
-    - Roz C. McKechnie
-    - Jim Ross
+    - name: Martyn Williamson
+    - name: Ross Wilson
+    - name:
+        given: Roz C.
+        family: McKechnie
+    - name: Jim Ross
   volume: 12
   issue: 2
   page: "2011"

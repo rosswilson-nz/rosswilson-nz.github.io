@@ -15,14 +15,16 @@ citation:
   type: article-journal
   container-title: "PLOS Medicine"
   author:
-    - Ben Darlow
-    - James Stanley
-    - Sarah Dean
-    - J. Haxby Abbott
-    - Sue Garrett
-    - Ross Wilson
-    - Fiona Mathieson
-    - Anthony Dowell
+    - name: Ben Darlow
+    - name: James Stanley
+    - name: Sarah Dean
+    - name:
+        given: J. Haxby
+        family: Abbott
+    - name: Sue Garrett
+    - name: Ross Wilson
+    - name: Fiona Mathieson
+    - name: Anthony Dowell
   volume: 16
   issue: 9
   page: "e1002897"

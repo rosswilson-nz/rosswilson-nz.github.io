@@ -24,11 +24,13 @@ citation:
   type: article-journal
   container-title: "Musculoskeletal Science and Practice"
   author:
-    - Yana Pryymachenko
-    - Ross Wilson
-    - Saurab Sharma
-    - Anupa Pathak
-    - J. Haxby Abbott
+    - name: Yana Pryymachenko
+    - name: Ross Wilson
+    - name: Saurab Sharma
+    - name: Anupa Pathak
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 56
   page: "102439"
   issued: 2021

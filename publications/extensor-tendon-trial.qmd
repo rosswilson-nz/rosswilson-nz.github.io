@@ -27,13 +27,15 @@ citation:
   type: article-journal
   container-title: "Journal of Hand Therapy"
   author:
-    - Miranda Bühler
-    - David Gwynne-Jones
-    - Michael Chin
-    - Joshua Woodside
-    - Jamie Gough
-    - Ross Wilson
-    - J. Haxby Abbott
+    - name: Miranda Bühler
+    - name: David Gwynne-Jones
+    - name: Michael Chin
+    - name: Joshua Woodside
+    - name: Jamie Gough
+    - name: Ross Wilson
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 36
   issue: 2
   page: "363-377"

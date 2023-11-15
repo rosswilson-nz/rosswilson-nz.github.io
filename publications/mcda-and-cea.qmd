@@ -18,12 +18,14 @@ citation:
   type: article-journal
   container-title: "Value in Health"
   author:
-    - Ross Wilson
-    - Jason Chua
-    - Yana Pryymachenko
-    - Anupa Pathak
-    - Saurab Sharma
-    - J. Haxby Abbott
+    - name: Ross Wilson
+    - name: Jason Chua
+    - name: Yana Pryymachenko
+    - name: Anupa Pathak
+    - name: Saurab Sharma
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 25
   issue: 2
   page: "268-275"

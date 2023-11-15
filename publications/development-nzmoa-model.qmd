@@ -18,8 +18,10 @@ citation:
   type: article-journal
   container-title: "Osteoarthritis and Cartilage"
   author:
-    - Ross Wilson
-    - J. Haxby Abbott
+    - name: Ross Wilson
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 26
   issue: 4
   page: "531-539"

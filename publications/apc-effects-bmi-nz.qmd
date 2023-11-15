@@ -21,8 +21,10 @@ citation:
   type: article-journal
   container-title: "Australian and New Zealand Journal of Public Health"
   author:
-    - Ross Wilson
-    - J. Haxby Abbott
+    - name: Ross Wilson
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 42
   issue: 4
   page: "396-402"

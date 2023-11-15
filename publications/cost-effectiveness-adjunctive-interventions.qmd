@@ -18,10 +18,14 @@ citation:
   type: article-journal
   container-title: "Osteoarthritis and Cartilage Open"
   author:
-    - Ross Wilson
-    - Jason Chua
-    - Andrew M. Briggs
-    - J. Haxby Abbott
+    - name: Ross Wilson
+    - name: Jason Chua
+    - name:
+        given: Andrew M.
+        family: Briggs
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 2
   issue: 4
   page: "100123"

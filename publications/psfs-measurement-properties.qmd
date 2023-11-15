@@ -27,13 +27,17 @@ citation:
   type: article-journal
   container-title: "Journal of Orthopaedic & Sports Physical Therapy"
   author:
-    - Anupa Pathak
-    - Ross Wilson
-    - Saurab Sharma
-    - Yana Pryymachenko
-    - Daniel Cury Ribeiro
-    - Jason Chua
-    - J. Haxby Abbott
+    - name: Anupa Pathak
+    - name: Ross Wilson
+    - name: Saurab Sharma
+    - name: Yana Pryymachenko
+    - name:
+        given: Daniel Cury
+        family: Ribeiro
+    - name: Jason Chua
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 52
   issue: 5
   page: "262-275"

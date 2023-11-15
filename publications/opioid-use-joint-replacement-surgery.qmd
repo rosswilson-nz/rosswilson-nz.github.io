@@ -18,10 +18,12 @@ citation:
   type: article-journal
   container-title: "New Zealand Medical Journal"
   author:
-    - Ross Wilson
-    - Yana Pryymachenko
-    - Richard Audas
-    - J. Haxby Abbott
+    - name: Ross Wilson
+    - name: Yana Pryymachenko
+    - name: Richard Audas
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 132
   issue: 1507
   page: "33-47"

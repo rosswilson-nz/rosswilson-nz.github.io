@@ -15,12 +15,16 @@ citation:
   type: article-journal
   container-title: "Archives of Physiotherapy"
   author:
-    - J. Haxby Abbott
-    - Ross Wilson
-    - Yana Pryymachenko
-    - Saurab Sharma
-    - Anupa Pathak
-    - Jason Y. Y. Chua
+    - name:
+        given: J. Haxby
+        family: Abbott
+    - name: Ross Wilson
+    - name: Yana Pryymachenko
+    - name: Saurab Sharma
+    - name: Anupa Pathak
+    - name:
+        given: Jason Y. Y.
+        family: Chua
   volume: 12
   page: "28"
   issued: 2022

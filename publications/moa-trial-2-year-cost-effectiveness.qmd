@@ -18,11 +18,17 @@ citation:
   type: article-journal
   container-title: "Osteoarthritis and Cartilage"
   author:
-    - J. Haxby Abbott
-    - Ross Wilson
-    - Daniel Pinto
-    - Cathy M. Chapple
-    - Alexis A. Wright
+    - name:
+        given: J. Haxby
+        family: Abbott
+    - name: Ross Wilson
+    - name: Daniel Pinto
+    - name:
+        given: Cathy M.
+        family: Chapple
+    - name:
+        given: Alexis A.
+        family: Wright
   volume: 27
   issue: 3
   page: "424-434"

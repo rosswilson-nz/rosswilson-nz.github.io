@@ -18,13 +18,19 @@ citation:
   type: article-journal
   container-title: "Lancet Regional Health - Western Pacific"
   author:
-    - Danielle M. Coombs
-    - Gustavo C. Machado
-    - Bethan Richards
-    - Ross Wilson
-    - Jimmy Chan
-    - Hannah Storey
-    - Chris G. Maher
+    - name:
+        given: Danielle M.
+        family: Coombs
+    - name:
+        given: Gustavo C.
+        family: Machado
+    - name: Bethan Richards
+    - name: Ross Wilson
+    - name: Jimmy Chan
+    - name: Hannah Storey
+    - name:
+        given: Chris G.
+        family: Maher
   volume: 7
   page: "100089"
   issued: 2021

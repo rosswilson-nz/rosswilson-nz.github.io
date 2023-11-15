@@ -15,14 +15,22 @@ citation:
   type: article-journal
   container-title: "Current Rheumatology Reports"
   author:
-    - Cade Shadbolt
-    - Chris Shilling
-    - Maria C. Inacio
-    - J. Haxby Abbott
-    - Yana Pryymachenko
-    - Ross Wilson
-    - Peter F. M. Choong
-    - Michelle M. Dowsey
+    - name: Cade Shadbolt
+    - name: Chris Shilling
+    - name:
+        given: Maria C.
+        family: Inacio
+    - name:
+        given: J. Haxby
+        family: Abbott
+    - name: Yana Pryymachenko
+    - name: Ross Wilson
+    - name:
+        given: Peter F. M.
+        family: Choong
+    - name:
+        given: Michelle M.
+        family: Dowsey
   volume: 22
   page: "58"
   issued: 2020

@@ -18,10 +18,18 @@ citation:
   type: article-journal
   container-title: "Journal of Arthroplasty"
   author:
-    - Ross A. Wilson
-    - David P. Gwynne-Jones
-    - Trudy A. Sullivan
-    - J. Haxby Abbott
+    - name:
+        given: Ross A.
+        family: Wilson
+    - name:
+        given: David P.
+        family: Gwynne-Jones
+    - name:
+        given: Trudy A.
+        family: Sullivan
+    - name:
+        given: J. Haxby
+        family: Abbott
   volume: 36
   issue: 6
   page: "1864-1872.e10"

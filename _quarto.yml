@@ -25,7 +25,3 @@ format:
     css: styles.css
     toc: false
     csl: vancouver.csl
-
-language:
-  section-title-citation: "Recommended citation:"
-  appendix-attribution-cite-as: " "
