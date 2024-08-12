@@ -31,6 +31,8 @@ citation:
     - Huan Chan
     - Sean Coffey
     - Jim Mann
-  volume: "In Press"
+  volume: 13
+  page: "e074278"
   issued: 2023
+  doi: 10.1136/bmjopen-2023-074278
 ---

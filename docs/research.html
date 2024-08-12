@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-99.9.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Ross Wilson - My Research</title>
+<title>My Research – Ross Wilson</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -73,10 +80,10 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subtitle','listing-date','listing-abstract','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subtitle','listing-date','listing-abstract','listing-citation','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       page: 25,
     pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subtitle","listing-date","listing-abstract","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subtitle","listing-date","listing-abstract","listing-citation","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -102,9 +109,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subtitle','listing-date','listing-location','listing-meeting-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subtitle','listing-date','listing-location','listing-meeting-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-type',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subtitle","listing-date","listing-location","listing-meeting-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-type"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subtitle","listing-date","listing-location","listing-meeting-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-type"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -130,9 +137,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subtitle','listing-url','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-published',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-subtitle','listing-url','listing-date','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-published',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subtitle","listing-url","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-published"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-subtitle","listing-url","listing-date","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-published"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -150,8 +157,35 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -160,36 +194,36 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="https://uo-cmor.github.io" class="navbar-brand navbar-brand-logo">
     <img src="./images/ou-logo.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
- <span class="menu-text">Research</span></a>
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html" rel="" target="">
- <span class="menu-text">Teaching</span></a>
+    <a class="nav-link" href="./teaching.html"> 
+<span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -222,7 +256,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page-left">
 
     
   
@@ -230,7 +264,9 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
+
 
 <section id="research-projects" class="level2">
 <h2 class="anchored" data-anchor-id="research-projects">Research Projects</h2>
@@ -244,7 +280,13 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing" class="level4">
 <h4 class="anchored" data-anchor-id="chronic-opioid-use-following-joint-replacement-surgery-2018-ongoing">Chronic opioid use following joint replacement surgery (2018 – ongoing)</h4>
-<p>I have received grants from the Otago Medical Research Foundation and the H.S and J.C Anderson Charitable Trust for studies of the prevalence, risk factors, and consequences of chronic opioid use before and after total hip and knee replacement surgery, using linked national population data from the IDI. We showed, using a comprehensive dataset including all joint replacement surgeries performed in the NZ public healthcare system, the continued prevalence of opioid use for as long as three years after surgery; this work has been published in the New Zealand Medical Journal and presented to the NZ Orthopaedic Association Annual Scientific Meeting. A second paper from this project identifies several important risk factors that can to help identify patients at high risk of such prolonged post-surgical opioid use, which could be useful in identifying targeted interventions to reduce opioid exposure for these at-risk groups; this paper has been published in the Journal of Arthroplasty. A further study investigating the long-term health, economic, and social impacts of perioperative opioid prescribing is now under review for publication.</p>
+<p>I have received grants from the Otago Medical Research Foundation and the H.S and J.C Anderson Charitable Trust for studies of the prevalence, risk factors, and consequences of chronic opioid use before and after total hip and knee replacement surgery, using linked national population data from the IDI. Several outputs from this project are now available:</p>
+<ul>
+<li><p>We showed, using a comprehensive dataset including all joint replacement surgeries performed in the NZ public healthcare system, the continued prevalence of opioid use for as long as three years after surgery. This work has been published in the <a href="./publications/opioid-use-joint-replacement-surgery.html">New Zealand Medical Journal</a> and presented to the NZ Orthopaedic Association Annual Scientific Meeting.</p></li>
+<li><p>A second paper from this project identifies several important risk factors that can to help identify patients at high risk of such prolonged post-surgical opioid use, which could be useful in identifying targeted interventions to reduce opioid exposure for these at-risk groups. This paper has been published in the <a href="./publications/chronic-opioid-risk-factors.html">Journal of Arthroplasty</a>.</p></li>
+<li><p>A third study investigates the long-term health, economic, and social impacts of perioperative opioid prescribing, and shows substantial increases in healthcare use and costs associated with preoperative opioid prescribing, but little evidence of any negative impacts of postoperative opioid prescribing to support short-term surgical recovery. This study has been published in <a href="./publications/opioids-long-term-outcomes.html">Family Practice</a></p></li>
+<li><p>A further study looking at the dose-response relationship between preoperative opioid use and long-term outcomes is in progress. An analysis plan is freely available on the <a href="https://osf.io/g52kt/">Open Science Framework</a>, and a preliminary report will be published shortly.</p></li>
+</ul>
 </section>
 <section id="the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing" class="level4">
 <h4 class="anchored" data-anchor-id="the-health-economic-case-for-implementing-acl-injury-prevention-interventions-2020-ongoing">The health economic case for implementing ACL injury prevention interventions (2020 – ongoing)</h4>
@@ -292,409 +334,1112 @@ Previous research projects
 <section id="journal-articles" class="level3">
 <h3 class="anchored" data-anchor-id="journal-articles">Journal articles</h3>
 <div id="listing-publications" class="quarto-listing quarto-listing-container-custom">
-  <div data-index="0" data-listing-date-sort="1700046000000" data-listing-file-modified-sort="1701041822163" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="0" data-listing-date-sort="1700089200000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/opioids-long-term-outcomes.html">The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data</a>.
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Michelle Dowsey,
+    
+    
+    
       Peter Choong,
+    
+    
     <i>Family Practice</i>
     2023; In Press.
   </div>
-  <div data-index="1" data-listing-date-sort="1699441200000" data-listing-file-modified-sort="1699472506568" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="1" data-listing-date-sort="1699484400000" data-listing-file-modified-sort="1723472643857" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/healthy-heart-study-protocol.html">Protocol for a three-arm randomised controlled trial of healthy grocery delivery in the usual care for adults recovering from an acute coronary event</a>.
+    
+    
       Andrew Reynolds,
+    
+    
+    
       Fiona Hood,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Alastair Ross,
+    
+    
+    
       Silke Neumann,
+    
+    
+    
       Robin Turner,
+    
+    
+    
       Ella Iosua,
+    
+    
+    
       Rajesh Katare,
+    
+    
+    
       Aysu Shahin,
+    
+    
+    
       Zi-yi Kok,
+    
+    
+    
       Huan Chan,
+    
+    
+    
       Sean Coffey,
+    
+    
+    
       Jim Mann,
+    
+    
     <i>BMJ Open</i>
-    2023; In Press.
+    2023; 13:e074278.
   </div>
-  <div data-index="2" data-listing-date-sort="1693137600000" data-listing-file-modified-sort="1700078785181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="2" data-listing-date-sort="1693173600000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/extensor-tendon-trial.html">Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial</a>.
+    
+    
       Miranda Bühler,
+    
+    
+    
       David Gwynne-Jones,
+    
+    
+    
       Michael Chin,
+    
+    
+    
       Joshua Woodside,
+    
+    
+    
       Jamie Gough,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Journal of Hand Therapy</i>
     2023; 36(2):363-377.
   </div>
-  <div data-index="3" data-listing-date-sort="1688126400000" data-listing-file-modified-sort="1699473784182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="3" data-listing-date-sort="1688162400000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/mcid-viewpoint.html">Who should judge treatment effects as unimportant?</a>.
+    
+    
       Christina Abdel-Shaheed,
+    
+    
+    
       Stephanie Mathieson,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Ann-Mason Furmage,
+    
+    
+    
       Chris Maher,
+    
+    
     <i>Journal of Physiotherapy</i>
     2023; 69(3):133-135.
   </div>
-  <div data-index="4" data-listing-date-sort="1684670400000" data-listing-file-modified-sort="1699473917625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="4" data-listing-date-sort="1684706400000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/kneecaps-trial-protocol.html">Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS)</a>.
+    
+    
       Ben Darlow,
+    
+    
+    
       Melanie Brown,
+    
+    
+    
       James Stanley,
+    
+    
+    
       Haxby Abbott,
+    
+    
+    
       Andrew Briggs,
+    
+    
+    
       Jane Clark,
+    
+    
+    
       Gareth Frew,
+    
+    
+    
       Rebecca Grainger,
+    
+    
+    
       Fiona Hood,
+    
+    
+    
       Ben Hudson,
+    
+    
+    
       Rāwiri Keenan,
+    
+    
+    
       Carlo Marra,
+    
+    
+    
       Eileen McKinlay,
+    
+    
+    
       Alison Pask,
+    
+    
+    
       Andrés Pierobon,
+    
+    
+    
       Shirley Simmonds,
+    
+    
+    
       Loren Vincent,
+    
+    
+    
       Sarah Dean,
+    
+    
     <i>Musculoskeletal Care</i>
     2023; In Press.
   </div>
-  <div data-index="5" data-listing-date-sort="1684411200000" data-listing-file-modified-sort="1700078862331" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="5" data-listing-date-sort="1684447200000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/epidemiology-of-acl-injury-in-nz.html">Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status</a>.
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Injury Prevention</i>
     2023; 29:213-218.
   </div>
-  <div data-index="6" data-listing-date-sort="1682251200000" data-listing-file-modified-sort="1700078831164" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="6" data-listing-date-sort="1682287200000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/stair-climb-test.html">Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis</a>.
+    
+    
       Saurab Sharma,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Anupa Pathak,
+    
+    
+    
       Jason Chua,
+    
+    
+    
       David Gwynne-Jones,
+    
+    
+    
       Kim L. Bennell,
+    
+    
+    
       Ben Metcalf,
+    
+    
+    
       Rana S. Hinman,
+    
+    
+    
       Boon-Whatt Lim,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Arthritis Care &amp; Research</i>
     2023; 75(5):1147-1157.
   </div>
-  <div data-index="7" data-listing-date-sort="1677582000000" data-listing-file-modified-sort="1700079070841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="7" data-listing-date-sort="1677625200000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/free-implementation-evaluation.html">A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Sarah Dean,
+    
+    
+    
       James Stanley,
+    
+    
+    
       Sue Garrett,
+    
+    
+    
       Fiona Mathieson,
+    
+    
+    
       Anthony Dowell,
+    
+    
+    
       Ben Darlow,
+    
+    
     <i>Applied Health Economics and Health Policy</i>
     2023; 21:253-262.
   </div>
-  <div data-index="8" data-listing-date-sort="1672657200000" data-listing-file-modified-sort="1700079090971" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="8" data-listing-date-sort="1672700400000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/gluteal-tendinopathy-econ-eval.html">Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Rebecca Mellor,
+    
+    
+    
       Alison Grimaldi,
+    
+    
+    
       Kim Bennell,
+    
+    
+    
       Bill Vicenzino,
+    
+    
     <i>Journal of Physiotherapy</i>
     2023; 69(1):35-41.
   </div>
-  <div data-index="9" data-listing-date-sort="1671015600000" data-listing-file-modified-sort="1700079027787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="9" data-listing-date-sort="1671058800000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/econ-eval-readers-guide.html">Economic evaluation: a reader’s guide to studies of cost-effectiveness</a>.
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Saurab Sharma,
+    
+    
+    
       Anupa Pathak,
+    
+    
+    
       Jason Y. Y. Chua,
+    
+    
     <i>Archives of Physiotherapy</i>
     2022; 12:28.
   </div>
-  <div data-index="10" data-listing-date-sort="1655294400000" data-listing-file-modified-sort="1700079227229" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="10" data-listing-date-sort="1655330400000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/master-feasibility-trial.html">Tailored exercise and manual therapy versus standardised exercise for patients with shoulder subacromial pain: a feasibility randomised controlled trial (the Otago MASTER trial)</a>.
+    
+    
       Daniel C. Ribeiro,
+    
+    
+    
       Zohreh Jafarian Tangrood,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Gisela Sole,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>BMJ Open</i>
     2022; 12:e053572.
   </div>
-  <div data-index="11" data-listing-date-sort="1652097600000" data-listing-file-modified-sort="1700079505245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="11" data-listing-date-sort="1652133600000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/psfs-measurement-properties.html">Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines</a>.
+    
+    
       Anupa Pathak,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Saurab Sharma,
+    
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Daniel Cury Ribeiro,
+    
+    
+    
       Jason Chua,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Journal of Orthopaedic &amp; Sports Physical Therapy</i>
     2022; 52(5):262-275.
   </div>
-  <div data-index="12" data-listing-date-sort="1643367600000" data-listing-file-modified-sort="1700079248636" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="12" data-listing-date-sort="1643410800000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/mcda-and-cea.html">Prioritizing Healthcare Interventions: A Comparison of Multicriteria Decision Analysis and Cost-Effectiveness Analysis</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       Jason Chua,
+    
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Anupa Pathak,
+    
+    
+    
       Saurab Sharma,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Value in Health</i>
     2022; 25(2):268-275.
   </div>
-  <div data-index="13" data-listing-date-sort="1628251200000" data-listing-file-modified-sort="1700079262172" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="13" data-listing-date-sort="1628287200000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/moa-ii-cea.html">Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial</a>.
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Saurab Sharma,
+    
+    
+    
       Anupa Pathak,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Musculoskeletal Science and Practice</i>
     2021; 56:102439.
   </div>
-  <div data-index="14" data-listing-date-sort="1621425600000" data-listing-file-modified-sort="1700079674652" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="14" data-listing-date-sort="1621461600000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/tja-highly-cost-effective.html">Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up</a>.
+    
+    
       Ross A. Wilson,
+    
+    
+    
       David P. Gwynne-Jones,
+    
+    
+    
       Trudy A. Sullivan,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Journal of Arthroplasty</i>
     2021; 36(6):1864-1872.e10.
   </div>
-  <div data-index="15" data-listing-date-sort="1611831600000" data-listing-file-modified-sort="1700079125228" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="15" data-listing-date-sort="1611874800000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/healthcare-costs-lbp-sydney.html">Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia</a>.
+    
+    
       Danielle M. Coombs,
+    
+    
+    
       Gustavo C. Machado,
+    
+    
+    
       Bethan Richards,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Jimmy Chan,
+    
+    
+    
       Hannah Storey,
+    
+    
+    
       Chris G. Maher,
+    
+    
     <i>Lancet Regional Health - Western Pacific</i>
     2021; 7:100089.
   </div>
-  <div data-index="16" data-listing-date-sort="1608548400000" data-listing-file-modified-sort="1700078956202" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="16" data-listing-date-sort="1608591600000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/cost-effectiveness-adjunctive-interventions.html">The cost-effectiveness of recommended adjunctive interventions for knee osteoarthritis: Results from a computer simulation model</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       Jason Chua,
+    
+    
+    
       Andrew M. Briggs,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Osteoarthritis and Cartilage Open</i>
     2020; 2(4):100123.
   </div>
-  <div data-index="17" data-listing-date-sort="1608548400000" data-listing-file-modified-sort="1700079633372" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="17" data-listing-date-sort="1608591600000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/stakeholders-preferences-oa-interventions.html">Stakeholders’ preferences for osteoarthritis interventions in health services: A cross-sectional study using multi-criteria decision analysis</a>.
+    
+    
       Jason Chua,
+    
+    
+    
       Paul Hansen,
+    
+    
+    
       Andrew M. Briggs,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       David Gwynne-Jones,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Osteoarthritis and Cartilage Open</i>
     2020; 2(4):100110.
   </div>
-  <div data-index="18" data-listing-date-sort="1602500400000" data-listing-file-modified-sort="1700078929738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="18" data-listing-date-sort="1602540000000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/chronic-opioid-risk-factors.html">Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data</a>.
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Ross A. Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Michelle M. Dowsee,
+    
+    
+    
       Peter F. M. Choong,
+    
+    
     <i>Journal of Arthroplasty</i>
     2020; 35(11):3099-3107.e14.
   </div>
-  <div data-index="19" data-listing-date-sort="1600603200000" data-listing-file-modified-sort="1700079417980" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="19" data-listing-date-sort="1600639200000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/outcomes-joint-clinic-5-years-response.html">Response to Letter to the Editor on "The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?"</a>.
+    
+    
       David P. Gwynne-Jones,
+    
+    
+    
       Julia H. Gwynne-Jones,
+    
+    
+    
       Ross A. Wilson,
+    
+    
     <i>Journal of Arthroplasty</i>
     2020; 35(10):3060-3061.
   </div>
-  <div data-index="20" data-listing-date-sort="1598875200000" data-listing-file-modified-sort="1700079701676" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="20" data-listing-date-sort="1598911200000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/tja-qol-scores.html">The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?</a>.
+    
+    
       David P. Gwynne-Jones,
+    
+    
+    
       Trudy Sullivan,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Arthroplasty Today</i>
     2020; 6(3):585-589.e1.
   </div>
-  <div data-index="21" data-listing-date-sort="1597665600000" data-listing-file-modified-sort="1700079451499" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="21" data-listing-date-sort="1597701600000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/outcomes-joint-clinic-5-years.html">The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?</a>.
+    
+    
       David P. Gwynne-Jones,
+    
+    
+    
       Julia H. Gwynne-Jones,
+    
+    
+    
       Ross A. Wilson,
+    
+    
     <i>Journal of Arthroplasty</i>
     2020; 35(9):2350-2356.e1.
   </div>
-  <div data-index="22" data-listing-date-sort="1597579200000" data-listing-file-modified-sort="1700079390189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="22" data-listing-date-sort="1597615200000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/opioid-use-tjr.html">Opioid Use and Total Joint Replacement</a>.
+    
+    
       Cade Shadbolt,
+    
+    
+    
       Chris Shilling,
+    
+    
+    
       Maria C. Inacio,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Peter F. M. Choong,
+    
+    
+    
       Michelle M. Dowsey,
+    
+    
     <i>Current Rheumatology Reports</i>
     2020; 22:58.
   </div>
-  <div data-index="23" data-listing-date-sort="1590408000000" data-listing-file-modified-sort="1700079317196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="23" data-listing-date-sort="1590444000000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/national-referral-prioritisation-tool.html">National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery</a>.
+    
+    
       David P. Gwynne-Jones,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Chris McEwan,
+    
+    
     <i>ANZ Journal of Surgery</i>
     2020; 90(9):1738-1742.
   </div>
-  <div data-index="24" data-listing-date-sort="1589889600000" data-listing-file-modified-sort="1700079190059" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="24" data-listing-date-sort="1589925600000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/joint-clinic-outcomes.html">The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery</a>.
+    
+    
       Julia H. Gwynne-Jones,
+    
+    
+    
       Ross A. Wilson,
+    
+    
+    
       Jeremy M. Y. Wong,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       David P. Gwynne-Jones,
+    
+    
     <i>Journal of Arthroplasty</i>
     2020; 35(6):1497-1503.
   </div>
-  <div data-index="25" data-listing-date-sort="1580986800000" data-listing-file-modified-sort="1700079466395" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="25" data-listing-date-sort="1581030000000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/projected-burden-knee-oa-response.html">The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision---a response</a>.
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Ross Wilson,
+    
+    
     <i>New Zealand Medical Journal</i>
     2020; 133(1509):77-78.
   </div>
-  <div data-index="26" data-listing-date-sort="1576148400000" data-listing-file-modified-sort="1700079352397" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="26" data-listing-date-sort="1576191600000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/opioid-use-joint-replacement-surgery.html">Long-term opioid medication use before and after joint replacement surgery in New Zealand</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       Yana Pryymachenko,
+    
+    
+    
       Richard Audas,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>New Zealand Medical Journal</i>
     2019; 132(1507):33-47.
   </div>
-  <div data-index="27" data-listing-date-sort="1570100400000" data-listing-file-modified-sort="1700079482300" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="27" data-listing-date-sort="1570140000000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/projected-burden-knee-oa.html">The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>New Zealand Medical Journal</i>
     2019; 132(1503):53-65.
   </div>
-  <div data-index="28" data-listing-date-sort="1567944000000" data-listing-file-modified-sort="1700079050827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="28" data-listing-date-sort="1567980000000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/free-approach-rct.html">The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial</a>.
+    
+    
       Ben Darlow,
+    
+    
+    
       James Stanley,
+    
+    
+    
       Sarah Dean,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Sue Garrett,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Fiona Mathieson,
+    
+    
+    
       Anthony Dowell,
+    
+    
     <i>PLOS Medicine</i>
     2019; 16(9):e1002897.
   </div>
-  <div data-index="29" data-listing-date-sort="1544612400000" data-listing-file-modified-sort="1700079299741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="29" data-listing-date-sort="1544655600000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/moa-trial-2-year-cost-effectiveness.html">Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial</a>.
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Daniel Pinto,
+    
+    
+    
       Cathy M. Chapple,
+    
+    
+    
       Alexis A. Wright,
+    
+    
     <i>Osteoarthritis and Cartilage</i>
     2019; 27(3):424-434.
   </div>
-  <div data-index="30" data-listing-date-sort="1530619200000" data-listing-file-modified-sort="1700078891561" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="30" data-listing-date-sort="1530655200000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/apc-effects-bmi-nz.html">Age, period and cohort effects on body mass index in New Zealand, 1997--2038</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Australian and New Zealand Journal of Public Health</i>
     2018; 42(4):396-402.
   </div>
-  <div data-index="31" data-listing-date-sort="1521716400000" data-listing-file-modified-sort="1700078996890" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="31" data-listing-date-sort="1521759600000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/development-nzmoa-model.html">Development and validation of a new population-based simulation model of osteoarthritis in New Zealand</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Osteoarthritis and Cartilage</i>
     2018; 26(4):531-539.
   </div>
-  <div data-index="32" data-listing-date-sort="1519124400000" data-listing-file-modified-sort="1700079333869" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="32" data-listing-date-sort="1519167600000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/oa-impacts-multiple-dimensions-hrqol.html">Radiographic knee osteoarthritis impacts multiple dimensions of health-related quality of life: Data from the Osteoarthritis Initiative</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       Tony Blakely,
+    
+    
+    
       J. Haxby Abbott,
+    
+    
     <i>Rheumatology</i>
     2018; 57(5):891-899.
   </div>
-  <div data-index="33" data-listing-date-sort="1508756400000" data-listing-file-modified-sort="1700079528973" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="33" data-listing-date-sort="1508796000000" data-listing-file-modified-sort="1723472331810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/qol-burden-knee-oa.html">The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation</a>.
+    
+    
       J. Haxby Abbott,
+    
+    
+    
       Ilana M. Usiskin,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Paul Hansen,
+    
+    
+    
       Elena Losina,
+    
+    
     <i>PLoS ONE</i>
     2017; 12(10):e0185676.
   </div>
-  <div data-index="34" data-listing-date-sort="1450263600000" data-listing-file-modified-sort="1699474154526" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="34" data-listing-date-sort="1450306800000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/does-governance-cause-growth.html">Does Governance Cause Growth? Evidence from China</a>.
+    
+    
       Ross Wilson,
+    
+    
     <i>World Development</i>
     2016; 79:138-151.
   </div>
-  <div data-index="35" data-listing-date-sort="1392634800000" data-listing-file-modified-sort="1692758936716" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="35" data-listing-date-sort="1392678000000" data-listing-file-modified-sort="1689022892193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/injured-patient-general-population-valuations.html">A comparison of injured patient and general population valuations of EQ-5D health states for New Zealand</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       Paul Hansen,
+    
+    
+    
       John Langley,
+    
+    
+    
       Sarah Derrett,
+    
+    
     <i>Health and Quality of Life Outcomes</i>
     2014; 12:21.
   </div>
-  <div data-index="36" data-listing-date-sort="1363604400000" data-listing-file-modified-sort="1700078976585" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="36" data-listing-date-sort="1363647600000" data-listing-file-modified-sort="1723472331808" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/costs-injury-nz.html">Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       Sarah Derrett,
+    
+    
+    
       Paul Hansen,
+    
+    
+    
       John Desmond Langley,
+    
+    
     <i>Injury Prevention</i>
     2013; 19:124-129.
   </div>
-  <div data-index="37" data-listing-date-sort="1340020800000" data-listing-file-modified-sort="1700079142394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="37" data-listing-date-sort="1340056800000" data-listing-file-modified-sort="1723472331809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/influence-of-undergraduate-rural-placement.html">Does the positive influence of an undergraduate rural placement persist into postgraduate years?</a>.
+    
+    
       Martyn Williamson,
+    
+    
+    
       Ross Wilson,
+    
+    
+    
       Roz C. McKechnie,
+    
+    
+    
       Jim Ross,
+    
+    
     <i>Rural and Remote Health</i>
     2012; 12(2):2011.
   </div>
-  <div data-index="38" data-listing-date-sort="1339588800000" data-listing-file-modified-sort="1692758936728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="38" data-listing-date-sort="1339624800000" data-listing-file-modified-sort="1689022892193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <a href="./publications/retrospective-evaluation-versus-population-norms.html">Retrospective evaluation versus population norms for the measurement of baseline health status</a>.
+    
+    
       Ross Wilson,
+    
+    
+    
       Sarah Derrett,
+    
+    
+    
       Paul Hansen,
+    
+    
+    
       John Langley,
+    
+    
     <i>Health and Quality of Life Outcomes</i>
     2012; 10:68.
   </div>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -706,78 +1451,98 @@ No matching items
 <section id="conference-presentations" class="level3">
 <h3 class="anchored" data-anchor-id="conference-presentations">Conference presentations</h3>
 <div id="listing-conferences" class="quarto-listing quarto-listing-container-custom">
-  <div data-index="0" data-listing-date-sort="1698836400000" data-listing-file-modified-sort="1698709436722" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="0" data-listing-date-sort="1698879600000" data-listing-file-modified-sort="1723472331787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     Osteoarthritis Aotearoa Research Network conference.
     Dunedin, November 2023.
     <i>The diagnosis and management of osteoarthritis in Aotearoa New Zealand primary care</i>
+    
   </div>
-  <div data-index="1" data-listing-date-sort="1698058800000" data-listing-file-modified-sort="1698709422746" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="1" data-listing-date-sort="1698098400000" data-listing-file-modified-sort="1723472331787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     Australia and New Zealand Musculoskeletal Clinical Trials Network (ANZMUSC) Annual Scientific Meeting.
     Sydney [Virtual], October 2023.
     <i>Economic evaluation in a clinical trial: the LEAP trial</i>
+    
   </div>
-  <div data-index="2" data-listing-date-sort="1667214000000" data-listing-file-modified-sort="1698709243377" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="2" data-listing-date-sort="1667257200000" data-listing-file-modified-sort="1723472331787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     Osteoarthritis Aotearoa Research Network conference.
     Wellington, November 2022.
     <i>Navigating the early-mid career research pathway</i>
     [invited presentation]
   </div>
-  <div data-index="3" data-listing-date-sort="1667214000000" data-listing-file-modified-sort="1698709432426" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="3" data-listing-date-sort="1667257200000" data-listing-file-modified-sort="1723472331787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     Osteoarthritis Aotearoa Research Network conference.
     Wellington, November 2022.
     <i>Optimal treatment of hip and knee OA across the disease course</i>
+    
   </div>
-  <div data-index="4" data-listing-date-sort="1635678000000" data-listing-file-modified-sort="1692758936617" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="4" data-listing-date-sort="1635721200000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     University of Otago Division of Health Sciences, Early and Mid-Career Researcher Annual Conference 2021.
     Dunedin, November 2021.
     <i>Incorporating economic evaluation in clinical research to support research impact</i>
+    
   </div>
-  <div data-index="5" data-listing-date-sort="1635678000000" data-listing-file-modified-sort="1692758936618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="5" data-listing-date-sort="1635721200000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     2021 Back and Neck Pain Forum.
     Global virtual conference, November 2021.
     <i>The effect of a guideline-implementation intervention (the FREE approach) on the primary care management of low back pain: Economic evaluation</i>
+    
   </div>
-  <div data-index="6" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1692758936619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="6" data-listing-date-sort="1569880800000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     New Zealand Orthopaedic Association Annual Scientific Meeting 2019.
     Dunedin, October 2019.
     <i>The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure</i>
+    
   </div>
-  <div data-index="7" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1692758936622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="7" data-listing-date-sort="1569880800000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     OARSI World Congress 2019.
     Toronto, May 2019.
     <i>The cost-effectiveness of recommended adjunctive osteoarthritis management options: Results from a computer simulation model</i>
     [poster presentation]
   </div>
-  <div data-index="8" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1692758936623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="8" data-listing-date-sort="1569880800000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     OARSI World Congress 2019.
     Toronto, May 2019.
     <i>Integrating values and preferences with the best available evidence: A multi-criteria decision analysis approach</i>
     [poster presentation]
   </div>
-  <div data-index="9" data-listing-date-sort="1569841200000" data-listing-file-modified-sort="1692758936623" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="9" data-listing-date-sort="1569880800000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     OARSI World Congress 2019.
     Toronto, May 2019.
     <i>Projecting the healthcare burden of knee osteoarthritis in New Zealand: Results from a computer simulation model</i>
     [poster presentation]
   </div>
-  <div data-index="10" data-listing-date-sort="1477911600000" data-listing-file-modified-sort="1692758936619" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="10" data-listing-date-sort="1477954800000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     ISPOR 19<sup>th</sup> Annual European Congress.
     Vienna, October–November 2016.
     <i>Modelling total knee replacement surgery for osteoarthritis in New Zealand: Validation of a population-based state-transition microsimulation model</i>
     [poster presentation]
   </div>
-  <div data-index="11" data-listing-date-sort="1475233200000" data-listing-file-modified-sort="1692758936624" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="11" data-listing-date-sort="1475272800000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     Society for Medical Decision Making 38<sup>th</sup> Annual Meeting.
     Vancouver, October 2016.
     <i>The health-loss burden of osteoarthritis in New Zealand: Results from a new computer simulation model</i>
     [poster presentation]
   </div>
-  <div data-index="12" data-listing-date-sort="1456743600000" data-listing-file-modified-sort="1692758936621" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="12" data-listing-date-sort="1456786800000" data-listing-file-modified-sort="1689022892181" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     OARSI World Congress 2016.
     Amsterdam, March–April 2016.
     <i>Health-loss burden of osteoarthritis in New Zealand: Computer-simulation estimate and between-model cross-validation</i>
     [poster presentation]
   </div>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -787,72 +1552,160 @@ No matching items
 <h3 class="anchored" data-anchor-id="other-reports">Other reports</h3>
 <div id="listing-other-reports" class="quarto-listing quarto-listing-container-custom">
 
-  <div data-index="0" data-listing-date-sort="1694088000000" data-listing-file-modified-sort="1698709023177" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+  <div data-index="0" data-listing-date-sort="1694124000000" data-listing-file-modified-sort="1723472331807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>The long-term effects of opioid use before joint replacement surgery: A dose-response trial emulation with New Zealand linked register data. Analysis plan</i>.
+    
       With Yana Pryymachenko, Haxby Abbott, Peter Choong, and Michelle Dowsey.
+    
+    
       
+    
+    
+    
       Available at <a href="https://doi.org/10.17605/osf.io/g52kt">https://doi.org/10.17605/osf.io/g52kt</a>
+    
   </div>
-  <div data-index="1" data-listing-date-sort="1688472000000" data-listing-file-modified-sort="1698708958937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="1" data-listing-date-sort="1688508000000" data-listing-file-modified-sort="1723472331807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>The health system and societal costs of osteoarthritis in New Zealand: Methodology and results of the process for funding an optimal matching model</i>.
+    
       With Haxby Abbott and Yana Pryymachenko.
+    
+    
       
+    
+    
+    
       Available at <a href="https://doi.org/10.6084/m9.figshare.22661551.v3">https://doi.org/10.6084/m9.figshare.22661551.v3</a>
+    
   </div>
-  <div data-index="2" data-listing-date-sort="1685966400000" data-listing-file-modified-sort="1698708904376" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="2" data-listing-date-sort="1686002400000" data-listing-file-modified-sort="1723472331806" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>Long-term outcomes of cruciate ligament injury: a revised matched cohort analysis of New Zealand linked register data. Analysis plan</i>.
+    
       With Yana Pryymachenko, Haxby Abbott, and Ricky Bell.
+    
+    
       
+    
+    
+    
       Available at <a href="https://doi.org/10.17605/osf.io/9yu5r">https://doi.org/10.17605/osf.io/9yu5r</a>
+    
   </div>
-  <div data-index="3" data-listing-date-sort="1681387200000" data-listing-file-modified-sort="1698708859835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="3" data-listing-date-sort="1681423200000" data-listing-file-modified-sort="1723472331805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>Long-term outcomes of cruciate ligament injury: attempting a matched cohort analysis of New Zealand linked register data</i>.
+    
       With Yana Pryymachenko and Haxby Abbott.
+    
+    
       
+    
+    
+    
       Available at <a href="https://doi.org/10.17605/osf.io/zfuyg">https://doi.org/10.17605/osf.io/zfuyg</a>
+    
   </div>
-  <div data-index="4" data-listing-date-sort="1651752000000" data-listing-file-modified-sort="1698708815289" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="4" data-listing-date-sort="1651788000000" data-listing-file-modified-sort="1723472331807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>The health system and societal costs of osteoarthritis in New Zealand: Analysis plan</i>.
+    
       With Haxby Abbott, Yana Pryymachenko, Deborah Schofield, and Rupendra Shrestha.
+    
+    
       
+    
+    
+    
       Available at <a href="https://doi.org/10.6084/m9.figshare.16900156">https://doi.org/10.6084/m9.figshare.16900156</a>
+    
   </div>
-  <div data-index="5" data-listing-date-sort="1627300800000" data-listing-file-modified-sort="1692758936705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="5" data-listing-date-sort="1627336800000" data-listing-file-modified-sort="1689022892189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>The long-term impacts of opioid use before and after joint replacement surgery: Report on finding the optimal matching model</i>.
+    
       With Yana Pryymachenko and Haxby Abbott.
+    
+    
       
+    
+    
+    
       Available at <a href="https://hdl.handle.net/10523/12166">https://hdl.handle.net/10523/12166</a>
+    
   </div>
-  <div data-index="6" data-listing-date-sort="1617102000000" data-listing-file-modified-sort="1692758936703" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="6" data-listing-date-sort="1617141600000" data-listing-file-modified-sort="1689022892189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>How New Zealand's healthcare system is failing people with osteoarthritis</i>.
+    
       With Haxby Abbott.
+    
+    
       An article for a general audience on problems with the management of osteoarthritis in the New Zealand healthcare system, and recommendations for delivering more effective and cost-effective treatments, based on our HRC-funded research.
+    
+    
       The Conversation, 31 March 2021.
+    
+    
       Available at <a href="https://theconversation.com/how-new-zealands-healthcare-system-is-failing-people-with-osteoarthritis-157138">https://theconversation.com/how-new-zealands-healthcare-system-is-failing-people-with-osteoarthritis-157138</a>
+    
   </div>
-  <div data-index="7" data-listing-date-sort="1606734000000" data-listing-file-modified-sort="1692758936702" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="7" data-listing-date-sort="1606777200000" data-listing-file-modified-sort="1689022892189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>CMOR Evidence Table</i>.
+    
+    
       An interactive web application presenting results from a research project, <i>The Impact and Management of Rising Osteoarthritis Burden</i>, on stakeholder preferences and cost-effectiveness of different treatments for knee osteoarthritis
+    
+    
+    
       Available at <a href="http://cmor-shiny.otago.ac.nz">http://cmor-shiny.otago.ac.nz</a>
+    
   </div>
-  <div data-index="8" data-listing-date-sort="1598875200000" data-listing-file-modified-sort="1692758936703" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="8" data-listing-date-sort="1598911200000" data-listing-file-modified-sort="1689022892189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>Baseline Data Capture: Cultural Safety, Partnership, and Health Equity Initiatives</i>.
+    
       With Shirley Simmonds, Marnie Carter, and Nick Preval.
+    
+    
       For the Medical Council of New Zealand.
+    
+    
       Allen + Clarke, Wellington, September 2020.
+    
+    
   </div>
-  <div data-index="9" data-listing-date-sort="1582974000000" data-listing-file-modified-sort="1692758936704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="9" data-listing-date-sort="1583017200000" data-listing-file-modified-sort="1689022892189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>Evaluation of the Mobility Action Programme (MAP), Cycle 2 report</i>.
+    
       With Jessie Wilson, Haxby Abbott, Brendan Stevenson, and Yasmine Kayem.
+    
+    
       For the New Zealand Ministry of Health.
+    
+    
       Allen + Clarke, Wellington, March 2020.
+    
+    
   </div>
-  <div data-index="10" data-listing-date-sort="1543575600000" data-listing-file-modified-sort="1692758936704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" class="listing-citation">
+
+  <div data-index="10" data-listing-date-sort="1543618800000" data-listing-file-modified-sort="1689022892189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" class="listing-citation">
     <i>Evaluation of the Mobility Action Programme (MAP), Cycle 1 report</i>.
+    
       With Nicole Waru, Jessie Wilson, Carolyn Hooper, Nick Preval, and J Haxby Abbott.
+    
+    
       For the New Zealand Ministry of Health.
+    
+    
       Allen + Clarke, Wellington, December 2018.
+    
+    
   </div>
+
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -905,6 +1758,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -973,13 +1853,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'alternate';
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -1014,18 +1896,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1057,11 +1928,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1071,8 +1981,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1084,7 +2003,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1128,6 +2170,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1153,6 +2196,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1213,6 +2282,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
