@@ -1,7 +1,0 @@
----
-title: "The diagnosis and management of osteoarthritis in Aotearoa New Zealand primary care"
-subtitle: "Osteoarthritis Aotearoa Research Network conference"
-date: "2023-11-02"
-location: "Dunedin"
-meeting-date: "November 2023"
----

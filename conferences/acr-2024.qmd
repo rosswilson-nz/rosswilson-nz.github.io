@@ -1,8 +1,0 @@
----
-title: "Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the \"Start-Low Go-Slow\" approach for gout"
-subtitle: "ACR Convergence"
-date: "2024-11"
-location: "Washington, D.C."
-meeting-date: "November 2024"
-type: "poster presentation"
----

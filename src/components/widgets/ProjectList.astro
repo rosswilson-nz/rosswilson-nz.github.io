@@ -1,0 +1,23 @@
+---
+import DescriptionList from './DescriptionList.astro';
+import Headline from '../ui/Headline.astro';
+import WidgetWrapper from '../ui/WidgetWrapper.astro';
+
+const { projects, oldprojects, id, isDark = false, classes = {}, bg = await Astro.slots.render('bg') } = Astro.props;
+---
+
+<WidgetWrapper id={id ? id : 'research-projects'} isDark={isDark} containerClass={`max-w-5xl mx-auto pt-0 ${classes?.container ?? ''}`} bg={bg}>
+  <Headline
+    title="Research Projects"
+    classes={{
+      container: 'mb-4 md:mb-6',
+    }}
+  />
+  <DescriptionList projects={projects} />
+  <details class="mt-4 ring-1 shadow-lg rounded-lg text-default">
+    <summary class="px-3 py-1 text-md font-semibold select-none">Previous research projects</summary>
+    <div class="m-3">
+      <DescriptionList projects={oldprojects} />
+    </div>
+  </details>
+</WidgetWrapper>

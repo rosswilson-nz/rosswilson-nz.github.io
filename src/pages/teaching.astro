@@ -1,0 +1,27 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import TeachingResources from '~/components/widgets/TeachingResources.astro';
+
+const metadata = {
+  title: 'Teaching',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero>
+    <Fragment slot="title">
+      {metadata.title}
+    </Fragment>
+    <Fragment slot="subtitle">
+      <p>
+        I convene a weekly <em>Lunch'n'Learn</em> workshop/seminar series for PhD students and early career researchers at
+        CMOR.
+      </p>
+      <p>Some of the slide decks and other resources from these workshops are available below (more to be added)</p>
+    </Fragment>
+  </Hero>
+  <TeachingResources />
+</Layout>

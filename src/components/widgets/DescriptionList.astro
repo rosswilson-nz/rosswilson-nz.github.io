@@ -1,0 +1,13 @@
+---
+import Description from './Description.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  projects: Array<CollectionEntry<'projects'>>;
+}
+
+const { projects } = Astro.props;
+---
+
+<div class="grid mx-auto gap-8 gap-y-4 md:gap-y-8">
+  {projects.map((project) => <Description project={project} />)}
+</div>

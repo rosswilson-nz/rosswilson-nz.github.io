@@ -1,0 +1,30 @@
+---
+import FormattedDate from './FormattedDate.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  publication: CollectionEntry<'other-publications'>;
+}
+const { publication } = Astro.props;
+---
+
+<em>{publication.data.title}</em>.
+{publication.data.with != undefined ? <span>With {publication.data.with}.</span> : ''}
+{publication.data.description != undefined ? <span>{publication.data.description}</span> : ''}
+{
+  publication.data.published != undefined ? (
+    <span>{publication.data.published}.</span>
+  ) : (
+    <span>
+      <FormattedDate date={publication.data.date} />.
+    </span>
+  )
+}
+{
+  publication.data.url != undefined ? (
+    <span>
+      Available at <a href={publication.data.url}>{publication.data.url}</a>
+    </span>
+  ) : (
+    ''
+  )
+}.

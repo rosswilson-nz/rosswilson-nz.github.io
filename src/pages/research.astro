@@ -1,0 +1,51 @@
+---
+import { getCollection } from 'astro:content';
+
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import ProjectList from '~/components/widgets/ProjectList.astro';
+import PublicationList from '~/components/widgets/PublicationList.astro';
+
+const metadata = {
+  title: 'My Research',
+  ignoreTitleTemplate: true,
+};
+
+const projects = await getCollection('projects');
+const oldProjects = await getCollection('old-projects');
+const journalArticles = (await getCollection('articles')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const otherPublications = (await getCollection('other-publications')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+const conferencePresentations = (await getCollection('conferences')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<Layout metadata={metadata}>
+  <Hero>
+    <Fragment slot="title">
+      {metadata.title}
+    </Fragment>
+  </Hero>
+  <div class="flex flex-row max-w-7xl mx-auto">
+    <div class="max-lg:basis-9/12">
+      <ProjectList projects={projects} oldprojects={oldProjects} />
+      <PublicationList
+        articles={journalArticles}
+        otherpublications={otherPublications}
+        conferences={conferencePresentations}
+      />
+    </div>
+    <div class="max-lg:basis-3/12">
+      <div class="prose prose-default prose-sm prose-ul:list-none text-right sticky top-24 pr-4 md:pr-6">
+        <ul>
+        On this page:
+        <li><a href="#research-projects">Research Projects</a></li>
+        <li><a href="#publications">Publications and Outputs</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</Layout>

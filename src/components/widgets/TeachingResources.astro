@@ -1,0 +1,25 @@
+---
+import Headline from '../ui/Headline.astro';
+import WidgetWrapper from '../ui/WidgetWrapper.astro';
+
+import { Content } from '~/markdown/teaching-resources.md';
+
+const { id, isDark = false, classes = {}, bg = await Astro.slots.render('bg') } = Astro.props;
+---
+
+<WidgetWrapper
+  id={id}
+  isDark={isDark}
+  containerClass={`max-w-5xl mx-auto pt-4 ${classes?.container ?? ''}`}
+  bg={bg}
+>
+  <Headline
+    title="Resources"
+    classes={{
+      container: 'mb-4 md:mb-6 mt-8',
+    }}
+  />
+  <div class="prose prose-default max-w-none prose-li:leading-none">
+    <Content />
+  </div>
+</WidgetWrapper>

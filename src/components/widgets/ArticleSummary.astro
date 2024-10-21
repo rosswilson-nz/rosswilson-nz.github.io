@@ -1,0 +1,22 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  data: CollectionEntry<'articles'>;
+}
+
+import JournalCitation from './JournalCitation.astro';
+
+const { data } = Astro.props;
+const { Content } = await data.render();
+---
+
+<div class="mt-0.5 prose prose-default max-w-none">
+    <h1 class="mb-4">{data.data.title}</h1>
+    <h2 class="mt-0 italic">{data.data.journal}</h2>
+    <div class="text-sm">
+        <p>PUBLISHED<br>{data.data.date.toLocaleString('en-NZ', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
+        <p>CITATION<br><JournalCitation article={data} link=false /></p>
+    </div>
+    <h3 class="pt-4">Abstract</h3>
+    <Content />
+</div>

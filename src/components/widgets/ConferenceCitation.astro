@@ -1,0 +1,13 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  conference: CollectionEntry<'conferences'>;
+}
+const { conference } = Astro.props;
+---
+
+{conference.data.conference}.
+{conference.data.location},
+{conference.data.date.toLocaleString("en-NZ", { month: 'long', year: 'numeric' })}.
+<em>{conference.data.title}</em>
+{conference.data.type != undefined ? `[${conference.data.type}]` : ''}

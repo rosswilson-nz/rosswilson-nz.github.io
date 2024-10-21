@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+
+import Layout from '~/layouts/PageLayout.astro';
+import Article from '~/components/widgets/Article.astro';
+
+
+export async function getStaticPaths() {
+  const blogEntries = await getCollection('articles');
+  return blogEntries.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+
+const metadata = {
+  title: entry.data.title,
+  ignoreTitleTemplate: true,
+};
+---
+
+<!-- 'Description' is a placeholder for now -- need to define a new component to render the article info -->
+<Layout metadata={metadata}>
+  <Article data={entry}/>
+</Layout>
+

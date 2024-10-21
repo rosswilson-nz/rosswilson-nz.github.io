@@ -1,0 +1,33 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Profile from '~/components/widgets/Profile.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Footer from '~/components/widgets/Footer.astro';
+
+import { footerData } from '~/navigation';
+
+import { Content } from '~/markdown/about-me.md';
+
+const metadata = {
+  title: 'Ross Wilson',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <Profile src="/profile.jpg" />
+  <!-- Hero Widget ******************* -->
+
+  <Hero>
+    <Fragment slot="title">
+      {metadata.title}
+    </Fragment>
+    <Fragment slot="subtitle">
+      <div class="prose max-w-none prose-default">
+        <Content />
+      </div>
+    </Fragment>
+  </Hero>
+  <Footer {...footerData} />
+</Layout>

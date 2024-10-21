@@ -1,0 +1,87 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: 'src/assets/images'
+public_folder: '/public'
+
+collections:
+  - name: 'post'
+    label: 'Post'
+    folder: 'src/content/post'
+    create: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Category', name: 'category', widget: 'string' }
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        allow_add: true
+        allow_delete: true
+        collapsed: false
+        field: { label: 'Tag', name: 'tag', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'string' }
+      - { label: 'Publish Date', name: 'publishDate', widget: 'datetime', required: false }
+      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Content', name: 'body', widget: 'markdown' }
+  - name: 'articles'
+    label: 'Journal Articles'
+    label_singular: 'Journal Article'
+    folder: 'src/content/articles'
+    create: true
+    slug: '{{date}}-{{shortjournal}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Journal', name: 'journal', widget: 'string' }
+      - { label: 'Journal Shortcode', name: 'shortjournal', widget: 'string', hint: 'URL-safe; used in {{slug}}' }
+      - { label: 'Publication Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', time_format: false }
+      - label: 'Authors'
+        name: 'authors'
+        label_singular: 'Author'
+        widget: 'list'
+        allow_add: true
+        allow_delete: true
+        collapsed: false
+        field:
+          label: 'Author'
+          name: 'author'
+          widget: 'relation'
+          collection: 'authors'
+          search_fields: ['first', 'last']
+          value_field: '{{last}} {{initials}}'
+          display_fields: ['first', 'last']
+      - { label: 'Volume', name: 'volume', widget: 'string' }
+      - { label: 'Issue', name: 'issue', widget: 'string', required: false }
+      - { label: 'Pages', name: 'pages', widget: 'string' }
+      - { label: 'Year', name: 'year', widget: 'string' }
+      - { label: 'DOI', name: 'doi', widget: 'string', required: false }
+      - { label: 'Abstract', name: 'body', widget: 'markdown', required: false, modes: ['raw', 'rich_text'] }
+  - name: 'conferences'
+    label: 'Conferences'
+    label_singular: Conference
+    folder: src/content/conferences
+    create: true
+    slug: '{{date}}-{{conferenceslug}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Conference', name: 'conference', widget: 'string' }
+      - { label: 'Conference Shortcode', name: 'conferenceslug', widget: 'string', hint: 'URL-safe; used in {{slug}}' }
+      - { label: 'Date', name: 'date', widget: 'datetime', format: 'YYYY-MM', time_format: false }
+      - { label: 'Location', name: 'location', widget: 'string' }
+      - { label: 'Presentation type', name: 'type', widget: 'string', required: false }
+  - name: 'authors'
+    label: 'Authors'
+    label_singular: 'Author'
+    folder: 'src/content/authors'
+    extension: 'yaml'
+    create: true
+    slug: '{{last}}-{{initials}}'
+    summary: '{{first}} {{last}}'
+    editor: { preview: false }
+    fields: 
+      - { label: 'First Name', name: 'first', widget: 'string' }
+      - { label: 'Last Name', name: 'last', widget: 'string' }
+      - { label: 'Initials', name: 'initials', widget: 'string', hint: 'No spaces' }
+    
+

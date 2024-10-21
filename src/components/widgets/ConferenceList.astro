@@ -1,0 +1,27 @@
+---
+import { twMerge } from 'tailwind-merge';
+
+import ConferenceCitation from './ConferenceCitation.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  conferences: Array<CollectionEntry<'conferences'>>;
+}
+const { conferences } = Astro.props;
+---
+
+<div class="py-2">
+  <h3 class={twMerge('text-xl font-bold', 'text-lg font-medium leading-6 dark:text-white pb-2')}>
+    Conference presentations
+  </h3>
+  <ul class="list-none p-0 m-0">
+    {
+      conferences.map((conference) => (
+        <li>
+          <div class="prose prose-default prose-sm max-w-none">
+            <ConferenceCitation conference={conference} />
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</div>

@@ -1,0 +1,30 @@
+---
+import ArticleList from './ArticleList.astro';
+import OtherPublicationList from './OtherPublicationList.astro';
+import ConferenceList from './ConferenceList.astro';
+import Headline from '../ui/Headline.astro';
+import WidgetWrapper from '../ui/WidgetWrapper.astro';
+
+const {
+  articles,
+  otherpublications,
+  conferences,
+  isAfterContent = false,
+  id,
+  isDark = false,
+  classes = {},
+  bg = await Astro.slots.render('bg'),
+} = Astro.props;
+---
+
+<WidgetWrapper
+  id={id ? id : 'publications'} 
+  isDark={isDark}
+  containerClass={`max-w-5xl mx-auto ${isAfterContent ? 'pt-0 md:pt-0 lg:pt-0' : ''} ${classes?.container ?? ''}`}
+  bg={bg}
+>
+  <Headline title="Publications and Outputs" />
+  <ArticleList articles={articles} />
+  <OtherPublicationList publications={otherpublications} />
+  <ConferenceList conferences={conferences} />
+</WidgetWrapper>

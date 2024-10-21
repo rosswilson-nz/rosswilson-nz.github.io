@@ -1,0 +1,5 @@
+---
+title: 'Total joint replacement and non-operative management for late-stage hip and knee osteoarthritis'
+---
+
+I have been involved in several studies using data from patients undergoing total joint replacement or non-operative management for late-stage hip and knee osteoarthritis at Dunedin Public Hospital, investigating the outcomes of each of these management pathways and the optimal selection of patients for surgery. These studies have included evaluations of the ‘Joint Clinic’, a multidisciplinary chronic disease management pathway designed to improve access to joint replacement surgery for patients with hip and knee osteoarthritis by providing optimal non-operative management for patients with lower need for immediate surgery, with two articles published in the Journal of Arthroplasty; evaluation of the relationship between preoperative health status and postoperative improvement to help inform rationing decisions, published in Arthroplasty Today; and cost-effectiveness analysis of total joint replacement surgery based on preoperative patient characteristics and duration of follow-up, with a manuscript forthcoming in the Journal of Arthroplasty.

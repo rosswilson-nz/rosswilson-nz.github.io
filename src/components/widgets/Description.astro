@@ -1,0 +1,18 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  project: CollectionEntry<'projects'>;
+}
+
+const { project } = Astro.props;
+const { Content } = await project.render();
+---
+
+<div class="flex flex-row max-w-none">
+  <div class="mt-0.5">
+    <h3 class="text-lg font-medium leading-6 dark:text-white">{project.data.title}</h3>
+    <div class="prose prose-default max-w-none mt-3 prose-ul:pl-4">
+      <Content />
+    </div>
+  </div>
+</div>

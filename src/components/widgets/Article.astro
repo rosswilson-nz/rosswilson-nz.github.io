@@ -1,0 +1,16 @@
+---
+import WidgetWrapper from '../ui/WidgetWrapper.astro';
+import ArticleSummary from './ArticleSummary.astro';
+
+const { data, id, isDark = false, classes = {}, bg = await Astro.slots.render('bg') } = Astro.props;
+---
+
+<div class="max-w-5xl mx-auto px-4 md:px-6">
+    <div class="prose prose-default max-w-none">
+      <p>Back to <a href="/research/#publications">Publications</a></p>
+    </div>
+</div>
+
+<WidgetWrapper id={id} isDark={isDark} containerClass={`max-w-5xl mx-auto pt-0 ${classes?.container ?? ''}`} bg={bg}>
+  <ArticleSummary data={data} />
+</WidgetWrapper>

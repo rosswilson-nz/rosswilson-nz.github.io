@@ -1,0 +1,5 @@
+---
+title: 'The primary care management and impact of osteoarthritis (2018 – 2021)'
+---
+
+I was part of a team awarded a Health Research Council project grant to investigate the prevalence, management pathways, and health and economic impacts of hip and knee osteoarthritis in primary care in New Zealand. Most osteoarthritis care and management, in New Zealand and elsewhere, is delivered in primary care, but very little is known, at a systematic level, about how many patients present to primary care with osteoarthritis symptoms, what treatments they are offered, and how much it costs both the health system and patients themselves. This project combined novel large-scale data extraction from primary care patient records with the wealth of data on secondary care utilization, pharmaceutical prescriptions, and wider economic and social indicators available from the Statistics New Zealand Integrated Data Infrastructure (IDI), to address these important questions. Final research papers on the health and economics impacts of osteoarthritis diagnosed and managed in primary care in NZ are now being completed for publication.

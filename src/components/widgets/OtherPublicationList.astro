@@ -1,0 +1,25 @@
+---
+import { twMerge } from 'tailwind-merge';
+
+import OtherCitation from './OtherCitation.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  publications: Array<CollectionEntry<'other-publications'>>;
+}
+const { publications } = Astro.props;
+---
+
+<div class="py-2">
+  <h3 class={twMerge('text-xl font-bold', 'text-lg font-medium leading-6 dark:text-white pb-2')}>Other publications</h3>
+  <ul class="list-none p-0 m-0">
+    {
+      publications.map((publication) => (
+        <li>
+          <div class="prose prose-default prose-sm max-w-none">
+            <OtherCitation publication={publication} />
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</div>

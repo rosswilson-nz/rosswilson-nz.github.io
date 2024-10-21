@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  article: CollectionEntry<'articles'>,
+  link: string
+}
+const { article, link='true' } = Astro.props;
+---
+
+{article.data.authors.join(', ')}.
+{
+  link === 'true' ? (
+    <a href={`/articles/${article.slug}/`}>{article.data.title}</a>
+  ) : (
+    <span class="font-medium">{article.data.title}</span>
+  )
+}.
+<em>{article.data.journal}</em>
+{article.data.year};{article.data.volume}{article.data.issue != undefined ? `(${article.data.issue})` : ''}{
+  article.data.pages != undefined ? `:${article.data.pages}` : ''
+}.
+{
+  article.data.doi != undefined ? (
+    <span>doi:<a class="font-normal underline hover:font-semibold" href={`https://doi.org/${article.data.doi}`}>{article.data.doi}</a></span>
+  ) : (
+    ""
+  )
+}

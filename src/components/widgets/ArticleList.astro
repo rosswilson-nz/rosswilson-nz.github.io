@@ -1,0 +1,25 @@
+---
+import { twMerge } from 'tailwind-merge';
+
+import JournalCitation from './JournalCitation.astro';
+import type { CollectionEntry } from 'astro:content';
+interface Props {
+  articles: Array<CollectionEntry<'articles'>>;
+}
+const { articles } = Astro.props;
+---
+
+<div class="py-2">
+  <h3 class={twMerge('text-xl font-bold', 'text-lg font-medium leading-6 dark:text-white pb-2')}>Journal articles</h3>
+  <ul class="list-none p-0 m-0">
+    {
+      articles.map((article) => (
+        <li>
+          <div class="prose prose-default prose-sm max-w-none">
+            <JournalCitation article={article} />
+          </div>
+        </li>
+      ))
+    }
+  </ul>
+</div>
