@@ -1,0 +1,12 @@
+---
+import Slide from 'src/layouts/Slide.astro'
+
+interface Props { hidden?: boolean; }
+
+const { hidden = false } = Astro.props;
+
+---
+
+<Slide {hidden}>
+	<slot />
+</Slide>

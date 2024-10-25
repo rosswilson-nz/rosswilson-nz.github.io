@@ -1,0 +1,18 @@
+---
+import Slide from 'src/layouts/Slide.astro'
+import SectionTitle from 'src/components/presentation/SectionTitle.astro';
+import SectionSubtitle from 'src/components/presentation/SectionSubtitle.astro';
+
+interface Props {
+	title: string;
+	subtitle?: string;
+	hidden?: boolean;
+}
+
+const { title, subtitle, hidden } = Astro.props;
+---
+
+<Slide background="/presentation/backgrounds/background-section.png" {hidden}>
+	<div class="my-5"><SectionTitle right set:html={title} /></div>
+	<div class="mt-5"><SectionSubtitle right set:html={subtitle} /></div>
+</Slide>

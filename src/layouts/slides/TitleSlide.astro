@@ -1,0 +1,24 @@
+---
+import Slide from 'src/layouts/Slide.astro'
+import PresentationTitle from 'src/components/presentation/PresentationTitle.astro';
+import PresentationSubtitle from 'src/components/presentation/PresentationSubtitle.astro';
+import LeftContent from 'src/components/presentation/LeftContent.astro';
+
+interface Props {
+	title: string;
+	subtitle?: string;
+}
+
+const { title, subtitle } = Astro.props;
+---
+
+<Slide 
+	background="/presentation/backgrounds/wordmark-te-reo-digital-white.png, /presentation/backgrounds/background-section.png"
+	backgroundPosition='bottom 7% right 5.5%, bottom right'
+	backgroundSize='41%, cover'>
+	<div class="mt-10 mb-5"><PresentationTitle set:html={title} /></div>
+	<div class="mb-5"><PresentationSubtitle set:html={subtitle} /></div>
+	<LeftContent classes="pt-36 r-stretch prose-p:text-3xl prose-p:font-light prose-p:text-ivory prose-p:my-6">
+		<slot />
+	</LeftContent>
+</Slide>

@@ -11,13 +11,74 @@ module.exports = {
         accent: 'var(--aw-color-accent)',
         default: 'var(--aw-color-text-default)',
         muted: 'var(--aw-color-text-muted)',
+        blue: 'rgb(6,13,155)',
+        goldrush: 'rgb(244,177,66)',
+        deepblue: 'rgb(0,0,68)',
+        trueblue: 'rgb(49,123,255)',
+        sky: 'rgb(218,235,252)',
+        deepgold: 'rgb(238,138,7)',
+        trueyellow: 'rgb(255,222,70)',
+        ivory: 'rgb(251,249,237)',
+        digitalblue: 'rgb(0,0,255)',
+        digitalyellow: 'rgb(255,255,0)',
       },
       fontFamily: {
         sans: ['var(--aw-font-sans, ui-sans-serif)', ...defaultTheme.fontFamily.sans],
         serif: ['var(--aw-font-serif, ui-serif)', ...defaultTheme.fontFamily.serif],
         heading: ['var(--aw-font-heading, ui-sans-serif)', ...defaultTheme.fontFamily.sans],
+        'otago-sans': ['WickliffeSans', 'var(--aw-font-sans, ui-sans-serif)', ...defaultTheme.fontFamily.sans],
+        'otago-serif': ['Wickliffe', 'var(--aw-font-serif, ui-serif)', ...defaultTheme.fontFamily.sans],
       },
       typography: ({ theme }) => ({
+        otago: {
+          css: {
+            '--tw-prose-body': theme('colors.ivory'),
+            '--tw-prose-headings': theme('colors.deepgold'),
+            '--tw-prose-lead': theme('colors.ivory'),
+            '--tw-prose-links': theme('colors.ivory'),
+            '--tw-prose-bold': theme('colors.ivory'),
+            '--tw-prose-counters': theme('colors.ivory'),
+            '--tw-prose-bullets': theme('colors.iory'),
+            '--tw-prose-hr': theme('colors.ivory'),
+            '--tw-prose-quotes': theme('colors.ivory'),
+            '--tw-prose-quote-borders': theme('colors.ivory'),
+            '--tw-prose-captions': theme('colors.ivory'),
+            '--tw-prose-code': theme('colors.ivory'),
+            '--tw-prose-pre-code': theme('colors.ivory'),
+            '--tw-prose-pre-bg': theme('colors.ivory'),
+            '--tw-prose-th-borders': theme('colors.ivory'),
+            '--tw-prose-td-borders': theme('colors.ivory'),
+            h1: {
+              fontWeight: '400',
+            },
+            h2: {
+              color: 'var(--tw-prose-body)',
+              fontWeight: '400',
+            },
+            p: {
+              marginBottom: 0
+            },
+            ul: {
+              marginTop: 0
+            },
+            li: {
+              fontSize: '1.5rem'
+            },
+            'ul > ul > li': {
+              fontSize: '1.25rem'
+            },
+            dt: {
+              fontSize: '1rem',
+              color: theme('colors.ivory'),
+              marginBottom: 0
+            },
+            dd: {
+              fontSize: '1rem',
+              color: theme('colors.ivory'),
+              marginTop: 0
+            }
+          }
+        },
         default: {
           css: {
             '--tw-prose-body': theme('colors.default'),

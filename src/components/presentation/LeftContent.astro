@@ -1,0 +1,14 @@
+---
+import { twMerge } from 'tailwind-merge';
+
+import TextContent from "./TextContent.astro"
+
+interface Props {
+    classes?: string;
+}
+const { classes = '' }  = Astro.props;
+---
+
+<TextContent classes={twMerge('py-5 prose-p:text-left prose-li:text-left', classes)}>
+    <slot />
+</TextContent>

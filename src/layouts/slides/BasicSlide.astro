@@ -1,0 +1,23 @@
+---
+import Slide from 'src/layouts/Slide.astro'
+import SlideTitle from 'src/components/presentation/SlideTitle.astro';
+import SlideSubtitle from 'src/components/presentation/SlideSubtitle.astro';
+
+interface Props {
+	title: string;
+	subtitle?: string;
+	transition?: string;
+	hidden?: boolean;
+}
+
+const { title, subtitle, transition, hidden = false } = Astro.props;
+---
+
+<Slide transition={transition} {hidden}>
+	<div class="mt-10 mb-5"><SlideTitle set:html={title} /></div>
+	<div class="mb-5"><SlideSubtitle set:html={subtitle} /></div>
+	<hr>
+	<div class="r-stretch my-5">
+		<slot />
+	</div>
+</Slide>

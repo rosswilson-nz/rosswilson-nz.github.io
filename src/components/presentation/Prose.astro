@@ -1,0 +1,13 @@
+---
+import { twMerge } from 'tailwind-merge';
+
+interface Props {
+    classes?: string;
+}
+const { classes = '' }  = Astro.props;
+---
+<div class={twMerge(`prose prose-otago max-w-none text-left
+                     prose-headings:font-otago-serif prose-p:font-otago-sans`,
+                    classes)}>
+  <slot />
+</div>

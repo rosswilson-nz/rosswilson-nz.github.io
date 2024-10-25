@@ -1,0 +1,19 @@
+---
+import { twMerge } from 'tailwind-merge';
+import Prose from './Prose.astro';
+
+interface Props {
+    classes?: string;
+}
+const { classes = '' }  = Astro.props;
+---
+<Prose
+ classes={twMerge(
+    `prose-p:text-3xl prose-p:leading-relaxed prose-p:text-ivory
+    prose-ul:mt-0
+    prose-li:list-disc prose-li:leading-normal prose-li:pt-0 prose-li:text-ivory`,
+    classes
+ )}
+>
+    <slot />
+</Prose>

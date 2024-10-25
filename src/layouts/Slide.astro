@@ -1,0 +1,30 @@
+---
+interface Props {
+	background?: string;
+	backgroundColor?: string;
+	backgroundSize?: string;
+	backgroundPosition?: string;
+	transition?:string;
+	hidden?: boolean;
+}
+
+const { 
+	background = '/presentation/backgrounds/background-gradient.png', 
+	backgroundColor,
+	backgroundSize = 'cover', 
+	backgroundPosition = 'bottom right',
+	transition,
+	hidden = false,
+} = Astro.props;
+---
+
+<section
+ data-background-image={background}
+ data-background-color={backgroundColor}
+ data-background-size={backgroundSize}
+ data-background-position={backgroundPosition}
+ data-transition={transition}
+ data-visibility={hidden ? "hidden" : ""}
+>
+	<slot />
+</section>

@@ -1,0 +1,19 @@
+---
+import Slide from 'src/layouts/Slide.astro'
+import PresentationTitle from 'src/components/presentation/PresentationTitle.astro';
+import PresentationSubtitle from 'src/components/presentation/PresentationSubtitle.astro';
+import LeftContent from 'src/components/presentation/LeftContent.astro';
+
+interface Props {
+	title?: string;
+	subtitle?: string;
+}
+
+const { title, subtitle } = Astro.props;
+---
+
+<Slide background="/presentation/backgrounds/background-final.png" backgroundPosition="bottom">
+	<PresentationTitle set:html={title} />
+	<PresentationSubtitle set:html={subtitle} />
+	<LeftContent classes="pt-24 prose-p:text-3xl prose-p:font-light prose-p:text-ivory"><slot /></LeftContent>
+</Slide>

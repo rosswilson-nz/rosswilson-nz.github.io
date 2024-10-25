@@ -1,0 +1,556 @@
+---
+import Presentation from 'src/layouts/Presentation.astro';
+
+import TitleSlide from 'src/layouts/slides/TitleSlide.astro';
+import SectionSlide from 'src/layouts/slides/SectionSlide.astro';
+import FinalSlide from 'src/layouts/slides/FinalSlide.astro';
+import BasicSlide from 'src/layouts/slides/BasicSlide.astro';
+import ContentOnlySlide from 'src/layouts/slides/ContentOnlySlide.astro';
+
+import LeftContent from 'src/components/presentation/LeftContent.astro';
+import CenteredContent from 'src/components/presentation/CenteredContent.astro';
+import TwoColumns from 'src/components/presentation/TwoColumns.astro';
+import BlockQuote from 'src/components/presentation/BlockQuote.astro';
+---
+
+<Presentation title="On Writing Well">
+	<TitleSlide title="On Writing Well">
+		<p>CMOR Lunch'n'Learn</p>
+		<p>24 October 2024</p>
+		<p>Ross Wilson</p>
+	</TitleSlide>
+
+	<BasicSlide title="Notes and Acknowledgements">
+		<LeftContent classes="prose-p:text-lg">
+			<p>This presentation gives a brief overview of some aspects of writing style and correct usage that I think are important, but is far from comprehesive.</p>
+			<p>I highly recommend reading good style manuals for advice and inspiration that goes far beyond what I can cover here. Some of the key references I used in preparing this presentation were:</p>
+			<dl>
+				<dt>Steven Pinker: <em>The Sense of Style</em></dt>
+				<dd>This is an excellent guide to good writing, drawing heavily on research evidence from psychology and linguistics</dd>
+				<dt>William Zinsser: <em>On Writing Well</em></dt>
+				<dd>Another excellent guide (from which I have shamelessly stolen the title of this presentation). The first half of the book has a lot of useful guidance on style and usage. The second half deals with specific forms of writing, which is less relevant for us but still a good read.</dd>
+				<dt>William Strunk Jr. and E.B. White: <em>The Elements of Style</em></dt>
+				<dd>The classic short reference to clear and concise writing. Some of their pronouncements are a bit dated now (and some are rather odd) but still a book that every writer should have on their bookshelf.</dd>
+			</dl>
+
+		</LeftContent>
+	</BasicSlide>
+	
+	<SectionSlide title="Style" />
+
+	<BasicSlide title="The <em>Classic Style</em> Ideal" hidden>
+		<div class="fragment">
+			<CenteredContent>
+				<p>The guiding metafor of classic style is seeing the world</p>
+				<p>You have seen something interesting that the reader has not yet noticed</p>
+				<p>Your role is to direct their gaze so they can see it for themselves</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="The <em>Classic Style</em> Ideal" hidden>
+		<LeftContent>
+			<p>This requires that there is something to <em>see</em></p>
+			<ul>
+				<li>Avoid unnecessary abstractions: use concrete language and examples whenever possible</li>
+			</ul>
+			<div class="fragment">
+			<p>Think of engaging the reader in conversation</p>
+				<ul>
+					<li>Assume your reader is intelligent and interested in what you have to say</li>
+					<li>You don't need to <em>argue</em> for the truth: just present it for the reader to see it for themselves</li>
+				</ul>
+			</div>
+</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Practical Style" hidden>
+		<LeftContent>
+			<p>Practical style is another useful model for academic writing</p>
+			<ul>
+				<li>This is a more straightforward approach:</li>
+				<ul>
+					<li>You have some infomation to impart, and the objective is to do so as simply and clearly as possible</li>
+					<li>The format of medical journal articles, especially in the Methods and Results sections, pushes strongly toward a practical style</li>
+				</ul>
+			</ul>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Incomprehensible Academese" hidden>
+		<BlockQuote>
+			<p>
+				The move from a structuralist account in which capital is understood to structure
+				social relations in relatively homologous ways to a view of hegemony in which 
+				power relations are subject to repetition, convergence, and rearticulation brought
+				the question of temporality into the thinking of structure, and marked a shift from
+				a form of Althusserian theory that takes structural totalities as theoretical
+				objects to one in which the insights into the contingent possibility of 
+				structure inaugurate a renewed conception of hegemony as bound up with the contingent
+				sites and strategies of the rearticulation of power.
+			</p>
+			<p slot="attribution">
+				Judith Butler, Winner of the Bad Writing Prize 1998
+			</p>
+		</BlockQuote>
+	</BasicSlide>
+
+	<SectionSlide title="Style" subtitle="Practical Advice"  hidden/>
+
+	<ContentOnlySlide>
+		<CenteredContent classes="prose-p:text-9xl prose-p:my-16">
+			<p>OMIT</p>
+			<p class="fragment">NEEDLESS</p>
+			<p class="fragment">WORDS</p>
+		</CenteredContent>
+	</ContentOnlySlide>
+
+	<BasicSlide title="Avoid">
+		<div class="fragment">
+			<CenteredContent classes="prose-p:text-4xl"><p>Excessive signposting</p></CenteredContent>
+			<CenteredContent classes="pt-8 prose-p:text-2xl">
+				<p>Say what you're going to say, say it, then say what you've said</p>
+			</CenteredContent>
+		</div>
+		<div class="fragment">
+			<CenteredContent classes="pt-24">
+				<p>Don't do that</p>
+			</CenteredContent>
+			<CenteredContent classes="pt-4 prose-p:text-2xl">
+				<p>Aim to give the minimum needed for the reader to understand where they are being led</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Avoid">
+		<CenteredContent classes="prose-p:text-4xl"><p>Professional navel-gazing</p></CenteredContent>
+		<BlockQuote>
+			<p>&ldquo;In recent years, an increasing number of psychologists and linguists have turned their attention to the
+				problems of child language acquisition. In this article, recent research on this process will be reviewed.&rdquo;</p>
+		</BlockQuote>
+		<div class="fragment">
+			<CenteredContent classes="pt-12">
+				<p>These are wasted words</p>
+			</CenteredContent>
+			<CenteredContent classes="pt-4 prose-p:text-2xl">
+				<p>The reader is interested in what is known about the problem, not the fact that people have studied it</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Avoid">
+		<CenteredContent classes="prose-p:text-4xl">
+			<p>&ldquo;Scare quotes&rdquo;</p>
+		</CenteredContent>
+		<CenteredContent classes="pt-8 prose-p:text-2xl">
+			<p>Lazy writers often use scare quotes to distance themselves from a common idiom</p>
+		</CenteredContent>
+		<div class="fragment">
+			<CenteredContent classes="pt-12">
+				<p>Be confident in your own voice</p>
+			</CenteredContent>
+			<CenteredContent classes="pt-4 prose-p:text-2xl">
+				<p>If you're not comfortable using an expression without quotation marks, you probably shouldn't be using it at all</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Avoid">
+		<CenteredContent classes="prose-p:text-4xl"><p>Compulsive hedging</p></CenteredContent>
+		<CenteredContent classes="pt-8 prose-p:text-2xl">
+			<p><em>apparently</em>, <em>rather</em>, <em>to some extent</em>, etc.</p>
+		</CenteredContent>
+		<div class="fragment">
+			<CenteredContent classes="pt-12">
+				<p>Have confidence to stand behind what you are saying</p>
+			</CenteredContent>
+			<CenteredContent classes="pt-4 prose-p:text-2xl">
+				<p>If you need to qualify a statement or convey the magnitude of an effect, do so explicitly</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Avoid">
+		<CenteredContent classes="prose-p:text-4xl"><p>Excessive jargon and technical terms</p></CenteredContent>
+		<CenteredContent classes="pt-8 prose-p:text-2xl">
+			<p class="fragment" data-fragment-index="1">Some is unavoidable&mdash;and indeed desirable&mdash;when writing for a technical audience</p>
+		</CenteredContent>
+		<CenteredContent classes="pt-16 prose-p:text-4xl">
+			<p class="fragment" data-fragment-index="2">But much is unnecessary</p>
+		</CenteredContent>
+		<CenteredContent classes="pt-8 prose-p:text-2xl">
+			<p class="fragment" data-fragment-index="2">Rule of thumb: if there's an adequate non-technical term, use it</p>
+		</CenteredContent>
+		<CenteredContent classes="pt-16 prose-p:text-4xl">
+			<p class="fragment" data-fragment-index="3">And avoid non-standard abbreviations</p>
+		</CenteredContent>
+	</BasicSlide>
+
+	<BasicSlide title="Prefer the active voice">
+		<div class="fragment">
+			<CenteredContent>
+				<p>Helps keep the reader engaged<br>(they can see <em>someone</em> doing <em>something</em>)</p>
+				<p>Keeps the prose moving forward</p>
+				<p>Often makes your writing crisper and more concise</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Prefer the active voice">
+		<CenteredContent classes="prose-p:text-4xl">
+			<p>But don't overdo it</p>
+		</CenteredContent>
+		<CenteredContent classes="pt-16">
+			<p class="fragment" data-fragment-index="1">The passive voice can help you to direct the reader's gaze:</p>
+		</CenteredContent>
+		<div class="fragment pt-16 w-10/12 mx-auto" data-fragment-index="1">
+			<TwoColumns classes="prose-p:text-xl prose-p:text-center prose-p:underline">
+				<p>ACTIVE</p>
+				<p>PASSIVE</p>
+			</TwoColumns>
+		</div>
+		<div class="fragment w-10/12 mx-auto" data-fragment-index="1">
+			<TwoColumns classes="prose-p:text-2xl">
+				<p>See that lady with the shopping bag? She's pelting a mime with zucchini.</p>
+				<p>See that mime? He's being pelted with zucchini by the lady with the shopping bag.</p>
+			</TwoColumns>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Nominalisation">
+		<CenteredContent>
+			<p>Turning a verb into a noun (with a suffix like <em>-ance</em>, <em>-ment</em>, <em>-ation</em>)</p>
+			<p class="fragment" data-fragment-index="1">Used thoughtlessly, these can drain the life out of your prose</p>
+		</CenteredContent>
+		<div class="fragment pt-12 w-10/12 mx-auto" data-fragment-index="2">
+			<TwoColumns classes="prose-p:text-2xl">
+				<p>Participants read <span class="underline">assertions</span> whose <span class="underline">veracity</span> was either
+					affirmed or denied by the subsequent <span class="underline">presentation</span> of an <span class="underline">assessment</span> word.</p>
+				<p>We presented participants with a sentence, followed by the word TRUE or FALSE.</p>
+			</TwoColumns>
+		</div>
+		<div class="fragment pt-8 w-10/12 mx-auto" data-fragment-index="2">
+			<TwoColumns classes="prose-p:text-2xl">
+				<p><span class="underline">Comprehension</span> checks were used as <span class="underline">exclusion</span> criteria.</p>
+				<p>We excluded people who failed to understand the task.</p>
+			</TwoColumns>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Adjectives and abverbs">
+		<div class="fragment">
+			<CenteredContent classes="prose-p:text-4xl">
+				<p>Many adjectives and adverbs are redundant</p>
+			</CenteredContent>
+		</div>
+		<div class="fragment pt-16">
+			<CenteredContent>
+				<p>If the adjective carries the same meaning as the noun,<br>or the adverb as the verb: Omit it</p>
+				<p>If the adjective or adverb adds meaning, keep it</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<SectionSlide title="Understanding Grammar" hidden/>
+
+	<BasicSlide title="What is Grammar?" hidden>
+		<LeftContent>
+			<p>Grammar is what allows us to turn a jumbled web of ideas into a coherent string of words,
+			and what allows the reader to reconstruct (some of) the web of thoughts from the string of words</p>
+			<p>To do that successfully, we need to get (at least) three things right:</p>
+			<ul>
+				<li>The words representing <em>concepts</em> in our web of ideas (nouns, verbs)</li>
+				<li>The connecting words to tie those together (articles, conjunctions, prepositions)</li>
+				<li>The order all of those words appear on the page</li>
+			</ul>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Word order" hidden>
+		<LeftContent>
+			<p>Word order must do two things:</p>
+			<ul>
+				<li>Code the relationships between the words in the sentence (subject, object, nested phrases, etc.)</li>
+				<li>Allow the reader to process the information as it comes in</li>
+			</ul>
+			<p>These requirements are not always aligned</p>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Word order" hidden>
+		<LeftContent>
+			<p>Sentences are easier for the reader to parse if:</p>
+			<ul>
+				<li>The most complicated part of the sentence comes at the end</li>
+				<li>Related words are close together</li>
+				<li>The new information comes at the end of the sentence</li>
+			</ul>
+			<p class="fragment">But standard English syntax requires <em>Subject</em>-<em>Verb</em>-<em>Object</em></p>
+			<p class="fragment">Luckily there are workarounds</p>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Passive voice (again)" hidden>
+		<CenteredContent>
+			<p>We saw how the passive voice allows us to direct the order in which the reader encounters the different actors in our sentence</p>
+			<p>This can help us to implement two of the principles of composition:</p>
+			<p>We can move the subject of the sentence to the end when it is heavy, novel, or both</p>
+		</CenteredContent>
+	</BasicSlide>
+
+	<BasicSlide title="Passive voice (again)" hidden>
+		<LeftContent><p>Consider this passage on <em>Oedipus Rex</em></p></LeftContent>
+		<BlockQuote>
+			<p>
+				A man arrives from Corinth with the message that Oedipus's father has died. ...
+				It emerges that this messenger was formerly a shepherd on Mount Cithaeron, and that he was given a baby. ...
+				The baby, he says, was given to him by another shepherd from the Laius household, who had been told to get rid of the child.
+			</p>
+		</BlockQuote>
+		<CenteredContent>
+			<p>This contains three passive clauses, with good reason</p>
+		</CenteredContent>
+	</BasicSlide>
+
+	<BasicSlide title="Other tools" hidden>
+		<LeftContent>
+			<p>There are other tools for rearranging words & phrases<br>(Pinker's <em>Sense of Style</em> has a good discussion)</p>
+			<p class="fragment" data-fragment-index="1">You can also simply change the verb:</p>
+		</LeftContent>
+		<div class="fragment pt-8 w-4/12 mx-auto" data-fragment-index="1">
+			<TwoColumns classes="prose-p:text-xl prose-p:text-center">
+				<p>gave<br>sold<br>robbed<br>fled</p>
+				<p>received<br>bought<br>stole<br>chased</p>
+			</TwoColumns>
+		</div>
+
+	</BasicSlide>
+
+	<SectionSlide title="Grammar and Usage" subtitle="Myths" />
+
+	<BasicSlide title="Grammar myths">
+		<CenteredContent>
+			<p>Grammar rules are not unchanging laws of nature,<br>or proclamations handed down from on high</p>
+			<p>They are <em>tacit conventions</em> among users of a language</p>
+			<p>Many supposed &ldquo;Rules of Grammar&rdquo; ignore this fact</p>
+		</CenteredContent>
+	</BasicSlide>
+
+	<BasicSlide title="Don't split infinitives">
+		<CenteredContent classes="prose-p:leading-loose">
+			<p>This is the &ldquo;rule&rdquo; that claims Captain Kirk should not have said<br>
+				<em>to <span class="underline">boldly</span> go where no man has gone before</em><br>
+				but rather <em>boldly to go</em> or <em>to go boldly</em></p>
+		</CenteredContent>
+		<div class="fragment">
+			<CenteredContent classes="pt-16 prose-p:text-6xl">
+				<p>This is a myth. Ignore it.</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Don't end a sentence with a preposition">
+		<CenteredContent><p>What are you talking about?</p></CenteredContent>
+		<div class="fragment">
+			<CenteredContent classes="pt-16 prose-p:text-6xl">
+				<p>Another myth. Ignore it.</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+
+	<BasicSlide title="Don't begin a sentence with a conjunction">
+		<CenteredContent>
+			<p>This is useful advice, up to a point</p>
+			<p>Starting a sentence with a conjunction <em>can</em> be a sign that you've broken the sentence incorrecly</p>
+			<p>But used deliberately, there's nothing wrong with it</p>
+		</CenteredContent>
+	</BasicSlide>
+
+	<SectionSlide title="Grammar and Usage" subtitle="More sensible advice" />
+
+	<BasicSlide title="Avoid inappropriate shifts">
+		<LeftContent>
+			<p>Maintain a consistent vantage point within a sentence</p>
+			<ul>
+				<li>Tense (past, present, future)</li>
+				<li>Person (first, second, third)</li>
+				<li>Voice (active, passive)</li>
+				<li>Type of discourse (direct quotation, indirect report)</li>
+			</ul>
+			<p class="fragment">Switching vantage point unexpectedly will just confuse your reader</p>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Consistent number">
+		<LeftContent>
+			<p>The number of the subject should agree with the number of the verb:</p>
+			<ul>
+				<li>The <em>bridge</em> <span class="underline">is</span> crowded / The <em>bridges</em> <span class="underline">are</span> crowded</li>
+			</ul>
+			<div class="fragment">
+				<p>Slightly more complex, but the same simple rule applies:</p>
+				<ul>
+					<li>The <em>bridge</em> to the islands <span class="underline">is</span> crowded / The <em>bridges</em> to the island <span class="underline">are</span> crowded</li>
+				</ul>
+			</div>
+			<div class="fragment">
+				<p>But what about:</p>
+				<ul>
+					<li><em>None</em> of them <span class="underline">was</span> home / <em>None</em> of them <span class="underline">were</span> home?</li>
+					<li>Is <em>none</em> singular or plural? Generally either is acceptable (but they have slightly different feel)</li>
+				</ul>
+			</div>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Consistent number">
+		<LeftContent>
+			<ul>
+				<li>Likewise for <em>any</em>:</li>
+				<ul>
+					<li><span class="underline">Are</span> <em>any</em> of the children coming / <em>Any</em> of the tools <span class="underline">is</span> fine</li>
+				</ul>
+				<li>But <em>neither</em>, <em>either</em>, <em>anyone</em>, <em>everyone</em>, <em>somebody</em>, <em>everybody</em>, and <em>nothing</em> are all singular</li>
+				<li>Two singular nouns joined with <em>and</em> are usually plural</li>
+				<ul>
+					<li><em>A fool and his money</em> <span class="underline">are</span> soon parted</li>
+				</ul>
+				<li>Collective nouns can be either, depending on whether you conceive (or want your reader to conceive) of them as a single entity or as individual members</li>
+			</ul>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Consistent number">
+		<LeftContent>
+			<p>Almost done with number!</p>
+			<ul>
+				<li>Prepositions don't change the number of the head:</li>
+				<ul>
+					<li><em>A man</em> with his dog <span class="underline">is</span> coming up the path / <em>Two men</em> with a dog <span class="underline">are</span> coming up the path</li>
+				</ul>
+				<li><em>Or</em> is tricky:</li>
+				<li>Two singular nouns joined with <em>or</em> are singular; two plural nouns are plural</li>
+				<li>There is no real consensus on the number of a singular and a plural joined with <em>or</em></li>
+				<ul>
+					<li>Most grammar guides would say the verb agrees with the number of the noun closest to it</li>
+					<li>But perhaps best to rewrite the sentence to avoid the problem, if possible</li>
+				</ul>
+			</ul>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="<em>Very unique</em>?">
+		<LeftContent classes="prose-li:my-0">
+			<p>Can you grade the degree of an &ldquo;absolute&rdquo; adjective?</p>
+			<p>Many purists say no</p>
+			<p>Accepted usage would suggest otherwise:</p>
+			<ul>
+				<li>a more perfect union</li>
+				<li>nothing could be more certain</li>
+				<li>a more equal allocation of resources</li>
+			</ul>
+			<p>But steer clear of <em>very unique</em> regardless</p>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Gender-neutral pronouns">
+		<LeftContent>
+			<p>Singular &ldquo;they&rdquo; works in most contexts</p>
+			<p>Sometimes it helps to rewrite the sentence with a plural subject</p>
+			<p>Or rewrite so that no pronoun is needed</p>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Commas">
+		<CenteredContent classes="prose-p:text-4xl">
+			<p>Commas have two main jobs:</p>
+		</CenteredContent>
+		<LeftContent classes='pt-16'>
+			<p class="fragment" data-fragment-index="1">Separating parenthetical phrases from the main body of the sentence:</p>
+			<ul>
+				<li class="fragment" data-fragment-index="1">The audience, which had at first been indifferent, became more and more interested</li>
+			</ul>
+			<p class="fragment" data-fragment-index="2">Separating items in a list</p>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Commas, and other connectors">
+		<LeftContent classes="prose-li:my-0">
+			<p>Don't use commas join two complete sentences</p>
+			<ul>
+				<li>&ldquo;There isn't much variety, everything looks kind of the same&rdquo;</li>
+			</ul>
+			<p>Instead, write two sentences (if they are conceptually independent)</p>
+			<ul>
+				<li>If the two sentences are conceptually independent: just write two sentences</li>
+				<li>If there is an explicit connection you want to make, use a comma followed by a connector (e.g. <em>and</em>, <em>but</em>, <em>except</em>)</li>
+				<li>If they are conceptually linked, but you don't feel the need to state an explicit connection, use a semicolon</li>
+				<li>If the second sentence interrupts the flow of the discussion, you can use a dash</li>
+			</ul>
+		</LeftContent>
+	</BasicSlide>
+
+	<BasicSlide title="Apostrophes">
+		<LeftContent>
+			<p>Apostrophes have two main purposes:</p>
+			<ul>
+				<li>Contraction: <em>isn't</em>, <em>you're</em>, <em>we'd</em>, etc.</li>
+				<li>Marking genitive (possessive) case: He is his <em>mother's</em> son</li>
+				<ul>
+					<li>But not for pronouns: <em>his</em>, <em>hers</em>, <em>yours</em>, etc.</li>
+				</ul>
+			</ul>
+			<p>Not for marking plurals (the <em>grocer's apostrophe</em>):</p>
+			<ul>
+				<li>Apple's 99c each!</li>
+			</ul>
+		</LeftContent>
+	</BasicSlide>
+
+	<SectionSlide title="Becoming a Better Writer" />
+
+	<BasicSlide title="Read">
+		<CenteredContent>
+			<p class="fragment"><em>Some</em> journal articles are well written; many are not!</p>
+			<p class="fragment">Read good edited non-fiction (i.e. books, from a quality publisher)</p>
+			<p class="fragment">Read style manuals&mdash;for their content, and as an exemplar of the craft</p>
+			<p class="fragment pt-10">And notice good writing when you read it</p>
+		</CenteredContent>
+	</BasicSlide>
+
+	<BasicSlide title="Look It Up">
+		<CenteredContent>
+			<p>Get a good dictionary (and thesaurus)</p>
+			<p>If you're not sure about the meaning or usage of a word, look it up</p>
+		</CenteredContent>
+	</BasicSlide>
+
+	<BasicSlide title="Recognise the Curse of Knowledge">
+		<CenteredContent>
+			<p>Once you know something, you forget<br>what it's like for someone else not to know it</p>
+		</CenteredContent>
+		<CenteredContent>
+			<p class="fragment pt-8">Remind yourself that your readers don't know everything you know about your specific subfield of research<br>
+				And they definitely don't know everything about what <em>you</em> did in <em>your</em> study</p>
+		</CenteredContent>
+		<CenteredContent>
+			<p class="fragment pt-10">Your job as a writer is to show them, clearly and intuitively</p>
+		</CenteredContent>
+	</BasicSlide>
+
+	<BasicSlide title="Write">
+		<div class="fragment">
+			<CenteredContent><p>And more importantly:</p></CenteredContent>
+			<CenteredContent classes="pt-10 prose-p:text-4xl"><p>Edit!</p></CenteredContent>
+			<CenteredContent classes="fragment pt-16">
+				<p>Your first draft will be sloppy, but you can't edit until you've got something written down</p>
+			</CenteredContent>
+		</div>
+	</BasicSlide>
+	<BasicSlide title="Write">
+		<CenteredContent><p>Read your writing out loud (or at least out loud inside your head)&mdash;preferably some time after you wrote it</p></CenteredContent>
+		<CenteredContent classes="fragment pt-10"><p>If it doesn't sound right to you, it won't sound right to others<br>(although the converse is not necessarily true)</p></CenteredContent>
+	</BasicSlide>
+
+	<FinalSlide />
+</Presentation>

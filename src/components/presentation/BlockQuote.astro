@@ -1,0 +1,7 @@
+---
+import TextContent from "./TextContent.astro"
+---
+<div class="m-8">
+    <TextContent classes="prose-p:text-2xl prose-p:text-justify"><slot /></TextContent>
+    <TextContent classes="prose-p:text-2xl prose-p:text-right prose-p:italic mt-4"><slot name="attribution" /></TextContent>
+</div>
