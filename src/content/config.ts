@@ -1,4 +1,4 @@
-import { z, defineCollection } from 'astro:content';
+import { z, defineCollection } from "astro:content";
 
 const metadataDefinition = () =>
   z
@@ -27,7 +27,7 @@ const metadataDefinition = () =>
                 url: z.string(),
                 width: z.number().optional(),
                 height: z.number().optional(),
-              })
+              }),
             )
             .optional(),
           locale: z.string().optional(),
@@ -64,14 +64,14 @@ const postCollection = defineCollection({
 });
 
 const projectCollection = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
   }),
 });
 
 const journalArticle = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     journal: z.string(),
@@ -87,7 +87,7 @@ const journalArticle = defineCollection({
 });
 
 const otherPublication = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     with: z.string().optional(),
@@ -99,7 +99,7 @@ const otherPublication = defineCollection({
 });
 
 const conferencePresentation = defineCollection({
-  type: 'content',
+  type: "content",
   schema: z.object({
     title: z.string(),
     conference: z.string(),
@@ -111,20 +111,20 @@ const conferencePresentation = defineCollection({
 });
 
 const Authors = defineCollection({
-  type: 'data',
+  type: "data",
   schema: z.object({
     first: z.string(),
     last: z.string(),
     initials: z.string(),
-  })
-})
+  }),
+});
 
 export const collections = {
   post: postCollection,
   projects: projectCollection,
-  'old-projects': projectCollection,
+  "old-projects": projectCollection,
   articles: journalArticle,
-  'other-publications': otherPublication,
+  "other-publications": otherPublication,
   conferences: conferencePresentation,
-  authors: Authors
+  authors: Authors,
 };

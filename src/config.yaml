@@ -1,7 +1,7 @@
 site:
-  name: 'Ross Wilson'
-  site: 'https://rosswilson.nz'
-  base: '/'
+  name: "Ross Wilson"
+  site: "https://rosswilson.nz"
+  base: "/"
   trailingSlash: true
 
   googleSiteVerificationId: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: 'Ross Wilson'
-    template: '%s | Ross Wilson'
-  description: ''
+    default: "Ross Wilson"
+    template: "%s | Ross Wilson"
+  description: ""
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: 'Ross Wilson'
+    site_name: "Ross Wilson"
     type: website
 
 i18n:
@@ -30,25 +30,25 @@ apps:
 
     post:
       isEnabled: true
-      permalink: '/%slug%' # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
+      permalink: "/%slug%" # Variables: %slug%, %year%, %month%, %day%, %hour%, %minute%, %second%, %category%
       robots:
         index: true
 
     list:
       isEnabled: true
-      pathname: 'blog' # Blog main path, you can change this to "articles" (/articles)
+      pathname: "blog" # Blog main path, you can change this to "articles" (/articles)
       robots:
         index: true
 
     category:
       isEnabled: true
-      pathname: 'category' # Category main path /category/some-category, you can change this to "group" (/group/some-category)
+      pathname: "category" # Category main path /category/some-category, you can change this to "group" (/group/some-category)
       robots:
         index: true
 
     tag:
       isEnabled: true
-      pathname: 'tag' # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
+      pathname: "tag" # Tag main path /tag/some-tag, you can change this to "topics" (/topics/some-category)
       robots:
         index: false
 
@@ -61,4 +61,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: "system" # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

@@ -1,18 +1,19 @@
 ---
-title: 'The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?'
-journal: 'Journal of Arthroplasty'
+title: "The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?"
+journal: "Journal of Arthroplasty"
 shortjournal: jarthroplasty
-date: '2020-08-18'
+date: "2020-08-18"
 authors:
   - Gwynne-Jones DP
   - Gwynne-Jones JH
   - Wilson RA
 volume: 35
 issue: 9
-pages: '2350-2356.e1'
+pages: "2350-2356.e1"
 year: 2020
 doi: 10.1016/j.arth.2020.04.087
 ---
+
 **Background**
 Nonoperative management of patients with knee osteoarthritis (OA) through multidisciplinary programs may delay or reduce the need for total knee arthroplasty (TKA). However, avoidance of surgery may not represent success for the patient.
 

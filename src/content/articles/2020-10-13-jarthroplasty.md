@@ -1,7 +1,7 @@
 ---
-title: 'Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data'
-journal: 'Journal of Arthroplasty'
-shortjournal: 'jarthroplasty'
+title: "Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data"
+journal: "Journal of Arthroplasty"
+shortjournal: "jarthroplasty"
 date: 2020-10-13
 authors:
   - Pryymachenko Y
@@ -9,12 +9,13 @@ authors:
   - Abbott JH
   - Dowsey MM
   - Choong PFM
-volume: '35'
-issue: '11'
-pages: '3099-3107.e14'
-year: '2020'
-doi: '10.1016/j.arth.2020.06.040'
+volume: "35"
+issue: "11"
+pages: "3099-3107.e14"
+year: "2020"
+doi: "10.1016/j.arth.2020.06.040"
 ---
+
 **Background**
 Patients awaiting total joint arthroplasty (TJA) have high rates of opioid use, and many continue to use opioid medications long term after surgery. The objective of this study is to estimate the risk factors associated with chronic opioid use after TJA in a comprehensive population-based cohort.
 

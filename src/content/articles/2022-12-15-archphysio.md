@@ -2,7 +2,7 @@
 title: "Economic evaluation: a reader's guide to studies of cost-effectiveness"
 journal: Archives of Physiotherapy
 shortjournal: archphysio
-date: '2022-12-15'
+date: "2022-12-15"
 authors:
   - Abbott JH
   - Wilson R
@@ -11,10 +11,11 @@ authors:
   - Pathak A
   - Chua JYY
 volume: 12
-pages: '28'
+pages: "28"
 year: 2022
 doi: 10.1186/s40945-022-00154-1
 ---
+
 **Background**
 Understanding what an economic evaluation is, how to interpret it, and what it means for making choices in a health delivery context is necessary to contribute to decisions about healthcare resource allocation. The aim of this paper to demystify the working parts of a health economic evaluation, and explain to clinicians and clinical researchers how to read and interpret cost-effectiveness research.
 

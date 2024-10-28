@@ -1,8 +1,8 @@
 ---
-title: 'Opioid Use and Total Joint Replacement'
-journal: 'Current Rheumatology Reports'
+title: "Opioid Use and Total Joint Replacement"
+journal: "Current Rheumatology Reports"
 shortjournal: currrheumrep
-date: '2020-08-17'
+date: "2020-08-17"
 authors:
   - Shadbolt C
   - Shilling S
@@ -13,10 +13,11 @@ authors:
   - Choong PFM
   - Dowsey MM
 volume: 22
-pages: '58'
+pages: "58"
 year: 2020
 doi: 10.1007/s11926-020-00929-0
 ---
+
 **Purpose of Review**
 We provide an overview of recent research into the relationship between preoperative opioid use and total joint replacement outcomes.
 

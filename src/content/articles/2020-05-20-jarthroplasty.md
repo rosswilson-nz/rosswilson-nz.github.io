@@ -1,8 +1,8 @@
 ---
-title: 'The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery'
-journal: 'Journal of Arthroplasty'
+title: "The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery"
+journal: "Journal of Arthroplasty"
 shortjournal: jarthroplasty
-date: '2020-05-20'
+date: "2020-05-20"
 authors:
   - Gwynne-Jones JH
   - Wilson RA
@@ -11,10 +11,11 @@ authors:
   - Gwynne-Jones DP
 volume: 35
 issue: 6
-pages: '1497-1503'
+pages: "1497-1503"
 year: 2020
 doi: 10.1016/j.arth.2020.01.086
 ---
+
 **Background**
 The purpose of this study is to determine outcomes of a nonoperative treatment service for hip and knee osteoarthritis (OA), the “Joint Clinic,” at minimum 5-year follow-up, and investigate factors that may influence progression to joint replacement surgery.
 

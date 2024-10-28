@@ -1,8 +1,8 @@
 ---
-title: 'The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?'
-journal: 'Arthroplasty Today'
+title: "The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?"
+journal: "Arthroplasty Today"
 shortjournal: arthroplastytoday
-date: '2020-09-01'
+date: "2020-09-01"
 authors:
   - Gwynne-Jones DP
   - Sullivan T
@@ -10,10 +10,11 @@ authors:
   - Abbott JH
 volume: 6
 issue: 3
-pages: '585-589.e1'
+pages: "585-589.e1"
 year: 2020
 doi: 10.1016/j.artd.2020.04.009
 ---
+
 **Background**
 In countries with publicly funded health care, there is an increasing need for explicit rationing for total joint arthroplasty (TJA). The Oxford Hip and Knee Scores (OHS/OKS) have been used to set access thresholds for TJA despite not being developed for that purpose. The aim of this study was to determine whether preoperative OHS/OKS can aid rationing decisions by investigating the changes in general health-related quality of life after TJA.
 

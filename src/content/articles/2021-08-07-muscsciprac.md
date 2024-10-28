@@ -1,8 +1,8 @@
 ---
-title: 'Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial'
-journal: 'Musculoskeletal Science and Practice'
+title: "Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial"
+journal: "Musculoskeletal Science and Practice"
 shortjournal: muscsciprac
-date: '2021-08-07'
+date: "2021-08-07"
 authors:
   - Pryymachenko Y
   - Wilson R
@@ -10,10 +10,11 @@ authors:
   - Pathak A
   - Abbott JH
 volume: 56
-pages: '102439'
+pages: "102439"
 year: 2021
 doi: 10.1016/j.jval.2021.08.008
 ---
+
 **Background**
 Exercise therapy is known to be an effective intervention for patients with osteoarthritis, however the evidence is limited as to whether adding manual therapy or booster sessions are cost-effective strategies to extend the duration of benefits.
 

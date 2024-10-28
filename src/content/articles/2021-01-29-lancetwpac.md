@@ -1,8 +1,8 @@
 ---
-title: 'Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia'
-journal: 'Lancet Regional Health - Western Pacific'
+title: "Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia"
+journal: "Lancet Regional Health - Western Pacific"
 shortjournal: lancetwpac
-date: '2021-01-29'
+date: "2021-01-29"
 authors:
   - Coombs DM
   - Machado GC
@@ -12,10 +12,11 @@ authors:
   - Storey H
   - Maher CG
 volume: 7
-pages: '100089'
+pages: "100089"
 year: 2021
 doi: 10.1016/j.lanwpc.2020.100089
 ---
+
 **Background**
 Low back pain is the leading cause of disability worldwide and a common presentation to emergency departments, often resulting in subsequent admissions to hospital. There have been several studies investigating the cost of low back pain to society, but few specific to the emergency department and inpatient setting, especially in Australia. The aim was to describe the cost of low back pain in Australian public hospital emergency departments, and inpatient settings, and explore healthcare costs associated with different care pathways.
 

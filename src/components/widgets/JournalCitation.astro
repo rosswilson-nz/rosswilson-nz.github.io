@@ -2,14 +2,14 @@
 import type { CollectionEntry } from 'astro:content';
 interface Props {
   article: CollectionEntry<'articles'>,
-  link: string
+  link?: boolean
 }
-const { article, link='true' } = Astro.props;
+const { article, link } = Astro.props;
 ---
 
 {article.data.authors.join(', ')}.
 {
-  link === 'true' ? (
+  link ? (
     <a href={`/articles/${article.slug}/`}>{article.data.title}</a>
   ) : (
     <span class="font-medium">{article.data.title}</span>

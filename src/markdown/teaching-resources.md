@@ -10,5 +10,4 @@
   - [Automation](https://rosswilson-nz.github.io/CMOR-Intro-to-R/#/automation) [to be added]
   - [Programming/Package Development](https://rosswilson-nz.github.io/CMOR-Intro-to-R/#/programming-in-r) [to be added]
 
-
 [On Writing Well](/teaching/on-writing-well/) [presentation slides]
