@@ -17,7 +17,7 @@ const { articles } = Astro.props;
         <li>
           <div class="py-1">
             <div class="prose prose-default prose-sm max-w-none">
-              <JournalCitation article={article} />
+              <JournalCitation article={article} link />
             </div>
             <div class="flex flex-row gap-x-4 py-1">
               <span class="__dimensions_badge_embed__"  data-style="large_rectangle" data-doi={article.data.doi}></span>

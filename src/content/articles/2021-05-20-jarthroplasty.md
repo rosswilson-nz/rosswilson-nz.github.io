@@ -1,8 +1,8 @@
 ---
-title: 'Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up'
-journal: 'Journal of Arthroplasty'
+title: "Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up"
+journal: "Journal of Arthroplasty"
 shortjournal: jarthroplasty
-date: '2021-05-20'
+date: "2021-05-20"
 authors:
   - Wilson RA
   - Gwynne-Jones DP
@@ -10,10 +10,11 @@ authors:
   - Abbott JH
 volume: 36
 issue: 6
-pages: '1864-1872.e10'
+pages: "1864-1872.e10"
 year: 2021
 doi: 10.1016/j.arth.2021.01.038
 ---
+
 **Background**
 Total hip and knee arthroplasties (THA/TKA) are clinically effective but high cost procedures. The aim of this study is to perform a cost-effectiveness analysis of THA and TKA in the New Zealand (NZ) healthcare system.
 

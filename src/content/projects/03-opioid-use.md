@@ -1,5 +1,5 @@
 ---
-title: 'Chronic opioid use before and after joint replacement surgery (2018-ongoing)'
+title: "Chronic opioid use before and after joint replacement surgery (2018-ongoing)"
 ---
 
 I have received grants from the Otago Medical Research Foundation and the H.S and J.C Anderson Charitable Trust for studies of the prevalence, risk factors, and consequences of chronic opioid use before and after total hip and knee replacement surgery, using linked national population data from the IDI. Several outputs from this project are now available:
