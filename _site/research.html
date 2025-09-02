@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="./styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -222,8 +222,8 @@ Previous research projects
 
     <script>
 
-      function styleCell_clg8y9yd734l3n0ktm8k(i, j, css_id) {
-          var table = document.getElementById("tinytable_clg8y9yd734l3n0ktm8k");
+      function styleCell_yadu2ojwoitjtmylqhzg(i, j, css_id) {
+          var table = document.getElementById("tinytable_yadu2ojwoitjtmylqhzg");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -232,8 +232,8 @@ Previous research projects
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_clg8y9yd734l3n0ktm8k(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_clg8y9yd734l3n0ktm8k");
+      function spanCell_yadu2ojwoitjtmylqhzg(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_yadu2ojwoitjtmylqhzg");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -264,14 +264,15 @@ Previous research projects
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '2', j: 0 }, { i: '2', j: 1 },  ], css_id: 'tinytable_css_h91ixau44gmzxd39625v',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '1', j: 1 },  ], css_id: 'tinytable_css_8bf0ut2o28axaevdnk3q',}, 
+          { positions: [ { i: '12', j: 0 }, { i: '12', j: 1 },  ], css_id: 'tinytable_css_40fxrrppylxhk0h2wgb1',}, 
+          { positions: [ { i: '2', j: 0 }, { i: '3', j: 0 }, { i: '4', j: 0 }, { i: '6', j: 0 }, { i: '7', j: 0 }, { i: '8', j: 0 }, { i: '5', j: 0 }, { i: '10', j: 0 }, { i: '11', j: 0 }, { i: '4', j: 1 }, { i: '9', j: 0 }, { i: '2', j: 1 }, { i: '3', j: 1 }, { i: '8', j: 1 }, { i: '5', j: 1 }, { i: '6', j: 1 }, { i: '7', j: 1 }, { i: '9', j: 1 }, { i: '10', j: 1 }, { i: '11', j: 1 },  ], css_id: 'tinytable_css_d0nrf874n1otka2x2o3t',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '1', j: 1 },  ], css_id: 'tinytable_css_3m1lwd7sxyfgc9nd5l13',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_clg8y9yd734l3n0ktm8k(cell.i, cell.j, group.css_id);
+                  styleCell_yadu2ojwoitjtmylqhzg(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -279,23 +280,64 @@ Previous research projects
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_h91ixau44gmzxd39625v, .table th.tinytable_css_h91ixau44gmzxd39625v { vertical-align: top; text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_8bf0ut2o28axaevdnk3q, .table th.tinytable_css_8bf0ut2o28axaevdnk3q { vertical-align: top; text-align: left; border-top: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_40fxrrppylxhk0h2wgb1, .table th.tinytable_css_40fxrrppylxhk0h2wgb1 { vertical-align: top; text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_d0nrf874n1otka2x2o3t, .table th.tinytable_css_d0nrf874n1otka2x2o3t { vertical-align: top; text-align: left; }
+      .table td.tinytable_css_3m1lwd7sxyfgc9nd5l13, .table th.tinytable_css_3m1lwd7sxyfgc9nd5l13 { vertical-align: top; text-align: left; border-top: solid #d3d8dc 0.1em; }
     </style>
     <div class="container">
-      <table class="borderless" id="tinytable_clg8y9yd734l3n0ktm8k" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="borderless" id="tinytable_yadu2ojwoitjtmylqhzg" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
         </thead>
         
         <tbody>
                 <tr>
-                  <td data-row="1" data-col="0">Pryymachenko Y, Wilson R. <strong><a href="./articles/10.1093/fampra/cmad112/index.html">The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data</a></strong>. <em>Family Practice</em> 2024;41(6). doi:<a href="https://doi.org/10.1093/fampra/cmad112">10.1093/fampra/cmad112</a><br><br></td>
-                  <td data-row="1" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1093/fampra/cmad112"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1093/fampra/cmad112"></span></p></td>
+                  <td data-row="1" data-col="0">Pryymachenko Y, Wilson R, Dalbeth N, Abbott JH, Stamp L. <a href="./articles/10.1002/acr.25631/index.html">Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the “start-low go-slow” approach for gout: evidence from a non-inferiority randomised double-blind placebo-controlled trial</a>. <em>Arthritis Care &amp; Research</em> 2025;In press. doi:<a href="https://doi.org/10.1002/acr.25631">10.1002/acr.25631</a><br><br></td>
+                  <td data-row="1" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1002/acr.25631"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1002/acr.25631"></span></p></td>
                 </tr>
                 <tr>
-                  <td data-row="2" data-col="0">Reynolds A, Hood F. <strong><a href="./articles/10.1136/bmjopen-2023-074278/index.html">Protocol for healthy heart study</a></strong>. <em>BMJ Open</em> 2023;13:e074278. doi:<a href="https://doi.org/10.1136/bmjopen-2023-074278">10.1136/bmjopen-2023-074278</a><br><br></td>
-                  <td data-row="2" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1136/bmjopen-2023-074278"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1136/bmjopen-2023-074278"></span></p></td>
+                  <td data-row="2" data-col="0">Pryymachenko Y, Wilson R, Abbott JH, Dowsey M, Choong P. <a href="./articles/10.1093/fampra/cmad112/index.html">The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data</a>. <em>Family Practice</em> 2024;41(6):916–924. doi:<a href="https://doi.org/10.1093/fampra/cmad112">10.1093/fampra/cmad112</a><br><br></td>
+                  <td data-row="2" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1093/fampra/cmad112"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1093/fampra/cmad112"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="3" data-col="0">Reynolds A, Hood F, Wilson R, Ross A, Neumann S, Turner R, Iosua E, Katare R, Shahin A, Kok Z-Y, Chan H, Coffey S, Mann J. <a href="./articles/10.1136/bmjopen-2023-074278/index.html">Protocol for a three-arm randomised controlled trial of healthy grocery delivery in the usual care for adults recovering from an acute coronary event</a>. <em>BMJ Open</em> 2023;13:e074278. doi:<a href="https://doi.org/10.1136/bmjopen-2023-074278">10.1136/bmjopen-2023-074278</a><br><br></td>
+                  <td data-row="3" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1136/bmjopen-2023-074278"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1136/bmjopen-2023-074278"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="4" data-col="0">Bühler M, Gwynne-Jones D, Chin M, Woodside J, Gough J, Wilson R, Abbott JH. <a href="./articles/10.1016/j.jht.2023.02.010/index.html">Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial</a>. <em>Journal of Hand Therapy</em> 2023;36(2):363–377. doi:<a href="https://doi.org/10.1016/j.jht.2023.02.010">10.1016/j.jht.2023.02.010</a><br><br></td>
+                  <td data-row="4" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1016/j.jht.2023.02.010"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1016/j.jht.2023.02.010"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="5" data-col="0">Abdel-Shaheed C, Mathieson S, Wilson R, Furmage A-M, Maher C. <a href="./articles/10.1016/j.jphys.2023.04.001/index.html">Who should judge treatment effects as unimportant?</a>. <em>Journal of Physiotherapy</em> 2023;69(3):133–135. doi:<a href="https://doi.org/10.1016/j.jphys.2023.04.001">10.1016/j.jphys.2023.04.001</a><br><br></td>
+                  <td data-row="5" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1016/j.jphys.2023.04.001"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1016/j.jphys.2023.04.001"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="6" data-col="0">Darlow B, Brown M, Stanley J, Abbott H, Briggs A, Clark J, Frew G, Grainger R, Hood F, Hudson B, Keenan R, Marra C, McKinlay E, Pask A, Pierobon A, Simmonds S, Vincent L, Dean S. <a href="./articles/10.1002/msc.1785/index.html">Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS)</a>. <em>Musculoskeletal Care</em> 2023;21(4):1053–1067. doi:<a href="https://doi.org/10.1002/msc.1785">10.1002/msc.1785</a><br><br></td>
+                  <td data-row="6" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1002/msc.1785"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1002/msc.1785"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="7" data-col="0">Pryymachenko Y, Wilson R, Abbott JH. <a href="./articles/10.1136/ip-2022-044761/index.html">Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status</a>. <em>Injury prevention</em> 2023;29:213–218. doi:<a href="https://doi.org/10.1136/ip-2022-044761">10.1136/ip-2022-044761</a><br><br></td>
+                  <td data-row="7" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1136/ip-2022-044761"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1136/ip-2022-044761"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="8" data-col="0">Sharma S, Wilson R, Pryymachenko Y, Pathak A, Chua J, Gwynne-Jones D, Bennell KL, Metcalf B, Hinman RS, Lim B-W, Abbott JH. <a href="./articles/10.1002/acr.24821/index.html">Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis</a>. <em>Arthritis Care &amp; Research</em> 2023;75(5):1147–1157. doi:<a href="https://doi.org/10.1002/acr.24821">10.1002/acr.24821</a><br><br></td>
+                  <td data-row="8" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1002/acr.24821"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1002/acr.24821"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="9" data-col="0">Wilson R, Pryymachenko Y, Abbott JH, Dean S, Stanley J, Garrett S, Mathieson F, Dowell A, Darlow B. <a href="./articles/10.1007/s40258-022-00776-3/index.html">A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis</a>. <em>Applied Health Economics and Health Policy</em> 2023;21:253–262. doi:<a href="https://doi.org/10.1007/s40258-022-00776-3">10.1007/s40258-022-00776-3</a><br><br></td>
+                  <td data-row="9" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1007/s40258-022-00776-3"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1007/s40258-022-00776-3"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="10" data-col="0">Wilson R, Abbott JH, Mellor R, Grimaldi A, Bennell K, Vicenzino B. <a href="./articles/10.1016/j.jphys.2022.11.007/index.html">Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial</a>. <em>Journal of Physiotherapy</em> 2023;69(1):35–41. doi:<a href="https://doi.org/10.1016/j.jphys.2022.11.007">10.1016/j.jphys.2022.11.007</a><br><br></td>
+                  <td data-row="10" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1016/j.jphys.2022.11.007"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1016/j.jphys.2022.11.007"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="11" data-col="0">Abbott JH, Wilson R, Pryymachenko Y, Sharma S, Pathak A, Chua JYY. <a href="./articles/10.1186/s40945-022-00154-1/index.html">Economic evaluation: a reader’s guide to studies of cost-effectiveness</a>. <em>Archives of Physiotherapy</em> 2022;12:28. doi:<a href="https://doi.org/10.1186/s40945-022-00154-1">10.1186/s40945-022-00154-1</a><br><br></td>
+                  <td data-row="11" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1186/s40945-022-00154-1"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1186/s40945-022-00154-1"></span></p></td>
+                </tr>
+                <tr>
+                  <td data-row="12" data-col="0">Ribeiro DC, Tangrood ZJ, Wilson R, Sole G, Abbott JH. <a href="./articles/10.1136/bmjopen-2021-053572/index.html">Tailored exercise and manual therapy versus standardised exercise for patients with shoulder subacromial pain: a feasibility randomised controlled trial (the Otago MASTER trial)</a>. <em>BMJ Open</em> 2022;12:e053572. doi:<a href="https://doi.org/10.1136/bmjopen-2021-053572">10.1136/bmjopen-2021-053572</a><br><br></td>
+                  <td data-row="12" data-col="1"><p><span class="__dimensions_badge_embed__" data-style="large_rectangle" data-doi="10.1136/bmjopen-2021-053572"></span><span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi="10.1136/bmjopen-2021-053572"></span></p></td>
                 </tr>
         </tbody>
       </table>
@@ -308,8 +350,8 @@ Previous research projects
 
     <script>
 
-      function styleCell_dwj6w5zg10nsuiywqudm(i, j, css_id) {
-          var table = document.getElementById("tinytable_dwj6w5zg10nsuiywqudm");
+      function styleCell_uq6gqazo580568fsfrzm(i, j, css_id) {
+          var table = document.getElementById("tinytable_uq6gqazo580568fsfrzm");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -318,8 +360,8 @@ Previous research projects
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_dwj6w5zg10nsuiywqudm(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_dwj6w5zg10nsuiywqudm");
+      function spanCell_uq6gqazo580568fsfrzm(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_uq6gqazo580568fsfrzm");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -350,14 +392,14 @@ Previous research projects
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '2', j: 0 },  ], css_id: 'tinytable_css_ndctwg6xzo4copxvt27r',}, 
-          { positions: [ { i: '1', j: 0 },  ], css_id: 'tinytable_css_8xe34irgdqa2dfivexv5',}, 
+          { positions: [ { i: '2', j: 0 },  ], css_id: 'tinytable_css_ph2tk31lwh9u339yiy4a',}, 
+          { positions: [ { i: '1', j: 0 },  ], css_id: 'tinytable_css_e98dbs1axsa5grnih2kt',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_dwj6w5zg10nsuiywqudm(cell.i, cell.j, group.css_id);
+                  styleCell_uq6gqazo580568fsfrzm(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -365,11 +407,11 @@ Previous research projects
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_ndctwg6xzo4copxvt27r, .table th.tinytable_css_ndctwg6xzo4copxvt27r { vertical-align: top; text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_8xe34irgdqa2dfivexv5, .table th.tinytable_css_8xe34irgdqa2dfivexv5 { vertical-align: top; text-align: left; border-top: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_ph2tk31lwh9u339yiy4a, .table th.tinytable_css_ph2tk31lwh9u339yiy4a { vertical-align: top; text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_e98dbs1axsa5grnih2kt, .table th.tinytable_css_e98dbs1axsa5grnih2kt { vertical-align: top; text-align: left; border-top: solid #d3d8dc 0.1em; }
     </style>
     <div class="container">
-      <table class="borderless" id="tinytable_dwj6w5zg10nsuiywqudm" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="borderless" id="tinytable_uq6gqazo580568fsfrzm" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
         </thead>
@@ -392,8 +434,8 @@ Previous research projects
 
     <script>
 
-      function styleCell_5gnukdpdfuqvx3vl34qa(i, j, css_id) {
-          var table = document.getElementById("tinytable_5gnukdpdfuqvx3vl34qa");
+      function styleCell_oy7kc896sdttmqdbdmmz(i, j, css_id) {
+          var table = document.getElementById("tinytable_oy7kc896sdttmqdbdmmz");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -402,8 +444,8 @@ Previous research projects
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function spanCell_5gnukdpdfuqvx3vl34qa(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_5gnukdpdfuqvx3vl34qa");
+      function spanCell_oy7kc896sdttmqdbdmmz(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_oy7kc896sdttmqdbdmmz");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -434,14 +476,14 @@ Previous research projects
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '2', j: 0 },  ], css_id: 'tinytable_css_xzq0wh8630rsm0fd8qyp',}, 
-          { positions: [ { i: '1', j: 0 },  ], css_id: 'tinytable_css_jx258oitoo6npecnpo2q',}, 
+          { positions: [ { i: '2', j: 0 },  ], css_id: 'tinytable_css_1s7xjvlv6d5ebbeihmmy',}, 
+          { positions: [ { i: '1', j: 0 },  ], css_id: 'tinytable_css_znyo2ktjhs6wnxnjl30q',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_5gnukdpdfuqvx3vl34qa(cell.i, cell.j, group.css_id);
+                  styleCell_oy7kc896sdttmqdbdmmz(cell.i, cell.j, group.css_id);
               });
           });
       });
@@ -449,11 +491,11 @@ Previous research projects
 
     <style>
       /* tinytable css entries after */
-      .table td.tinytable_css_xzq0wh8630rsm0fd8qyp, .table th.tinytable_css_xzq0wh8630rsm0fd8qyp { vertical-align: top; text-align: left; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_jx258oitoo6npecnpo2q, .table th.tinytable_css_jx258oitoo6npecnpo2q { vertical-align: top; text-align: left; border-top: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_1s7xjvlv6d5ebbeihmmy, .table th.tinytable_css_1s7xjvlv6d5ebbeihmmy { vertical-align: top; text-align: left; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_znyo2ktjhs6wnxnjl30q, .table th.tinytable_css_znyo2ktjhs6wnxnjl30q { vertical-align: top; text-align: left; border-top: solid #d3d8dc 0.1em; }
     </style>
     <div class="container">
-      <table class="borderless" id="tinytable_5gnukdpdfuqvx3vl34qa" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="borderless" id="tinytable_oy7kc896sdttmqdbdmmz" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
         <thead>
         
         </thead>

@@ -4,6 +4,7 @@ title: "My Research"
 
 ```{r}
 suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(readxl))
 suppressPackageStartupMessages(library(glue))
 suppressPackageStartupMessages(library(tinytable))
 ```
@@ -69,7 +70,7 @@ I have been involved in several studies using data from patients undergoing tota
 make_article_citation <- function(authors, title, journal, volume, issue, pages, year, doi,
                                   link = TRUE) {
     glue(
-        "{authors}. {title}. *{journal}* {year};{volume}{issue}{pages}. doi:[{doi}](https://doi.org/{doi})<br><br>",
+        "{authors}. {title}. *{journal}* {year};{volume}{issue}{pages}. doi:[{doi}](https://doi.org/{doi})",
         title = if (link) glue("[{title}]({fs::path('articles', doi, 'index.qmd')})") else title,
         issue = if_else(is.na(issue), "", glue("({issue})")),
         pages = if_else(is.na(pages), "", glue(":{pages}")),
@@ -106,12 +107,16 @@ create_article_page <- function(
     file <- fs::file_create("articles", doi, "index.qmd")
 
     contents <- c(
+        "---\ntoc: false\n---",
+        "Back to [publications](/research.qmd#journal-articles)\n",
         glue("# {title}"),
         glue("## {journal}"),
-        "\nPUBLISHED",
+        '::: {.callout-tip appearance="minimal" icon=false}',
+        "[Published]{.smallcaps}\\",
         glue("{date}"),
-        "\nCITATION",
+        "\n[Citation]{.smallcaps}\\",
         glue("{make_article_citation(authors, title, journal, volume, issue, pages, year, doi, link = FALSE)}"),
+        ":::\n",
         "\n### Abstract",
         glue("\n{abstract}")
     )
@@ -144,11 +149,7 @@ make_publication_citation <- function(title, with, note, date, available) {
 #| html-table-processing: none
 
 # Get list of journal articles
-articles <- tribble(
-  ~authors, ~title, ~journal, ~volume, ~issue, ~pages, ~year, ~doi, ~abstract, ~date,
-  "Pryymachenko Y, Wilson R", "The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data", "Family Practice", 41, "6", NA_character_, 2024, "10.1093/fampra/cmad112", NA_character_, "16 November 2023",
-  "Reynolds A, Hood F", "Protocol for healthy heart study", "BMJ Open", 13, NA_character_, "e074278", 2023, "10.1136/bmjopen-2023-074278", NA_character_, "9 November 2023"
-)
+articles <- read_xlsx("_outputs.xlsx", "articles")
 
 # Format citations
 articles <- articles %>% 
@@ -163,11 +164,11 @@ articles <- articles %>%
     )
 
 articles %>%
-        select(citation, metrics) %>%
-        tt(colnames = FALSE) %>% 
-        tt_format(j = 1, markdown = TRUE) %>% 
-        tt_style(align = "l", alignv = "t") %>% 
-        theme_html(class="borderless")
+    transmute(citation = glue("{citation}<br><br>"), metrics) %>%
+    tt(colnames = FALSE) %>% 
+    tt_format(j = 1, markdown = TRUE) %>% 
+    tt_style(align = "l", alignv = "t") %>% 
+    theme_html(class="borderless")
 ```
 
 ### Other publications

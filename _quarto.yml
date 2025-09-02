@@ -1,8 +1,9 @@
 project:
   type: website
   render:
-    - "*.qmd"
-    - "articles/*/index.qmd"
+    - "index.qmd"
+    - "research.qmd"
+    - "articles/**/index.qmd"
 
 website:
   title: "Ross Wilson"
@@ -18,7 +19,7 @@ format:
     theme:
       - cosmo
       - brand
-    css: styles.css
+    css: /styles.css
     toc: true
 
 execute:
