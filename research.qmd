@@ -178,11 +178,8 @@ articles %>%
 #| html-table-processing: none
 
 # Get list of other publications
-publications <- tribble(
-  ~title, ~with, ~note, ~date, ~available,
-  "Statistical Analysis Plan for Reducing the burden of knee osteoarthritis through community pharmacy: A randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service", "James Stanley and Ben Darlow", NA_character_, "18 October 2024", "https://hdl.handle.net/10523/42913",
-  "Economic evaluation of the effects of manual therapy for knee osteoarthritis: Study protocol", "Yana Pryymachenko, Haxby Abbott, and Cathy Chapple", NA_character_, "17 May 2024", "https://osf.io/arn9v/"
-)
+publications <- read_xlsx("_outputs.xlsx", "other")
+
 # Format citations
 publications <- publications %>% 
     mutate(
@@ -203,11 +200,8 @@ publications %>%
 #| html-table-processing: none
 
 # Get list of conference presentations
-presentations <- tribble(
-  ~conference, ~location, ~date, ~title, ~note,
-  "ACR Convergence", "Washington, D.C.", "November 2024", 'Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the "Start-Low Go-Slow" approach for gout', "poster presentation",
-  "OARSI World Congress", "Vienna", "April 2024", "Health system and societal costs following osteoarthritis diagnosis in primary care", "poster presentation"
-)
+presentations <- read_xlsx("_outputs.xlsx", "conferences")
+
 # Format citations
 presentations <- presentations %>% 
     mutate(
