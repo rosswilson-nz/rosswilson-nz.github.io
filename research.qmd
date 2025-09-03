@@ -69,11 +69,21 @@ I have been involved in several studies using data from patients undergoing tota
 ```{r}
 make_article_citation <- function(authors, title, journal, volume, issue, pages, year, doi,
                                   link = TRUE) {
+    stub <- if_else(is.na(doi), make_stub(authors, year, title), doi)
     glue(
-        "{authors}. {title}. *{journal}* {year};{volume}{issue}{pages}. doi:[{doi}](https://doi.org/{doi})",
-        title = if (link) glue("[{title}]({fs::path('articles', doi, 'index.qmd')})") else title,
+        "{authors}. {title}. *{journal}* {year};{volume}{issue}{pages}.{doi}",
+        title = if (link) glue("[{title}]({fs::path('articles', stub, 'index.qmd')})") else title,
+        doi = if_else(is.na(doi), "", glue(" doi:[{doi}](https://doi.org/{doi})")),
         issue = if_else(is.na(issue), "", glue("({issue})")),
         pages = if_else(is.na(pages), "", glue(":{pages}")),
+    )
+}
+
+make_stub <- function(authors, year, title) {
+    glue(
+        "{author}-{year}-{shorttitle}",
+        author = word(authors, end = 1),
+        shorttitle = str_replace_all(word(title, end = 6), "\\h", "-")
     )
 }
 
@@ -103,8 +113,9 @@ create_article_page <- function(
     abstract,
     date
 ) {
-    fs::dir_create("articles", doi)
-    file <- fs::file_create("articles", doi, "index.qmd")
+    stub <- if_else(is.na(doi), make_stub(authors, year, title), doi)
+    fs::dir_create("articles", stub)
+    file <- fs::file_create("articles", stub, "index.qmd")
 
     contents <- c(
         "---\ntoc: false\n---",
@@ -126,7 +137,8 @@ create_article_page <- function(
 
 make_presentation_citation <- function(conference, location, date, title, note) {
   glue(
-    "{conference}. {location}, {date}. *{title}*{note}<br><br>",
+    "{conference}. {location}{date}. *{title}*{note}<br><br>",
+    location = if_else(is.na(location), "", glue("{location}, ")),
     note = if_else(is.na(note), "", glue(" [{note}]", .trim = FALSE, .na = NULL))
   )
 }
@@ -194,13 +206,13 @@ publications %>%
         theme_html(class="borderless")
 ```
 
-### Conference presentations
+### Presentations
 
 ```{r}
 #| html-table-processing: none
 
 # Get list of conference presentations
-presentations <- read_xlsx("_outputs.xlsx", "conferences")
+presentations <- read_xlsx("_outputs.xlsx", "presentations")
 
 # Format citations
 presentations <- presentations %>% 
