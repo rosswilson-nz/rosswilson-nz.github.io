@@ -3,7 +3,9 @@ project:
   render:
     - "index.qmd"
     - "research.qmd"
+    - "teaching.qmd"
     - "articles/**/index.qmd"
+    - "teaching/on-writing-well.html"
 
 website:
   title: "Ross Wilson"
@@ -13,6 +15,8 @@ website:
         text: Home
       - href: research.qmd
         text: Research
+      - href: teaching.qmd
+        text: Teaching
 
 format:
   html:
