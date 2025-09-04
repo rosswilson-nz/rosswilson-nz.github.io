@@ -1,0 +1,19 @@
+/*-- scss:rules --*/
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a.doi {
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+a.doi:hover {
+    font-weight: bold;
+}

@@ -73,7 +73,7 @@ make_article_citation <- function(authors, title, journal, volume, issue, pages,
     glue(
         "{authors}. {title}. *{journal}* {year};{volume}{issue}{pages}.{doi}",
         title = if (link) glue("[{title}]({fs::path('articles', stub, 'index.qmd')})") else title,
-        doi = if_else(is.na(doi), "", glue(" doi:[{doi}](https://doi.org/{doi})")),
+        doi = if_else(is.na(doi), "", glue(" doi:[{doi}](https://doi.org/{doi}){{.doi}}")),
         issue = if_else(is.na(issue), "", glue("({issue})")),
         pages = if_else(is.na(pages), "", glue(":{pages}")),
     )
