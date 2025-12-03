@@ -3,6 +3,8 @@ title: "My Research"
 ---
 
 ```{r}
+#| echo: false
+#| include: false
 suppressPackageStartupMessages(library(tidyverse))
 suppressPackageStartupMessages(library(readxl))
 suppressPackageStartupMessages(library(glue))
@@ -67,91 +69,124 @@ I have been involved in several studies using data from patients undergoing tota
 ### Journal articles
 
 ```{r}
-make_article_citation <- function(authors, title, journal, volume, issue, pages, year, doi,
-                                  link = TRUE) {
-    stub <- if_else(is.na(doi), make_stub(authors, year, title), doi)
-    glue(
-        "{authors}. {title}. *{journal}* {year};{volume}{issue}{pages}.{doi}",
-        title = if (link) glue("[{title}]({fs::path('articles', stub, 'index.qmd')})") else title,
-        doi = if_else(is.na(doi), "", glue(" doi:[{doi}](https://doi.org/{doi}){{.doi}}")),
-        issue = if_else(is.na(issue), "", glue("({issue})")),
-        pages = if_else(is.na(pages), "", glue(":{pages}")),
-    )
+make_article_citation <- function(
+  authors,
+  title,
+  journal,
+  volume,
+  issue,
+  pages,
+  year,
+  doi,
+  link = TRUE
+) {
+  stub <- if_else(is.na(doi), make_stub(authors, year, title), doi)
+  glue(
+    "{authors}. {title}. *{journal}* {year};{volume}{issue}{pages}.{doi}",
+    title = if (link) {
+      glue("[{title}]({fs::path('articles', stub, 'index.qmd')})")
+    } else {
+      title
+    },
+    doi = if_else(
+      is.na(doi),
+      "",
+      glue(" doi:[{doi}](https://doi.org/{doi}){{.doi}}")
+    ),
+    issue = if_else(is.na(issue), "", glue("({issue})")),
+    pages = if_else(is.na(pages), "", glue(":{pages}")),
+  )
 }
 
 make_stub <- function(authors, year, title) {
-    glue(
-        "{author}-{year}-{shorttitle}",
-        author = word(authors, end = 1),
-        shorttitle = str_replace_all(word(title, end = 6), "\\h", "-")
-    )
+  glue(
+    "{author}-{year}-{shorttitle}",
+    author = word(authors, end = 1),
+    shorttitle = str_replace_all(word(title, end = 6), "\\h", "-")
+  )
 }
 
 get_article_metrics <- function(doi) {
-    if_else(
-        is.na(doi),
-        "",
-        glue(
-            '<p>',
-            '<span class="__dimensions_badge_embed__"  data-style="large_rectangle" data-doi={doi}></span>',
-            '<span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi={doi}></span>',
-            '</p>',
-            .na = NULL
-        )
+  if_else(
+    is.na(doi),
+    "",
+    glue(
+      '<p>',
+      '<span class="__dimensions_badge_embed__"  data-style="large_rectangle" data-doi={doi}></span>',
+      '<span class="altmetric-embed" data-badge-type="1" data-badge-popover="right" data-doi={doi}></span>',
+      '</p>',
+      .na = NULL
     )
+  )
 }
 
 create_article_page <- function(
-    authors,
-    title,
-    journal,
-    volume,
-    issue,
-    pages,
-    year,
-    doi,
-    abstract,
-    date
+  authors,
+  title,
+  journal,
+  volume,
+  issue,
+  pages,
+  year,
+  doi,
+  abstract,
+  date
 ) {
-    stub <- if_else(is.na(doi), make_stub(authors, year, title), doi)
-    fs::dir_create("articles", stub)
-    file <- fs::file_create("articles", stub, "index.qmd")
+  stub <- if_else(is.na(doi), make_stub(authors, year, title), doi)
+  fs::dir_create("articles", stub)
+  file <- fs::file_create("articles", stub, "index.qmd")
 
-    contents <- c(
-        "---\ntoc: false\n---",
-        "Back to [publications](/research.qmd#journal-articles)\n",
-        glue("# {title}"),
-        glue("## {journal}"),
-        '::: {.callout-tip appearance="minimal" icon=false}',
-        "[Published]{.smallcaps}\\",
-        glue("{date}"),
-        "\n[Citation]{.smallcaps}\\",
-        glue("{make_article_citation(authors, title, journal, volume, issue, pages, year, doi, link = FALSE)}"),
-        ":::\n",
-        "\n### Abstract",
-        glue("\n{abstract}")
-    )
-    writeLines(contents, file)
-    file
+  contents <- c(
+    "---\ntoc: false\n---",
+    "Back to [publications](/research.qmd#journal-articles)\n",
+    glue("# {title}"),
+    glue("## {journal}"),
+    '::: {.callout-tip appearance="minimal" icon=false}',
+    "[Published]{.smallcaps}\\",
+    glue("{date}"),
+    "\n[Citation]{.smallcaps}\\",
+    glue(
+      "{make_article_citation(authors, title, journal, volume, issue, pages, year, doi, link = FALSE)}"
+    ),
+    ":::\n",
+    "\n### Abstract",
+    glue("\n{abstract}")
+  )
+  writeLines(contents, file)
+  file
 }
 
-make_presentation_citation <- function(conference, location, date, title, note) {
+make_presentation_citation <- function(
+  conference,
+  location,
+  date,
+  title,
+  note
+) {
   glue(
     "{conference}. {location}{date}. *{title}*{note}<br><br>",
     location = if_else(is.na(location), "", glue("{location}, ")),
-    note = if_else(is.na(note), "", glue(" [{note}]", .trim = FALSE, .na = NULL))
+    note = if_else(
+      is.na(note),
+      "",
+      glue(" [{note}]", .trim = FALSE, .na = NULL)
+    )
   )
 }
 
 make_publication_citation <- function(title, with, note, date, available) {
   glue(
     "*{title}*. {with}{note}{date}.{available}<br><br>",
-    with = if_else(is.na(with), "", glue("With {with}. ", .trim = FALSE, .na = NULL)),
+    with = if_else(
+      is.na(with),
+      "",
+      glue("With {with}. ", .trim = FALSE, .na = NULL)
+    ),
     note = if_else(is.na(note), "", glue("{note} ", .trim = FALSE, .na = NULL)),
     available = if_else(
-        is.na(available),
-        "",
-        glue(" Available at <{available}>", .trim = FALSE, .na = NULL)
+      is.na(available),
+      "",
+      glue(" Available at <{available}>", .trim = FALSE, .na = NULL)
     )
   )
 }
@@ -164,23 +199,42 @@ make_publication_citation <- function(title, with, note, date, available) {
 articles <- read_xlsx("_outputs.xlsx", "articles")
 
 # Format citations
-articles <- articles %>% 
-    mutate(
-        citation = make_article_citation(authors, title, journal, volume, issue, pages, year, doi),
-        metrics = get_article_metrics(doi)
-    ) %>% 
-    rowwise() %>% 
-    mutate(
-        link = create_article_page(authors, title, journal, volume, issue, pages, year, doi,
-                                   abstract, date)
+articles <- articles %>%
+  mutate(
+    citation = make_article_citation(
+      authors,
+      title,
+      journal,
+      volume,
+      issue,
+      pages,
+      year,
+      doi
+    ),
+    metrics = get_article_metrics(doi)
+  ) %>%
+  rowwise() %>%
+  mutate(
+    link = create_article_page(
+      authors,
+      title,
+      journal,
+      volume,
+      issue,
+      pages,
+      year,
+      doi,
+      abstract,
+      date
     )
+  )
 
 articles %>%
-    transmute(citation = glue("{citation}<br><br>"), metrics) %>%
-    tt(colnames = FALSE) %>% 
-    tt_format(j = 1, markdown = TRUE) %>% 
-    tt_style(align = "l", alignv = "t") %>% 
-    theme_html(class="borderless")
+  transmute(citation = glue("{citation}<br><br>"), metrics) %>%
+  tt(colnames = FALSE) %>%
+  tt_format(j = 1, markdown = TRUE) %>%
+  tt_style(align = "l", alignv = "t") %>%
+  theme_html(class = "borderless")
 ```
 
 ### Other publications
@@ -193,17 +247,17 @@ articles %>%
 publications <- read_xlsx("_outputs.xlsx", "other")
 
 # Format citations
-publications <- publications %>% 
-    mutate(
-        publication = make_publication_citation(title, with, note, date, available)
-    )
+publications <- publications %>%
+  mutate(
+    publication = make_publication_citation(title, with, note, date, available)
+  )
 
 publications %>%
-        select(publication) %>%
-        tt(colnames = FALSE) %>% 
-        tt_format(markdown = TRUE) %>% 
-        tt_style(align = "l", alignv = "t") %>% 
-        theme_html(class="borderless")
+  select(publication) %>%
+  tt(colnames = FALSE) %>%
+  tt_format(markdown = TRUE) %>%
+  tt_style(align = "l", alignv = "t") %>%
+  theme_html(class = "borderless")
 ```
 
 ### Presentations
@@ -215,15 +269,21 @@ publications %>%
 presentations <- read_xlsx("_outputs.xlsx", "presentations")
 
 # Format citations
-presentations <- presentations %>% 
-    mutate(
-        presentation = make_presentation_citation(conference, location, date, title, note)
+presentations <- presentations %>%
+  mutate(
+    presentation = make_presentation_citation(
+      conference,
+      location,
+      date,
+      title,
+      note
     )
+  )
 
 presentations %>%
-        select(presentation) %>%
-        tt(colnames = FALSE) %>% 
-        tt_format(markdown = TRUE) %>% 
-        tt_style(align = "l", alignv = "t") %>% 
-        theme_html(class="borderless")
+  select(presentation) %>%
+  tt(colnames = FALSE) %>%
+  tt_format(markdown = TRUE) %>%
+  tt_style(align = "l", alignv = "t") %>%
+  theme_html(class = "borderless")
 ```
