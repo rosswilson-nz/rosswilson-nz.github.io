@@ -1,0 +1,18 @@
+---
+toc: false
+---
+Back to [publications](/research.qmd#journal-articles)
+
+# Do treatment expectations moderate the effect of manual therapy in people with knee osteoarthritis? A secondary analysis of randomised clinical trials
+## JOSPT Open
+::: {.callout-tip appearance="minimal" icon=false}
+[Published]{.smallcaps}\
+NA
+
+[Citation]{.smallcaps}\
+Caya R, Gayed M, Wilson R, Childs JD, Christopherson RM, Fernandes LG, Lim YW, Pierobon A, Pryymachenko Y, Abbott JH. Do treatment expectations moderate the effect of manual therapy in people with knee osteoarthritis? A secondary analysis of randomised clinical trials. *JOSPT Open* 2026;In press. doi:[10.2519/josptopen.2026.0180](https://doi.org/10.2519/josptopen.2026.0180){.doi}
+:::
+
+
+### Abstract
+**Objective**<br>To investigate whether treatment expectations for joint mobilisation or massage moderated the effect of manual therapy on pain outcomes in knee osteoarthritis (OA).<br><br>**Design**<br>Secondary moderation analysis of two 2×2 factorial randomised controlled trials.<br><br>**Methods**<br>Data were pooled from two trials that compared manual therapy and exercise to exercise alone in 375 people with knee OA. Before randomisation, expectations were measured using a questionnaire that captured patients’ views about the effect of common OA treatments to reduce knee pain using a 5-point Likert scale ranging from “completely disagree” to “completely agree”. Responses regarding joint mobilisation and massage were dichotomised into high and low expectations. The primary outcome was pain intensity at 9-weeks measured by Numeric Pain Rating Scale (NPRS). Linear regression models were used to test whether treatment expectations moderated manual therapy treatment response. Models were conducted separately for each of the two potential moderators (joint mobilisation and massage) and adjusted for the same covariates associated with the outcomes of the original trials.<br><br>**Results**<br>Primary regression analysis showed no significant interaction effect between manual therapy and treatment expectations on pain outcomes at 9-weeks follow-up (mobilisation: β = −0.17, 95% CI: −0.90 to 0.56; massage: β = −0.26, 95% CI: −1.00 to 0.47). Sensitivity analyses showed similar findings.<br><br>**Conclusion**<br>These exploratory findings indicated that treatment expectations did not moderate patient response to manual therapy for OA.
