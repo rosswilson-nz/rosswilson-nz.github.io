@@ -1,0 +1,24 @@
+    <header class="academic-topbar calepin-site-topbar">
+        <nav class="academic-nav calepin-site-nav" aria-label="Site">
+            {% include "partials/site-brand.html" %}
+            <button class="academic-nav-toggle calepin-nav-toggle" type="button" aria-controls="academic-menu" aria-expanded="false" aria-label="Toggle navigation">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </button>
+            <div id="academic-menu" class="academic-menu calepin-site-menu">
+                {% for item in site.menus.main %}
+                {% include "partials/site-nav-item.html" %}
+                {% endfor %}
+                {% for item in site.menus.social %}
+                {% include "partials/site-nav-item.html" %}
+                {% endfor %}
+                {% if site.pagefind %}
+                <pagefind-modal-trigger></pagefind-modal-trigger>
+                {% endif %}
+                {% set calepin_theme_toggle_storage_key = "calepin-academic-theme" %}
+                {% include "partials/theme-toggle-button.html" %}
+                {% include "partials/site-language-picker.html" %}
+            </div>
+        </nav>
+    </header>

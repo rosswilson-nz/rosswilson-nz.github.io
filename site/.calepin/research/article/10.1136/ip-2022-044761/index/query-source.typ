@@ -1,0 +1,55 @@
+#set document(title: [Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status])
+
+#metadata((
+  date: "2023-06-05",
+  date_fmt: "05 June 2023",
+  authors: "Pryymachenko Y, Wilson R, Abbott JH",
+  journal: "Injury prevention",
+  year: "2023",
+  volume: "29",
+  pages: "213–218",
+  doi: "10.1136/ip-2022-044761",
+  citation: "Pryymachenko Y, Wilson R, Abbott JH. #link(\"/research/article/10.1136/ip-2022-044761/index.html\")[Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status]. _Injury prevention_ 2023;29:213–218. doi: #link(\"https://doi.org/10.1136/ip-2022-044761\")[10.1136/ip-2022-044761]",
+)) <website-metadata>
+
+Back to #link("/research.html/journal-articles")[publications]
+
+= Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status
+== Injury prevention
+#smallcaps[Published]\ 05 June 2023
+
+#smallcaps[Citation]\ #eval("Pryymachenko Y, Wilson R, Abbott JH. Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status. _Injury prevention_ 2023;29:213–218. doi: #link(\"https://doi.org/10.1136/ip-2022-044761\")[10.1136/ip-2022-044761]", mode: "markup")
+
+=== Abstract
+*Objectives*
+To investigate the temporal trends and ethnic and socioeconomic disparities
+in cruciate ligament (CL) injury incidence and associated costs in New
+Zealand over a 14-year period.
+
+*Methods*
+All CL injury claims lodged between 2007 and 2020 were extracted from the
+Accident Compensation Corporation (a nationwide no-fault injury
+compensation scheme) claims dataset. Age-adjusted and sex-adjusted
+incidence rates, total injury costs and costs per claim were calculated for
+each year for total population and subgroups.
+
+*Results*
+The total number of CL injury claims increased from 6972 in 2007 to 8304 in
+2019, then decreased to 7068 in 2020 (likely due to widespread COVID-19
+restrictions; analysis is therefore restricted to 2007–2019 hereafter). The
+(age-adjusted and sex-adjusted) incidence rate remained largely unchanged
+and was 173 cases per 100 000 people in 2019. There was a 127% increase in
+total injury claims costs and a 90% increase in costs per claim. Pacific
+people had the highest incidence rate and costs per 100 000 people, while
+Asians had the lowest; European, Māori and 'other' ethnicities had similar
+incidence rates and total costs. Incidence rates and total costs increased
+with income and decreased with neighbourhood deprivation. Costs per claim
+differed little by ethnicity, but increased with income level.
+
+*Conclusion*
+The number and costs of CL injury claims in New Zealand are increasing.
+There are ethnic and socioeconomic disparities in CL incidence rates and
+costs, which are important to address when designing CL injury prevention
+programmes and programmes aimed at improving equity of access to medical
+care.
+

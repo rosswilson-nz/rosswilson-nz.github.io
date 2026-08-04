@@ -1,0 +1,46 @@
+    {% if not doc.title %}
+    {% set meta_title = none %}
+    {% if site.page_title %}
+    {% set meta_title = site.page_title %}
+    {% elif site.title %}
+    {% set meta_title = site.title %}
+    {% endif %}
+    {% if meta_title %}
+    {% if site.title and meta_title != site.title %}
+    <title>{{ meta_title }} | {{ site.title }}</title>
+    {% else %}
+    <title>{{ meta_title }}</title>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% if site.description %}
+    <meta name="description" content="{{ site.description }}">
+    <meta property="og:description" content="{{ site.description }}">
+    {% endif %}
+    {% if site.title %}
+    <meta property="og:site_name" content="{{ site.title }}">
+    {% endif %}
+    {% if doc.title %}
+    {% set meta_title = doc.title %}
+    {% elif site.page_title %}
+    {% set meta_title = site.page_title %}
+    {% elif site.title %}
+    {% set meta_title = site.title %}
+    {% endif %}
+    {% if meta_title %}
+    {% if site.title and meta_title != site.title %}
+    <meta property="og:title" content="{{ meta_title }} | {{ site.title }}">
+    {% else %}
+    <meta property="og:title" content="{{ meta_title }}">
+    {% endif %}
+    {% endif %}
+    {% if site.page_url %}
+    <link rel="canonical" href="{{ site.page_url }}">
+    <meta property="og:url" content="{{ site.page_url }}">
+    {% endif %}
+    {% if site.favicon %}
+    <link rel="icon" href="{{ site.favicon }}">
+    {% endif %}
+    {% for translation in site.translations %}
+    <link rel="alternate" hreflang="{{ translation.code }}" href="{{ translation.href }}">
+    {% endfor %}

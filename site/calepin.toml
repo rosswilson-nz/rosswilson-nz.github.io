@@ -1,0 +1,48 @@
+title = "Ross Wilson"
+description = "Senior Research Fellow, University of Otago."
+# base_url = "https://example.com"
+# Try the bundled themes:
+# theme = "calepin"
+# theme = "academic"
+theme = "./theme"
+
+pdf = false
+default_language = "en"
+
+# Uncomment to generate static search if Pagefind is available.
+# search = "pagefind"
+
+# Uncomment feeds after setting base_url.
+# generate_feeds = true
+# [feeds]
+# filenames = ["atom.xml", "rss.xml"]
+
+[static]
+include = ["assets/**"]
+
+[pages]
+include = ["research/article/**/index.typ"]
+
+[[menus.main]]
+target = "research.typ"
+label = "Research"
+
+[[menus.main]]
+target = "teaching.typ"
+label = "Teaching"
+
+[[menus.social]]
+target = "https://scholar.google.co.nz/citations?user=PnU5IYEAAAAJ&hl=en"
+label = "{icon:academicons:google-scholar}"
+
+[[menus.social]]
+target = "https://github.com/rosswilson-nz"
+label = "{icon:github}"
+
+[[menus.social]]
+target = "https://bsky.app/profile/rosswilson.nz"
+label = "{icon:meteor-icons:bluesky}"
+
+[[menus.social]]
+target = "https://www.researchgate.net/profile/Ross_Wilson2"
+label = "{icon:academicons:researchgate}"

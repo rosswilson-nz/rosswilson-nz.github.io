@@ -1,0 +1,11 @@
+    <meta name="color-scheme" content="light dark">
+    {# Inline theme-init.js with runtime configuration. #}
+    {% for file in js %}
+      {% if file.name == "theme-init.js" %}
+    <script
+      data-calepin-theme-storage-key="{{ calepin_theme_storage_key | default("calepin-website-theme") }}"
+      data-calepin-theme-param="{{ calepin_theme_param | default("theme") }}">
+{{ file.content }}
+    </script>
+      {% endif %}
+    {% endfor %}

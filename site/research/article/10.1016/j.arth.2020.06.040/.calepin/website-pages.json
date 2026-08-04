@@ -1,0 +1,1262 @@
+[
+  {
+    "href": "index.html",
+    "language": null,
+    "meta": {
+      "title": "Home"
+    },
+    "path": "index.typ",
+    "pdf": null,
+    "title": "Home",
+    "translation_key": "index",
+    "translations": {}
+  },
+  {
+    "href": "research.html",
+    "language": null,
+    "meta": {
+      "title": "Research"
+    },
+    "path": "research.typ",
+    "pdf": null,
+    "title": "Research",
+    "translation_key": "research",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1002/acr.24821/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Sharma S, Wilson R, Pryymachenko Y, Pathak A, Chua J, Gwynne-Jones D, Bennell KL, Metcalf B, Hinman RS, Lim B-W, Abbott JH",
+      "citation": "Sharma S, Wilson R, Pryymachenko Y, Pathak A, Chua J, Gwynne-Jones D, Bennell KL, Metcalf B, Hinman RS, Lim B-W, Abbott JH. #link(\"/research/article/10.1002/acr.24821/index.html\")[Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis]. _Arthritis Care & Research_ 2023;75(5):1147–1157. doi: #link(\"https://doi.org/10.1002/acr.24821\")[10.1002/acr.24821]",
+      "date": "2022-11-24",
+      "date_fmt": "24 November 2022",
+      "doi": "10.1002/acr.24821",
+      "issue": "5",
+      "journal": "Arthritis Care & Research",
+      "pages": "1147–1157",
+      "volume": "75",
+      "year": "2023"
+    },
+    "path": "research/article/10.1002/acr.24821/index.typ",
+    "pdf": null,
+    "title": "Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis",
+    "translation_key": "research/article/10.1002/acr.24821/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1002/acr.25631/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson R, Dalbeth N, Abbott JH, Stamp L",
+      "citation": "Pryymachenko Y, Wilson R, Dalbeth N, Abbott JH, Stamp L. #link(\"/research/article/10.1002/acr.25631/index.html\")[Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the \"start-low go-slow\" approach for gout: evidence from a non-inferiority randomised double-blind placebo-controlled trial]. _Arthritis Care & Research_ 2026;78(3):337-343. doi: #link(\"https://doi.org/10.1002/acr.25631\")[10.1002/acr.25631]",
+      "date": "2025-11-25",
+      "date_fmt": "25 November 2025",
+      "doi": "10.1002/acr.25631",
+      "issue": "3",
+      "journal": "Arthritis Care & Research",
+      "pages": "337-343",
+      "volume": "78",
+      "year": "2026"
+    },
+    "path": "research/article/10.1002/acr.25631/index.typ",
+    "pdf": null,
+    "title": "Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the \"start-low go-slow\" approach for gout: evidence from a non-inferiority randomised double-blind placebo-controlled trial",
+    "translation_key": "research/article/10.1002/acr.25631/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1002/msc.1785/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Darlow B, Brown M, Stanley J, Abbott H, Briggs A, Clark J, Frew G, Grainger R, Hood F, Hudson B, Keenan R, Marra C, McKinlay E, Pask A, Pierobon A, Simmonds S, Vincent L, Dean S",
+      "citation": "Darlow B, Brown M, Stanley J, Abbott H, Briggs A, Clark J, Frew G, Grainger R, Hood F, Hudson B, Keenan R, Marra C, McKinlay E, Pask A, Pierobon A, Simmonds S, Vincent L, Dean S. #link(\"/research/article/10.1002/msc.1785/index.html\")[Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS)]. _Musculoskeletal Care_ 2023;21(4):1053–1067. doi: #link(\"https://doi.org/10.1002/msc.1785\")[10.1002/msc.1785]",
+      "date": "2023-05-22",
+      "date_fmt": "22 May 2023",
+      "doi": "10.1002/msc.1785",
+      "issue": "4",
+      "journal": "Musculoskeletal Care",
+      "pages": "1053–1067",
+      "volume": "21",
+      "year": "2023"
+    },
+    "path": "research/article/10.1002/msc.1785/index.typ",
+    "pdf": null,
+    "title": "Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS)",
+    "translation_key": "research/article/10.1002/msc.1785/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1007/s11926-020-00929-0/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Shadbolt C, Shilling S, Inacio MC, Abbott JH, Pryymachenko Y, Wilson R, Choong PFM, Dowsey MM",
+      "citation": "Shadbolt C, Shilling S, Inacio MC, Abbott JH, Pryymachenko Y, Wilson R, Choong PFM, Dowsey MM. #link(\"/research/article/10.1007/s11926-020-00929-0/index.html\")[Opioid Use and Total Joint Replacement]. _Current Rheumatology Reports_ 2020;22:58. doi: #link(\"https://doi.org/10.1007/s11926-020-00929-0\")[10.1007/s11926-020-00929-0]",
+      "date": "2020-08-17",
+      "date_fmt": "17 August 2020",
+      "doi": "10.1007/s11926-020-00929-0",
+      "journal": "Current Rheumatology Reports",
+      "pages": "58",
+      "volume": "22",
+      "year": "2020"
+    },
+    "path": "research/article/10.1007/s11926-020-00929-0/index.typ",
+    "pdf": null,
+    "title": "Opioid Use and Total Joint Replacement",
+    "translation_key": "research/article/10.1007/s11926-020-00929-0/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1007/s40258-022-00776-3/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Pryymachenko Y, Abbott JH, Dean S, Stanley J, Garrett S, Mathieson F, Dowell A, Darlow B",
+      "citation": "Wilson R, Pryymachenko Y, Abbott JH, Dean S, Stanley J, Garrett S, Mathieson F, Dowell A, Darlow B. #link(\"/research/article/10.1007/s40258-022-00776-3/index.html\")[A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis]. _Applied Health Economics and Health Policy_ 2023;21:253–262. doi: #link(\"https://doi.org/10.1007/s40258-022-00776-3\")[10.1007/s40258-022-00776-3]",
+      "date": "2022-12-06",
+      "date_fmt": "06 December 2022",
+      "doi": "10.1007/s40258-022-00776-3",
+      "journal": "Applied Health Economics and Health Policy",
+      "pages": "253–262",
+      "volume": "21",
+      "year": "2023"
+    },
+    "path": "research/article/10.1007/s40258-022-00776-3/index.typ",
+    "pdf": null,
+    "title": "A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis",
+    "translation_key": "research/article/10.1007/s40258-022-00776-3/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.artd.2020.04.009/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Gwynne-Jones DP, Sullivan T, Wilson R, Abbott JH",
+      "citation": "Gwynne-Jones DP, Sullivan T, Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.artd.2020.04.009/index.html\")[The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?]. _Arthroplasty Today_ 2020;6(3):585–589.e1. doi: #link(\"https://doi.org/10.1016/j.artd.2020.04.009\")[10.1016/j.artd.2020.04.009]",
+      "date": "2020-05-20",
+      "date_fmt": "20 May 2020",
+      "doi": "10.1016/j.artd.2020.04.009",
+      "issue": "3",
+      "journal": "Arthroplasty Today",
+      "pages": "585–589.e1",
+      "volume": "6",
+      "year": "2020"
+    },
+    "path": "research/article/10.1016/j.artd.2020.04.009/index.typ",
+    "pdf": null,
+    "title": "The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?",
+    "translation_key": "research/article/10.1016/j.artd.2020.04.009/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.arth.2020.01.086/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Gwynne-Jones JH, Wilson RA, Wong JMY, Abbott JH, Gwynne-Jones DP",
+      "citation": "Gwynne-Jones JH, Wilson RA, Wong JMY, Abbott JH, Gwynne-Jones DP. #link(\"/research/article/10.1016/j.arth.2020.01.086/index.html\")[The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery]. _Journal of Arthroplasty_ 2020;35(6):1497–1503. doi: #link(\"https://doi.org/10.1016/j.arth.2020.01.086\")[10.1016/j.arth.2020.01.086]",
+      "date": "2020-02-07",
+      "date_fmt": "07 February 2020",
+      "doi": "10.1016/j.arth.2020.01.086",
+      "issue": "6",
+      "journal": "Journal of Arthroplasty",
+      "pages": "1497–1503",
+      "volume": "35",
+      "year": "2020"
+    },
+    "path": "research/article/10.1016/j.arth.2020.01.086/index.typ",
+    "pdf": null,
+    "title": "The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery",
+    "translation_key": "research/article/10.1016/j.arth.2020.01.086/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.arth.2020.04.087/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA",
+      "citation": "Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA. #link(\"/research/article/10.1016/j.arth.2020.04.087/index.html\")[The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?]. _Journal of Arthroplasty_ 2020;35(9):2350–2356.e1. doi: #link(\"https://doi.org/10.1016/j.arth.2020.04.087\")[10.1016/j.arth.2020.04.087]",
+      "date": "2020-05-03",
+      "date_fmt": "03 May 2020",
+      "doi": "10.1016/j.arth.2020.04.087",
+      "issue": "9",
+      "journal": "Journal of Arthroplasty",
+      "pages": "2350–2356.e1",
+      "volume": "35",
+      "year": "2020"
+    },
+    "path": "research/article/10.1016/j.arth.2020.04.087/index.typ",
+    "pdf": null,
+    "title": "The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?",
+    "translation_key": "research/article/10.1016/j.arth.2020.04.087/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.arth.2020.05.054/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA",
+      "citation": "Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA. #link(\"/research/article/10.1016/j.arth.2020.05.054/index.html\")[Response to Letter to the Editor on \"The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?\"]. _Journal of Arthroplasty_ 2020;35(10):3060–3061. doi: #link(\"https://doi.org/10.1016/j.arth.2020.05.054\")[10.1016/j.arth.2020.05.054]",
+      "date": "2020-05-27",
+      "date_fmt": "27 May 2020",
+      "doi": "10.1016/j.arth.2020.05.054",
+      "issue": "10",
+      "journal": "Journal of Arthroplasty",
+      "pages": "3060–3061",
+      "volume": "35",
+      "year": "2020"
+    },
+    "path": "research/article/10.1016/j.arth.2020.05.054/index.typ",
+    "pdf": null,
+    "title": "Response to Letter to the Editor on \"The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?\"",
+    "translation_key": "research/article/10.1016/j.arth.2020.05.054/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.arth.2020.06.040/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson RA, Abbott JH, Dowsey MM, Choong PFM",
+      "citation": "Pryymachenko Y, Wilson RA, Abbott JH, Dowsey MM, Choong PFM. #link(\"/research/article/10.1016/j.arth.2020.06.040/index.html\")[Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data]. _Journal of Arthroplasty_ 2020;35(11):3099–3107.e14. doi: #link(\"https://doi.org/10.1016/j.arth.2020.06.040\")[10.1016/j.arth.2020.06.040]",
+      "date": "2020-06-26",
+      "date_fmt": "26 June 2020",
+      "doi": "10.1016/j.arth.2020.06.040",
+      "issue": "11",
+      "journal": "Journal of Arthroplasty",
+      "pages": "3099–3107.e14",
+      "volume": "35",
+      "year": "2020"
+    },
+    "path": "research/article/10.1016/j.arth.2020.06.040/index.typ",
+    "pdf": null,
+    "title": "Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data",
+    "translation_key": "research/article/10.1016/j.arth.2020.06.040/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.arth.2021.01.038/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson RA, Gwynne-Jones DP, Sullivan TA, Abbott JH",
+      "citation": "Wilson RA, Gwynne-Jones DP, Sullivan TA, Abbott JH. #link(\"/research/article/10.1016/j.arth.2021.01.038/index.html\")[Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up]. _Journal of Arthroplasty_ 2021;36(6):1864–1872.e10. doi: #link(\"https://doi.org/10.1016/j.arth.2021.01.038\")[10.1016/j.arth.2021.01.038]",
+      "date": "2021-01-21",
+      "date_fmt": "21 January 2021",
+      "doi": "10.1016/j.arth.2021.01.038",
+      "issue": "6",
+      "journal": "Journal of Arthroplasty",
+      "pages": "1864–1872.e10",
+      "volume": "36",
+      "year": "2021"
+    },
+    "path": "research/article/10.1016/j.arth.2021.01.038/index.typ",
+    "pdf": null,
+    "title": "Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up",
+    "translation_key": "research/article/10.1016/j.arth.2021.01.038/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.jht.2023.02.010/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Bühler M, Gwynne-Jones D, Chin M, Woodside J, Gough J, Wilson R, Abbott JH",
+      "citation": "Bühler M, Gwynne-Jones D, Chin M, Woodside J, Gough J, Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.jht.2023.02.010/index.html\")[Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial]. _Journal of Hand Therapy_ 2023;36(2):363–377. doi: #link(\"https://doi.org/10.1016/j.jht.2023.02.010\")[10.1016/j.jht.2023.02.010]",
+      "date": "2023-04-10",
+      "date_fmt": "10 April 2023",
+      "doi": "10.1016/j.jht.2023.02.010",
+      "issue": "2",
+      "journal": "Journal of Hand Therapy",
+      "pages": "363–377",
+      "volume": "36",
+      "year": "2023"
+    },
+    "path": "research/article/10.1016/j.jht.2023.02.010/index.typ",
+    "pdf": null,
+    "title": "Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial",
+    "translation_key": "research/article/10.1016/j.jht.2023.02.010/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.joca.2018.01.004/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Abbott JH",
+      "citation": "Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.joca.2018.01.004/index.html\")[Development and validation of a new population-based simulation model of osteoarthritis in New Zealand]. _Osteoarthritis and Cartilage_ 2018;26(4):531–539. doi: #link(\"https://doi.org/10.1016/j.joca.2018.01.004\")[10.1016/j.joca.2018.01.004]",
+      "date": "2018-01-10",
+      "date_fmt": "10 January 2018",
+      "doi": "10.1016/j.joca.2018.01.004",
+      "issue": "4",
+      "journal": "Osteoarthritis and Cartilage",
+      "pages": "531–539",
+      "volume": "26",
+      "year": "2018"
+    },
+    "path": "research/article/10.1016/j.joca.2018.01.004/index.typ",
+    "pdf": null,
+    "title": "Development and validation of a new population-based simulation model of osteoarthritis in New Zealand",
+    "translation_key": "research/article/10.1016/j.joca.2018.01.004/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.joca.2018.12.004/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Abbott JH, Wilson R, Pinto D, Chapple CM, Wright AA",
+      "citation": "Abbott JH, Wilson R, Pinto D, Chapple CM, Wright AA. #link(\"/research/article/10.1016/j.joca.2018.12.004/index.html\")[Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial]. _Osteoarthritis and Cartilage_ 2019;27(3):424–434. doi: #link(\"https://doi.org/10.1016/j.joca.2018.12.004\")[10.1016/j.joca.2018.12.004]",
+      "date": "2018-12-13",
+      "date_fmt": "13 December 2018",
+      "doi": "10.1016/j.joca.2018.12.004",
+      "issue": "3",
+      "journal": "Osteoarthritis and Cartilage",
+      "pages": "424–434",
+      "volume": "27",
+      "year": "2019"
+    },
+    "path": "research/article/10.1016/j.joca.2018.12.004/index.typ",
+    "pdf": null,
+    "title": "Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial",
+    "translation_key": "research/article/10.1016/j.joca.2018.12.004/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.jphys.2022.11.007/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Abbott JH, Mellor R, Grimaldi A, Bennell K, Vicenzino B",
+      "citation": "Wilson R, Abbott JH, Mellor R, Grimaldi A, Bennell K, Vicenzino B. #link(\"/research/article/10.1016/j.jphys.2022.11.007/index.html\")[Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial]. _Journal of Physiotherapy_ 2023;69(1):35–41. doi: #link(\"https://doi.org/10.1016/j.jphys.2022.11.007\")[10.1016/j.jphys.2022.11.007]",
+      "date": "2023-01-03",
+      "date_fmt": "03 January 2023",
+      "doi": "10.1016/j.jphys.2022.11.007",
+      "issue": "1",
+      "journal": "Journal of Physiotherapy",
+      "pages": "35–41",
+      "volume": "69",
+      "year": "2023"
+    },
+    "path": "research/article/10.1016/j.jphys.2022.11.007/index.typ",
+    "pdf": null,
+    "title": "Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial",
+    "translation_key": "research/article/10.1016/j.jphys.2022.11.007/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.jphys.2023.04.001/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Abdel-Shaheed C, Mathieson S, Wilson R, Furmage A-M, Maher C",
+      "citation": "Abdel-Shaheed C, Mathieson S, Wilson R, Furmage A-M, Maher C. #link(\"/research/article/10.1016/j.jphys.2023.04.001/index.html\")[Who should judge treatment effects as unimportant?]. _Journal of Physiotherapy_ 2023;69(3):133–135. doi: #link(\"https://doi.org/10.1016/j.jphys.2023.04.001\")[10.1016/j.jphys.2023.04.001]",
+      "doi": "10.1016/j.jphys.2023.04.001",
+      "issue": "3",
+      "journal": "Journal of Physiotherapy",
+      "pages": "133–135",
+      "volume": "69",
+      "year": "2023"
+    },
+    "path": "research/article/10.1016/j.jphys.2023.04.001/index.typ",
+    "pdf": null,
+    "title": "Who should judge treatment effects as unimportant?",
+    "translation_key": "research/article/10.1016/j.jphys.2023.04.001/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.jval.2021.08.008/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Chua J, Pryymachenko Y, Pathak A, Sharma S, Abbott JH",
+      "citation": "Wilson R, Chua J, Pryymachenko Y, Pathak A, Sharma S, Abbott JH. #link(\"/research/article/10.1016/j.jval.2021.08.008/index.html\")[Prioritizing Healthcare Interventions: A Comparison of Multicriteria Decision Analysis and Cost-Effectiveness Analysis]. _Value in Health_ 2022;25(2):268–275. doi: #link(\"https://doi.org/10.1016/j.jval.2021.08.008\")[10.1016/j.jval.2021.08.008]",
+      "date": "2021-09-23",
+      "date_fmt": "23 September 2021",
+      "doi": "10.1016/j.jval.2021.08.008",
+      "issue": "2",
+      "journal": "Value in Health",
+      "pages": "268–275",
+      "volume": "25",
+      "year": "2022"
+    },
+    "path": "research/article/10.1016/j.jval.2021.08.008/index.typ",
+    "pdf": null,
+    "title": "Prioritizing Healthcare Interventions: A Comparison of Multicriteria Decision Analysis and Cost-Effectiveness Analysis",
+    "translation_key": "research/article/10.1016/j.jval.2021.08.008/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.lanwpc.2020.100089/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Coombs DM, Machado GC, Richards B, Wilson R, Chan J, Storey H, Maher CG",
+      "citation": "Coombs DM, Machado GC, Richards B, Wilson R, Chan J, Storey H, Maher CG. #link(\"/research/article/10.1016/j.lanwpc.2020.100089/index.html\")[Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia]. _Lancet Regional Health - Western Pacific_ 2021;75:100089. doi: #link(\"https://doi.org/10.1016/j.lanwpc.2020.100089\")[10.1016/j.lanwpc.2020.100089]",
+      "date": "2021-01-29",
+      "date_fmt": "29 January 2021",
+      "doi": "10.1016/j.lanwpc.2020.100089",
+      "journal": "Lancet Regional Health - Western Pacific",
+      "pages": "100089",
+      "volume": "75",
+      "year": "2021"
+    },
+    "path": "research/article/10.1016/j.lanwpc.2020.100089/index.typ",
+    "pdf": null,
+    "title": "Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia",
+    "translation_key": "research/article/10.1016/j.lanwpc.2020.100089/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.msksp.2021.102439/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson R, Sharma S, Pathak A, Abbott JH",
+      "citation": "Pryymachenko Y, Wilson R, Sharma S, Pathak A, Abbott JH. #link(\"/research/article/10.1016/j.msksp.2021.102439/index.html\")[Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial]. _Musculoskeletal Science and Practice _ 2021;56:102439. doi: #link(\"https://doi.org/10.1016/j.msksp.2021.102439\")[10.1016/j.msksp.2021.102439]",
+      "date": "2021-08-07",
+      "date_fmt": "07 August 2021",
+      "doi": "10.1016/j.msksp.2021.102439",
+      "journal": "Musculoskeletal Science and Practice ",
+      "pages": "102439",
+      "volume": "56",
+      "year": "2021"
+    },
+    "path": "research/article/10.1016/j.msksp.2021.102439/index.typ",
+    "pdf": null,
+    "title": "Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial",
+    "translation_key": "research/article/10.1016/j.msksp.2021.102439/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.msksp.2025.103443/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pierobon A. Gaspar Fernandes L, Wilson R, Christopherson RM, Stanley J, Pryymachenko Y, Lim YW, Caya R, Gayed M, Abbott H",
+      "citation": "Pierobon A. Gaspar Fernandes L, Wilson R, Christopherson RM, Stanley J, Pryymachenko Y, Lim YW, Caya R, Gayed M, Abbott H. #link(\"/research/article/10.1016/j.msksp.2025.103443/index.html\")[Validity of the Global Rating of Change in patients with chronic low back pain]. _Musculoskeletal Science and Practice_ 2025;80:103443. doi: #link(\"https://doi.org/10.1016/j.msksp.2025.103443\")[10.1016/j.msksp.2025.103443]",
+      "date": "2025-11-08",
+      "date_fmt": "08 November 2025",
+      "doi": "10.1016/j.msksp.2025.103443",
+      "journal": "Musculoskeletal Science and Practice",
+      "pages": "103443",
+      "volume": "80",
+      "year": "2025"
+    },
+    "path": "research/article/10.1016/j.msksp.2025.103443/index.typ",
+    "pdf": null,
+    "title": "Validity of the Global Rating of Change in patients with chronic low back pain",
+    "translation_key": "research/article/10.1016/j.msksp.2025.103443/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.ocarto.2020.100110/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Chua J, Hansen P, Briggs AM, Wilson R, Gwynne-Jones D, Abbott JH",
+      "citation": "Chua J, Hansen P, Briggs AM, Wilson R, Gwynne-Jones D, Abbott JH. #link(\"/research/article/10.1016/j.ocarto.2020.100110/index.html\")[Stakeholders' preferences for osteoarthritis interventions in health services: A cross-sectional study using multi-criteria decision analysis]. _Osteoarthritis and Cartilage Open_ 2020;2(4):100110. doi: #link(\"https://doi.org/10.1016/j.ocarto.2020.100110\")[10.1016/j.ocarto.2020.100110]",
+      "date": "2020-12-22",
+      "date_fmt": "22 December 2020",
+      "doi": "10.1016/j.ocarto.2020.100110",
+      "issue": "4",
+      "journal": "Osteoarthritis and Cartilage Open",
+      "pages": "100110",
+      "volume": "2",
+      "year": "2020"
+    },
+    "path": "research/article/10.1016/j.ocarto.2020.100110/index.typ",
+    "pdf": null,
+    "title": "Stakeholders' preferences for osteoarthritis interventions in health services: A cross-sectional study using multi-criteria decision analysis",
+    "translation_key": "research/article/10.1016/j.ocarto.2020.100110/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.ocarto.2020.100123/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Chua J, Briggs AM, Abbott JH",
+      "citation": "Wilson R, Chua J, Briggs AM, Abbott JH. #link(\"/research/article/10.1016/j.ocarto.2020.100123/index.html\")[The cost-effectiveness of recommended adjunctive interventions for knee osteoarthritis: Results from a computer simulation model]. _Osteoarthritis and Cartilage Open_ 2020;2(4):100123. doi: #link(\"https://doi.org/10.1016/j.ocarto.2020.100123\")[10.1016/j.ocarto.2020.100123]",
+      "date": "2020-12-22",
+      "date_fmt": "22 December 2020",
+      "doi": "10.1016/j.ocarto.2020.100123",
+      "issue": "4",
+      "journal": "Osteoarthritis and Cartilage Open",
+      "pages": "100123",
+      "volume": "2",
+      "year": "2020"
+    },
+    "path": "research/article/10.1016/j.ocarto.2020.100123/index.typ",
+    "pdf": null,
+    "title": "The cost-effectiveness of recommended adjunctive interventions for knee osteoarthritis: Results from a computer simulation model",
+    "translation_key": "research/article/10.1016/j.ocarto.2020.100123/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1016/j.worlddev.2015.11.015/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R",
+      "citation": "Wilson R. #link(\"/research/article/10.1016/j.worlddev.2015.11.015/index.html\")[Does Governance Cause Growth? Evidence from China]. _World Development_ 2016;79:138–151. doi: #link(\"https://doi.org/10.1016/j.worlddev.2015.11.015\")[10.1016/j.worlddev.2015.11.015]",
+      "date": "2015-12-17",
+      "date_fmt": "17 December 2015",
+      "doi": "10.1016/j.worlddev.2015.11.015",
+      "journal": "World Development",
+      "pages": "138–151",
+      "volume": "79",
+      "year": "2016"
+    },
+    "path": "research/article/10.1016/j.worlddev.2015.11.015/index.typ",
+    "pdf": null,
+    "title": "Does Governance Cause Growth? Evidence from China",
+    "translation_key": "research/article/10.1016/j.worlddev.2015.11.015/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1093/RHEUMATOLOGY/KEY008/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Blakely T, Abbott JH",
+      "citation": "Wilson R, Blakely T, Abbott JH. #link(\"/research/article/10.1093/RHEUMATOLOGY/KEY008/index.html\")[Radiographic knee osteoarthritis impacts multiple dimensions of health-related quality of life: Data from the Osteoarthritis Initiative]. _Rheumatology_ 2018;57(5):891–899. doi: #link(\"https://doi.org/10.1093/RHEUMATOLOGY/KEY008\")[10.1093/RHEUMATOLOGY/KEY008]",
+      "date": "2018-02-21",
+      "date_fmt": "21 February 2018",
+      "doi": "10.1093/RHEUMATOLOGY/KEY008",
+      "issue": "5",
+      "journal": "Rheumatology",
+      "pages": "891–899",
+      "volume": "57",
+      "year": "2018"
+    },
+    "path": "research/article/10.1093/RHEUMATOLOGY/KEY008/index.typ",
+    "pdf": null,
+    "title": "Radiographic knee osteoarthritis impacts multiple dimensions of health-related quality of life: Data from the Osteoarthritis Initiative",
+    "translation_key": "research/article/10.1093/RHEUMATOLOGY/KEY008/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1093/fampra/cmad112/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson R, Abbott JH, Dowsey M, Choong P",
+      "citation": "Pryymachenko Y, Wilson R, Abbott JH, Dowsey M, Choong P. #link(\"/research/article/10.1093/fampra/cmad112/index.html\")[The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data]. _Family Practice_ 2024;41(6):916–924. doi: #link(\"https://doi.org/10.1093/fampra/cmad112\")[10.1093/fampra/cmad112]",
+      "date": "2023-11-30",
+      "date_fmt": "30 November 2023",
+      "doi": "10.1093/fampra/cmad112",
+      "issue": "6",
+      "journal": "Family Practice",
+      "pages": "916–924",
+      "volume": "41",
+      "year": "2024"
+    },
+    "path": "research/article/10.1093/fampra/cmad112/index.typ",
+    "pdf": null,
+    "title": "The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data",
+    "translation_key": "research/article/10.1093/fampra/cmad112/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1093/fampra/cmaf085/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Lim YW, Al-Busaidi IS, Caya R, Bricca A, Mangin D, Wilson R, Abbott JH",
+      "citation": "Lim YW, Al-Busaidi IS, Caya R, Bricca A, Mangin D, Wilson R, Abbott JH. #link(\"/research/article/10.1093/fampra/cmaf085/index.html\")[Effectiveness of interventions for the management of multimorbidity in primary care and community settings: systematic review and meta-analysis]. _Family Practice_ 2025;42(6):cmaf085. doi: #link(\"https://doi.org/10.1093/fampra/cmaf085\")[10.1093/fampra/cmaf085]",
+      "date": "2025-10-20",
+      "date_fmt": "20 October 2025",
+      "doi": "10.1093/fampra/cmaf085",
+      "issue": "6",
+      "journal": "Family Practice",
+      "pages": "cmaf085",
+      "volume": "42",
+      "year": "2025"
+    },
+    "path": "research/article/10.1093/fampra/cmaf085/index.typ",
+    "pdf": null,
+    "title": "Effectiveness of interventions for the management of multimorbidity in primary care and community settings: systematic review and meta-analysis",
+    "translation_key": "research/article/10.1093/fampra/cmaf085/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1111/1753-6405.12804/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Abbott JH",
+      "citation": "Wilson R, Abbott JH. #link(\"/research/article/10.1111/1753-6405.12804/index.html\")[Age, period and cohort effects on body mass index in New Zealand, 1997-2038]. _Australian and New Zealand Journal of Public Health_ 2018;42(4):396–402. doi: #link(\"https://doi.org/10.1111/1753-6405.12804\")[10.1111/1753-6405.12804]",
+      "date": "2018-07-04",
+      "date_fmt": "04 July 2018",
+      "doi": "10.1111/1753-6405.12804",
+      "issue": "4",
+      "journal": "Australian and New Zealand Journal of Public Health",
+      "pages": "396–402",
+      "volume": "42",
+      "year": "2018"
+    },
+    "path": "research/article/10.1111/1753-6405.12804/index.typ",
+    "pdf": null,
+    "title": "Age, period and cohort effects on body mass index in New Zealand, 1997-2038",
+    "translation_key": "research/article/10.1111/1753-6405.12804/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1111/ans.16002/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Gwynne-Jones DP, Wilson R, McEwan C",
+      "citation": "Gwynne-Jones DP, Wilson R, McEwan C. #link(\"/research/article/10.1111/ans.16002/index.html\")[National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery]. _ANZ Journal of Surgery_ 2020;90(9):1738–1742. doi: #link(\"https://doi.org/10.1111/ans.16002\")[10.1111/ans.16002]",
+      "date": "2020-05-26",
+      "date_fmt": "26 May 2020",
+      "doi": "10.1111/ans.16002",
+      "issue": "9",
+      "journal": "ANZ Journal of Surgery",
+      "pages": "1738–1742",
+      "volume": "90",
+      "year": "2020"
+    },
+    "path": "research/article/10.1111/ans.16002/index.typ",
+    "pdf": null,
+    "title": "National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery",
+    "translation_key": "research/article/10.1111/ans.16002/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1136/bmjopen-2021-053572/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Ribeiro DC, Tangrood ZJ, Wilson R, Sole G, Abbott JH",
+      "citation": "Ribeiro DC, Tangrood ZJ, Wilson R, Sole G, Abbott JH. #link(\"/research/article/10.1136/bmjopen-2021-053572/index.html\")[Tailored exercise and manual therapy versus standardised exercise for patients with shoulder subacromial pain: a feasibility randomised controlled trial (the Otago MASTER trial)]. _BMJ Open_ 2022;12:e053572. doi: #link(\"https://doi.org/10.1136/bmjopen-2021-053572\")[10.1136/bmjopen-2021-053572]",
+      "date": "2022-06-16",
+      "date_fmt": "16 June 2022",
+      "doi": "10.1136/bmjopen-2021-053572",
+      "journal": "BMJ Open",
+      "pages": "e053572",
+      "volume": "12",
+      "year": "2022"
+    },
+    "path": "research/article/10.1136/bmjopen-2021-053572/index.typ",
+    "pdf": null,
+    "title": "Tailored exercise and manual therapy versus standardised exercise for patients with shoulder subacromial pain: a feasibility randomised controlled trial (the Otago MASTER trial)",
+    "translation_key": "research/article/10.1136/bmjopen-2021-053572/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1136/bmjopen-2023-074278/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Reynolds A, Hood F, Wilson R, Ross A, Neumann S, Turner R, Iosua E, Katare R, Shahin A, Kok Z-Y, Chan H, Coffey S, Mann J",
+      "citation": "Reynolds A, Hood F, Wilson R, Ross A, Neumann S, Turner R, Iosua E, Katare R, Shahin A, Kok Z-Y, Chan H, Coffey S, Mann J. #link(\"/research/article/10.1136/bmjopen-2023-074278/index.html\")[Protocol for a three-arm randomised controlled trial of healthy grocery delivery in the usual care for adults recovering from an acute coronary event]. _BMJ Open_ 2023;13:e074278. doi: #link(\"https://doi.org/10.1136/bmjopen-2023-074278\")[10.1136/bmjopen-2023-074278]",
+      "date": "2023-11-30",
+      "date_fmt": "30 November 2023",
+      "doi": "10.1136/bmjopen-2023-074278",
+      "journal": "BMJ Open",
+      "pages": "e074278",
+      "volume": "13",
+      "year": "2023"
+    },
+    "path": "research/article/10.1136/bmjopen-2023-074278/index.typ",
+    "pdf": null,
+    "title": "Protocol for a three-arm randomised controlled trial of healthy grocery delivery in the usual care for adults recovering from an acute coronary event",
+    "translation_key": "research/article/10.1136/bmjopen-2023-074278/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1136/injuryprev-2011-040252/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Derrett S, Hansen P, Langley JD",
+      "citation": "Wilson R, Derrett S, Hansen P, Langley JD. #link(\"/research/article/10.1136/injuryprev-2011-040252/index.html\")[Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost]. _Injury Prevention_ 2013;19:124–129. doi: #link(\"https://doi.org/10.1136/injuryprev-2011-040252\")[10.1136/injuryprev-2011-040252]",
+      "date": "2012-06-15",
+      "date_fmt": "15 June 2012",
+      "doi": "10.1136/injuryprev-2011-040252",
+      "journal": "Injury Prevention",
+      "pages": "124–129",
+      "volume": "19",
+      "year": "2013"
+    },
+    "path": "research/article/10.1136/injuryprev-2011-040252/index.typ",
+    "pdf": null,
+    "title": "Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost",
+    "translation_key": "research/article/10.1136/injuryprev-2011-040252/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1136/ip-2022-044761/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson R, Abbott JH",
+      "citation": "Pryymachenko Y, Wilson R, Abbott JH. #link(\"/research/article/10.1136/ip-2022-044761/index.html\")[Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status]. _Injury prevention_ 2023;29:213–218. doi: #link(\"https://doi.org/10.1136/ip-2022-044761\")[10.1136/ip-2022-044761]",
+      "date": "2023-06-05",
+      "date_fmt": "05 June 2023",
+      "doi": "10.1136/ip-2022-044761",
+      "journal": "Injury prevention",
+      "pages": "213–218",
+      "volume": "29",
+      "year": "2023"
+    },
+    "path": "research/article/10.1136/ip-2022-044761/index.typ",
+    "pdf": null,
+    "title": "Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status",
+    "translation_key": "research/article/10.1136/ip-2022-044761/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1186/1477-7525-10-68/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Derrett S, Hansen P, Langley J",
+      "citation": "Wilson R, Derrett S, Hansen P, Langley J. #link(\"/research/article/10.1186/1477-7525-10-68/index.html\")[Retrospective evaluation versus population norms for the measurement of baseline health status]. _Health and Quality of Life Outcomes_ 2012;10:68. doi: #link(\"https://doi.org/10.1186/1477-7525-10-68\")[10.1186/1477-7525-10-68]",
+      "date": "2012-06-14",
+      "date_fmt": "14 June 2012",
+      "doi": "10.1186/1477-7525-10-68",
+      "journal": "Health and Quality of Life Outcomes",
+      "pages": "68",
+      "volume": "10",
+      "year": "2012"
+    },
+    "path": "research/article/10.1186/1477-7525-10-68/index.typ",
+    "pdf": null,
+    "title": "Retrospective evaluation versus population norms for the measurement of baseline health status",
+    "translation_key": "research/article/10.1186/1477-7525-10-68/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1186/1477-7525-12-21/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Hansen P, Langley J, Derrett S",
+      "citation": "Wilson R, Hansen P, Langley J, Derrett S. #link(\"/research/article/10.1186/1477-7525-12-21/index.html\")[A comparison of injured patient and general population valuations of EQ-5D health states for New Zealand]. _Health and Quality of Life Outcomes_ 2014;12:21. doi: #link(\"https://doi.org/10.1186/1477-7525-12-21\")[10.1186/1477-7525-12-21]",
+      "date": "2014-02-18",
+      "date_fmt": "18 February 2014",
+      "doi": "10.1186/1477-7525-12-21",
+      "journal": "Health and Quality of Life Outcomes",
+      "pages": "21",
+      "volume": "12",
+      "year": "2014"
+    },
+    "path": "research/article/10.1186/1477-7525-12-21/index.typ",
+    "pdf": null,
+    "title": "A comparison of injured patient and general population valuations of EQ-5D health states for New Zealand",
+    "translation_key": "research/article/10.1186/1477-7525-12-21/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1186/s40945-022-00154-1/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Abbott JH, Wilson R, Pryymachenko Y, Sharma S, Pathak A, Chua JYY",
+      "citation": "Abbott JH, Wilson R, Pryymachenko Y, Sharma S, Pathak A, Chua JYY. #link(\"/research/article/10.1186/s40945-022-00154-1/index.html\")[Economic evaluation: a reader's guide to studies of cost-effectiveness]. _Archives of Physiotherapy_ 2022;12:28. doi: #link(\"https://doi.org/10.1186/s40945-022-00154-1\")[10.1186/s40945-022-00154-1]",
+      "date": "2022-12-15",
+      "date_fmt": "15 December 2022",
+      "doi": "10.1186/s40945-022-00154-1",
+      "journal": "Archives of Physiotherapy",
+      "pages": "28",
+      "volume": "12",
+      "year": "2022"
+    },
+    "path": "research/article/10.1186/s40945-022-00154-1/index.typ",
+    "pdf": null,
+    "title": "Economic evaluation: a reader's guide to studies of cost-effectiveness",
+    "translation_key": "research/article/10.1186/s40945-022-00154-1/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1371/journal.pmed.1002897/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Darlow B, Stanley J, Dean S, Abbott JH, Garrett S, Wilson R, Mathieson F, Dowell A",
+      "citation": "Darlow B, Stanley J, Dean S, Abbott JH, Garrett S, Wilson R, Mathieson F, Dowell A. #link(\"/research/article/10.1371/journal.pmed.1002897/index.html\")[The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial]. _PLOS Medicine_ 2019;16(9):e1002897. doi: #link(\"https://doi.org/10.1371/journal.pmed.1002897\")[10.1371/journal.pmed.1002897]",
+      "date": "2019-09-09",
+      "date_fmt": "09 September 2019",
+      "doi": "10.1371/journal.pmed.1002897",
+      "issue": "9",
+      "journal": "PLOS Medicine",
+      "pages": "e1002897",
+      "volume": "16",
+      "year": "2019"
+    },
+    "path": "research/article/10.1371/journal.pmed.1002897/index.typ",
+    "pdf": null,
+    "title": "The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial",
+    "translation_key": "research/article/10.1371/journal.pmed.1002897/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.1371/journal.pone.0185676/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Abbott JH, Usiskin IM, Wilson R, Hansen P, Losina E",
+      "citation": "Abbott JH, Usiskin IM, Wilson R, Hansen P, Losina E. #link(\"/research/article/10.1371/journal.pone.0185676/index.html\")[The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation]. _PLOS ONE_ 2017;12(10):e0185676. doi: #link(\"https://doi.org/10.1371/journal.pone.0185676\")[10.1371/journal.pone.0185676]",
+      "date": "2017-10-24",
+      "date_fmt": "24 October 2017",
+      "doi": "10.1371/journal.pone.0185676",
+      "issue": "10",
+      "journal": "PLOS ONE",
+      "pages": "e0185676",
+      "volume": "12",
+      "year": "2017"
+    },
+    "path": "research/article/10.1371/journal.pone.0185676/index.typ",
+    "pdf": null,
+    "title": "The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation",
+    "translation_key": "research/article/10.1371/journal.pone.0185676/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.22605/RRH2011/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Williamson M, Wilson R, McKechnie RC, Ross J",
+      "citation": "Williamson M, Wilson R, McKechnie RC, Ross J. #link(\"/research/article/10.22605/RRH2011/index.html\")[Does the positive influence of an undergraduate rural placement persist into postgraduate years?]. _Rural and Remote Health_ 2012;12(2):2011. doi: #link(\"https://doi.org/10.22605/RRH2011\")[10.22605/RRH2011]",
+      "date": "2012-06-19",
+      "date_fmt": "19 June 2012",
+      "doi": "10.22605/RRH2011",
+      "issue": "2",
+      "journal": "Rural and Remote Health",
+      "pages": "2011",
+      "volume": "12",
+      "year": "2012"
+    },
+    "path": "research/article/10.22605/RRH2011/index.typ",
+    "pdf": null,
+    "title": "Does the positive influence of an undergraduate rural placement persist into postgraduate years?",
+    "translation_key": "research/article/10.22605/RRH2011/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.2519/jospt.2022.10727/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pathak A, Wilson R, Sharma S, Pryymachenko Y, Ribeiro DC, Chua J, Abbott JH",
+      "citation": "Pathak A, Wilson R, Sharma S, Pryymachenko Y, Ribeiro DC, Chua J, Abbott JH. #link(\"/research/article/10.2519/jospt.2022.10727/index.html\")[Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines]. _Journal of Orthopaedic & Sports Physical Therapy_ 2022;52(5):262–275. doi: #link(\"https://doi.org/10.2519/jospt.2022.10727\")[10.2519/jospt.2022.10727]",
+      "date": "2022-05-10",
+      "date_fmt": "10 May 2022",
+      "doi": "10.2519/jospt.2022.10727",
+      "issue": "5",
+      "journal": "Journal of Orthopaedic & Sports Physical Therapy",
+      "pages": "262–275",
+      "volume": "52",
+      "year": "2022"
+    },
+    "path": "research/article/10.2519/jospt.2022.10727/index.typ",
+    "pdf": null,
+    "title": "Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines",
+    "translation_key": "research/article/10.2519/jospt.2022.10727/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/10.2519/josptopen.2026.0180/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Caya R, Gayed M, Wilson R, Childs JD, Christopherson RM, Fernandes LG, Lim YW, Pierobon A, Pryymachenko Y, Abbott JH",
+      "citation": "Caya R, Gayed M, Wilson R, Childs JD, Christopherson RM, Fernandes LG, Lim YW, Pierobon A, Pryymachenko Y, Abbott JH. #link(\"/research/article/10.2519/josptopen.2026.0180/index.html\")[Do treatment expectations moderate the effect of manual therapy in people with knee osteoarthritis? A secondary analysis of randomised clinical trials]. _JOSPT Open_ 2026;4(2):232–238. doi: #link(\"https://doi.org/10.2519/josptopen.2026.0180\")[10.2519/josptopen.2026.0180]",
+      "date": "2026-04-15",
+      "date_fmt": "15 April 2026",
+      "doi": "10.2519/josptopen.2026.0180",
+      "issue": "2",
+      "journal": "JOSPT Open",
+      "pages": "232–238",
+      "volume": "4",
+      "year": "2026"
+    },
+    "path": "research/article/10.2519/josptopen.2026.0180/index.typ",
+    "pdf": null,
+    "title": "Do treatment expectations moderate the effect of manual therapy in people with knee osteoarthritis? A secondary analysis of randomised clinical trials",
+    "translation_key": "research/article/10.2519/josptopen.2026.0180/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/Abbott-2020-The-projected-burden/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Abbott JH, Wilson R",
+      "citation": "Abbott JH, Wilson R. #link(\"/research/article/Abbott-2020-The-projected-burden/index.html\")[The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision---a response]. _New Zealand Medical Journal _ 2020;133150977–78.",
+      "date": "2020-02-07",
+      "date_fmt": "07 February 2020",
+      "doi": "",
+      "issue": "1509",
+      "journal": "New Zealand Medical Journal ",
+      "pages": "77–78",
+      "volume": "133",
+      "year": "2020"
+    },
+    "path": "research/article/Abbott-2020-The-projected-burden/index.typ",
+    "pdf": null,
+    "title": "The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision---a response",
+    "translation_key": "research/article/Abbott-2020-The-projected-burden/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/Abbott-2020-the-projected-burden/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Abbott JH, Wilson R",
+      "citation": "Abbott JH, Wilson R. #link(\"/research/article/Abbott-2020-the-projected-burden/index.html\")[The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision---a response]. _New Zealand Medical Journal _ 2020;133(1509):77–78.",
+      "date": "2020-02-07",
+      "date_fmt": "07 February 2020",
+      "issue": "1509",
+      "journal": "New Zealand Medical Journal ",
+      "pages": "77–78",
+      "volume": "133",
+      "year": "2020"
+    },
+    "path": "research/article/Abbott-2020-the-projected-burden/index.typ",
+    "pdf": null,
+    "title": "The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision---a response",
+    "translation_key": "research/article/Abbott-2020-the-projected-burden/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/Wilson-2019-Long-term-opioid-medication/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Pryymachenko Y, Audas R, Abbott JH",
+      "citation": "Wilson R, Pryymachenko Y, Audas R, Abbott JH. #link(\"/research/article/Wilson-2019-Long-term-opioid-medication/index.html\")[Long-term opioid medication use before and after joint replacement surgery in New Zealand]. _New Zealand Medical Journal_ 2019;132150733–47.",
+      "date": "2019-12-13",
+      "date_fmt": "13 December 2019",
+      "doi": "",
+      "issue": "1507",
+      "journal": "New Zealand Medical Journal",
+      "pages": "33–47",
+      "volume": "132",
+      "year": "2019"
+    },
+    "path": "research/article/Wilson-2019-Long-term-opioid-medication/index.typ",
+    "pdf": null,
+    "title": "Long-term opioid medication use before and after joint replacement surgery in New Zealand",
+    "translation_key": "research/article/Wilson-2019-Long-term-opioid-medication/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/Wilson-2019-The-projected-burden/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Abbott JH",
+      "citation": "Wilson R, Abbott JH. #link(\"/research/article/Wilson-2019-The-projected-burden/index.html\")[The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision]. _New Zealand Medical Journal_ 2019;132150353–65.",
+      "date": "2019-10-04",
+      "date_fmt": "04 October 2019",
+      "doi": "",
+      "issue": "1503",
+      "journal": "New Zealand Medical Journal",
+      "pages": "53–65",
+      "volume": "132",
+      "year": "2019"
+    },
+    "path": "research/article/Wilson-2019-The-projected-burden/index.typ",
+    "pdf": null,
+    "title": "The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision",
+    "translation_key": "research/article/Wilson-2019-The-projected-burden/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/Wilson-2019-long-term-opioid-medication/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Pryymachenko Y, Audas R, Abbott JH",
+      "citation": "Wilson R, Pryymachenko Y, Audas R, Abbott JH. #link(\"/research/article/Wilson-2019-long-term-opioid-medication/index.html\")[Long-term opioid medication use before and after joint replacement surgery in New Zealand]. _New Zealand Medical Journal_ 2019;132(1507):33–47.",
+      "date": "2019-12-13",
+      "date_fmt": "13 December 2019",
+      "issue": "1507",
+      "journal": "New Zealand Medical Journal",
+      "pages": "33–47",
+      "volume": "132",
+      "year": "2019"
+    },
+    "path": "research/article/Wilson-2019-long-term-opioid-medication/index.typ",
+    "pdf": null,
+    "title": "Long-term opioid medication use before and after joint replacement surgery in New Zealand",
+    "translation_key": "research/article/Wilson-2019-long-term-opioid-medication/index",
+    "translations": {}
+  },
+  {
+    "href": "research/article/Wilson-2019-the-projected-burden/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Abbott JH",
+      "citation": "Wilson R, Abbott JH. #link(\"/research/article/Wilson-2019-the-projected-burden/index.html\")[The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision]. _New Zealand Medical Journal_ 2019;132(1503):53–65.",
+      "date": "2019-10-04",
+      "date_fmt": "04 October 2019",
+      "issue": "1503",
+      "journal": "New Zealand Medical Journal",
+      "pages": "53–65",
+      "volume": "132",
+      "year": "2019"
+    },
+    "path": "research/article/Wilson-2019-the-projected-burden/index.typ",
+    "pdf": null,
+    "title": "The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision",
+    "translation_key": "research/article/Wilson-2019-the-projected-burden/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/10.1101/2025.11.20.25340701/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Chistopherson RM, Pryymachenko Y, Caya R, Gaspar Fernandes L, Lim YW, Gayed M, Pierobon A, Dowell T, Darlow B, MacRae J, Abbott JH",
+      "citation": "Wilson R, Chistopherson RM, Pryymachenko Y, Caya R, Gaspar Fernandes L, Lim YW, Gayed M, Pierobon A, Dowell T, Darlow B, MacRae J, Abbott JH. #link(\"/research/other/10.1101/2025.11.20.25340701/index.html\")[Osteoarthritis Diagnoses are Under-recorded in Primary Care Electronic Health Records in New Zealand]. 21 November 2025; medRxiv 2025.11.20.25340701, *doi:*#link(\"https://doi.org/10.1101/2025.11.20.25340701\")[10.1101/2025.11.20.25340701]",
+      "date": "2025-11-21",
+      "date_fmt": "21 November 2025",
+      "doi": "10.1101/2025.11.20.25340701"
+    },
+    "path": "research/other/10.1101/2025.11.20.25340701/index.typ",
+    "pdf": null,
+    "title": "Osteoarthritis Diagnoses are Under-recorded in Primary Care Electronic Health Records in New Zealand",
+    "translation_key": "research/other/10.1101/2025.11.20.25340701/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/10.17605/osf.io/8b39f/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Pryymachenko Y, Schofield S, Shrestha R, Darlow B, Dowell T, MacRae J, Bell R, Abbott JH",
+      "citation": "Wilson R, Pryymachenko Y, Schofield S, Shrestha R, Darlow B, Dowell T, MacRae J, Bell R, Abbott JH. #link(\"/research/other/10.17605/osf.io/8b39f/index.html\")[Health system and societal costs following osteoarthritis diagnosis in primary care: a population-based matched cohort study]. 19 April 2024; OSF, *doi:*#link(\"https://doi.org/10.17605/osf.io/8b39f\")[10.17605/osf.io/8b39f]",
+      "date": "2024-04-19",
+      "date_fmt": "19 April 2024",
+      "doi": "10.17605/osf.io/8b39f"
+    },
+    "path": "research/other/10.17605/osf.io/8b39f/index.typ",
+    "pdf": null,
+    "title": "Health system and societal costs following osteoarthritis diagnosis in primary care: a population-based matched cohort study",
+    "translation_key": "research/other/10.17605/osf.io/8b39f/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/10.17605/osf.io/9yu5r/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson R, Abbott JH, Bell R",
+      "citation": "Pryymachenko Y, Wilson R, Abbott JH, Bell R. #link(\"/research/other/10.17605/osf.io/9yu5r/index.html\")[Long-term outcomes of cruciate ligament injury: a revised matched cohort analysis of New Zealand linked register data. Analysis plan]. 06 June 2023; OSF, *doi:*#link(\"https://doi.org/10.17605/osf.io/9yu5r\")[10.17605/osf.io/9yu5r]",
+      "date": "2023-06-06",
+      "date_fmt": "06 June 2023",
+      "doi": "10.17605/osf.io/9yu5r"
+    },
+    "path": "research/other/10.17605/osf.io/9yu5r/index.typ",
+    "pdf": null,
+    "title": "Long-term outcomes of cruciate ligament injury: a revised matched cohort analysis of New Zealand linked register data. Analysis plan",
+    "translation_key": "research/other/10.17605/osf.io/9yu5r/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/10.17605/osf.io/g52kt/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson R, Abbott JH, Choong P, Dowsey M",
+      "citation": "Pryymachenko Y, Wilson R, Abbott JH, Choong P, Dowsey M. #link(\"/research/other/10.17605/osf.io/g52kt/index.html\")[The long-term effects of opioid use before joint replacement surgery: A dose-response trial emulation with New Zealand linked register data. Analysis plan]. 08 September 2023; OSF, *doi:*#link(\"https://doi.org/10.17605/osf.io/g52kt\")[10.17605/osf.io/g52kt]",
+      "date": "2023-09-08",
+      "date_fmt": "08 September 2023",
+      "doi": "10.17605/osf.io/g52kt"
+    },
+    "path": "research/other/10.17605/osf.io/g52kt/index.typ",
+    "pdf": null,
+    "title": "The long-term effects of opioid use before joint replacement surgery: A dose-response trial emulation with New Zealand linked register data. Analysis plan",
+    "translation_key": "research/other/10.17605/osf.io/g52kt/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/10.17605/osf.io/vypqh/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Lim YW, Al-Busaidi I, Caya R, Bricca A, Wilson R, Mangin D, Abbott JH",
+      "citation": "Lim YW, Al-Busaidi I, Caya R, Bricca A, Wilson R, Mangin D, Abbott JH. #link(\"/research/other/10.17605/osf.io/vypqh/index.html\")[Interventions used to Improve Health Outcomes in Patients with Multimorbidity: Protocol for An Updated Systematic Review]. 22 April 2024; OSF, *doi:*#link(\"https://doi.org/10.17605/osf.io/vypqh\")[10.17605/osf.io/vypqh]",
+      "date": "2024-04-22",
+      "date_fmt": "22 April 2024",
+      "doi": "10.17605/osf.io/vypqh"
+    },
+    "path": "research/other/10.17605/osf.io/vypqh/index.typ",
+    "pdf": null,
+    "title": "Interventions used to Improve Health Outcomes in Patients with Multimorbidity: Protocol for An Updated Systematic Review",
+    "translation_key": "research/other/10.17605/osf.io/vypqh/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/10.17605/osf.io/zfuyg/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y,Wilson R, Abbott JH",
+      "citation": "Pryymachenko Y,Wilson R, Abbott JH. #link(\"/research/other/10.17605/osf.io/zfuyg/index.html\")[Long-term outcomes of cruciate ligament injury: attempting a matched cohort analysis of New Zealand linked register data]. 14 April 2023; OSF, *doi:*#link(\"https://doi.org/10.17605/osf.io/zfuyg\")[10.17605/osf.io/zfuyg]",
+      "date": "2023-04-14",
+      "date_fmt": "14 April 2023",
+      "doi": "10.17605/osf.io/zfuyg"
+    },
+    "path": "research/other/10.17605/osf.io/zfuyg/index.typ",
+    "pdf": null,
+    "title": "Long-term outcomes of cruciate ligament injury: attempting a matched cohort analysis of New Zealand linked register data",
+    "translation_key": "research/other/10.17605/osf.io/zfuyg/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/10.6084/m9.figshare.16900156/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Abbott JH, Pryymachenko Y, Schofield S, Shrestha R",
+      "citation": "Wilson R, Abbott JH, Pryymachenko Y, Schofield S, Shrestha R. #link(\"/research/other/10.6084/m9.figshare.16900156/index.html\")[The health system and societal costs of osteoarthritis in New Zealand: Analysis plan]. 06 May 2022; FigShare, *doi:*#link(\"https://doi.org/10.6084/m9.figshare.16900156\")[10.6084/m9.figshare.16900156]",
+      "date": "2022-05-06",
+      "date_fmt": "06 May 2022",
+      "doi": "10.6084/m9.figshare.16900156"
+    },
+    "path": "research/other/10.6084/m9.figshare.16900156/index.typ",
+    "pdf": null,
+    "title": "The health system and societal costs of osteoarthritis in New Zealand: Analysis plan",
+    "translation_key": "research/other/10.6084/m9.figshare.16900156/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/10.6084/m9.figshare.22661551.v3/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R, Abbott JH, Pryymachenko Y",
+      "citation": "Wilson R, Abbott JH, Pryymachenko Y. #link(\"/research/other/10.6084/m9.figshare.22661551.v3/index.html\")[The health system and societal costs of osteoarthritis in New Zealand: Methodology and results of the process for funding an optimal matching model]. 05 July 2023; FigShare, *doi:*#link(\"https://doi.org/10.6084/m9.figshare.22661551.v3\")[10.6084/m9.figshare.22661551.v3]",
+      "date": "2023-07-05",
+      "date_fmt": "05 July 2023",
+      "doi": "10.6084/m9.figshare.22661551.v3"
+    },
+    "path": "research/other/10.6084/m9.figshare.22661551.v3/index.typ",
+    "pdf": null,
+    "title": "The health system and societal costs of osteoarthritis in New Zealand: Methodology and results of the process for funding an optimal matching model",
+    "translation_key": "research/other/10.6084/m9.figshare.22661551.v3/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/Abbott-2021-How-New-Zealand's/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Abbott JH, Wilson R",
+      "citation": "Abbott JH, Wilson R. #link(\"/research/other/Abbott-2021-How-New-Zealand's/index.html\")[How New Zealand's healthcare system is failing people with osteoarthritis]. 31 March 2021; The Conversation, https://theconversation.com/how-new-zealands-healthcare-system-is-failing-people-with-osteoarthritis-157138",
+      "date": "2021-03-31",
+      "date_fmt": "31 March 2021",
+      "doi": ""
+    },
+    "path": "research/other/Abbott-2021-How-New-Zealand's/index.typ",
+    "pdf": null,
+    "title": "How New Zealand's healthcare system is failing people with osteoarthritis",
+    "translation_key": "research/other/Abbott-2021-How-New-Zealand's/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/Pryymachenko-2021-The-long-term-impacts/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson R, Abbott JH, ",
+      "citation": "Pryymachenko Y, Wilson R, Abbott JH, . #link(\"/research/other/Pryymachenko-2021-The-long-term-impacts/index.html\")[The long-term impacts of opioid use before and after joint replacement surgery: Report on finding the optimal matching model]. 27 July 2021; OUR Archive, https://hdl.handle.net/10523/12166",
+      "date": "2021-07-27",
+      "date_fmt": "27 July 2021",
+      "doi": ""
+    },
+    "path": "research/other/Pryymachenko-2021-The-long-term-impacts/index.typ",
+    "pdf": null,
+    "title": "The long-term impacts of opioid use before and after joint replacement surgery: Report on finding the optimal matching model",
+    "translation_key": "research/other/Pryymachenko-2021-The-long-term-impacts/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/Pryymachenko-2024-Economic-evaluation-of/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Pryymachenko Y, Wilson R, Abbott JH, Chapple C",
+      "citation": "Pryymachenko Y, Wilson R, Abbott JH, Chapple C. #link(\"/research/other/Pryymachenko-2024-Economic-evaluation-of/index.html\")[Economic evaluation of the effects of manual therapy for knee osteoarthritis: Study protocol]. 17 May 2024; OSF, https://osf.io/arn9v/",
+      "date": "2024-05-17",
+      "date_fmt": "17 May 2024",
+      "doi": ""
+    },
+    "path": "research/other/Pryymachenko-2024-Economic-evaluation-of/index.typ",
+    "pdf": null,
+    "title": "Economic evaluation of the effects of manual therapy for knee osteoarthritis: Study protocol",
+    "translation_key": "research/other/Pryymachenko-2024-Economic-evaluation-of/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/Simmonds-2020-Baseline-Data-Capture:/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Simmonds S, Wilson R, Carter M, Preval N",
+      "citation": "Simmonds S, Wilson R, Carter M, Preval N. #link(\"/research/other/Simmonds-2020-Baseline-Data-Capture:/index.html\")[Baseline Data Capture: Cultural Safety, Partnership, and Health Equity Initiatives]. 01 September 2020; Allen + Clarke, Wellington, September 2020",
+      "date": "2020-09-01",
+      "date_fmt": "01 September 2020",
+      "doi": ""
+    },
+    "path": "research/other/Simmonds-2020-Baseline-Data-Capture:/index.typ",
+    "pdf": null,
+    "title": "Baseline Data Capture: Cultural Safety, Partnership, and Health Equity Initiatives",
+    "translation_key": "research/other/Simmonds-2020-Baseline-Data-Capture:/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/Stanley-2024-Statistical-Analysis-Plan/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Stanley J, Wilson R, Darlow B",
+      "citation": "Stanley J, Wilson R, Darlow B. #link(\"/research/other/Stanley-2024-Statistical-Analysis-Plan/index.html\")[Statistical Analysis Plan for Reducing the burden of knee osteoarthritis through community pharmacy: A randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service]. 18 October 2024; OUR Archive, https://hdl.handle.net/10523/42913",
+      "date": "2024-10-18",
+      "date_fmt": "18 October 2024",
+      "doi": ""
+    },
+    "path": "research/other/Stanley-2024-Statistical-Analysis-Plan/index.typ",
+    "pdf": null,
+    "title": "Statistical Analysis Plan for Reducing the burden of knee osteoarthritis through community pharmacy: A randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service",
+    "translation_key": "research/other/Stanley-2024-Statistical-Analysis-Plan/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/Waru-2018-Evaluation-of-the/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Waru N, Wilson J, Hooper C, Preval N, Abbott JH, Wilson R",
+      "citation": "Waru N, Wilson J, Hooper C, Preval N, Abbott JH, Wilson R. #link(\"/research/other/Waru-2018-Evaluation-of-the/index.html\")[Evaluation of the Mobility Action Programme (MAP), Cycle 1 report]. 01 December 2018; Allen + Clarke, Wellington, December 2018",
+      "date": "2018-12-01",
+      "date_fmt": "01 December 2018",
+      "doi": ""
+    },
+    "path": "research/other/Waru-2018-Evaluation-of-the/index.typ",
+    "pdf": null,
+    "title": "Evaluation of the Mobility Action Programme (MAP), Cycle 1 report",
+    "translation_key": "research/other/Waru-2018-Evaluation-of-the/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/Wilson-2020-CMOR-Evidence-Table/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson R",
+      "citation": "Wilson R. #link(\"/research/other/Wilson-2020-CMOR-Evidence-Table/index.html\")[CMOR Evidence Table]. 01 December 2020; University of Otago, http://cmor-shiny.otago.ac.nz",
+      "date": "2020-12-01",
+      "date_fmt": "01 December 2020",
+      "doi": ""
+    },
+    "path": "research/other/Wilson-2020-CMOR-Evidence-Table/index.typ",
+    "pdf": null,
+    "title": "CMOR Evidence Table",
+    "translation_key": "research/other/Wilson-2020-CMOR-Evidence-Table/index",
+    "translations": {}
+  },
+  {
+    "href": "research/other/Wilson-2020-Evaluation-of-the/index.html",
+    "language": null,
+    "meta": {
+      "authors": "Wilson J, Abbott JH, Wilson R, Stevenson B, Kayem Y",
+      "citation": "Wilson J, Abbott JH, Wilson R, Stevenson B, Kayem Y. #link(\"/research/other/Wilson-2020-Evaluation-of-the/index.html\")[Evaluation of the Mobility Action Programme (MAP), Cycle 2 report]. 01 March 2020; Allen + Clarke, Wellington, March 2020",
+      "date": "2020-03-01",
+      "date_fmt": "01 March 2020",
+      "doi": ""
+    },
+    "path": "research/other/Wilson-2020-Evaluation-of-the/index.typ",
+    "pdf": null,
+    "title": "Evaluation of the Mobility Action Programme (MAP), Cycle 2 report",
+    "translation_key": "research/other/Wilson-2020-Evaluation-of-the/index",
+    "translations": {}
+  },
+  {
+    "href": "teaching.html",
+    "language": null,
+    "meta": {
+      "title": "Teaching"
+    },
+    "path": "teaching.typ",
+    "pdf": null,
+    "title": "Teaching",
+    "translation_key": "teaching",
+    "translations": {}
+  },
+  {
+    "href": "theme/README.html",
+    "language": null,
+    "meta": {},
+    "path": "theme/README.typ",
+    "pdf": null,
+    "title": "README",
+    "translation_key": "theme/README",
+    "translations": {}
+  },
+  {
+    "href": "theme/layouts/pdf.html",
+    "language": null,
+    "meta": {},
+    "path": "theme/layouts/pdf.typ",
+    "pdf": null,
+    "title": "pdf",
+    "translation_key": "theme/layouts/pdf",
+    "translations": {}
+  }
+]
