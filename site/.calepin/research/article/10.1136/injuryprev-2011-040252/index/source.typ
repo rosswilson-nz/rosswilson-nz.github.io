@@ -9,7 +9,7 @@
   volume: "19",
   pages: "124–129",
   doi: "10.1136/injuryprev-2011-040252",
-  citation: "Wilson R, Derrett S, Hansen P, Langley JD. #link(\"/research/article/10.1136/injuryprev-2011-040252/index.html\")[Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost]. _Injury Prevention_ 2013;19:124–129. doi: #link(\"https://doi.org/10.1136/injuryprev-2011-040252\")[10.1136/injuryprev-2011-040252]",
+  citation: "Wilson R, Derrett S, Hansen P, Langley JD. #link(\"/research/article/10.1136/injuryprev-2011-040252/index.html\")[Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost]. _Injury Prevention_ 2013;19:124–129. doi:~#link(\"https://doi.org/10.1136/injuryprev-2011-040252\")[10.1136/injuryprev-2011-040252]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Injury Prevention
 #smallcaps[Published]\ 15 June 2012
 
-#smallcaps[Citation]\ #eval("Wilson R, Derrett S, Hansen P, Langley JD. Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost. _Injury Prevention_ 2013;19:124–129. doi: #link(\"https://doi.org/10.1136/injuryprev-2011-040252\")[10.1136/injuryprev-2011-040252]", mode: "markup")
+#smallcaps[Citation]\ #eval("Wilson R, Derrett S, Hansen P, Langley JD. Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost. _Injury Prevention_ 2013;19:124–129. doi:~#link(\"https://doi.org/10.1136/injuryprev-2011-040252\")[10.1136/injuryprev-2011-040252]", mode: "markup")
 
 === Abstract
 *Background*

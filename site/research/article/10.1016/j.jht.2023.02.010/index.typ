@@ -10,7 +10,7 @@
   issue: "2",
   pages: "363–377",
   doi: "10.1016/j.jht.2023.02.010",
-  citation: "Bühler M, Gwynne-Jones D, Chin M, Woodside J, Gough J, Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.jht.2023.02.010/index.html\")[Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial]. _Journal of Hand Therapy_ 2023;36(2):363–377. doi: #link(\"https://doi.org/10.1016/j.jht.2023.02.010\")[10.1016/j.jht.2023.02.010]",
+  citation: "Bühler M, Gwynne-Jones D, Chin M, Woodside J, Gough J, Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.jht.2023.02.010/index.html\")[Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial]. _Journal of Hand Therapy_ 2023;36(2):363–377. doi:~#link(\"https://doi.org/10.1016/j.jht.2023.02.010\")[10.1016/j.jht.2023.02.010]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Journal of Hand Therapy
 #smallcaps[Published]\ 10 April 2023
 
-#smallcaps[Citation]\ #eval("Bühler M, Gwynne-Jones D, Chin M, Woodside J, Gough J, Wilson R, Abbott JH. Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial. _Journal of Hand Therapy_ 2023;36(2):363–377. doi: #link(\"https://doi.org/10.1016/j.jht.2023.02.010\")[10.1016/j.jht.2023.02.010]", mode: "markup")
+#smallcaps[Citation]\ #eval("Bühler M, Gwynne-Jones D, Chin M, Woodside J, Gough J, Wilson R, Abbott JH. Are the outcomes of relative motion extension orthoses non-inferior and cost-effective compared with dynamic extension orthoses for management of zones V-VI finger extensor tendon repairs: A randomized controlled trial. _Journal of Hand Therapy_ 2023;36(2):363–377. doi:~#link(\"https://doi.org/10.1016/j.jht.2023.02.010\")[10.1016/j.jht.2023.02.010]", mode: "markup")
 
 === Abstract
 *Introduction*

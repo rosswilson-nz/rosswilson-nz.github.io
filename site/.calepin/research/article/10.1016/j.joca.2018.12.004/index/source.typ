@@ -10,7 +10,7 @@
   issue: "3",
   pages: "424–434",
   doi: "10.1016/j.joca.2018.12.004",
-  citation: "Abbott JH, Wilson R, Pinto D, Chapple CM, Wright AA. #link(\"/research/article/10.1016/j.joca.2018.12.004/index.html\")[Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial]. _Osteoarthritis and Cartilage_ 2019;27(3):424–434. doi: #link(\"https://doi.org/10.1016/j.joca.2018.12.004\")[10.1016/j.joca.2018.12.004]",
+  citation: "Abbott JH, Wilson R, Pinto D, Chapple CM, Wright AA. #link(\"/research/article/10.1016/j.joca.2018.12.004/index.html\")[Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial]. _Osteoarthritis and Cartilage_ 2019;27(3):424–434. doi:~#link(\"https://doi.org/10.1016/j.joca.2018.12.004\")[10.1016/j.joca.2018.12.004]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Osteoarthritis and Cartilage
 #smallcaps[Published]\ 13 December 2018
 
-#smallcaps[Citation]\ #eval("Abbott JH, Wilson R, Pinto D, Chapple CM, Wright AA. Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial. _Osteoarthritis and Cartilage_ 2019;27(3):424–434. doi: #link(\"https://doi.org/10.1016/j.joca.2018.12.004\")[10.1016/j.joca.2018.12.004]", mode: "markup")
+#smallcaps[Citation]\ #eval("Abbott JH, Wilson R, Pinto D, Chapple CM, Wright AA. Incremental clinical effectiveness and cost effectiveness of providing supervised physiotherapy in addition to usual medical care in patients with osteoarthritis of the hip or knee: 2-year results of the MOA randomised controlled trial. _Osteoarthritis and Cartilage_ 2019;27(3):424–434. doi:~#link(\"https://doi.org/10.1016/j.joca.2018.12.004\")[10.1016/j.joca.2018.12.004]", mode: "markup")
 
 === Abstract
 *Objective*

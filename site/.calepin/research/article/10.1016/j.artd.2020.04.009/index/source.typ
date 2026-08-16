@@ -10,7 +10,7 @@
   issue: "3",
   pages: "585–589.e1",
   doi: "10.1016/j.artd.2020.04.009",
-  citation: "Gwynne-Jones DP, Sullivan T, Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.artd.2020.04.009/index.html\")[The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?]. _Arthroplasty Today_ 2020;6(3):585–589.e1. doi: #link(\"https://doi.org/10.1016/j.artd.2020.04.009\")[10.1016/j.artd.2020.04.009]",
+  citation: "Gwynne-Jones DP, Sullivan T, Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.artd.2020.04.009/index.html\")[The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?]. _Arthroplasty Today_ 2020;6(3):585–589.e1. doi:~#link(\"https://doi.org/10.1016/j.artd.2020.04.009\")[10.1016/j.artd.2020.04.009]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Arthroplasty Today
 #smallcaps[Published]\ 20 May 2020
 
-#smallcaps[Citation]\ #eval("Gwynne-Jones DP, Sullivan T, Wilson R, Abbott JH. The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?. _Arthroplasty Today_ 2020;6(3):585–589.e1. doi: #link(\"https://doi.org/10.1016/j.artd.2020.04.009\")[10.1016/j.artd.2020.04.009]", mode: "markup")
+#smallcaps[Citation]\ #eval("Gwynne-Jones DP, Sullivan T, Wilson R, Abbott JH. The Relationship Between Preoperative Oxford Hip and Knee Score and Change in Health-Related Quality of Life After Total Hip and Total Knee Arthroplasty: Can It Help Inform Rationing Decisions?. _Arthroplasty Today_ 2020;6(3):585–589.e1. doi:~#link(\"https://doi.org/10.1016/j.artd.2020.04.009\")[10.1016/j.artd.2020.04.009]", mode: "markup")
 
 === Abstract
 *Background*

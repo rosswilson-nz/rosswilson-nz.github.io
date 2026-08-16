@@ -10,7 +10,7 @@
   issue: "5",
   pages: "1147–1157",
   doi: "10.1002/acr.24821",
-  citation: "Sharma S, Wilson R, Pryymachenko Y, Pathak A, Chua J, Gwynne-Jones D, Bennell KL, Metcalf B, Hinman RS, Lim B-W, Abbott JH. #link(\"/research/article/10.1002/acr.24821/index.html\")[Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis]. _Arthritis Care & Research_ 2023;75(5):1147–1157. doi: #link(\"https://doi.org/10.1002/acr.24821\")[10.1002/acr.24821]",
+  citation: "Sharma S, Wilson R, Pryymachenko Y, Pathak A, Chua J, Gwynne-Jones D, Bennell KL, Metcalf B, Hinman RS, Lim B-W, Abbott JH. #link(\"/research/article/10.1002/acr.24821/index.html\")[Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis]. _Arthritis Care & Research_ 2023;75(5):1147–1157. doi:~#link(\"https://doi.org/10.1002/acr.24821\")[10.1002/acr.24821]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Arthritis Care & Research
 #smallcaps[Published]\ 24 November 2022
 
-#smallcaps[Citation]\ #eval("Sharma S, Wilson R, Pryymachenko Y, Pathak A, Chua J, Gwynne-Jones D, Bennell KL, Metcalf B, Hinman RS, Lim B-W, Abbott JH. Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis. _Arthritis Care & Research_ 2023;75(5):1147–1157. doi: #link(\"https://doi.org/10.1002/acr.24821\")[10.1002/acr.24821]", mode: "markup")
+#smallcaps[Citation]\ #eval("Sharma S, Wilson R, Pryymachenko Y, Pathak A, Chua J, Gwynne-Jones D, Bennell KL, Metcalf B, Hinman RS, Lim B-W, Abbott JH. Reliability, validity, responsiveness, and minimum important change of the Stair Climb Test in adults with hip and knee osteoarthritis. _Arthritis Care & Research_ 2023;75(5):1147–1157. doi:~#link(\"https://doi.org/10.1002/acr.24821\")[10.1002/acr.24821]", mode: "markup")
 
 === Abstract
 *Objective*

@@ -9,7 +9,7 @@
   volume: "12",
   pages: "28",
   doi: "10.1186/s40945-022-00154-1",
-  citation: "Abbott JH, Wilson R, Pryymachenko Y, Sharma S, Pathak A, Chua JYY. #link(\"/research/article/10.1186/s40945-022-00154-1/index.html\")[Economic evaluation: a reader's guide to studies of cost-effectiveness]. _Archives of Physiotherapy_ 2022;12:28. doi: #link(\"https://doi.org/10.1186/s40945-022-00154-1\")[10.1186/s40945-022-00154-1]",
+  citation: "Abbott JH, Wilson R, Pryymachenko Y, Sharma S, Pathak A, Chua JYY. #link(\"/research/article/10.1186/s40945-022-00154-1/index.html\")[Economic evaluation: a reader's guide to studies of cost-effectiveness]. _Archives of Physiotherapy_ 2022;12:28. doi:~#link(\"https://doi.org/10.1186/s40945-022-00154-1\")[10.1186/s40945-022-00154-1]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Archives of Physiotherapy
 #smallcaps[Published]\ 15 December 2022
 
-#smallcaps[Citation]\ #eval("Abbott JH, Wilson R, Pryymachenko Y, Sharma S, Pathak A, Chua JYY. Economic evaluation: a reader's guide to studies of cost-effectiveness. _Archives of Physiotherapy_ 2022;12:28. doi: #link(\"https://doi.org/10.1186/s40945-022-00154-1\")[10.1186/s40945-022-00154-1]", mode: "markup")
+#smallcaps[Citation]\ #eval("Abbott JH, Wilson R, Pryymachenko Y, Sharma S, Pathak A, Chua JYY. Economic evaluation: a reader's guide to studies of cost-effectiveness. _Archives of Physiotherapy_ 2022;12:28. doi:~#link(\"https://doi.org/10.1186/s40945-022-00154-1\")[10.1186/s40945-022-00154-1]", mode: "markup")
 
 === Abstract
 *Background*

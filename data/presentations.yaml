@@ -1,0 +1,332 @@
+- conference: ISPOR Real-World Evidence Summit
+  stub: ispor
+  location: Tokyo
+  date: 2025-09-28
+  title:
+    "Cost-effectiveness of primary and community care programmes for osteoarthritis:
+    a modeling study using data from a multi-center national pilot program"
+  note: poster presentation
+  authors: Abbott JH, Wilson R
+  published: _Value in Health Regional Issues_ 2025;49(1):101264
+  doi: 10.1016/j.vhri.2025.101264
+- conference: ISPOR Real-World Evidence Summit
+  stub: ispor
+  location: Tokyo
+  date: 2025-09-28
+  title:
+    "The long-term effects of opioid use before total joint replacement surgery:
+    a dose-response trial emulation using New Zealand linked administrative data"
+  note: poster presentation
+  authors: Wilson R, Pryymachenko Y, Choong P, Dowsey M, Abbott JH
+  published: _Value in Health Regional Issues_ 2025;49(1):101429
+  doi: 10.1016/j.vhri.2025.101429
+- conference: ISPOR Real-World Evidence Summit
+  stub: ispor
+  location: Tokyo
+  date: 2025-09-28
+  title:
+    Association between barriers to accessing general practitioners and emergency
+    department visits in New Zealand
+  note: poster presentation
+  authors:
+    Lim YW, Gayed M, Christopherson R, Caya R, Gaspar Fernandes L, Pierobon
+    A, Pryymachenko Y, Magin D, Abbott JH, Wilson R
+  published: _Value in Health Regional Issues_ 2025;49(1):101203
+  doi: 10.1016/j.vhri.2025.101203
+- conference:
+    "University of Otago Research Symposium: Harnessing Linked Population-Level
+    Data for Health Research"
+  stub: otago
+  location: Dunedin
+  date: 2025-11-25
+  title:
+    Osteoarthritis diagnoses are under-recorded in primary care electronic health
+    records in New Zealand
+  note: invited presentation
+- conference: Virtual Health Information Network (VHIN)
+  stub: vhin
+  location: Webinar
+  date: 2025-08-13
+  title: Long-term health and economic impacts of cruciate ligament injuries
+  note: invited presentation
+- conference: Aotearoa Osteoarthritis Research Network Annual Meeting
+  stub: oarnet
+  location: Auckland
+  date: 2025-07-18
+  title:
+    "The long-term effects of opioid use before joint replacement surgery: A
+    dose-response trial emulation using linked administrative data"
+- conference: New Zealand Association of Economists 65th Annual Conference
+  stub: nzae
+  location: Wellington
+  date: 2025-06-25
+  title:
+    Clinical practice guideline implementation to improve healthcare delivery
+    and reduce healthcare costs
+- conference: OARSI World Congress
+  stub: oarsi
+  location: Incheon, South Korea
+  date: 2025-04-24
+  title:
+    "Excess comorbidity burden in people with osteoarthritis in Aotearoa New
+    Zealand: Data linkage to a population-based cross-sectional survey"
+  note: poster presentation
+  authors: Wilson R, Sharma I, Coppell K, Bell R, Skou S, Abbott JH
+  published: _Osteoarthritis and Cartilage_ 2025;33(Suppl):S264-5
+  doi: 10.1016/j.joca.2025.02.380
+- conference: 8th Pharmacoepidemiology Research Network Symposium
+  stub: prns
+  location: Dunedin
+  date: 2024-11-27
+  title:
+    "The long-term effects of opioid use before total joint replacement surgery:
+    a dose-response trial emulation with New Zealand linked administrative data"
+- conference: ACR Convergence
+  stub: acr
+  location: Washington, D.C.
+  date: 2024-11-14
+  title:
+    Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol
+    using the \"Start-Low Go-Slow\" approach for gout
+  note: poster presentation
+  authors: Pryymachenko Y, Wilson R, Abbott JH, Dalbeth N, Stamp L
+  published: _Arthritis & Rheumatology_ 2024;76(S9)
+  doi: 10.1002/art.42992
+- conference: National Institute for Public Health, University of Southern Denmark
+  stub: niph
+  location: Seminar
+  date: 2024-09-01
+  title: The New Zealand Integrated Data Infrastructure (IDI)
+- conference: PROgrez Research and Implementation Unit, Region Sjælland
+  stub: progrez
+  location: Seminar
+  date: 2024-09-01
+  title:
+    Why economic evaluations are important in health research and how to get
+    started
+- conference:
+    Clinical Pharmacology, Pharmacy and Environmental Medicine, Department
+    of Public Health, University of Southern Denmark
+  stub: sdu
+  location: Seminar
+  date: 2024-09-01
+  title: Health economics for pharmacoepidemiologists – a primer
+- conference:
+    Department of Sports Science and Clinical Biomechanics, University of
+    Southern Denmark
+  stub: sdu
+  location: Seminar
+  date: 2024-09-01
+  title: Impacts of preoperative opioid use on outcomes after joint replacement surgery
+- conference: Center for Muscle and Joint Health, University of Southern Denmark
+  stub: sdu
+  location: Seminar
+  date: 2024-09-01
+  title:
+    Why health economic evaluations are important in muscle and joint research
+    and how to get started
+- conference: Bruce McMillan Memorial Seminar
+  stub: mcmillan
+  location: Dunedin
+  date: 2024-07-04
+  title: The long-term impacts of opioid use before and after joint arthroplasty
+  note: invited presentation
+- conference: OARSI World Congress
+  stub: oarsi
+  location: Vienna
+  date: 2024-08-18
+  title:
+    Health system and societal costs following osteoarthritis diagnosis in primary
+    care
+  note: poster presentation
+  authors:
+    Wilson R, Pryymachenko Y, Schofield D, Shrestha R, Darlow B, Dowell T,
+    MacRae J, Abbott JH
+  published: _Osteoarthritis Cartilage_ 2024;32(S1):S333
+  doi: 10.1016/j.joca.2024.02.490
+- conference: OARSI World Congress
+  stub: oarsi
+  location: Vienna
+  date: 2024-08-18
+  title:
+    "Predictive models for identifying hip and knee osteoarthritis in primary
+    care electronic records: a natural language processing text classifier approach"
+  note: poster presentation
+  authors: MacRae J, Darlow B, Dowell T, Stephenson C, Oscroft N, Wilson R, Abbott JH
+  published: _Osteoarthritis Cartilage_ 2024;32(S1):S529
+  doi: 10.1016/j.joca.2024.02.106
+- conference: OARSI World Congress
+  stub: oarsi
+  location: Vienna
+  date: 2024-08-18
+  title: The primary care diagnosis and management of osteoarthritis
+  note: poster presentation
+  authors: Abbott JH, Dowell T, MacRae J, Wilson R, Darlow B
+  published: _Osteoarthritis Cartilage_ 2024; 32(S1):S73
+  doi: 10.1016/j.joca.2024.02.786
+- conference: Aotearoa Osteoarthritis Research Network Annual Meeting
+  stub: oarnet
+  location: Dunedin
+  date: 2023-11-02
+  title:
+    The diagnosis and management of osteoarthritis in Aotearoa New Zealand primary
+    care
+- conference:
+    Australia and New Zealand Musculoskeletal Clinical Trials Network (ANZMUSC)
+    Annual Scientific Meeting
+  stub: anzmusc
+  location: Sydney [Virtual]
+  date: 2023-10-24
+  title: "Economic evaluation in a clinical trial: the LEAP trial"
+  note: invited presentation
+- conference: Aotearoa Osteoarthritis Research Network Annual Meeting
+  stub: oarnet
+  location: Wellington
+  date: 2022-11-17
+  title: Navigating the early-mid career research pathway
+  note: invited presentation
+- conference: Aotearoa Osteoarthritis Research Network Annual Meeting
+  stub: oarnet
+  location: Wellington
+  date: 2022-11-17
+  title: Optimal treatment of hip and knee OA across the disease course
+- conference:
+    University of Otago Division of Health Sciences, Early and Mid-Career
+    Researcher Annual Conference
+  stub: otago
+  location: Dunedin
+  date: 2021-11-11
+  title:
+    Incorporating economic evaluation in clinical research to support research
+    impact
+- conference: Back and Neck Pain Forum
+  stub: bnpf
+  location: Global virtual conference
+  date: 2021-11-10
+  title:
+    "The effect of a guideline-implementation intervention (the FREE approach)
+    on the primary care management of low back pain: Economic evaluation"
+- conference: Department of Surgical Sciences, Dunedin School of Medicine
+  stub: surgery
+  location: Departmental seminar
+  date: 2020-11-16
+  title: The CMOR Collaborative Research Writing initiative (CMOR-CREW)
+- conference:
+    Health Services Research Association of Australia and New Zealand, 11th
+    Health Services and Policy Research Conference
+  stub: hsraanz
+  location: Auckland
+  date: 2019-12-04
+  title: The convergent validity of seven health state utility instruments
+- conference:
+    Health Services Research Association of Australia and New Zealand, 11th
+    Health Services and Policy Research Conference
+  stub: hsraanz
+  location: Auckland
+  date: 2019-12-04
+  title: Modelling the cost-effectiveness of knee osteoarthritis treatments
+- conference: New Zealand Orthopaedic Association Annual Scientific Meeting
+  stub: nzoa
+  location: Dunedin
+  date: 2019-10-02
+  title:
+    "The projected burden of knee osteoarthritis in New Zealand: total joint
+    replacement and healthcare expenditure"
+- conference: Department of Orthopaedic Surgery, Dunedin Hospital
+  stub: surgery
+  location: Seminar
+  date: 2019-10-01
+  title:
+    "The projected burden of knee osteoarthritis in New Zealand: total joint
+    replacement and healthcare expenditure"
+- conference: Department of Surgical Sciences, Dunedin School of Medicine
+  stub: surgery
+  location: Departmental seminar
+  date: 2019-09-30
+  title:
+    "The projected burden of knee osteoarthritis in New Zealand: total joint
+    replacement and healthcare expenditure"
+- conference: OARSI World Congress
+  stub: oarsi
+  location: Toronto
+  date: 2019-05-02
+  title:
+    "The cost-effectiveness of recommended adjunctive osteoarthritis management
+    options: Results from a computer simulation model"
+  note: poster presentation
+  authors: Wilson R, Chua J, Briggs AM, Abbott JH
+  published: _Osteoarthritis and Cartilage_ 2019;27(S1):S313
+  doi: 10.1016/j.joca.2019.02.711
+- conference: OARSI World Congress
+  stub: oarsi
+  location: Toronto
+  date: 2019-05-02
+  title:
+    "Integrating values and preferences with the best available evidence: A multi-criteria
+    decision analysis approach"
+  note: poster presentation
+  authors: Chua J, Hansen P, Briggs AM, Wilson R, Gwynne-Jones DP, Abbott JH
+  published: _Osteoarthritis and Cartilage_ 2019;27(S1):S308-9
+  doi: 10.1016/j.joca.2019.02.705
+- conference: OARSI World Congress
+  stub: oarsi
+  location: Toronto
+  date: 2019-05-02
+  title:
+    "Projecting the healthcare burden of knee osteoarthritis in New Zealand:
+    Results from a computer simulation model"
+  note: poster presentation
+  authors: Abbott JH, Wilson R, Sullivan JK, Lenhard NK, Losina E
+  published: _Osteoarthritis and Cartilage_ 2019;27(S1):S315
+  doi: 10.1016/j.joca.2019.02.714
+- conference: Department of Surgical Sciences, Dunedin School of Medicine,
+  stub: surgery
+  location: Departmental seminar
+  date: 2018-06-25
+  title: Age, Period, and Cohort Effects on Body Mass Index in New Zealand, 1997–2038
+- conference:
+    Department of Preventive and Social Medicine, Dunedin School of Medicine,
+    University of Otago, and the Public Health Association Otago/Southland
+  stub: psm
+  location: Public Health Seminar
+  date: 2017-03-30
+  title:
+    The development and validation of a new population-based simulation model
+    of osteoarthritis in New Zealand
+- conference: ISPOR 19th Annual European Congress
+  stub: ispor
+  location: Vienna
+  date: 2016-11-02
+  title:
+    "Modelling total knee replacement surgery for osteoarthritis in New Zealand:
+    Validation of a population-based state-transition microsimulation model "
+  note: poster presentation
+  authors: Wilson R, Abbott JH, Gwynne-Jones D, Kvizhinadze G, Blakely T
+  published: _Value in Health_ 2016;19(7):PA548
+  doi: 10.1016/j.jval.2016.09.1165
+- conference: Society for Medical Decision Making 38th Annual Meeting
+  stub: smdm
+  location: Vancouver
+  date: 2016-10-23
+  title:
+    "The health-loss burden of osteoarthritis in New Zealand: Results from a
+    new computer simulation model"
+  note: poster presentation
+- conference: Department of Surgical Sciences, Dunedin School of Medicine
+  stub: surgery
+  location: Departmental seminar
+  date: 2016-09-19
+  title:
+    The development and validation of a new population-based simulation model
+    of osteoarthritis in New Zealand
+- conference: OARSI World Congress
+  stub: oarsi
+  location: Amsterdam
+  date: 2016-03-31
+  title:
+    "Health-loss burden of osteoarthritis in New Zealand: Computer-simulation
+    estimate and between-model cross-validation"
+  note: poster presentation
+  authors: Abbott JH, Usiskin I, Wilson R, Losina E
+  published: _Osteoarthritis and Cartilage_ 2016;24(S1):S426
+  doi: 10.1016/j.joca.2016.01.768

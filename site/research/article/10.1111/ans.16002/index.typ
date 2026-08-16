@@ -10,7 +10,7 @@
   issue: "9",
   pages: "1738–1742",
   doi: "10.1111/ans.16002",
-  citation: "Gwynne-Jones DP, Wilson R, McEwan C. #link(\"/research/article/10.1111/ans.16002/index.html\")[National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery]. _ANZ Journal of Surgery_ 2020;90(9):1738–1742. doi: #link(\"https://doi.org/10.1111/ans.16002\")[10.1111/ans.16002]",
+  citation: "Gwynne-Jones DP, Wilson R, McEwan C. #link(\"/research/article/10.1111/ans.16002/index.html\")[National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery]. _ANZ Journal of Surgery_ 2020;90(9):1738–1742. doi:~#link(\"https://doi.org/10.1111/ans.16002\")[10.1111/ans.16002]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == ANZ Journal of Surgery
 #smallcaps[Published]\ 26 May 2020
 
-#smallcaps[Citation]\ #eval("Gwynne-Jones DP, Wilson R, McEwan C. National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery. _ANZ Journal of Surgery_ 2020;90(9):1738–1742. doi: #link(\"https://doi.org/10.1111/ans.16002\")[10.1111/ans.16002]", mode: "markup")
+#smallcaps[Citation]\ #eval("Gwynne-Jones DP, Wilson R, McEwan C. National Referral Prioritization tool for first specialist assessment: results of a pilot study in orthopaedic surgery. _ANZ Journal of Surgery_ 2020;90(9):1738–1742. doi:~#link(\"https://doi.org/10.1111/ans.16002\")[10.1111/ans.16002]", mode: "markup")
 
 === Abstract
 *Background*

@@ -10,7 +10,7 @@
   issue: "4",
   pages: "100123",
   doi: "10.1016/j.ocarto.2020.100123",
-  citation: "Wilson R, Chua J, Briggs AM, Abbott JH. #link(\"/research/article/10.1016/j.ocarto.2020.100123/index.html\")[The cost-effectiveness of recommended adjunctive interventions for knee osteoarthritis: Results from a computer simulation model]. _Osteoarthritis and Cartilage Open_ 2020;2(4):100123. doi: #link(\"https://doi.org/10.1016/j.ocarto.2020.100123\")[10.1016/j.ocarto.2020.100123]",
+  citation: "Wilson R, Chua J, Briggs AM, Abbott JH. #link(\"/research/article/10.1016/j.ocarto.2020.100123/index.html\")[The cost-effectiveness of recommended adjunctive interventions for knee osteoarthritis: Results from a computer simulation model]. _Osteoarthritis and Cartilage Open_ 2020;2(4):100123. doi:~#link(\"https://doi.org/10.1016/j.ocarto.2020.100123\")[10.1016/j.ocarto.2020.100123]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Osteoarthritis and Cartilage Open
 #smallcaps[Published]\ 22 December 2020
 
-#smallcaps[Citation]\ #eval("Wilson R, Chua J, Briggs AM, Abbott JH. The cost-effectiveness of recommended adjunctive interventions for knee osteoarthritis: Results from a computer simulation model. _Osteoarthritis and Cartilage Open_ 2020;2(4):100123. doi: #link(\"https://doi.org/10.1016/j.ocarto.2020.100123\")[10.1016/j.ocarto.2020.100123]", mode: "markup")
+#smallcaps[Citation]\ #eval("Wilson R, Chua J, Briggs AM, Abbott JH. The cost-effectiveness of recommended adjunctive interventions for knee osteoarthritis: Results from a computer simulation model. _Osteoarthritis and Cartilage Open_ 2020;2(4):100123. doi:~#link(\"https://doi.org/10.1016/j.ocarto.2020.100123\")[10.1016/j.ocarto.2020.100123]", mode: "markup")
 
 === Abstract
 *Objective*

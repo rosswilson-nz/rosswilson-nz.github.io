@@ -10,7 +10,7 @@
   issue: "1",
   pages: "35–41",
   doi: "10.1016/j.jphys.2022.11.007",
-  citation: "Wilson R, Abbott JH, Mellor R, Grimaldi A, Bennell K, Vicenzino B. #link(\"/research/article/10.1016/j.jphys.2022.11.007/index.html\")[Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial]. _Journal of Physiotherapy_ 2023;69(1):35–41. doi: #link(\"https://doi.org/10.1016/j.jphys.2022.11.007\")[10.1016/j.jphys.2022.11.007]",
+  citation: "Wilson R, Abbott JH, Mellor R, Grimaldi A, Bennell K, Vicenzino B. #link(\"/research/article/10.1016/j.jphys.2022.11.007/index.html\")[Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial]. _Journal of Physiotherapy_ 2023;69(1):35–41. doi:~#link(\"https://doi.org/10.1016/j.jphys.2022.11.007\")[10.1016/j.jphys.2022.11.007]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Journal of Physiotherapy
 #smallcaps[Published]\ 03 January 2023
 
-#smallcaps[Citation]\ #eval("Wilson R, Abbott JH, Mellor R, Grimaldi A, Bennell K, Vicenzino B. Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial. _Journal of Physiotherapy_ 2023;69(1):35–41. doi: #link(\"https://doi.org/10.1016/j.jphys.2022.11.007\")[10.1016/j.jphys.2022.11.007]", mode: "markup")
+#smallcaps[Citation]\ #eval("Wilson R, Abbott JH, Mellor R, Grimaldi A, Bennell K, Vicenzino B. Education plus exercise for persistent gluteal tendinopathy improves quality of life and is cost-effective compared to corticosteroid injection and wait and see: Economic evaluation of a randomised trial. _Journal of Physiotherapy_ 2023;69(1):35–41. doi:~#link(\"https://doi.org/10.1016/j.jphys.2022.11.007\")[10.1016/j.jphys.2022.11.007]", mode: "markup")
 
 === Abstract
 *Question*

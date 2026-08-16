@@ -10,7 +10,7 @@
   issue: "4",
   pages: "396–402",
   doi: "10.1111/1753-6405.12804",
-  citation: "Wilson R, Abbott JH. #link(\"/research/article/10.1111/1753-6405.12804/index.html\")[Age, period and cohort effects on body mass index in New Zealand, 1997-2038]. _Australian and New Zealand Journal of Public Health_ 2018;42(4):396–402. doi: #link(\"https://doi.org/10.1111/1753-6405.12804\")[10.1111/1753-6405.12804]",
+  citation: "Wilson R, Abbott JH. #link(\"/research/article/10.1111/1753-6405.12804/index.html\")[Age, period and cohort effects on body mass index in New Zealand, 1997-2038]. _Australian and New Zealand Journal of Public Health_ 2018;42(4):396–402. doi:~#link(\"https://doi.org/10.1111/1753-6405.12804\")[10.1111/1753-6405.12804]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Australian and New Zealand Journal of Public Health
 #smallcaps[Published]\ 04 July 2018
 
-#smallcaps[Citation]\ #eval("Wilson R, Abbott JH. Age, period and cohort effects on body mass index in New Zealand, 1997-2038. _Australian and New Zealand Journal of Public Health_ 2018;42(4):396–402. doi: #link(\"https://doi.org/10.1111/1753-6405.12804\")[10.1111/1753-6405.12804]", mode: "markup")
+#smallcaps[Citation]\ #eval("Wilson R, Abbott JH. Age, period and cohort effects on body mass index in New Zealand, 1997-2038. _Australian and New Zealand Journal of Public Health_ 2018;42(4):396–402. doi:~#link(\"https://doi.org/10.1111/1753-6405.12804\")[10.1111/1753-6405.12804]", mode: "markup")
 
 === Abstract
 *Objective*

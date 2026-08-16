@@ -10,7 +10,7 @@
   issue: "9",
   pages: "e1002897",
   doi: "10.1371/journal.pmed.1002897",
-  citation: "Darlow B, Stanley J, Dean S, Abbott JH, Garrett S, Wilson R, Mathieson F, Dowell A. #link(\"/research/article/10.1371/journal.pmed.1002897/index.html\")[The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial]. _PLOS Medicine_ 2019;16(9):e1002897. doi: #link(\"https://doi.org/10.1371/journal.pmed.1002897\")[10.1371/journal.pmed.1002897]",
+  citation: "Darlow B, Stanley J, Dean S, Abbott JH, Garrett S, Wilson R, Mathieson F, Dowell A. #link(\"/research/article/10.1371/journal.pmed.1002897/index.html\")[The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial]. _PLOS Medicine_ 2019;16(9):e1002897. doi:~#link(\"https://doi.org/10.1371/journal.pmed.1002897\")[10.1371/journal.pmed.1002897]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == PLOS Medicine
 #smallcaps[Published]\ 09 September 2019
 
-#smallcaps[Citation]\ #eval("Darlow B, Stanley J, Dean S, Abbott JH, Garrett S, Wilson R, Mathieson F, Dowell A. The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial. _PLOS Medicine_ 2019;16(9):e1002897. doi: #link(\"https://doi.org/10.1371/journal.pmed.1002897\")[10.1371/journal.pmed.1002897]", mode: "markup")
+#smallcaps[Citation]\ #eval("Darlow B, Stanley J, Dean S, Abbott JH, Garrett S, Wilson R, Mathieson F, Dowell A. The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial. _PLOS Medicine_ 2019;16(9):e1002897. doi:~#link(\"https://doi.org/10.1371/journal.pmed.1002897\")[10.1371/journal.pmed.1002897]", mode: "markup")
 
 === Abstract
 *Background*

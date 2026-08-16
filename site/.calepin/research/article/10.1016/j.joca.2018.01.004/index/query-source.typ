@@ -10,7 +10,7 @@
   issue: "4",
   pages: "531–539",
   doi: "10.1016/j.joca.2018.01.004",
-  citation: "Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.joca.2018.01.004/index.html\")[Development and validation of a new population-based simulation model of osteoarthritis in New Zealand]. _Osteoarthritis and Cartilage_ 2018;26(4):531–539. doi: #link(\"https://doi.org/10.1016/j.joca.2018.01.004\")[10.1016/j.joca.2018.01.004]",
+  citation: "Wilson R, Abbott JH. #link(\"/research/article/10.1016/j.joca.2018.01.004/index.html\")[Development and validation of a new population-based simulation model of osteoarthritis in New Zealand]. _Osteoarthritis and Cartilage_ 2018;26(4):531–539. doi:~#link(\"https://doi.org/10.1016/j.joca.2018.01.004\")[10.1016/j.joca.2018.01.004]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Osteoarthritis and Cartilage
 #smallcaps[Published]\ 10 January 2018
 
-#smallcaps[Citation]\ #eval("Wilson R, Abbott JH. Development and validation of a new population-based simulation model of osteoarthritis in New Zealand. _Osteoarthritis and Cartilage_ 2018;26(4):531–539. doi: #link(\"https://doi.org/10.1016/j.joca.2018.01.004\")[10.1016/j.joca.2018.01.004]", mode: "markup")
+#smallcaps[Citation]\ #eval("Wilson R, Abbott JH. Development and validation of a new population-based simulation model of osteoarthritis in New Zealand. _Osteoarthritis and Cartilage_ 2018;26(4):531–539. doi:~#link(\"https://doi.org/10.1016/j.joca.2018.01.004\")[10.1016/j.joca.2018.01.004]", mode: "markup")
 
 === Abstract
 *Objective*

@@ -10,7 +10,7 @@
   issue: "6",
   pages: "1864–1872.e10",
   doi: "10.1016/j.arth.2021.01.038",
-  citation: "Wilson RA, Gwynne-Jones DP, Sullivan TA, Abbott JH. #link(\"/research/article/10.1016/j.arth.2021.01.038/index.html\")[Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up]. _Journal of Arthroplasty_ 2021;36(6):1864–1872.e10. doi: #link(\"https://doi.org/10.1016/j.arth.2021.01.038\")[10.1016/j.arth.2021.01.038]",
+  citation: "Wilson RA, Gwynne-Jones DP, Sullivan TA, Abbott JH. #link(\"/research/article/10.1016/j.arth.2021.01.038/index.html\")[Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up]. _Journal of Arthroplasty_ 2021;36(6):1864–1872.e10. doi:~#link(\"https://doi.org/10.1016/j.arth.2021.01.038\")[10.1016/j.arth.2021.01.038]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Journal of Arthroplasty
 #smallcaps[Published]\ 21 January 2021
 
-#smallcaps[Citation]\ #eval("Wilson RA, Gwynne-Jones DP, Sullivan TA, Abbott JH. Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up. _Journal of Arthroplasty_ 2021;36(6):1864–1872.e10. doi: #link(\"https://doi.org/10.1016/j.arth.2021.01.038\")[10.1016/j.arth.2021.01.038]", mode: "markup")
+#smallcaps[Citation]\ #eval("Wilson RA, Gwynne-Jones DP, Sullivan TA, Abbott JH. Total hip and knee arthroplasty are highly cost-effective procedures: The importance of duration of follow-up. _Journal of Arthroplasty_ 2021;36(6):1864–1872.e10. doi:~#link(\"https://doi.org/10.1016/j.arth.2021.01.038\")[10.1016/j.arth.2021.01.038]", mode: "markup")
 
 === Abstract
 *Background*

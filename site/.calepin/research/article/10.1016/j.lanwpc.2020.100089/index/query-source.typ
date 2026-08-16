@@ -9,7 +9,7 @@
   volume: "75",
   pages: "100089",
   doi: "10.1016/j.lanwpc.2020.100089",
-  citation: "Coombs DM, Machado GC, Richards B, Wilson R, Chan J, Storey H, Maher CG. #link(\"/research/article/10.1016/j.lanwpc.2020.100089/index.html\")[Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia]. _Lancet Regional Health - Western Pacific_ 2021;75:100089. doi: #link(\"https://doi.org/10.1016/j.lanwpc.2020.100089\")[10.1016/j.lanwpc.2020.100089]",
+  citation: "Coombs DM, Machado GC, Richards B, Wilson R, Chan J, Storey H, Maher CG. #link(\"/research/article/10.1016/j.lanwpc.2020.100089/index.html\")[Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia]. _Lancet Regional Health - Western Pacific_ 2021;75:100089. doi:~#link(\"https://doi.org/10.1016/j.lanwpc.2020.100089\")[10.1016/j.lanwpc.2020.100089]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Lancet Regional Health - Western Pacific
 #smallcaps[Published]\ 29 January 2021
 
-#smallcaps[Citation]\ #eval("Coombs DM, Machado GC, Richards B, Wilson R, Chan J, Storey H, Maher CG. Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia. _Lancet Regional Health - Western Pacific_ 2021;75:100089. doi: #link(\"https://doi.org/10.1016/j.lanwpc.2020.100089\")[10.1016/j.lanwpc.2020.100089]", mode: "markup")
+#smallcaps[Citation]\ #eval("Coombs DM, Machado GC, Richards B, Wilson R, Chan J, Storey H, Maher CG. Healthcare costs due to low back pain in the emergency department and inpatient setting in Sydney, Australia. _Lancet Regional Health - Western Pacific_ 2021;75:100089. doi:~#link(\"https://doi.org/10.1016/j.lanwpc.2020.100089\")[10.1016/j.lanwpc.2020.100089]", mode: "markup")
 
 === Abstract
 *Background*

@@ -61,22 +61,29 @@ list(
     file_article,
     write_article_typ(dta_articles),
     pattern = map(dta_articles),
-    iteration = "list"
   ),
   ## Other publications/outputs ----
-  tar_file(file_other_outputs, "data/other-outputs.csv"),
-  tar_target(dta_other_outputs, fread(file_other_outputs)),
+  tar_file(file_other_outputs, "data/other-outputs.yaml"),
+  tar_target(
+    dta_other_outputs,
+    yaml::read_yaml(file_other_outputs),
+    iteration = "list"
+  ),
   tar_file(
     file_other_output,
     write_other_output_typ(dta_other_outputs),
-    pattern = map(dta_other_outputs)
+    pattern = map(dta_other_outputs),
   ),
   ## Presentations ----
-  tar_file(file_presentations, "data/presentations.csv"),
-  tar_target(dta_presentations, fread(file_presentations)),
+  tar_file(file_presentations, "data/presentations.yaml"),
+  tar_target(
+    dta_presentations,
+    yaml::read_yaml(file_presentations),
+    iteration = "list"
+  ),
   tar_file(
     file_presentation,
     write_presentation_typ(dta_presentations),
-    pattern = map(dta_presentations)
+    pattern = map(dta_presentations),
   )
 )

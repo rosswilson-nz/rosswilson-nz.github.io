@@ -9,7 +9,7 @@
   volume: "13",
   pages: "e074278",
   doi: "10.1136/bmjopen-2023-074278",
-  citation: "Reynolds A, Hood F, Wilson R, Ross A, Neumann S, Turner R, Iosua E, Katare R, Shahin A, Kok Z-Y, Chan H, Coffey S, Mann J. #link(\"/research/article/10.1136/bmjopen-2023-074278/index.html\")[Protocol for a three-arm randomised controlled trial of healthy grocery delivery in the usual care for adults recovering from an acute coronary event]. _BMJ Open_ 2023;13:e074278. doi: #link(\"https://doi.org/10.1136/bmjopen-2023-074278\")[10.1136/bmjopen-2023-074278]",
+  citation: "Reynolds A, Hood F, Wilson R, Ross A, Neumann S, Turner R, Iosua E, Katare R, Shahin A, Kok Z-Y, Chan H, Coffey S, Mann J. #link(\"/research/article/10.1136/bmjopen-2023-074278/index.html\")[Protocol for a three-arm randomised controlled trial of healthy grocery delivery in the usual care for adults recovering from an acute coronary event]. _BMJ Open_ 2023;13:e074278. doi:~#link(\"https://doi.org/10.1136/bmjopen-2023-074278\")[10.1136/bmjopen-2023-074278]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == BMJ Open
 #smallcaps[Published]\ 30 November 2023
 
-#smallcaps[Citation]\ #eval("Reynolds A, Hood F, Wilson R, Ross A, Neumann S, Turner R, Iosua E, Katare R, Shahin A, Kok Z-Y, Chan H, Coffey S, Mann J. Protocol for a three-arm randomised controlled trial of healthy grocery delivery in the usual care for adults recovering from an acute coronary event. _BMJ Open_ 2023;13:e074278. doi: #link(\"https://doi.org/10.1136/bmjopen-2023-074278\")[10.1136/bmjopen-2023-074278]", mode: "markup")
+#smallcaps[Citation]\ #eval("Reynolds A, Hood F, Wilson R, Ross A, Neumann S, Turner R, Iosua E, Katare R, Shahin A, Kok Z-Y, Chan H, Coffey S, Mann J. Protocol for a three-arm randomised controlled trial of healthy grocery delivery in the usual care for adults recovering from an acute coronary event. _BMJ Open_ 2023;13:e074278. doi:~#link(\"https://doi.org/10.1136/bmjopen-2023-074278\")[10.1136/bmjopen-2023-074278]", mode: "markup")
 
 === Abstract
 *Introduction*

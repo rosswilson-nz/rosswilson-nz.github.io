@@ -10,7 +10,7 @@
   issue: "5",
   pages: "262–275",
   doi: "10.2519/jospt.2022.10727",
-  citation: "Pathak A, Wilson R, Sharma S, Pryymachenko Y, Ribeiro DC, Chua J, Abbott JH. #link(\"/research/article/10.2519/jospt.2022.10727/index.html\")[Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines]. _Journal of Orthopaedic & Sports Physical Therapy_ 2022;52(5):262–275. doi: #link(\"https://doi.org/10.2519/jospt.2022.10727\")[10.2519/jospt.2022.10727]",
+  citation: "Pathak A, Wilson R, Sharma S, Pryymachenko Y, Ribeiro DC, Chua J, Abbott JH. #link(\"/research/article/10.2519/jospt.2022.10727/index.html\")[Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines]. _Journal of Orthopaedic & Sports Physical Therapy_ 2022;52(5):262–275. doi:~#link(\"https://doi.org/10.2519/jospt.2022.10727\")[10.2519/jospt.2022.10727]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Journal of Orthopaedic & Sports Physical Therapy
 #smallcaps[Published]\ 10 May 2022
 
-#smallcaps[Citation]\ #eval("Pathak A, Wilson R, Sharma S, Pryymachenko Y, Ribeiro DC, Chua J, Abbott JH. Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines. _Journal of Orthopaedic & Sports Physical Therapy_ 2022;52(5):262–275. doi: #link(\"https://doi.org/10.2519/jospt.2022.10727\")[10.2519/jospt.2022.10727]", mode: "markup")
+#smallcaps[Citation]\ #eval("Pathak A, Wilson R, Sharma S, Pryymachenko Y, Ribeiro DC, Chua J, Abbott JH. Measurement properties of the Patient-Specific Functional Scale and its current uses: An updated systematic review of 57 studies using COSMIN guidelines. _Journal of Orthopaedic & Sports Physical Therapy_ 2022;52(5):262–275. doi:~#link(\"https://doi.org/10.2519/jospt.2022.10727\")[10.2519/jospt.2022.10727]", mode: "markup")
 
 === Abstract
 *Objective*

@@ -10,7 +10,7 @@
   issue: "6",
   pages: "916–924",
   doi: "10.1093/fampra/cmad112",
-  citation: "Pryymachenko Y, Wilson R, Abbott JH, Dowsey M, Choong P. #link(\"/research/article/10.1093/fampra/cmad112/index.html\")[The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data]. _Family Practice_ 2024;41(6):916–924. doi: #link(\"https://doi.org/10.1093/fampra/cmad112\")[10.1093/fampra/cmad112]",
+  citation: "Pryymachenko Y, Wilson R, Abbott JH, Dowsey M, Choong P. #link(\"/research/article/10.1093/fampra/cmad112/index.html\")[The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data]. _Family Practice_ 2024;41(6):916–924. doi:~#link(\"https://doi.org/10.1093/fampra/cmad112\")[10.1093/fampra/cmad112]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Family Practice
 #smallcaps[Published]\ 30 November 2023
 
-#smallcaps[Citation]\ #eval("Pryymachenko Y, Wilson R, Abbott JH, Dowsey M, Choong P. The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data. _Family Practice_ 2024;41(6):916–924. doi: #link(\"https://doi.org/10.1093/fampra/cmad112\")[10.1093/fampra/cmad112]", mode: "markup")
+#smallcaps[Citation]\ #eval("Pryymachenko Y, Wilson R, Abbott JH, Dowsey M, Choong P. The long-term impacts of opioid use before and after joint arthroplasty: matched cohort analysis of New Zealand linked register data. _Family Practice_ 2024;41(6):916–924. doi:~#link(\"https://doi.org/10.1093/fampra/cmad112\")[10.1093/fampra/cmad112]", mode: "markup")
 
 === Abstract
 *Background*

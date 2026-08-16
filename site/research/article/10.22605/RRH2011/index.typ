@@ -10,7 +10,7 @@
   issue: "2",
   pages: "2011",
   doi: "10.22605/RRH2011",
-  citation: "Williamson M, Wilson R, McKechnie RC, Ross J. #link(\"/research/article/10.22605/RRH2011/index.html\")[Does the positive influence of an undergraduate rural placement persist into postgraduate years?]. _Rural and Remote Health_ 2012;12(2):2011. doi: #link(\"https://doi.org/10.22605/RRH2011\")[10.22605/RRH2011]",
+  citation: "Williamson M, Wilson R, McKechnie RC, Ross J. #link(\"/research/article/10.22605/RRH2011/index.html\")[Does the positive influence of an undergraduate rural placement persist into postgraduate years?]. _Rural and Remote Health_ 2012;12(2):2011. doi:~#link(\"https://doi.org/10.22605/RRH2011\")[10.22605/RRH2011]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Rural and Remote Health
 #smallcaps[Published]\ 19 June 2012
 
-#smallcaps[Citation]\ #eval("Williamson M, Wilson R, McKechnie RC, Ross J. Does the positive influence of an undergraduate rural placement persist into postgraduate years?. _Rural and Remote Health_ 2012;12(2):2011. doi: #link(\"https://doi.org/10.22605/RRH2011\")[10.22605/RRH2011]", mode: "markup")
+#smallcaps[Citation]\ #eval("Williamson M, Wilson R, McKechnie RC, Ross J. Does the positive influence of an undergraduate rural placement persist into postgraduate years?. _Rural and Remote Health_ 2012;12(2):2011. doi:~#link(\"https://doi.org/10.22605/RRH2011\")[10.22605/RRH2011]", mode: "markup")
 
 === Abstract
 *Introduction*

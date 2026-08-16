@@ -9,7 +9,7 @@
   volume: "29",
   pages: "213–218",
   doi: "10.1136/ip-2022-044761",
-  citation: "Pryymachenko Y, Wilson R, Abbott JH. #link(\"/research/article/10.1136/ip-2022-044761/index.html\")[Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status]. _Injury prevention_ 2023;29:213–218. doi: #link(\"https://doi.org/10.1136/ip-2022-044761\")[10.1136/ip-2022-044761]",
+  citation: "Pryymachenko Y, Wilson R, Abbott JH. #link(\"/research/article/10.1136/ip-2022-044761/index.html\")[Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status]. _Injury prevention_ 2023;29:213–218. doi:~#link(\"https://doi.org/10.1136/ip-2022-044761\")[10.1136/ip-2022-044761]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Injury prevention
 #smallcaps[Published]\ 05 June 2023
 
-#smallcaps[Citation]\ #eval("Pryymachenko Y, Wilson R, Abbott JH. Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status. _Injury prevention_ 2023;29:213–218. doi: #link(\"https://doi.org/10.1136/ip-2022-044761\")[10.1136/ip-2022-044761]", mode: "markup")
+#smallcaps[Citation]\ #eval("Pryymachenko Y, Wilson R, Abbott JH. Epidemiology of cruciate ligament injuries in New Zealand: exploring differences by ethnicity and socioeconomic status. _Injury prevention_ 2023;29:213–218. doi:~#link(\"https://doi.org/10.1136/ip-2022-044761\")[10.1136/ip-2022-044761]", mode: "markup")
 
 === Abstract
 *Objectives*

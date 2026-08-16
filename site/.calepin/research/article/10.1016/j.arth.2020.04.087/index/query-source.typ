@@ -10,7 +10,7 @@
   issue: "9",
   pages: "2350–2356.e1",
   doi: "10.1016/j.arth.2020.04.087",
-  citation: "Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA. #link(\"/research/article/10.1016/j.arth.2020.04.087/index.html\")[The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?]. _Journal of Arthroplasty_ 2020;35(9):2350–2356.e1. doi: #link(\"https://doi.org/10.1016/j.arth.2020.04.087\")[10.1016/j.arth.2020.04.087]",
+  citation: "Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA. #link(\"/research/article/10.1016/j.arth.2020.04.087/index.html\")[The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?]. _Journal of Arthroplasty_ 2020;35(9):2350–2356.e1. doi:~#link(\"https://doi.org/10.1016/j.arth.2020.04.087\")[10.1016/j.arth.2020.04.087]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Journal of Arthroplasty
 #smallcaps[Published]\ 03 May 2020
 
-#smallcaps[Citation]\ #eval("Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA. The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?. _Journal of Arthroplasty_ 2020;35(9):2350–2356.e1. doi: #link(\"https://doi.org/10.1016/j.arth.2020.04.087\")[10.1016/j.arth.2020.04.087]", mode: "markup")
+#smallcaps[Citation]\ #eval("Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA. The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?. _Journal of Arthroplasty_ 2020;35(9):2350–2356.e1. doi:~#link(\"https://doi.org/10.1016/j.arth.2020.04.087\")[10.1016/j.arth.2020.04.087]", mode: "markup")
 
 === Abstract
 *Background*

@@ -9,7 +9,7 @@
   volume: "80",
   pages: "103443",
   doi: "10.1016/j.msksp.2025.103443",
-  citation: "Pierobon A. Gaspar Fernandes L, Wilson R, Christopherson RM, Stanley J, Pryymachenko Y, Lim YW, Caya R, Gayed M, Abbott H. #link(\"/research/article/10.1016/j.msksp.2025.103443/index.html\")[Validity of the Global Rating of Change in patients with chronic low back pain]. _Musculoskeletal Science and Practice_ 2025;80:103443. doi: #link(\"https://doi.org/10.1016/j.msksp.2025.103443\")[10.1016/j.msksp.2025.103443]",
+  citation: "Pierobon A. Gaspar Fernandes L, Wilson R, Christopherson RM, Stanley J, Pryymachenko Y, Lim YW, Caya R, Gayed M, Abbott H. #link(\"/research/article/10.1016/j.msksp.2025.103443/index.html\")[Validity of the Global Rating of Change in patients with chronic low back pain]. _Musculoskeletal Science and Practice_ 2025;80:103443. doi:~#link(\"https://doi.org/10.1016/j.msksp.2025.103443\")[10.1016/j.msksp.2025.103443]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Musculoskeletal Science and Practice
 #smallcaps[Published]\ 08 November 2025
 
-#smallcaps[Citation]\ #eval("Pierobon A. Gaspar Fernandes L, Wilson R, Christopherson RM, Stanley J, Pryymachenko Y, Lim YW, Caya R, Gayed M, Abbott H. Validity of the Global Rating of Change in patients with chronic low back pain. _Musculoskeletal Science and Practice_ 2025;80:103443. doi: #link(\"https://doi.org/10.1016/j.msksp.2025.103443\")[10.1016/j.msksp.2025.103443]", mode: "markup")
+#smallcaps[Citation]\ #eval("Pierobon A. Gaspar Fernandes L, Wilson R, Christopherson RM, Stanley J, Pryymachenko Y, Lim YW, Caya R, Gayed M, Abbott H. Validity of the Global Rating of Change in patients with chronic low back pain. _Musculoskeletal Science and Practice_ 2025;80:103443. doi:~#link(\"https://doi.org/10.1016/j.msksp.2025.103443\")[10.1016/j.msksp.2025.103443]", mode: "markup")
 
 === Abstract
 *Background*

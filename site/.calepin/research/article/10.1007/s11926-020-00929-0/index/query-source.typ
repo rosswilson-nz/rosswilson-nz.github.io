@@ -9,7 +9,7 @@
   volume: "22",
   pages: "58",
   doi: "10.1007/s11926-020-00929-0",
-  citation: "Shadbolt C, Shilling S, Inacio MC, Abbott JH, Pryymachenko Y, Wilson R, Choong PFM, Dowsey MM. #link(\"/research/article/10.1007/s11926-020-00929-0/index.html\")[Opioid Use and Total Joint Replacement]. _Current Rheumatology Reports_ 2020;22:58. doi: #link(\"https://doi.org/10.1007/s11926-020-00929-0\")[10.1007/s11926-020-00929-0]",
+  citation: "Shadbolt C, Shilling S, Inacio MC, Abbott JH, Pryymachenko Y, Wilson R, Choong PFM, Dowsey MM. #link(\"/research/article/10.1007/s11926-020-00929-0/index.html\")[Opioid Use and Total Joint Replacement]. _Current Rheumatology Reports_ 2020;22:58. doi:~#link(\"https://doi.org/10.1007/s11926-020-00929-0\")[10.1007/s11926-020-00929-0]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Current Rheumatology Reports
 #smallcaps[Published]\ 17 August 2020
 
-#smallcaps[Citation]\ #eval("Shadbolt C, Shilling S, Inacio MC, Abbott JH, Pryymachenko Y, Wilson R, Choong PFM, Dowsey MM. Opioid Use and Total Joint Replacement. _Current Rheumatology Reports_ 2020;22:58. doi: #link(\"https://doi.org/10.1007/s11926-020-00929-0\")[10.1007/s11926-020-00929-0]", mode: "markup")
+#smallcaps[Citation]\ #eval("Shadbolt C, Shilling S, Inacio MC, Abbott JH, Pryymachenko Y, Wilson R, Choong PFM, Dowsey MM. Opioid Use and Total Joint Replacement. _Current Rheumatology Reports_ 2020;22:58. doi:~#link(\"https://doi.org/10.1007/s11926-020-00929-0\")[10.1007/s11926-020-00929-0]", mode: "markup")
 
 === Abstract
 *Purpose of Review*

@@ -1,0 +1,395 @@
+- title:
+    Osteoarthritis Diagnoses are Under-recorded in Primary Care Electronic Health
+    Records in New Zealand
+  authors:
+    Wilson R, Chistopherson RM, Pryymachenko Y, Caya R, Gaspar Fernandes L,
+    Lim YW, Gayed M, Pierobon A, Dowell T, Darlow B, MacRae J, Abbott JH
+  abstract: |
+    *Background*
+    Effective planning of healthcare services for osteoarthritis
+    requires accurate estimates of its prevalence in primary care. There is growing
+    evidence to suggest that osteoarthritis prevalence estimates in primary care are
+    inaccurate owing to under-recording of codified diagnoses within electronic health
+    records.  Aim To quantify the gap in recording of osteoarthritis diagnoses in
+    primary care in New Zealand.
+
+    *Methods*
+    We linked data from the electronic
+    health records of a cohort of 72,861 patients enrolled with primary care providers
+    in the lower North Island of New Zealand with public hospital discharge records
+    to identify all patients in the cohort with a total hip or knee replacement surgery
+    for osteoarthritis between 2013#sym.dash.en;2018. We then calculated the proportion
+    of patients who had at least one matching osteoarthritis diagnosis code in the
+    primary care records prior to joint replacement surgery. We conducted subgroup
+    analyses stratifying the cohort by joint, year of surgery, age, sex, ethnicity,
+    socioeconomic deprivation, primary care practice, and frequency of contact with
+    the practice.
+
+    *Results*
+    Among the 591 patients with hip replacement and 609
+    with knee replacement, 48.2% and 49.8% respectively had an osteoarthritis diagnosis
+    code in the primary care records prior to the time of surgery. There was little
+    difference between the rates of osteoarthritis diagnosis coding for demographic
+    subgroups, but wide variations were observed amongst practices.
+
+    *Conclusions*
+    There is substantial under-recording of osteoarthritis diagnoses in primary care
+    in New Zealand due to delayed or absent coding within electronic health records.
+    Efforts should be made to improve recording of osteoarthritis diagnoses to aid
+    in future policy decision-making and research.
+  source: medRxiv 2025.11.20.25340701
+  date: 2025-11-21
+  doi: 10.1101/2025.11.20.25340701
+- title:
+    "Statistical Analysis Plan for Reducing the burden of knee osteoarthritis
+    through community pharmacy: A randomised controlled trial of the Knee Care for
+    Arthritis through Pharmacy Service"
+  authors: Stanley J, Wilson R, Darlow B
+  abstract: |
+    This is the Statistical Analysis Plan for the study _Reducing the burden of knee
+    osteoarthritis through community pharmacy: A randomised controlled trial of the
+    Knee Care for Arthritis through Pharmacy Service (KneeCAPS) study_.
+  source: OUR Archive
+  date: 2024-10-18
+  url: https://hdl.handle.net/10523/42913
+- title:
+    "Economic evaluation of the effects of manual therapy for knee osteoarthritis:
+    Study protocol"
+  authors: Pryymachenko Y, Wilson R, Abbott JH, Chapple C
+  abstract: |
+    Manual therapy (MT) has been shown to be a cost-effective treatment for
+    knee or hip osteoarthritis (OA), one of the most common and debilitating
+    health conditions. However, the optimal dose of MT has not been identified.
+    The Opti-OK trial was a three-arm superiority randomised controlled trial
+    investigating whether frequency of MT (one of the aspects of dosage)
+    influences clinical and cost-effectiveness at six-months for people with
+    knee OA. In this paper, we outline the protocol for an economic evaluation
+    to be conducted in conjunction with the Opti-OK trial.
+  source: OSF
+  date: 2024-05-17
+  url: https://osf.io/arn9v/
+- title:
+    "Interventions used to Improve Health Outcomes in Patients with Multimorbidity:
+    Protocol for An Updated Systematic Review"
+  authors: Lim YW, Al-Busaidi I, Caya R, Bricca A, Wilson R, Mangin D, Abbott JH
+  abstract: |
+    Multimorbidity has become a growing public health concern globally. The
+    aging population especiallyin developed countries has led to an increase in patients
+    living with multimorbidity.
+
+    In this study we will update a previous systematic
+    review to include studies published up to October 2023, with an additional focus
+    on economic evaluations of interventions for multimorbidity.
+  source: OSF
+  date: 2024-04-22
+  doi: 10.17605/osf.io/vypqh
+- title:
+    "Health system and societal costs following osteoarthritis diagnosis in primary
+    care: a population-based matched cohort study"
+  authors:
+    Wilson R, Pryymachenko Y, Schofield S, Shrestha R, Darlow B, Dowell T,
+    MacRae J, Bell R, Abbott JH
+  abstract: |
+    *Objective*
+    To estimate the incremental public healthcare utilisation
+    and costs, incidence of comorbid conditions, and socioeconomic outcomes following
+    newly diagnosed osteoarthritis in primary care in New Zealand.
+
+    *Design*
+    Matched
+    longitudinal cohort study using routinely collected administrative data from the
+    New Zealand Integrated Data Infrastructure. Patients with a first diagnosis of
+    hip or knee osteoarthritis between 2009 and 2010 were identified from primary
+    care electronic health records and matched with patients without osteoarthritis
+    diagnosis across a large set of pre-diagnosis variables. Extensive diagnostic
+    checking was undertaken to establish a very close balance of covariates between
+    matched osteoarthritis and non-osteoarthritis cohorts. Healthcare utilisation,
+    healthcare costs, incidence of comorbid health conditions, income and employment,
+    receipt of social welfare benefits, and mortality were measured in administrative
+    record data over 10-year follow-up and compared between the osteoarthritis and
+    matched non-osteoarthritis cohorts by linear regression.
+
+    *Results*
+    We successfully
+    matched 792 patients with newly diagnosed osteoarthritis with 35 904 controls
+    without osteoarthritis diagnosis. The matched case and control cohorts were very
+    well balanced across all baseline covariates. Compared with matched controls,
+    osteoarthritis patients had significantly higher healthcare utilisation and healthcare
+    costs over the 10 years following diagnosis, with total incremental public healthcare
+    costs of \$10 771 (95% CI: 3 047, 18 494) per patient. There was no consistent
+    evidence of differences in socioeconomic outcomes, mortality, or incidence of
+    comorbid conditions.
+
+    *Conclusions*
+    People with osteoarthritis incur substantial
+    healthcare costs in the decade following primary care diagnosis.
+  source: OSF
+  date: 2024-04-19
+  doi: 10.17605/osf.io/8b39f
+- title:
+    "The long-term effects of opioid use before joint replacement surgery: A
+    dose-response trial emulation with New Zealand linked register data. Analysis
+    plan"
+  authors: Pryymachenko Y, Wilson R, Abbott JH, Choong P, Dowsey M
+  abstract: |
+    Osteoarthritis (OA) is a common chronic health condition, affecting more
+    than 500 million people worldwide in 2019. Opioids are commonly used to manage
+    pain associated with OA, and their use is usually the highest before a total joint
+    replacement (TJR) surgery due to more severe joint pain. However, patients receiving
+    opioids before surgery respond worse to pain relief following surgery, have higher
+    risk of surgical complications, revision surgery, and prolonged opioid use post-surgery.
+    Pre-TJR opioid use also negatively affects long-term health and socio-economic
+    outcomes. Although the need to minimize pre-surgery opioid use is evident, it
+    has proven to be challenging.
+
+    While opioids are still widely used for pre-TJR
+    pain management, and particularly for patients with medical contraindications
+    of nonopioid alternatives, it is important to establish the level of opioid use
+    at which their negative effect manifests itself (if such a level exists). The
+    aim of this study is to investigate the dose-response relationship between pre-TJR
+    opioid use and long-term health and socio-economic outcomes.
+  source: OSF
+  date: 2023-09-08
+  doi: 10.17605/osf.io/g52kt
+- title:
+    "The health system and societal costs of osteoarthritis in New Zealand: Methodology
+    and results of the process for funding an optimal matching model"
+  authors: Wilson R, Abbott JH, Pryymachenko Y
+  abstract: |
+    *Background*
+    Diagnosis and first-line management of osteoarthritis (OA)
+    typically occur in primary care, with surgical management (joint replacement surgery)
+    reserved for those with more severe late-stage disease. Despite this, there is
+    a lack of data available on the outcomes of OA managed in primary care (in contrast
+    to a wealth of data on surgical outcomes). This report describes the methodology
+    for a matched cohort analysis to estimate the outcomes of OA diagnosed in primary
+    care settings and presents results of the process to find optimal matching models
+    for this analysis. (Analysis of outcomes, using the matched cohorts identified
+    here, will be reported subsequently.)
+
+    *Method*
+    A cohort of individuals enrolled
+    with one regional primary healthcare organisation in New Zealand (NZ) was linked
+    with the Integrated Data Infrastructure (IDI), a linked research database maintained
+    by Statistics NZ containing data from government administrative datasets, Statistics
+    New Zealand surveys and data collections, and non-governmental organisations.
+    OA cases were defined as individuals having a first recorded onset of OA in the
+    primary healthcare records in the period January 2009#sym.dash.en;December 2010;
+    potential controls were drawn from all individuals enrolled with the primary healthcare
+    organisation with no recorded diagnosis of OA during or prior to December 2010.
+    Data on healthcare utilisation and costs, socioeconomic status, and other personal
+    characteristics were extracted from existing datasets within the IDI. Separate
+    cohorts were identified with (1) hip OA, (2) knee OA, and (3) either hip or knee
+    OA. For each cohort, matching models were developed to identify, from the pool
+    of potential controls without the corresponding OA diagnosis, a matched sample
+    who were as similar are possible, across a large selection of baseline covariates,
+    to those with an OA diagnosis. Optimal models were chosen based on diagnostic
+    balance statistics (standardised mean difference, variance ratio), graphical inspection
+    of the covariate distributions in the matched case and control groups, and any
+    exclusion of cases by the matching models. Separate subgroup analyses were conducted
+    for cohorts stratified by sex, ethnicity, and socioeconomic deprivation.
+
+    *Results*
+    Very good quality of matching was achieved for all three OA diagnosis cohorts
+    and for all subgroups. Excellent balance was achieved across all 40 measured baseline
+    covariates (standardised mean difference less than 0.1 (in absolute value), variance
+    ratio between 0.8 and 1.25, and minimal observable difference in variable density
+    plots) in the optimal models for all cohort and subgroups, with few unmatched
+    observations (1–2% in each cohort, with the exception of the (small) Māori subgroup
+    at 6–8%).
+
+    *Conclusion*
+    The matched cohorts identified here will be used to
+    estimate the healthcare, personal, and socioeconomic burden of OA diagnosed and
+    managed in primary care.
+  source: FigShare
+  date: 2023-07-05
+  doi: 10.6084/m9.figshare.22661551.v3
+- title:
+    "Long-term outcomes of cruciate ligament injury: a revised matched cohort
+    analysis of New Zealand linked register data. Analysis plan"
+  authors: Pryymachenko Y, Wilson R, Abbott JH, Bell R
+  abstract: |
+    Cruciate ligament (CL) injuries  are serious and common  conditions.  However,  very
+    little is known  on long-term  health and economic  effects of these injuries.  Our
+    previous  study has investigated these effects for  New Zealand (NZ)  population  using  a
+    rigorous  matching technique  (matching  individuals with a CL injury to similar
+    individuals  without  a CL injury).  However, despite  controlling  for  a large
+    set of baseline  characteristics aiming to capture individuals’ demographic, health,
+    and socio-economic status to the extent that the effects on long-term  outcomes  would  only
+    come from  the differences  in CL injury status, we came to the conclusion  that
+    our  previous  results were likely driven  by unobserved differences  in physical
+    activity levels, as people  who have a CL injury are likely to be more  active
+    than people  who do not (e.g.  65% of ACL surgeries  in NZ are sports-related).  Therefore,  the
+    current analysis aims at removing  these unobserved  differences  by using  a
+    control group  with a similar activity level as the treatment group  to identify  the
+    long-term  effects of CL injury.  This analysis plan details the methods  to be
+    used in this research.
+  source: OSF
+  date: 2023-06-06
+  doi: 10.17605/osf.io/9yu5r
+- title:
+    "Long-term outcomes of cruciate ligament injury: attempting a matched cohort
+    analysis of New Zealand linked register data"
+  authors: Pryymachenko Y,Wilson R, Abbott JH
+  abstract: |
+    *Background*
+    Little is known on the long-term effects of cruciate ligament
+    (CL) injuries. The present study aimed to investigate the effect of CL injuries
+    on long-term health and socioeconomic outcomes in New Zealand using national-level
+    observed data.
+
+    *Method*
+    We used a comprehensive linked database to identify
+    the majority of CL injuries in New Zealand, and to find matched control cases
+    based on a large set of covariates. Regression analyses were then performed to
+    identify the long-term effects of CL injury.
+
+    *Results*
+    13#sym.space.nobreak.narrow;176
+    CL injuries were identified during 2008#sym.dash.en;2009. CL injuries were associated
+    with significantly increased healthcare utilization (number of hospitalizations,
+    days spent in hospital, emergency department visits, medications dispensed) and
+    costs within 10 years post-injury, as well as increased likelihood of having a
+    total knee replacement or a subsequent CL injury. However, we also found that
+    having a CL injury was also associated with improved socioeconomic outcomes and
+    reduced mortality, which is surprising and may indicate bias due to unobserved
+    differences in physical activity levels between the treatment and control groups.
+
+    *Conclusions*
+    We have concerns that the results of this study may be biased
+    by unmeasured confounding. Further research, accounting for physical activity
+    levels between individuals with and without a CL injury, is needed to establish
+    the true effect of CL injury on long-term outcomes.
+  source: OSF
+  date: 2023-04-14
+  doi: 10.17605/osf.io/zfuyg
+- title:
+    "The health system and societal costs of osteoarthritis in New Zealand: Analysis
+    plan"
+  authors: Wilson R, Abbott JH, Pryymachenko Y, Schofield S, Shrestha R
+  abstract: |
+    Osteoarthritis (OA) is among the most common chronic health conditions,
+    causing a significant health and social burden. OA is typically diagnosed in primary
+    care, and managed by general practitioners (GPs) during its clinical course for
+    several years until, in many cases, need for eventual referral to an orthopaedic
+    surgeon. Anecdotally, and in international data, it is recognised that management
+    of OA falls well short of best practice; however, little systematic information
+    is available on the burden or management of OA in primary care in New Zealand.
+
+    This study forms part of a larger research project, funded by the Health Research
+    Council of New Zealand (Project grant #18-442), to investigate the primary care
+    management of OA in New Zealand, the health and socio-economic costs of OA across
+    the whole course of the disease, and the potential gains from improving the delivery
+    of care to meet best-practice standards.
+
+    In this study, we will use osteoarthritis
+    (OA) diagnosis data from primary care (extracted from patient records in the first
+    phase of the project) and existing linked administrative data from the Ministry
+    of Health and other government departments and agencies to investigate the health
+    system and societal costs associated with knee and hip OA.
+
+    This analysis plan details the data sources and variables, statistical
+    methods, and outputs for this research.
+  source: FigShare
+  date: 2022-05-06
+  doi: 10.6084/m9.figshare.16900156
+- title:
+    "The long-term impacts of opioid use before and after joint replacement surgery:
+    Report on finding the optimal matching model"
+  authors: "Pryymachenko Y, Wilson R, Abbott JH"
+  abstract: |
+    Total joint replacement (TJR) is one of the most common elective surgical
+    procedures globally. While this surgery should provide patients with substantial,
+    if not complete, pain relief from end-stage arthritis, post-surgical pain remains
+    common. Opioids are part of the acute pain management strategy post-TJR. Long-term
+    opioid use is not recommended due to substantial risk of harm, the diversion of
+    prescription opioids for non-medical use, and the risk of overdose, injection-related
+    harm, and dependence. However, use of opioids beyond the immediate post-surgical
+    recovery period of TJR is widespread (e.g., 29 percent of hip replacement patients
+    and 36 percent of knee replacement patients are prescribed opioids 3-12 months
+    after surgery in New Zealand; similar numbers have also been reported in Australia
+    and higher in the United States).
+
+    One of the strongest risk factors of persistent
+    postoperative opioid use is pre-and perioperative opioid use, which is also associated
+    with several other adverse outcomes such as reduced pain relief following surgery,
+    increased risk of surgical complications and early revision. However, there are
+    no studies to date that look at broader economic, social, and healthcare outcomes
+    of pre- and perioperative opioid use, either manifesting directly or through its
+    effect on long-term opioid use.
+
+    This project aims to identify the medium- to
+    long-term health, economic, and social outcomes of pre- and perioperative opioid
+    use in patients undergoing total hip and knee replacement surgery in New Zealand
+    using the matching approach. The current document reports on the procedure and
+    results of the first stage of the matching process – finding the optimal matching
+    model. Performing and reporting on the matching procedure before undertaking outcome
+    analysis is done to minimize the risk of bias due to low quality matching or selective
+    reporting of models favourable to the expected outcomes. The analysis was pre-specified
+    and published on the Open Science Framework.
+  source: OUR Archive
+  date: 2021-07-27
+  url: https://hdl.handle.net/10523/12166
+- title: How New Zealand's healthcare system is failing people with osteoarthritis
+  authors: Abbott JH, Wilson R
+  abstract: |
+    An article for a general audience on problems with the management of osteoarthritis
+    in the New Zealand healthcare system, and recommendations for delivering more
+    effective and cost-effective treatments, based on our HRC-funded research.
+  source: The Conversation,
+  date: 2021-03-31
+  url: https://theconversation.com/how-new-zealands-healthcare-system-is-failing-people-with-osteoarthritis-157138
+- title: CMOR Evidence Table
+  authors: Wilson R
+  abstract: |
+    An interactive web application presenting results from a research project,
+    The Impact and Management of Rising Osteoarthritis Burden, on stakeholder preferences
+    and cost-effectiveness of different treatments for knee osteoarthritis
+  source: University of Otago,
+  date: 2020-12-01
+  url: http://cmor-shiny.otago.ac.nz
+- title: "Baseline Data Capture: Cultural Safety, Partnership, and Health Equity Initiatives"
+  authors: Simmonds S, Wilson R, Carter M, Preval N
+  abstract: |
+    This report provides findings from research undertaken to capture a baseline
+    of the current state of cultural safety in the practice of doctors in Aotearoa
+    New Zealand (Aotearoa), and the cultural safety of patients – specifically those
+    who identify as Māori – receiving health services from those doctors.
+  source: Allen + Clarke, Wellington
+  date: 2020-10-23
+  url: https://www.mcnz.org.nz/our-standards/current-standards/cultural-safety/
+- title: Evaluation of the Mobility Action Programme (MAP)
+  authors: Wilson J, Wilson R, Abbott JH, Wilson R, Stevenson B, Carter M, Kayem Y
+  abstract: |
+    The Mobility Action Programme (MAP) was developed by the Ministry of
+    Health, and was designed to align with best practice approaches to early intervention
+    programmes for MSK conditions and the five themes of the New Zealand Health Strategy.
+    The MAP aimed to deliver evidence informed, community-based, multidisciplinary
+    interventions for adults with MSK conditions. It intended to support people to
+    access advice, assessment and treatment earlier than had previously been available.
+    The MAP’s priority groups were Māori, Pasifika and individuals living in the highest
+    deprivation quintile. The programme ran from May 2016 to December 2019. During
+    this time, 4,783 individuals participated in the programme.
+
+    This evaluation
+    examined the effectiveness and impact of the MAP across six domains or evaluation
+    criteria. These are: (1) health outcomes; (2) reach; (3) reduction in disparities;
+    (4) economic impact; (5) consumer experience; and (6) what ‘works best’. The following
+    key evaluation questions (KEQs) are framed around these criteria.
+
+    The evaluation
+    provides strong evidence that the MAP is an effective early intervention programme
+    for people with MSK conditions. The MAP has resulted in health outcome gains for
+    its participants, with the priority population groups achieving similar or better
+    improvements in health status. The evaluation has also demonstrated that the programme
+    is a prudent investment, with evidence showing it was cost-effective over the
+    short-term, achieving estimated health gains of 155 QALYs in the MAP cohort, and
+    INMB of \$5.4 million. The MAP is projected to be highly cost-effective over a
+    five-year horizon. The evaluation concludes that investment in early intervention
+    programmes for MSK conditions represents value for money. The specific focus of
+    the MAP on priority groups contributes to health equity for Māori, Pasifika and
+    those living in areas of higher derivation.
+  source: Allen + Clarke, Wellington
+  date: 2021-11-29
+  url: https://www.health.govt.nz/publications/evaluation-of-the-mobility-action-programme-map

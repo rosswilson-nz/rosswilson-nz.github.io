@@ -10,7 +10,7 @@
   issue: "4",
   pages: "1053–1067",
   doi: "10.1002/msc.1785",
-  citation: "Darlow B, Brown M, Stanley J, Abbott H, Briggs A, Clark J, Frew G, Grainger R, Hood F, Hudson B, Keenan R, Marra C, McKinlay E, Pask A, Pierobon A, Simmonds S, Vincent L, Dean S. #link(\"/research/article/10.1002/msc.1785/index.html\")[Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS)]. _Musculoskeletal Care_ 2023;21(4):1053–1067. doi: #link(\"https://doi.org/10.1002/msc.1785\")[10.1002/msc.1785]",
+  citation: "Darlow B, Brown M, Stanley J, Abbott H, Briggs A, Clark J, Frew G, Grainger R, Hood F, Hudson B, Keenan R, Marra C, McKinlay E, Pask A, Pierobon A, Simmonds S, Vincent L, Dean S. #link(\"/research/article/10.1002/msc.1785/index.html\")[Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS)]. _Musculoskeletal Care_ 2023;21(4):1053–1067. doi:~#link(\"https://doi.org/10.1002/msc.1785\")[10.1002/msc.1785]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Musculoskeletal Care
 #smallcaps[Published]\ 22 May 2023
 
-#smallcaps[Citation]\ #eval("Darlow B, Brown M, Stanley J, Abbott H, Briggs A, Clark J, Frew G, Grainger R, Hood F, Hudson B, Keenan R, Marra C, McKinlay E, Pask A, Pierobon A, Simmonds S, Vincent L, Dean S. Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS). _Musculoskeletal Care_ 2023;21(4):1053–1067. doi: #link(\"https://doi.org/10.1002/msc.1785\")[10.1002/msc.1785]", mode: "markup")
+#smallcaps[Citation]\ #eval("Darlow B, Brown M, Stanley J, Abbott H, Briggs A, Clark J, Frew G, Grainger R, Hood F, Hudson B, Keenan R, Marra C, McKinlay E, Pask A, Pierobon A, Simmonds S, Vincent L, Dean S. Reducing the burden of knee osteoarthritis through community pharmacy: protocol for a randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service (KneeCAPS). _Musculoskeletal Care_ 2023;21(4):1053–1067. doi:~#link(\"https://doi.org/10.1002/msc.1785\")[10.1002/msc.1785]", mode: "markup")
 
 === Abstract
 *Introduction*

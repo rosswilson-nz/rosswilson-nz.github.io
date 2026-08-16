@@ -78,24 +78,33 @@
   } else {
     let cells = ()
     for (index, page) in items.enumerate() {
-      let doi = _meta(page, "doi")
-      let metrics = [
-        #html.elem("span", attrs: (
-          class: "__dimensions_badge_embed__",
-          data-style: "large_rectangle",
-          data-doi: if doi == none { "" } else { doi },
-        ))
+      if (kind == "presentation") {
+        let description = _meta(page, "description")
+        if _meta(page, "citation") != none {
+          description = description + "\\ #smallcaps[*Citation*]: " + _meta(page, "citation")
+        }
+        cells.push(eval(description, mode: "markup"))
+        cells.push("")
+      } else {
+        let doi = _meta(page, "doi")
+        let metrics = [
+          #html.elem("span", attrs: (
+            class: "__dimensions_badge_embed__",
+            data-style: "large_rectangle",
+            data-doi: if doi == none { "" } else { doi },
+          ))
 
-        #html.elem("span", attrs: (
-          class: "altmetric-embed",
-          data-badge-type: "1",
-          data-badge-popover: "right",
-          data-doi: if doi == none { "" } else { doi },
-        ))
-      ]
-      let citation = _meta(page, "citation")
-      cells.push(eval(citation, mode: "markup"))
-      cells.push(metrics)
+          #html.elem("span", attrs: (
+            class: "altmetric-embed",
+            data-badge-type: "1",
+            data-badge-popover: "right",
+            data-doi: if doi == none { "" } else { doi },
+          ))
+        ]
+        let citation = _meta(page, "citation")
+        cells.push(eval(citation, mode: "markup"))
+        cells.push(metrics)
+      }
       if index < items.len() - 1 {
         cells.push(table.hline(stroke: 0.5pt + luma(80%)))
       }

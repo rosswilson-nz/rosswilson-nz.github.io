@@ -10,7 +10,7 @@
   issue: "6",
   pages: "1497–1503",
   doi: "10.1016/j.arth.2020.01.086",
-  citation: "Gwynne-Jones JH, Wilson RA, Wong JMY, Abbott JH, Gwynne-Jones DP. #link(\"/research/article/10.1016/j.arth.2020.01.086/index.html\")[The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery]. _Journal of Arthroplasty_ 2020;35(6):1497–1503. doi: #link(\"https://doi.org/10.1016/j.arth.2020.01.086\")[10.1016/j.arth.2020.01.086]",
+  citation: "Gwynne-Jones JH, Wilson RA, Wong JMY, Abbott JH, Gwynne-Jones DP. #link(\"/research/article/10.1016/j.arth.2020.01.086/index.html\")[The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery]. _Journal of Arthroplasty_ 2020;35(6):1497–1503. doi:~#link(\"https://doi.org/10.1016/j.arth.2020.01.086\")[10.1016/j.arth.2020.01.086]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Journal of Arthroplasty
 #smallcaps[Published]\ 07 February 2020
 
-#smallcaps[Citation]\ #eval("Gwynne-Jones JH, Wilson RA, Wong JMY, Abbott JH, Gwynne-Jones DP. The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery. _Journal of Arthroplasty_ 2020;35(6):1497–1503. doi: #link(\"https://doi.org/10.1016/j.arth.2020.01.086\")[10.1016/j.arth.2020.01.086]", mode: "markup")
+#smallcaps[Citation]\ #eval("Gwynne-Jones JH, Wilson RA, Wong JMY, Abbott JH, Gwynne-Jones DP. The Outcomes of Nonoperative Management of Patients With Hip and Knee Osteoarthritis Triaged to a Physiotherapy-Led Clinic at Minimum 5-Year Follow-Up and Factors Associated With Progression to Surgery. _Journal of Arthroplasty_ 2020;35(6):1497–1503. doi:~#link(\"https://doi.org/10.1016/j.arth.2020.01.086\")[10.1016/j.arth.2020.01.086]", mode: "markup")
 
 === Abstract
 *Background*

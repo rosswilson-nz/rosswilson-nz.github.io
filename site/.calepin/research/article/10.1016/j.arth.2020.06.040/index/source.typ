@@ -10,7 +10,7 @@
   issue: "11",
   pages: "3099–3107.e14",
   doi: "10.1016/j.arth.2020.06.040",
-  citation: "Pryymachenko Y, Wilson RA, Abbott JH, Dowsey MM, Choong PFM. #link(\"/research/article/10.1016/j.arth.2020.06.040/index.html\")[Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data]. _Journal of Arthroplasty_ 2020;35(11):3099–3107.e14. doi: #link(\"https://doi.org/10.1016/j.arth.2020.06.040\")[10.1016/j.arth.2020.06.040]",
+  citation: "Pryymachenko Y, Wilson RA, Abbott JH, Dowsey MM, Choong PFM. #link(\"/research/article/10.1016/j.arth.2020.06.040/index.html\")[Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data]. _Journal of Arthroplasty_ 2020;35(11):3099–3107.e14. doi:~#link(\"https://doi.org/10.1016/j.arth.2020.06.040\")[10.1016/j.arth.2020.06.040]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Journal of Arthroplasty
 #smallcaps[Published]\ 26 June 2020
 
-#smallcaps[Citation]\ #eval("Pryymachenko Y, Wilson RA, Abbott JH, Dowsey MM, Choong PFM. Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data. _Journal of Arthroplasty_ 2020;35(11):3099–3107.e14. doi: #link(\"https://doi.org/10.1016/j.arth.2020.06.040\")[10.1016/j.arth.2020.06.040]", mode: "markup")
+#smallcaps[Citation]\ #eval("Pryymachenko Y, Wilson RA, Abbott JH, Dowsey MM, Choong PFM. Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data. _Journal of Arthroplasty_ 2020;35(11):3099–3107.e14. doi:~#link(\"https://doi.org/10.1016/j.arth.2020.06.040\")[10.1016/j.arth.2020.06.040]", mode: "markup")
 
 === Abstract
 *Background*

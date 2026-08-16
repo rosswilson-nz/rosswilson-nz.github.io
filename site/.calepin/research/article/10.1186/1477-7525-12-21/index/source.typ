@@ -9,7 +9,7 @@
   volume: "12",
   pages: "21",
   doi: "10.1186/1477-7525-12-21",
-  citation: "Wilson R, Hansen P, Langley J, Derrett S. #link(\"/research/article/10.1186/1477-7525-12-21/index.html\")[A comparison of injured patient and general population valuations of EQ-5D health states for New Zealand]. _Health and Quality of Life Outcomes_ 2014;12:21. doi: #link(\"https://doi.org/10.1186/1477-7525-12-21\")[10.1186/1477-7525-12-21]",
+  citation: "Wilson R, Hansen P, Langley J, Derrett S. #link(\"/research/article/10.1186/1477-7525-12-21/index.html\")[A comparison of injured patient and general population valuations of EQ-5D health states for New Zealand]. _Health and Quality of Life Outcomes_ 2014;12:21. doi:~#link(\"https://doi.org/10.1186/1477-7525-12-21\")[10.1186/1477-7525-12-21]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == Health and Quality of Life Outcomes
 #smallcaps[Published]\ 18 February 2014
 
-#smallcaps[Citation]\ #eval("Wilson R, Hansen P, Langley J, Derrett S. A comparison of injured patient and general population valuations of EQ-5D health states for New Zealand. _Health and Quality of Life Outcomes_ 2014;12:21. doi: #link(\"https://doi.org/10.1186/1477-7525-12-21\")[10.1186/1477-7525-12-21]", mode: "markup")
+#smallcaps[Citation]\ #eval("Wilson R, Hansen P, Langley J, Derrett S. A comparison of injured patient and general population valuations of EQ-5D health states for New Zealand. _Health and Quality of Life Outcomes_ 2014;12:21. doi:~#link(\"https://doi.org/10.1186/1477-7525-12-21\")[10.1186/1477-7525-12-21]", mode: "markup")
 
 === Abstract
 *Background*

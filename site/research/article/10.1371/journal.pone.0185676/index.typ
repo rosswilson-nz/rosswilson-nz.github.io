@@ -10,7 +10,7 @@
   issue: "10",
   pages: "e0185676",
   doi: "10.1371/journal.pone.0185676",
-  citation: "Abbott JH, Usiskin IM, Wilson R, Hansen P, Losina E. #link(\"/research/article/10.1371/journal.pone.0185676/index.html\")[The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation]. _PLOS ONE_ 2017;12(10):e0185676. doi: #link(\"https://doi.org/10.1371/journal.pone.0185676\")[10.1371/journal.pone.0185676]",
+  citation: "Abbott JH, Usiskin IM, Wilson R, Hansen P, Losina E. #link(\"/research/article/10.1371/journal.pone.0185676/index.html\")[The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation]. _PLOS ONE_ 2017;12(10):e0185676. doi:~#link(\"https://doi.org/10.1371/journal.pone.0185676\")[10.1371/journal.pone.0185676]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -19,7 +19,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == PLOS ONE
 #smallcaps[Published]\ 24 October 2017
 
-#smallcaps[Citation]\ #eval("Abbott JH, Usiskin IM, Wilson R, Hansen P, Losina E. The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation. _PLOS ONE_ 2017;12(10):e0185676. doi: #link(\"https://doi.org/10.1371/journal.pone.0185676\")[10.1371/journal.pone.0185676]", mode: "markup")
+#smallcaps[Citation]\ #eval("Abbott JH, Usiskin IM, Wilson R, Hansen P, Losina E. The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation. _PLOS ONE_ 2017;12(10):e0185676. doi:~#link(\"https://doi.org/10.1371/journal.pone.0185676\")[10.1371/journal.pone.0185676]", mode: "markup")
 
 === Abstract
 *Background*

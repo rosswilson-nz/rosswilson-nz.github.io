@@ -21,7 +21,7 @@ format_article_citation <- function(dta_article, link_title = TRUE) {
   }
   doi <- if (!is.null(dta_article$doi)) {
     sprintf(
-      " doi: #link(\"https://doi.org/%s\")[%s]",
+      " doi:~#link(\"https://doi.org/%s\")[%s]",
       dta_article$doi,
       dta_article$doi
     )
@@ -53,7 +53,12 @@ make_article_stub <- function(dta_article) {
       tolower(gsub2(strsplit(dta_article$title, "\\s")[[1]][1:3], "\\h", "-")),
       collapse = "-"
     )
-    sprintf("%s-%s-%s", author, dta_article$year, shorttitle)
+    sprintf(
+      "%s-%s-%s",
+      author,
+      dta_article$year %||% format(as.Date(dta_article$date), "%Y"),
+      shorttitle
+    )
   } else {
     dta_article$doi
   }

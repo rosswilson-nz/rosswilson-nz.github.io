@@ -1,91 +1,86 @@
-write_presentation_typ <- function(dta_presentations) {
-  dta_presentations$year <- year(dta_presentations$date)
-  txt <- glue::glue_data(
-    dta_presentations,
-    presentation_typst_template(),
-    date_fmt = format(date, "%d %B %Y"),
-    citation_meta = format_presentation_meta(dta_presentations),
-    citation = format_presentation_citation(dta_presentations)
-  )
+write_presentation_typ <- function(dta_presentation) {
   path <- fs::path(
     "site",
     "research",
     "presentation",
-    make_stub(dta_presentations),
+    make_presentation_stub(dta_presentation),
     "index.typ"
   )
+  date <- as.Date(dta_presentation$date)
+  date_iso <- format(date, "%Y-%m-%d")
+  date_fmt <- format(date, dta_presentation$date_fmt %||% "%B %Y")
+  description <- sprintf(
+    "%s. %s, %s. %s",
+    dta_presentation$title,
+    dta_presentation$conference,
+    dta_presentation$location,
+    date_fmt
+  )
   fs::dir_create(fs::path_dir(path))
-  writeLines(txt, path)
+  text <- c(
+    sprintf("#set document(title: [%s])\n", dta_presentation$title),
+    "#metadata((",
+    sprintf('  description: "%s",', description),
+    sprintf('  date: "%s",', date_iso),
+    sprintf('  date_fmt: "%s",', date_fmt),
+    sprintf('  location: "%s",', dta_presentation$location),
+    if (!is.null(dta_presentation$note)) {
+      sprintf('  note: "%s",', dta_presentation$note)
+    },
+    if (!is.null(dta_presentation$authors)) {
+      sprintf(
+        '  citation: "%s. %s. %s%s",',
+        dta_presentation$authors,
+        dta_presentation$title,
+        if (!is.null(dta_presentation$published)) {
+          sprintf("%s.", dta_presentation$published)
+        } else {
+          ""
+        },
+        if (!is.null(dta_presentation$doi)) {
+          sprintf(
+            ' doi:~#link(\\"https://doi.org/%s\\")[%s]',
+            dta_presentation$doi,
+            dta_presentation$doi
+          )
+        } else {
+          ""
+        }
+      )
+    },
+    if (!is.null(dta_presentation$doi)) {
+      sprintf('  doi: "%s",', dta_presentation$doi)
+    },
+    ")) <website-metadata>\n",
+    'Back to #link("/research.html/presentations")[presentations]\n',
+    sprintf("= %s", dta_presentation$title),
+    sprintf(
+      "== %s, %s",
+      dta_presentation$conference,
+      dta_presentation$location
+    ),
+    sprintf("#smallcaps[Date]\\ %s\n", date_fmt),
+    if (!is.null(dta_presentation$citation)) {
+      sprintf(
+        '#smallcaps[Citation]\\ #eval("%s", mode: "markup")',
+        dta_presentation$citation
+      )
+    }
+  )
+  writeLines(text, path)
   path
 }
 
-format_presentation_meta <- function(dta_presentations, link_title = TRUE) {
-  stub <- make_presentation_stub(dta_presentations)
-  glue::glue_data(
-    dta_presentations,
-    "{title}. {conference}. {location}, {date}{note}",
-    title = if (link_title) {
-      glue::glue(
-        "#link(\"/research/presentation/{stub}/index.html\")[{title}]"
-      )
-    } else {
-      glue::glue(title)
-    },
-    date = format(date, "%B %Y"),
-    note = iif(note != "", glue::glue(" [{note}]"), glue::glue("")),
-    .na = ""
-  ) %>%
-    stri_replace_all_fixed("\"", "\\\"")
-}
-
-format_presentation_citation <- function(dta_presentations) {
-  iif(
-    dta_presentations$citation != "",
-    glue::glue_data(
-      dta_presentations,
-      "{citation}.{doi}",
-      doi = iif(
-        doi == "",
-        glue::glue(NA, .na = NULL),
-        glue::glue(" doi:#link(\"https://doi.org/{doi}\")[{doi}]")
-      ),
-      .na = ""
-    ),
-    format_presentation_meta(dta_presentations, FALSE)
-  )
-}
-
-make_presentation_stub <- function(dta_presentations) {
-  glue::glue_data(
-    dta_presentations,
-    "{stub}-{year}-{shorttitle}",
-    year = year(date),
-    shorttitle = stringr::str_replace_all(
-      stringr::word(title, end = 3),
+make_presentation_stub <- function(dta_presentation) {
+  date <- as.Date(dta_presentation$date)
+  year <- format(date, "%Y")
+  shorttitle <- paste(
+    tolower(gsub2(
+      strsplit(dta_presentation$title, "\\s")[[1]][1:3],
       "\\h",
       "-"
-    )
+    )),
+    collapse = "-"
   )
-}
-
-presentation_typst_template <- function() {
-  '#set document(title: [{title}])
-
-#metadata((
-  date: "{date}",
-  date_fmt: "{date_fmt}",
-  authors: "{authors}",
-  doi: "{doi}",
-  citation: "{citation_meta}",
-)) <website-metadata>
-
-Back to #link("/research.html#presentations")[publications]
-
-= {title}
-#smallcaps[Date]\\ {date_fmt}
-
-#smallcaps[Citation]\\ #eval("{citation}", mode: "markup")
-
-=== Abstract
-{abstract}'
+  sprintf("%s-%s-%s", dta_presentation$stub, year, shorttitle)
 }

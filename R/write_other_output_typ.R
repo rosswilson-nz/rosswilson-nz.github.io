@@ -1,63 +1,102 @@
-write_other_output_typ <- function(dta_other_outputs) {
-  dta_other_outputs$year <- year(dta_other_outputs$date)
-  txt <- glue::glue_data(
-    dta_other_outputs,
-    other_output_typst_template(),
-    date_fmt = format(date, "%d %B %Y"),
-    citation_meta = format_other_citation(dta_other_outputs, TRUE),
-    citation = format_other_citation(dta_other_outputs)
-  )
+write_other_output_typ <- function(dta_other_output) {
   path <- fs::path(
     "site",
     "research",
     "other",
-    make_stub(dta_other_outputs),
+    make_article_stub(dta_other_output),
     "index.typ"
   )
+
   fs::dir_create(fs::path_dir(path))
-  writeLines(txt, path)
+  conn <- file(path, "w")
+  writeLines(
+    sprintf("#set document(title: [%s])", dta_other_output$title),
+    conn
+  )
+  writeLines("", conn)
+  writeLines("#metadata((", conn)
+  date <- as.Date(dta_other_output$date)
+  date_iso <- format(date, "%Y-%m-%d")
+  date_fmt <- format(date, dta_other_output$date_fmt %||% "%d %B %Y")
+  writeLines(sprintf("  date: \"%s\",", date_iso), conn)
+  writeLines(sprintf("  date_fmt: \"%s\",", date_fmt), conn)
+  writeLines(sprintf("  authors: \"%s\",", dta_other_output$authors), conn)
+  writeLines(sprintf("  source: \"%s\",", dta_other_output$source), conn)
+  writeLines(sprintf("  year: \"%s\",", dta_other_output$year), conn)
+  if (!is.null(dta_other_output$doi)) {
+    writeLines(sprintf("  doi: \"%s\",", dta_other_output$doi), conn)
+  }
+  writeLines(
+    sprintf(
+      "  citation: \"%s\",",
+      format_other_citation(dta_other_output)
+    ),
+    conn
+  )
+  writeLines(
+    c(
+      ")) <website-metadata>",
+      "",
+      "Back to #link(\"/research.html/other-publications\")[publications]",
+      ""
+    ),
+    conn
+  )
+  writeLines(sprintf("= %s", dta_other_output$title), conn)
+  writeLines(sprintf("#smallcaps[Published]\\ %s", date_fmt), conn)
+  writeLines("", conn)
+  writeLines(
+    sprintf(
+      "#smallcaps[Citation]\\ #eval(\"%s\", mode: \"markup\")",
+      format_other_citation(dta_other_output, FALSE)
+    ),
+    conn
+  )
+  writeLines(c("", "=== Abstract", dta_other_output$abstract), conn)
+  close(conn)
   path
 }
 
-format_other_citation <- function(dta_other_outputs, link_title = FALSE) {
-  stub <- make_stub(dta_other_outputs)
-  glue::glue_data(
-    dta_other_outputs,
-    "{authors}. {title}. {date}; {source}{doi}",
-    title = if (link_title) {
-      glue::glue("#link(\"/research/other/{stub}/index.html\")[{title}]")
-    } else {
-      glue::glue(title)
-    },
-    doi = iif(
-      doi == "",
-      glue::glue(NA, .na = NULL),
-      glue::glue(", doi:#link(\"https://doi.org/{doi}\")[{doi}]")
+format_other_citation <- function(dta_other_output, link_title = TRUE) {
+  stub <- make_article_stub(dta_other_output)
+
+  title <- if (link_title) {
+    sprintf(
+      "#link(\"/research/other/%s/index.html\")[%s]",
+      stub,
+      dta_other_output$title
+    )
+  } else {
+    dta_other_output$title
+  }
+  date <- as.Date(dta_other_output$date)
+  date_fmt <- format(date, dta_other_output$date_fmt %||% "%d %B %Y")
+  doi <- if (!is.null(dta_other_output$doi)) {
+    sprintf(
+      "doi:~#link(\"https://doi.org/%s\")[%s]",
+      dta_other_output$doi,
+      dta_other_output$doi
+    )
+  } else {
+    ""
+  }
+  url <- if (doi == "" && !is.null(dta_other_output$url)) {
+    sprintf("Available at: %s", dta_other_output$url)
+  } else {
+    ""
+  }
+  gsub2(
+    sprintf(
+      "%s. %s. %s, %s. %s%s",
+      dta_other_output$authors,
+      title,
+      dta_other_output$source,
+      date_fmt,
+      doi,
+      url
     ),
-    date = format(date, "%d %B %Y"),
-    .na = ""
-  ) %>%
-    stri_replace_all_fixed("\"", "\\\"")
-}
-
-other_output_typst_template <- function() {
-  '#set document(title: [{title}])
-
-#metadata((
-  date: "{date}",
-  date_fmt: "{date_fmt}",
-  authors: "{authors}",
-  doi: "{doi}",
-  citation: "{citation_meta}",
-)) <website-metadata>
-
-Back to #link("/research.html#other-publications")[publications]
-
-= {title}
-#smallcaps[Published]\\ {date_fmt}
-
-#smallcaps[Citation]\\ #eval("{citation}", mode: "markup")
-
-=== Abstract
-{abstract}'
+    "\"",
+    "\\\"",
+    fixed = TRUE
+  )
 }

@@ -9,7 +9,7 @@
   volume: "79",
   pages: "138–151",
   doi: "10.1016/j.worlddev.2015.11.015",
-  citation: "Wilson R. #link(\"/research/article/10.1016/j.worlddev.2015.11.015/index.html\")[Does Governance Cause Growth? Evidence from China]. _World Development_ 2016;79:138–151. doi: #link(\"https://doi.org/10.1016/j.worlddev.2015.11.015\")[10.1016/j.worlddev.2015.11.015]",
+  citation: "Wilson R. #link(\"/research/article/10.1016/j.worlddev.2015.11.015/index.html\")[Does Governance Cause Growth? Evidence from China]. _World Development_ 2016;79:138–151. doi:~#link(\"https://doi.org/10.1016/j.worlddev.2015.11.015\")[10.1016/j.worlddev.2015.11.015]",
 )) <website-metadata>
 
 Back to #link("/research.html/journal-articles")[publications]
@@ -18,7 +18,7 @@ Back to #link("/research.html/journal-articles")[publications]
 == World Development
 #smallcaps[Published]\ 17 December 2015
 
-#smallcaps[Citation]\ #eval("Wilson R. Does Governance Cause Growth? Evidence from China. _World Development_ 2016;79:138–151. doi: #link(\"https://doi.org/10.1016/j.worlddev.2015.11.015\")[10.1016/j.worlddev.2015.11.015]", mode: "markup")
+#smallcaps[Citation]\ #eval("Wilson R. Does Governance Cause Growth? Evidence from China. _World Development_ 2016;79:138–151. doi:~#link(\"https://doi.org/10.1016/j.worlddev.2015.11.015\")[10.1016/j.worlddev.2015.11.015]", mode: "markup")
 
 === Abstract
 This study tests the causal relationships between quality of governance
