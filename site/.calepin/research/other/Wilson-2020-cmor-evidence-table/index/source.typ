@@ -8,7 +8,7 @@
   citation: "Wilson R. #link(\"/research/other/Wilson-2020-cmor-evidence-table/index.html\")[CMOR Evidence Table]. University of Otago,, 01 December 2020. Available at: http://cmor-shiny.otago.ac.nz",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = CMOR Evidence Table
 #smallcaps[Published]\ 01 December 2020

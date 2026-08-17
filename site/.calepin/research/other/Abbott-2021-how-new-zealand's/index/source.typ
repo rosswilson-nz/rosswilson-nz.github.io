@@ -8,7 +8,7 @@
   citation: "Abbott JH, Wilson R. #link(\"/research/other/Abbott-2021-how-new-zealand's/index.html\")[How New Zealand's healthcare system is failing people with osteoarthritis]. The Conversation,, 31 March 2021. Available at: https://theconversation.com/how-new-zealands-healthcare-system-is-failing-people-with-osteoarthritis-157138",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = How New Zealand's healthcare system is failing people with osteoarthritis
 #smallcaps[Published]\ 31 March 2021

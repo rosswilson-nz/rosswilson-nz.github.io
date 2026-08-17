@@ -13,7 +13,7 @@
   citation: "Wilson R, Abbott JH. #link(\"/research/article/10.1111/1753-6405.12804/index.html\")[Age, period and cohort effects on body mass index in New Zealand, 1997-2038]. _Australian and New Zealand Journal of Public Health_ 2018;42(4):396–402. doi:~#link(\"https://doi.org/10.1111/1753-6405.12804\")[10.1111/1753-6405.12804]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Age, period and cohort effects on body mass index in New Zealand, 1997-2038
 == Australian and New Zealand Journal of Public Health

@@ -13,7 +13,7 @@
   citation: "Wilson R, Blakely T, Abbott JH. #link(\"/research/article/10.1093/RHEUMATOLOGY/KEY008/index.html\")[Radiographic knee osteoarthritis impacts multiple dimensions of health-related quality of life: Data from the Osteoarthritis Initiative]. _Rheumatology_ 2018;57(5):891–899. doi:~#link(\"https://doi.org/10.1093/RHEUMATOLOGY/KEY008\")[10.1093/RHEUMATOLOGY/KEY008]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Radiographic knee osteoarthritis impacts multiple dimensions of health-related quality of life: Data from the Osteoarthritis Initiative
 == Rheumatology

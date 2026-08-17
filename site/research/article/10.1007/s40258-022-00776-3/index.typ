@@ -12,7 +12,7 @@
   citation: "Wilson R, Pryymachenko Y, Abbott JH, Dean S, Stanley J, Garrett S, Mathieson F, Dowell A, Darlow B. #link(\"/research/article/10.1007/s40258-022-00776-3/index.html\")[A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis]. _Applied Health Economics and Health Policy_ 2023;21:253–262. doi:~#link(\"https://doi.org/10.1007/s40258-022-00776-3\")[10.1007/s40258-022-00776-3]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = A Guideline-Implementation Intervention to Improve the Management of Low Back Pain in Primary Care: A Difference-in-Difference-in-Differences Analysis
 == Applied Health Economics and Health Policy

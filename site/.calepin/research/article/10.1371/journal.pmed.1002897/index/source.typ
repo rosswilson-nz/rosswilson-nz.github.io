@@ -13,7 +13,7 @@
   citation: "Darlow B, Stanley J, Dean S, Abbott JH, Garrett S, Wilson R, Mathieson F, Dowell A. #link(\"/research/article/10.1371/journal.pmed.1002897/index.html\")[The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial]. _PLOS Medicine_ 2019;16(9):e1002897. doi:~#link(\"https://doi.org/10.1371/journal.pmed.1002897\")[10.1371/journal.pmed.1002897]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = The Fear Reduction Exercised Early (FREE) approach to management of low back pain in general practice: A pragmatic cluster-randomised controlled trial
 == PLOS Medicine

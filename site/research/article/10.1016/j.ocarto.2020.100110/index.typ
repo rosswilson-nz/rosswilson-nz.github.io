@@ -13,7 +13,7 @@
   citation: "Chua J, Hansen P, Briggs AM, Wilson R, Gwynne-Jones D, Abbott JH. #link(\"/research/article/10.1016/j.ocarto.2020.100110/index.html\")[Stakeholders' preferences for osteoarthritis interventions in health services: A cross-sectional study using multi-criteria decision analysis]. _Osteoarthritis and Cartilage Open_ 2020;2(4):100110. doi:~#link(\"https://doi.org/10.1016/j.ocarto.2020.100110\")[10.1016/j.ocarto.2020.100110]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Stakeholders' preferences for osteoarthritis interventions in health services: A cross-sectional study using multi-criteria decision analysis
 == Osteoarthritis and Cartilage Open

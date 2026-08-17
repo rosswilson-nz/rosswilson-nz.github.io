@@ -12,7 +12,7 @@
   citation: "Wilson R, Abbott JH. #link(\"/research/article/Wilson-2019-the-projected-burden/index.html\")[The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision]. _New Zealand Medical Journal_ 2019;132(1503):53–65.",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = The projected burden of knee osteoarthritis in New Zealand: healthcare expenditure and total joint replacement provision
 == New Zealand Medical Journal

@@ -13,7 +13,7 @@
   citation: "Gwynne-Jones DP, Gwynne-Jones JH, Wilson RA. #link(\"/research/article/10.1016/j.arth.2020.05.054/index.html\")[Response to Letter to the Editor on \"The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?\"]. _Journal of Arthroplasty_ 2020;35(10):3060–3061. doi:~#link(\"https://doi.org/10.1016/j.arth.2020.05.054\")[10.1016/j.arth.2020.05.054]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Response to Letter to the Editor on "The Functional Outcomes of Patients With Knee Osteoarthritis Managed Nonoperatively at the Joint Clinic at 5-Year Follow-Up: Does Surgical Avoidance Mean Success?"
 == Journal of Arthroplasty

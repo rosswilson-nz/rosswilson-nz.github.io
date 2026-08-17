@@ -9,7 +9,7 @@
   citation: "Wilson R, Chistopherson RM, Pryymachenko Y, Caya R, Gaspar Fernandes L, Lim YW, Gayed M, Pierobon A, Dowell T, Darlow B, MacRae J, Abbott JH. #link(\"/research/other/10.1101/2025.11.20.25340701/index.html\")[Osteoarthritis Diagnoses are Under-recorded in Primary Care Electronic Health Records in New Zealand]. medRxiv 2025.11.20.25340701, 21 November 2025. doi:~#link(\"https://doi.org/10.1101/2025.11.20.25340701\")[10.1101/2025.11.20.25340701]",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = Osteoarthritis Diagnoses are Under-recorded in Primary Care Electronic Health Records in New Zealand
 #smallcaps[Published]\ 21 November 2025

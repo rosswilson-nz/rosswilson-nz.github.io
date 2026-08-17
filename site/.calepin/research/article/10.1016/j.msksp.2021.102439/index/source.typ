@@ -12,7 +12,7 @@
   citation: "Pryymachenko Y, Wilson R, Sharma S, Pathak A, Abbott JH. #link(\"/research/article/10.1016/j.msksp.2021.102439/index.html\")[Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial]. _Musculoskeletal Science and Practice _ 2021;56:102439. doi:~#link(\"https://doi.org/10.1016/j.msksp.2021.102439\")[10.1016/j.msksp.2021.102439]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Are manual therapy or booster sessions worthwhile in addition to exercise therapy for knee osteoarthritis: Economic evaluation and 2-year follow-up of a randomized controlled trial
 == Musculoskeletal Science and Practice 

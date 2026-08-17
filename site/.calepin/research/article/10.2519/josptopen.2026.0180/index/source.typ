@@ -13,7 +13,7 @@
   citation: "Caya R, Gayed M, Wilson R, Childs JD, Christopherson RM, Fernandes LG, Lim YW, Pierobon A, Pryymachenko Y, Abbott JH. #link(\"/research/article/10.2519/josptopen.2026.0180/index.html\")[Do treatment expectations moderate the effect of manual therapy in people with knee osteoarthritis? A secondary analysis of randomised clinical trials]. _JOSPT Open_ 2026;4(2):232–238. doi:~#link(\"https://doi.org/10.2519/josptopen.2026.0180\")[10.2519/josptopen.2026.0180]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Do treatment expectations moderate the effect of manual therapy in people with knee osteoarthritis? A secondary analysis of randomised clinical trials
 == JOSPT Open

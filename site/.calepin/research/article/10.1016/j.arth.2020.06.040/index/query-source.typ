@@ -13,7 +13,7 @@
   citation: "Pryymachenko Y, Wilson RA, Abbott JH, Dowsey MM, Choong PFM. #link(\"/research/article/10.1016/j.arth.2020.06.040/index.html\")[Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data]. _Journal of Arthroplasty_ 2020;35(11):3099–3107.e14. doi:~#link(\"https://doi.org/10.1016/j.arth.2020.06.040\")[10.1016/j.arth.2020.06.040]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Risk Factors for Chronic Opioid Use Following Hip and Knee Arthroplasty: Evidence from New Zealand Population Data
 == Journal of Arthroplasty

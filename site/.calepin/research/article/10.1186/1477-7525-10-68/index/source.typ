@@ -12,7 +12,7 @@
   citation: "Wilson R, Derrett S, Hansen P, Langley J. #link(\"/research/article/10.1186/1477-7525-10-68/index.html\")[Retrospective evaluation versus population norms for the measurement of baseline health status]. _Health and Quality of Life Outcomes_ 2012;10:68. doi:~#link(\"https://doi.org/10.1186/1477-7525-10-68\")[10.1186/1477-7525-10-68]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Retrospective evaluation versus population norms for the measurement of baseline health status
 == Health and Quality of Life Outcomes

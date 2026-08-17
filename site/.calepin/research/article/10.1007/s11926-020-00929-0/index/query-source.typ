@@ -12,7 +12,7 @@
   citation: "Shadbolt C, Shilling S, Inacio MC, Abbott JH, Pryymachenko Y, Wilson R, Choong PFM, Dowsey MM. #link(\"/research/article/10.1007/s11926-020-00929-0/index.html\")[Opioid Use and Total Joint Replacement]. _Current Rheumatology Reports_ 2020;22:58. doi:~#link(\"https://doi.org/10.1007/s11926-020-00929-0\")[10.1007/s11926-020-00929-0]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Opioid Use and Total Joint Replacement
 == Current Rheumatology Reports

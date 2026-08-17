@@ -13,7 +13,7 @@
   citation: "Wilson R, Chua J, Pryymachenko Y, Pathak A, Sharma S, Abbott JH. #link(\"/research/article/10.1016/j.jval.2021.08.008/index.html\")[Prioritizing Healthcare Interventions: A Comparison of Multicriteria Decision Analysis and Cost-Effectiveness Analysis]. _Value in Health_ 2022;25(2):268–275. doi:~#link(\"https://doi.org/10.1016/j.jval.2021.08.008\")[10.1016/j.jval.2021.08.008]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Prioritizing Healthcare Interventions: A Comparison of Multicriteria Decision Analysis and Cost-Effectiveness Analysis
 == Value in Health

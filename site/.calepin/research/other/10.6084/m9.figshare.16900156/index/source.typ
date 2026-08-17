@@ -9,7 +9,7 @@
   citation: "Wilson R, Abbott JH, Pryymachenko Y, Schofield S, Shrestha R. #link(\"/research/other/10.6084/m9.figshare.16900156/index.html\")[The health system and societal costs of osteoarthritis in New Zealand: Analysis plan]. FigShare, 06 May 2022. doi:~#link(\"https://doi.org/10.6084/m9.figshare.16900156\")[10.6084/m9.figshare.16900156]",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = The health system and societal costs of osteoarthritis in New Zealand: Analysis plan
 #smallcaps[Published]\ 06 May 2022

@@ -9,7 +9,7 @@
   citation: "Pryymachenko Y,Wilson R, Abbott JH. #link(\"/research/other/10.17605/osf.io/zfuyg/index.html\")[Long-term outcomes of cruciate ligament injury: attempting a matched cohort analysis of New Zealand linked register data]. OSF, 14 April 2023. doi:~#link(\"https://doi.org/10.17605/osf.io/zfuyg\")[10.17605/osf.io/zfuyg]",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = Long-term outcomes of cruciate ligament injury: attempting a matched cohort analysis of New Zealand linked register data
 #smallcaps[Published]\ 14 April 2023

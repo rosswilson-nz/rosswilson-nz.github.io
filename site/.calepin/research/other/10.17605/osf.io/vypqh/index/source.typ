@@ -9,7 +9,7 @@
   citation: "Lim YW, Al-Busaidi I, Caya R, Bricca A, Wilson R, Mangin D, Abbott JH. #link(\"/research/other/10.17605/osf.io/vypqh/index.html\")[Interventions used to Improve Health Outcomes in Patients with Multimorbidity: Protocol for An Updated Systematic Review]. OSF, 22 April 2024. doi:~#link(\"https://doi.org/10.17605/osf.io/vypqh\")[10.17605/osf.io/vypqh]",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = Interventions used to Improve Health Outcomes in Patients with Multimorbidity: Protocol for An Updated Systematic Review
 #smallcaps[Published]\ 22 April 2024

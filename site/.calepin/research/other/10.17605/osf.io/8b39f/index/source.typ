@@ -9,7 +9,7 @@
   citation: "Wilson R, Pryymachenko Y, Schofield S, Shrestha R, Darlow B, Dowell T, MacRae J, Bell R, Abbott JH. #link(\"/research/other/10.17605/osf.io/8b39f/index.html\")[Health system and societal costs following osteoarthritis diagnosis in primary care: a population-based matched cohort study]. OSF, 19 April 2024. doi:~#link(\"https://doi.org/10.17605/osf.io/8b39f\")[10.17605/osf.io/8b39f]",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = Health system and societal costs following osteoarthritis diagnosis in primary care: a population-based matched cohort study
 #smallcaps[Published]\ 19 April 2024

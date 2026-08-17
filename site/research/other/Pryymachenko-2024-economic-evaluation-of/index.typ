@@ -8,7 +8,7 @@
   citation: "Pryymachenko Y, Wilson R, Abbott JH, Chapple C. #link(\"/research/other/Pryymachenko-2024-economic-evaluation-of/index.html\")[Economic evaluation of the effects of manual therapy for knee osteoarthritis: Study protocol]. OSF, 17 May 2024. Available at: https://osf.io/arn9v/",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = Economic evaluation of the effects of manual therapy for knee osteoarthritis: Study protocol
 #smallcaps[Published]\ 17 May 2024

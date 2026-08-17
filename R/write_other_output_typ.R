@@ -37,7 +37,7 @@ write_other_output_typ <- function(dta_other_output) {
     c(
       ")) <website-metadata>",
       "",
-      "Back to #link(\"/research.html/other-publications\")[publications]",
+      "Back to #link(\"/research.html#other-publications\")[publications]",
       ""
     ),
     conn

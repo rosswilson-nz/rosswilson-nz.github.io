@@ -8,7 +8,7 @@
   citation: "Pryymachenko Y, Wilson R, Abbott JH. #link(\"/research/other/Pryymachenko-2021-the-long-term-impacts/index.html\")[The long-term impacts of opioid use before and after joint replacement surgery: Report on finding the optimal matching model]. OUR Archive, 27 July 2021. Available at: https://hdl.handle.net/10523/12166",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = The long-term impacts of opioid use before and after joint replacement surgery: Report on finding the optimal matching model
 #smallcaps[Published]\ 27 July 2021

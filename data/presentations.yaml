@@ -9,6 +9,43 @@
   authors: Abbott JH, Wilson R
   published: _Value in Health Regional Issues_ 2025;49(1):101264
   doi: 10.1016/j.vhri.2025.101264
+  abstract: |
+    *Objectives*
+    Musculoskeletal conditions are the leading cause of disability
+    internationally as well as in New Zealand (NZ). Osteoarthritis (OA) is
+    among the most common musculoskeletal conditions in adults, and causes a
+    significant morbidity and economic burden. The NZ Government Ministry of
+    Health initiated the Mobility Action Programme (MAP), a pragmatic pilot
+    initiative to investigate what would be the benefits of delivering
+    early-intervention, community-based programmes for people with
+    musculoskeletal health conditions. This study aims to investigate the
+    cost-effectiveness of intervention programmes for adults with OA.
+
+    *Methods*
+    We used real-world data from 17 providers across NZ delivering the MAP,
+    with n=3,922 participants' outcomes to 1-year follow-up. As the MAP did not
+    include a control group we used previously collected randomised controlled
+    trial data for ‘usual care’ outcomes (n=51). Using the NZ-MOA
+    state-transition microsimulation model, a simulated matching population
+    cohort was run through two scenarios: (1) background 'usual care' assumed
+    to be received in the absence of MAP participation, and (2) the MAP
+    programme in addition usual care.
+
+    *Results*
+    Over the 1-year time horizon, incremental QALY gains were 0.03 (90% UI 0.02
+    to 0.04) and incremental treatment costs were −\$793 (−\$4 214 to \$2 490) per
+    MAP participant. Over the 15-year modelled time horizon QALY gains relative
+    to usual care continued to accumulate, albeit at a decreasing rate,
+    reaching 0.14 (0.10 to 0.18) per participant. Incremental healthcare costs
+    were negative over all time horizons, reaching total cost savings of \$14
+    555 (\$47 527 cost saving to \$17 167 cost increase) per participant over 15
+    years. The incremental net monetary benefit, at willingness-to-pay of \$57
+    500 per QALY, increased from \$2 341 (−\$944 to \$5 658) per participant over
+    1-year horizon to \$22 441 (−\$9 227 to \$54 729) over 15 years.
+
+    *Conclusions*
+    The MAP increased health-related quality of life and was cost-saving
+    compared with usual care for adults with OA.
 - conference: ISPOR Real-World Evidence Summit
   stub: ispor
   location: Tokyo
@@ -20,6 +57,45 @@
   authors: Wilson R, Pryymachenko Y, Choong P, Dowsey M, Abbott JH
   published: _Value in Health Regional Issues_ 2025;49(1):101429
   doi: 10.1016/j.vhri.2025.101429
+  abstract: |
+    *Objectives*
+    To determine the relationship between opioid use before joint replacement
+    surgery and long-term postoperative outcomes.
+
+    *Methods*
+    This was a trial emulation study using linked administrative data.
+    Participants included all patients who underwent joint replacement surgery
+    for osteoarthritis in the New Zealand public healthcare system between July
+    2011 and June 2017. We assigned patients to treatment groups based on their
+    opioid prescribing over the 3 months before surgery: none (control group),
+    and equal quartiles of the observed distribution of the total morphine
+    equivalent opioid dose. Inverse probability of treatment weighting was used
+    to achieve between-group balance in baseline confounders. Outcomes measured
+    over 6-year follow-up from the date of surgery included public healthcare
+    utilisation and costs, employment and income, and adverse events including
+    mortality, opioid overdose, and revision surgery.
+
+    *Results*
+    We included 26,064 patients. Participants with preoperative opioid
+    prescribing had more hospitalisations, ED visits, pharmaceutical
+    prescriptions, and opioid prescriptions, and higher total opioid dose and
+    public healthcare costs, over 6-year follow-up than those in the no-opioid
+    control group. There was little evidence of a dose-response relationship in
+    these effects, with the exception of pharmaceutical—and particularly
+    opioid—prescriptions. Those in the highest opioid dose group had lower
+    income and employment rates, while no effect on these outcomes was seen in
+    the lower opioid use groups. Most adverse events were more common in the
+    treatment groups than in the control group, but these differences were
+    generally not statistically significant.
+
+    *Conclusions*
+    Opioid use before joint replacement surgery is associated with worse
+    outcomes over 6-year postoperative follow-up. Most of these negative
+    impacts were seen at both low and high levels of preoperative opioid use,
+    suggesting that low-dose opioid prescribing is unlikely to significantly
+    mitigate the harms of preoperative opioid use. Efforts should be made to
+    develop appropriate alternatives to opioid analgesics for people awaiting
+    joint replacement surgery.
 - conference: ISPOR Real-World Evidence Summit
   stub: ispor
   location: Tokyo
@@ -33,6 +109,41 @@
     A, Pryymachenko Y, Magin D, Abbott JH, Wilson R
   published: _Value in Health Regional Issues_ 2025;49(1):101203
   doi: 10.1016/j.vhri.2025.101203
+  abstract: |
+    *Objectives*
+    The growth in the number of emergency department (ED) presentations has
+    been a concern for health systems globally. Barriers to accessing general
+    practitioners (GPs) may be associated with the use of ED. This study aims
+    to investigate the associations between barriers to visiting GPs and the
+    rate of ED visits in New Zealand (NZ).
+
+    *Methods*
+    We used data from repeated waves of the New Zealand Health Survey, a large
+    national survey of a representative sample of the NZ population, covering
+    the years 2011 to 2022. Barriers were measured by whether a respondent
+    reported that there was a time in which they had a health problem but did
+    not visit a GP due to cost, lack of transport, waiting time to get an
+    appointment, owing money to the practice, dislike of the GP, inability to
+    get time off work, lack of care for dependent children, or lack of a
+    supporter or interpreter. The association between each barrier and the
+    number of visits to an ED was estimated by linear regression models,
+    adjusting for age, gender, ethnicity, socioeconomic status, and health
+    conditions.
+
+    *Results*
+    Barriers to accessing GPs due to cost (adjusted mean difference 0.16 ED
+    visits/year, 95%CI 0.14 to 0.17), lack of transport (0.50, 95%CI 0.46 to
+    0.53), waiting time to get an appointment (0.11, 95%CI 0.02 to 0.20), and
+    owing money to the practice (1.39, 95%CI 1.14 to 1.63) were significantly
+    associated with the number of visits made to an ED. Translating these
+    findings to the NZ adult population, this represents potentially avoidable
+    expenditures of NZ\$50 million, NZ\$37 million, NZ\$31 million, and NZ\$51
+    million, respectively.
+
+    *Conclusions*
+    Developing policies aimed at improving access to GP services may reduce ED
+    visits and alleviate the personal, health system, and societal burden of
+    avoidable ED use.
 - conference:
     "University of Otago Research Symposium: Harnessing Linked Population-Level
     Data for Health Research"
@@ -74,6 +185,86 @@
   authors: Wilson R, Sharma I, Coppell K, Bell R, Skou S, Abbott JH
   published: _Osteoarthritis and Cartilage_ 2025;33(Suppl):S264-5
   doi: 10.1016/j.joca.2025.02.380
+  abstract: |
+    *Purpose (the aim of the study)*
+    Ostoearthritis (OA) is commonly comorbid with other long-term conditions
+    (LTCs), increases the subsequent risk of developing comorbid LTCs, and
+    exacerbates both the costs and the detriments of those LTCs. This study
+    identified the excess health losses and excess health care consumption
+    associated with OA with and without comorbid long-term conditions in
+    Aotearoa New Zealand (AoNZ). Our two principal research questions were: 1)
+    Is OA associated with excess health losses and health care consumption, and
+    how do these impacts differ by ethnicity, socioeconomic status, and the
+    presence of comorbid long-term health conditions?; 2) In people with OA, is
+    the presence of comorbid chronic health condition(s) associated with excess
+    health losses and health care consumption?
+
+    *Methods*
+    We used data from the NZ Health Survey (NZHS), a large representative
+    survey of the health status, health behaviours, and health service
+    utilisation of the NZ population conducted annually by Statistics NZ and
+    the Ministry of Health (MoH). We pooled the 2011/12 to 2018/19 annual
+    surveys. In the Statistics NZ Integrated Data Infrastructure (IDI)
+    platform, NZHS data were linked with participants’ MoH health service use,
+    at the individual level, to investigate participants’ comorbid health
+    conditions, through pharmaceutical prescribing records and diagnoses
+    recorded in hospital inpatient admissions, and calculate excess healthcare
+    consumption in people with OA and comorbid conditions.
+
+    Baseline covariates and outcome measures were compared between the groups
+    with and without OA and each of the comorbid conditions of interest. We
+    tested the association of OA (among the full cohort and among those with
+    and without each of the comorbidities) with each of the outcomes. Among
+    those participants with OA, we tested the association of a) each index
+    disease (reference: persons without the index disease) while adjusting for
+    the presence of other diseases, and b) the number of diseases (reference:
+    participants reporting no disease) with each outcome.
+
+    *Results*
+    For the first research question, we used the full cohort of 91,275
+    respondents to the NZHS, including the 11,184 with self-reported OA
+    diagnosis and 80,091 without OA. Those with OA had substantially higher
+    healthcare utilisation and public healthcare costs, greater unmet need for
+    healthcare, lower levels of physical activity, higher mortality rates, and
+    worse health-related quality of life.
+
+    After adjusting for baseline covariates, OA was significantly associated
+    with increases in most of the healthcare utilisation outcomes considered,
+    higher total public healthcare costs (mostly due to hospital costs
+    associated with joint replacement surgery), obesity, comorbidity, and worse
+    health-related quality of life. However, it was not significantly
+    associated with physical activity levels, and was negatively associated
+    with mortality rates. There was little difference in any of the incremental
+    impacts of OA between those with and without each of the comorbidities
+    considered.
+
+    Among people without self-reported OA, the majority (51.6%) had no recorded
+    LTC. Among people with self-reported OA only 19.2% had no comorbidities,
+    with a mean of 1.4 (sd 1.0) comorbidities. The most common comorbidity was
+    CVD (66%), followed by mental health conditions (40%), respiratory disease
+    (29%), and diabetes (15%). Healthcare utilisation and public healthcare
+    costs were substantially higher among those with comorbidities, as was
+    self-reported unmet need for healthcare. After adjusting for differences in
+    baseline covariates between groups, all comorbidities were significantly
+    associated with increased healthcare use and public healthcare costs,
+    across all measures of healthcare use except for some OA-specific or
+    musculoskeletal-focused healthcare (total joint replacements and visits to
+    physiotherapists, chiropractors, and osteopaths). Comorbidities were
+    significantly associated with reduced physical activity, increased
+    mortality risk, and reduced quality of life (overall and physical
+    health-related; no difference in mental-health related quality of life
+    except for those with mental health comorbidities).
+
+    *Conclusions*
+    OA significantly impacts health-related quality of life, healthcare
+    utilisation and total public healthcare costs, and a very high proportion
+    of people with OA have multimorbidity. People with OA and comorbidities
+    have higher risk of mortality, worse overall health-related quality of
+    life, healthcare utilisation and public healthcare costs were substantially
+    higher, and self-reported unmet need for healthcare was also higher. These
+    findings have implications in regard to the value for money of public
+    health policy and interventions targeting common causes of both OA and
+    other long-term conditions.
 - conference: 8th Pharmacoepidemiology Research Network Symposium
   stub: prns
   location: Dunedin
@@ -87,11 +278,65 @@
   date: 2024-11-14
   title:
     Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol
-    using the \"Start-Low Go-Slow\" approach for gout
+    using the "Start-Low Go-Slow" approach for gout
   note: poster presentation
   authors: Pryymachenko Y, Wilson R, Abbott JH, Dalbeth N, Stamp L
   published: _Arthritis & Rheumatology_ 2024;76(S9)
   doi: 10.1002/art.42992
+  abstract: |
+    *Background/Purpose*:
+    To investigate the cost-effectiveness of low-dose colchicine prophylaxis
+    for reducing gout flares when starting allopurinol using the “start-low
+    go-slow” approach.
+
+    *Methods*
+    This was a pre-planned secondary analysis of the “Is colchicine prophylaxis
+    required with start-low go-slow allopurinol dose escalation in gout?”
+    non-inferiority randomised controlled trial. In brief 200 participants with
+    gout, fulfilling the ACR recommendations for starting urate-lowering
+    therapy, were randomly allocated (1:1) to colchicine or placebo for the
+    first six months, followed by a further six month follow-up. All
+    participants received allopurinol, with monthly dose increases to achieve
+    target urate < 6mg/dL. We assessed incremental cost-effectiveness over 6
+    months and 1 year, from the health system perspective, measured by
+    incremental net monetary benefit (INMB) at a willingness-to-pay (WTP)
+    threshold equivalent to gross domestic product per capita (GDP).
+
+    Effectiveness was measured by incremental QALYs, calculated using the
+    EQ-5D-3L instrument and health utility values calculated using NZ
+    population preference weights. Costs were collected using a modified
+    version of the Otago Costs and Consequences Questionnaire (OCC-Q), which
+    has been validated for use in economic evaluations alongside
+    musculoskeletal clinical trials in NZ. Self-reported resource use and costs
+    were collected at 3-, 6-, 9- and 12-month follow-up.
+
+    *Results*
+    Mean costs were higher in the colchicine group over both 6 months and 1
+    year (adjusted mean difference \$1 860 [95%CI −273 to 3 994] and \$2 304
+    [95%CI −142 to 4 749], respectively). QALYs slightly favoured the
+    colchicine group over 6 months (adjusted mean difference 0.028 [95%CI
+    −0.010 to 0.065]), but there was no difference at 12 months (−0.002, [95%CI
+    −0.032 to 0.028]). Cost effectiveness was inconclusive at 6 months (INMB
+    −\$126 [95%CI −3 358 to 3 106], probability of cost-effectiveness 47.0%),
+    and six months of treatment with colchicine prophylaxis was not found to be
+    cost-effective compared to placebo at 12 months, (INMB −\$2 415 [95%CI
+    −5 611 to 781], probability of cost-effectiveness 6.5%). Similar results
+    were obtained from a societal perspective (including non-healthcare and
+    productivity costs). The results were robust to multiple sensitivity
+    checks, including complete case analysis, increasing imputed costs or
+    decreasing imputed health utility values by 10–50% to test the robustness
+    of the estimates to deviations, and including only the per-protocol
+    population, although at 6 months follow-up colchicine prophylaxis was
+    cost-effective at 2x and 3x GDP WTP thresholds.
+
+    *Conclusion*
+    During the six months of treatment with colchicine prophylaxis,
+    cost-effectiveness was inconclusive, however higher costs and QALY losses
+    largely driven by gout flares in the six months after withdrawal of
+    colchicine (as observed in the clinical outcomes report) indicate this
+    regime is unlikely to be cost-effective over 1-year follow-up. Future
+    research might focus on reduction of rebound gout flares after ceasing
+    prophylaxis or a more prolonged period of prophylaxis when starting ULT
 - conference: National Institute for Public Health, University of Southern Denmark
   stub: niph
   location: Seminar
@@ -144,6 +389,94 @@
     MacRae J, Abbott JH
   published: _Osteoarthritis Cartilage_ 2024;32(S1):S333
   doi: 10.1016/j.joca.2024.02.490
+  abstract: |
+    *Purpose (the aim of the study)*
+    The aim of this study was to estimate the incremental public healthcare
+    utilisation and costs, incidence of comorbid conditions, and socioeconomic
+    outcomes following newly diagnosed osteoarthritis (OA) in primary care in
+    New Zealand (NZ).
+
+    *Methods*
+    This was a matched longitudinal cohort study using routinely collected
+    administrative data from the NZ Integrated Data Infrastructure (IDI), a
+    linked research database containing individual-level data from government
+    administrative datasets, Statistics NZ surveys and data collections, and
+    non-governmental organisations. Patients with a first diagnosis of hip or
+    knee OA between 2009 and 2010 were identified from primary care electronic
+    health records.
+
+    We used a propensity score matching approach to match each identified OA
+    case with controls (patients without OA diagnosis) who were as similar as
+    possible across a large set of pre-diagnosis variables. Extensive
+    diagnostic checking was undertaken to assess the balance of covariates
+    between the matched OA and non-OA cohorts, and the matching model
+    iteratively improved to achieve optimal matching.
+
+    Healthcare utilisation, healthcare costs, incidence of comorbid health
+    conditions, income and employment, receipt of social welfare benefits, and
+    mortality were measured in administrative record data over 10-year
+    follow-up and compared between the OA and matched non-OA cohorts by linear
+    regression. Sensitivity analyses were undertaken to assess the robustness
+    of results to modelling assumptions, and analyses of population subgroups
+    were conducted to assess differential outcomes by OA joint (hip or knee),
+    ethnicity, sex, and socioeconomic deprivation.
+
+    *Results*
+    We successfully matched 792 patients with newly diagnosed OA (99% of
+    identified OA cases) with 35 904 controls without OA diagnosis. The average
+    age at diagnosis was 65 years, and 58% were female. The large majority of
+    patients (91%) were of New Zealand European ethnicity, and 6% were Māori
+    (New Zealand’s indigenous population). The distributions of all baseline
+    covariates were very well balanced between the matched case and control
+    cohorts (standardised mean difference < 0.1 and variance ratio < 1.25 for
+    all covariates).
+
+    Compared with matched controls, OA patients had significantly higher
+    healthcare utilisation and healthcare costs over the 10 years following
+    diagnosis. OA was associated with an average of 0.47 (95% CI: 0.09, 0.84)
+    additional hospitalisations, 0.26 (95% CI: 0.21, 0.30) additional
+    publicly-funded joint replacement surgeries, 8.9 (95% CI: 3.7, 14.2)
+    additional outpatient clinic visits, and 0.32 (95% CI: 0.03, 0.61)
+    additional emergency department visits; a 9.0 percentage point (95% CI:
+    6.2, 11.9) increase in the likelihood of opioid prescribing and 6.9
+    percentage point (95% CI: 4.1, 9.7) increase in NSAID prescribing; and
+    total excess public healthcare costs of \$9 766 (95% CI: 2 720, 16 812) per
+    patient. There was no consistent evidence of differences in socioeconomic
+    outcomes, mortality, or incidence of comorbid conditions.
+
+    The results were robust to variation in the selection of baseline
+    covariates in the regression models, the estimation of generalised linear
+    models instead of linear regression models, and excluding from the control
+    group individuals who had a subsequent diagnosis of OA during the follow-up
+    period.
+
+    Subgroup differences in the effects of OA diagnosis were generally
+    inconclusive, although some suggestive patterns were observed. The
+    incremental impacts of hip OA diagnosis were larger than those of knee OA
+    diagnosis for the likelihood of hospitalisation and joint replacement
+    surgery, the number of emergency department visits, and the incidence of
+    mental health conditions. The total public healthcare costs associated with
+    OA diagnosis were smaller for Māori than for non-Māori patients, despite a
+    higher rate of joint replacement surgery. The effects on utilisation of
+    hospital services (but not other health services) and on incidence of
+    cardiovascular disease were larger for men than for women. The rate of
+    joint replacement surgery was higher for patients from more
+    socioeconomically deprived areas.
+
+    *Conclusions*
+    This study provides estimates of the excess healthcare utilisation and
+    costs following a diagnosis of hip or knee OA in primary care. We found
+    substantial incremental healthcare use and costs attributable to OA
+    diagnosis; however, there was little evidence of impacts on other health
+    and economic outcomes.
+
+    There was some evidence of inequities in access to care: both Māori and
+    patients from more socioeconomically deprived areas had higher rates of
+    publicly-funded joint replacement surgery, while Māori had lower overall
+    public healthcare costs. These findings may reflect OA diagnosis coming at
+    a later stage of disease progression for these populations, less access to
+    early conservative care options, or less access to private insurance
+    requiring a greater reliance on the public healthcare sector.
 - conference: OARSI World Congress
   stub: oarsi
   location: Vienna
@@ -155,6 +488,80 @@
   authors: MacRae J, Darlow B, Dowell T, Stephenson C, Oscroft N, Wilson R, Abbott JH
   published: _Osteoarthritis Cartilage_ 2024;32(S1):S529
   doi: 10.1016/j.joca.2024.02.106
+  abstract: |
+    *Purpose (the aim of the study)*
+    Osteoarthritis (OA) is a common condition affecting the hip and knee, and
+    its accurate identification in populations is crucial for research and
+    healthcare planning. This study aimed to apply Natural Language Processing
+    (NLP) technology to identify, in primary care electronic health records
+    (EHRs), diagnostic criteria that indicate probable cases of knee or hip OA.
+    We hypothesized that a NLP text classifier algorithm could be developed to
+    identify the key signs and symptoms of hip or kneeosteoarthritis (OA) from
+    clinical narrative and coded data, and assign patients to a binary
+    classification of either having OA or not. We compared the performance of
+    different prediction models.
+
+    *Methods*
+    We accessed clinical records through a Primary Healthcare Organisation
+    (PHO) in the lower North Island of Aotearoa New Zealand (NZ). 31 primary
+    care practices consented access to deidentified EHR data.
+
+    To develop the text classifier algorithm, two general medical practitioner
+    (GP) clinical experts (coders) independently reviewed the longitudinal EHRs
+    of 100 randomly-selected patients for signs and symptoms according to the
+    ACR, EULAR or NICE clinical diagnostic criteria hip or knee OA. Using these
+    coded case records, we trained and evaluated a NLP text classifier in an
+    additional 1,579 patients. Bootstrapping with 1,000 replicates was used to
+    generate samples for analysis.
+
+    We evaluated the accuracy of four prediction models; 'single-keyword',
+    'simple-keyword', 'text-classifier' and 'Read code', and report
+    sensitivity, specificity, positive predictive value (PPV), negative
+    predictive value (NPV), and Matthews correlation metrics of model
+    performance.
+
+    *Results*
+    Usage-related joint pain was the most commonly identified diagnostic
+    criterion (Figure). Most diagnostic signs and symptoms appeared rarely in
+    the EHR narrative text, which posed challenges for specifying text
+    classifier models or accurately identifying OA cases; combining the text
+    classifiers for signs and symptoms we were not able to identify OA
+    according to any of the classification criteria. The text classifier had
+    lower sensitivity and NPV compared to the single keyword and simple keyword
+    models.
+
+    All of the models we evaluated were relatively insensitive, and thus risk
+    missing 20 to 30% of hip OA cases and 5 to 60% of knee OA cases. We found
+    Read-coded OA in slightly higher prevalence to GP identified OA. The PPV
+    and specificity of the Read code-based approach were both 1.000 (95% CI
+    1.000-1.000) – indicating that when a relevant OA Read code was present,
+    the coders consistently identified the record as having OA - the NPV for
+    the Read code-based model (0.940; 95% CI 0.884 to 0.988 for hip OA and
+    0.935; 95% CI 0.879 to 0.978 for knee OA) was consistently higher that of
+    the text-classifier approach (0.925; 95% CI 0.865 to 0.976 for hip OA and
+    0.902; 95% CI 0.837 to 0.955 for knee OA), indicating lower prevalence of
+    text-classifier identified OA than Read code identified OA within the
+    cohort, and lower utility for identifiying people who do not have OA.
+
+    We found an approach using Read codes augmented with additional brief
+    free-text annotations provided the highest performance in identifying hip
+    and knee OA cases, at a rate of.17 (95% CI.11 -.25) for hip OA and 0.16
+    (95% CI 0.9 - 0.23) for knee OA.
+
+    *Conclusions*
+    Specifying a text-classifier algorithm using NLP for identifying patients
+    with hip or knee OA was not feasible. The text-classifier approach had
+    limitations in accurately classifying OA cases due to insufficient
+    recording, in EHRs, of signs and symptoms necessary for inferring OA
+    diagnoses according to classification criteria. Using Read codes plus
+    free-text annotations was more effective than relying on clinical narrative
+    data. These results imply that the current internationally endorsed
+    diagnostic formulations of OA are either not the primary framework in which
+    GPs identify or manage OA, or if so the findings are not recorded in the
+    EHR. Diagnosis, coding, and the primary care framework of care are complex
+    with interacting drivers of behaviour. These findings have implications for
+    educational and training paradigms for both secondary and primary care, as
+    well as for informing resource allocation issues.
 - conference: OARSI World Congress
   stub: oarsi
   location: Vienna
@@ -164,6 +571,85 @@
   authors: Abbott JH, Dowell T, MacRae J, Wilson R, Darlow B
   published: _Osteoarthritis Cartilage_ 2024; 32(S1):S73
   doi: 10.1016/j.joca.2024.02.786
+  abstract: |
+    *Purpose (the aim of the study)*
+    Osteoarthritis (OA) is very common in adults, and its morbidity burden may
+    begin during early- and mid-stage disease. Very little is known about
+    patterns of healthcare encounters and utilization in New Zealand (NZ)
+    primary care of people with OA.
+
+    This project aimed to access and interrogate routinely collected patient
+    encounter data in individual primary care electronic health records (EHRs)
+    held by general medical/family practices in the lower North Island of NZ,
+    identify cases and non-cases of hip or knee OA, and report the associated
+    diagnosis, treatment, prescription and referral patterns.
+
+    *Methods*
+    In this retrospective observational cohort study, we defined a ten-year
+    period extending from 1 Jan 2009 to 31 December 2018. From 31 participating
+    practices, we accessed over 75 Million raw EHR entries including 7M
+    diagnostic and clinical coding records (Read codes), 17M prescribing
+    records and 20M encounter records. Matching between practice data sets was
+    based on the NZ National Health Index (NHI) number. We included patients
+    who met the following criteria: 1) adults aged 40 years or older, 2)
+    enrolled at any practice for a 5-year contiguous period; and 3) had at
+    least one recorded clinical note in the EHR during the study period.
+
+    Demographics for date of birth, gender, ethnicity, date of death, and
+    socioeconomic deprivation were based on the most recent enrolment register
+    file available within the study period. We identified 79,861 eligible
+    patients’ EHRs (683,060.25 patient-years of EHR data). We identified OA
+    cases using Read codes augmented with free-text annotations (indicating hip
+    or knee OA). We excluded cases with a general OA Read code not indicating
+    hip or knee OA. Eligible patients with no OA Read code in the EHR were
+    defined as non-cases of OA.
+
+    We report age- and sex-matched comparisons of healthcare utilisation in
+    primary care over the 10-year period following the recording of an OA
+    diagnosis in primary care EHRs, and we linked these primary care data with
+    the Statistics NZ Integrated Data Infrastructure (IDI) to also report
+    hospital-based healthcare use (specialists appointments, outpatient
+    physiotherapy, and joint replacement surgery) in the NZ public healthcare
+    system in the 4 years before and after the recording of a hip or knee OA
+    diagnosis in primary care EHRs.
+
+    *Results*
+    From an overall cohort of 69,663 adults in primary care, we identified 4599
+    people with hip or knee OA (57.7% knee), mean age 65.8 (11.3), 56.5%
+    female, 6.5% Māori (Indigenous people of NZ). After adjusting for NZ
+    population demographics, the mean (95% CI) rate of hip or knee OA was 0.13
+    (0.128 to 0.134). Māori had greater odds of OA diagnosis [around 1.3 (1.1
+    to 1.6) across age bands].
+
+    Age- and sex-matched comparisons showed significantly higher healthcare
+    consumption in the OA group over the study period with increased primary
+    care use, prescribing, hospital outpatient visits and surgery. People with
+    a hip or knee OA Read code had 32% more primary care contacts than those
+    without OA (135 vs 102).
+
+    88.9% (88.0 to 90.4) of OA cases were dispensed NSAIDs compared with 72.1%
+    of non-cases, with paracetamol and weak opiate rates similar. Strong
+    opiates were dispensed to 21.6% (20.5 to 22.8) of OA cases, double that of
+    the non-OA cohort. 39.3% of OA cases had a first specialist appointment in
+    a public hospital; 24.1% having joint replacement surgery (compared with
+    9.5%; 1.4% in non-cases). Outpatient physiotherapy was accessed by 47.8%
+    (95% CI 46.4 to 49.3) of people with an OA code compared with 19.1% of
+    non-cases.
+
+    Across all categories of healthcare consumption we saw a similar pattern of
+    excess use evident and rising steadily in the 4 years prior to the first
+    recording of an OA Read code in the primary care EHR. Furthermore, we saw
+    absence of an OA Read code in primary care even after joint replacement
+    surgery for an OA indication in secondary care in over 50% of surgeries
+    (25% recorded in primary care only after surgery, 28% not at all).
+
+    *Conclusions*
+    OA diagnosis coding in primary care was associated with excess healthcare
+    consumption. Patterns of OA care were not entirely consistent with
+    guideline-recommended practice. We saw strong evidence of under-reporting
+    of OA (by Read code) in the primary care record; these findings may be
+    biased downward via under-recording and late recording of OA diagnosis in
+    primary care EHRs.
 - conference: Aotearoa Osteoarthritis Research Network Annual Meeting
   stub: oarnet
   location: Dunedin
@@ -257,6 +743,91 @@
   authors: Wilson R, Chua J, Briggs AM, Abbott JH
   published: _Osteoarthritis and Cartilage_ 2019;27(S1):S313
   doi: 10.1016/j.joca.2019.02.711
+  abstract: |
+    *Purpose*
+    To estimate the cost-effectiveness, from the perspective of the New Zealand
+    (NZ) healthcare system, of recommended adjunctive management options for
+    knee osteoarthritis (OA), delivered in addition to core long-term
+    management.
+
+    *Methods*
+    We have previously developed and validated a computer simulation model of
+    the natural history, treatment, health-related quality of life (HRQoL)
+    impacts, and healthcare costs of knee OA in the NZ population (the NZ-MOA
+    model). The NZ-MOA model is a state-transition, microsimulation model of
+    the population burden of knee OA in NZ. Within the model, individuals can
+    develop radiographic OA (defined by Kellgren-Lawrence grade), experience
+    HRQoL losses associated with OA, and undergo a sequence of treatments to
+    alleviate the HRQoL losses associated with OA or slow structural
+    progression of the disease. The model is run, for the same population
+    cohort, for a comparator treatment sequence and then a modified treatment
+    sequence including the new intervention(s) to be evaluated.
+    Cost-effectiveness of the new intervention is calculated from the
+    incremental lifetime QALYs gained and costs of the modified treatment
+    sequence compared with the comparator.
+
+    We used the NZ-MOA model to simulate the lifetime incremental QALY gains
+    and healthcare costs incurred of nine adjunctive management options
+    recommended by the 2018 Royal Australian College of General Practitioners
+    (RACGP) OA clinical practice guideline (CPG): aquatic-based exercise,
+    thermal therapy (heat pack), massage, assistive walking devices (walking
+    cane), cognitive behavioural therapy, oral non-steroidal anti-inflammatory
+    drugs (NSAIDs), topical NSAIDs, intra-articular corticosteroids, and
+    duloxetine.
+
+    The comparator treatment sequence consisted of “Core” management
+    interventions for knee OA (i.e. self-management and education and
+    land-based exercise, with weight management for overweight or obese
+    individuals), recommended by the RACGP CPG for all patients, and total
+    joint replacement (and possible revision surgery) for eligible patients
+    progressing to end-stage OA. The intervention treatment sequences, modelled
+    separately for each recommended intervention, added one of the nine
+    recommended adjunctive management options to Core treatment, and before
+    possible eligibility for joint replacement surgery.
+
+    Treatment effect estimates and adverse events were sourced from the RACGP
+    CPG and published systematic reviews. The primary HRQoL outcome was
+    improvement in SF-6D utility value. In a sensitivity analysis, we modelled
+    HRQoL based on the WOMAC pain subscale. Costs of treatment were calculated
+    using a bottom-up approach, by multiplying the resource use required to
+    provide each treatment by NZ reference prices for healthcare items and
+    services.
+
+    We calculated incremental costs and QALYs, incremental cost-effectiveness
+    ratios (ICERs), and net monetary benefits (INBs) at willingness-to-pay
+    (WTP) thresholds of one, two, and three times GDP per capita (\$52,300 in
+    base year 2013) for each of the interventions.
+
+    *Results*
+    All adjunctive interventions were effective in increasing population
+    lifetime QALYs relative to the Core treatment sequence (Table 1). Lifetime
+    QALY gains for the 2013 population cohort varied from 15 600 QALYs for
+    duloxetine to 54 600 QALYs for walking aids. Lifetime incremental costs
+    ranged from -\$105 per capita (cost saving) for walking cane, to \$4 899 per
+    capita for massage.
+
+    Walking cane and oral NSAIDs dominated core treatment only, with higher
+    lifetime QALYs and lower lifetime costs (due to reduced subsequent demand
+    for joint replacement surgery). At the 1xGDP per capita WTP level, INBs
+    were \$1 360 and \$473, respectively. Intra-articular corticosteroids were
+    also cost-effective at the 1xGDP per capita WTP level, with INBs of \$470
+    (Figure 1). Topical NSAIDs and cognitive behavioural therapy were
+    cost-effective at the 2xGDP per capita level, and aquatic-based exercise
+    became cost-effective at the 3xGDP level only. Duloxetine, thermal therapy,
+    or massage were not cost-effective at any considered WTP levels. Using the
+    WOMAC pain outcome did not change the overall cost-effectiveness findings
+    (except for aquatic-based exercise, which was no longer cost-effective at
+    3xGDP per capita).
+
+    *Conclusions*
+    Three of the nine recommended adjunctive interventions were found to be
+    highly cost-effective from the NZ healthcare system perspective, and a
+    further three were moderately cost-effective. In particular, low-cost,
+    early interventions that reduce demand for subsequent high-cost treatments
+    such as joint replacement surgery may realise substantial cost-savings over
+    the life-course of people with knee OA. These interventions should be
+    prioritised for further evaluation and consideration for more widespread
+    utilization in the NZ health system.
 - conference: OARSI World Congress
   stub: oarsi
   location: Toronto
@@ -268,6 +839,81 @@
   authors: Chua J, Hansen P, Briggs AM, Wilson R, Gwynne-Jones DP, Abbott JH
   published: _Osteoarthritis and Cartilage_ 2019;27(S1):S308-9
   doi: 10.1016/j.joca.2019.02.705
+  abstract: |
+    *Purpose*
+    Evidence-based practice requires that the best available evidence is
+    integrated with patients’ individual values and preferences, and also with
+    clinical expertise. Clinical practice guidelines (CPGs) provide
+    recommendations for interventions using consensus-based approaches that
+    generally involve weighing up the ‘best available evidence’, such as about
+    harm and effectiveness. Typically, broad consumer and health provider
+    engagement is constrained, and stakeholder preferences are not considered.
+    Multi-criteria decision analysis (MCDA) methods are one way of bridging the
+    gap between interpretation of evidence and stakeholders’ preferences. The
+    aim of this study was to prioritise interventions for knee osteoarthritis
+    (OA) in the early, mid and advanced stages of the disease in a MCDA
+    framework.
+
+    *Methods*
+    We used a 3-stage process to evaluate OA interventions by matching
+    stakeholder preferences for a discrete set of criteria, on which the
+    interventions were evaluated, with the best available evidence for those
+    criteria. Stage 1 involved determining the preference weights of 8
+    criteria, established in earlier research, representing their relative
+    importance to decision-makers: accessibility, cost of the intervention,
+    duration of the intervention effect, effectiveness, quality of the evidence
+    about the intervention, recommendation for using the intervention, risk of
+    mild or moderate adverse effects, and risk of serious harm. Each criterion
+    was defined by 2-4 levels describing the criterion’s best to worst
+    performance. The criteria weights were quantified through a MCDA survey,
+    using the online platform 1000minds.com, among a multi-disciplinary,
+    cross-sectoral sample of key New Zealand (NZ) stakeholders. At stage 2, the
+    performance of 75 interventions considered in the 2018 Royal Australian
+    College of General Practitioners (RACGP) OA CPG was rated on the 8 criteria
+    according to the defined levels. Performance was informed by the evidence
+    tables reported in the RACGP OA CPG with incomplete data supplemented by a
+    literature review and expert panel consensus. At stage 3, the total score
+    for each intervention was calculated by summing the criterion preference
+    weights associated with the rating determined in stage 2. Thus, the
+    interventions were indirectly evaluated by matching stakeholder preferences
+    (for the criteria) with the rating of the interventions on the criteria.
+    The outcome of this 3-stage process were rankings of interventions for OA
+    at each stage of the disease: early, mid and advanced. One-way sensitivity
+    analyses explored the effect of a change in one level of a criterion on the
+    total score of RACGP CPG recommendations for early, mid and advanced OA. An
+    interactive web-page was developed to visualise the scores and rankings:
+    the CMOR Evidence Table.
+
+    *Results*
+    The conjoint analysis survey was completed by 178 respondents (mean [SD]
+    age 53 [13] years; 114 female): 63 consumers, 79 health care providers, 24
+    policy-makers and 12 OA experts (16 [11] years relevant experience). Table
+    1 shows the preference weights of the 8 criteria expressed as percentage
+    points, where the maximum score (the sum of all criteria at their maximum
+    level) is equal to 100%. Rankings of 75 interventions for early, mid and
+    advanced OA were produced (Table 2). Of the 15 core intervention categories
+    recommended by the RACGP OA CPG ‘all land-based exercise’ is ranked 1st
+    (total score 74.6%) for early- and advanced-stage OA, but 2nd after topical
+    NSAIDs (77.5%), for mid-stage OA. Self-management and education (43.0%) is
+    ranked 15th at all stages of OA. Weight management (48.4%) is 11th for
+    early- and mid-stage OA, and 12th for advanced OA. Total knee replacement
+    (TKR) is 13th for early- and mid-stage OA, rising to 2nd (73.3%) place for
+    advanced OA. Sensitivity analysis indicated the Effectiveness, Quality of
+    Evidence, and Risk of Serious Harms criteria contribute most to score
+    uncertainty.
+
+    *Conclusions*
+    MCDA was used to integrate best available evidence with key stakeholder
+    values and preferences for knee OA interventions. The results suggest that
+    not all core recommendations for OA interventions are strongly aligned with
+    stakeholder preferences. Varying quality of the evidence about the
+    effectiveness of the intervention or the risk of serious harm may confound
+    the estimated total score of the interventions, and what constitutes a
+    meaningful difference in scores between interventions is subject to
+    interpretation. This method can enhance future implementation efforts by
+    threading evidence and stakeholder preferences together in a transparent
+    and robust process. The methods and preferences data may be applied to new
+    evidence, and to evidence tables of other CPGs.
 - conference: OARSI World Congress
   stub: oarsi
   location: Toronto
@@ -279,6 +925,76 @@
   authors: Abbott JH, Wilson R, Sullivan JK, Lenhard NK, Losina E
   published: _Osteoarthritis and Cartilage_ 2019;27(S1):S315
   doi: 10.1016/j.joca.2019.02.714
+  abstract: |
+    *Purpose*
+    To forecast the demand for total knee replacement (TKR) surgery and total
+    healthcare expenditure due to knee osteoarthritis (OA) in the New Zealand
+    (NZ) population over the period 2013 to 2043.
+
+    *Methods*
+    We projected the incidence and progression of knee OA, utilization of TKR,
+    and total knee OA-related healthcare expenditure in NZ over 30 years using
+    the Osteoarthritis Policy (OAPol) model. The OAPol model is a
+    computer-based, state-transition, Monte Carlo simulation model that can be
+    used to estimate the projected rates of TKR, health loss, and healthcare
+    spending associated with knee OA.The starting population cohorts in the
+    model were defined by five-year age groups (from 25-29 years up to 75-79
+    years, and 80 years and over), stratified by ethnicity (Māori or
+    non-Māori), BMI (obese or non-obese), and sex, based on the 2013 NZ
+    population distribution (Census data). Simulated individuals with knee OA
+    pass through up to four regimens in the standard treatment sequence in the
+    model: NSAIDs and physical therapy, corticosteroid injections, TKR, and
+    revision TKR. Data for the costs and utilization of these treatment
+    regimens were obtained from a variety of NZ and international sources. The
+    rate at which patients were offered and accepted TKR was calibrated to TKR
+    provision rates drawn from the New Zealand Joint Registry, by running the
+    model for 5 years and varying the offer and acceptance rates to match
+    actual provision for each cohort.The OAPol model was used to project the
+    proportion of individuals receiving TKR and per-capita OA-related
+    healthcare costs for each five-year period from 2013-2018 to 2038-2043,
+    within the population cohorts stratified by age, sex, obesity, and
+    ethnicity. These rates were then applied to projected population sizes,
+    obtained from Statistics New Zealand population projections and
+    previously-published projections of obesity prevalence rates, to forecast
+    the total burden of OA in each five-year period. As the youngest (25-29
+    years) cohort would be aged 50-54 at the start of the final (2038-2043)
+    period, we have analysed TKR provision projections for those aged 50 years
+    and over at the start of each period (to ensure an equivalent cohort in
+    each period).
+
+    *Results*
+    The total provision of TKR was projected to increase rapidly from 5400 per
+    year in 2013-2018 to 6800 per year in 2018-2023, and then more slowly to
+    7300 per year in 2038-2043 (Figure 1). These increases largely reflected
+    projected growth in the size of the older population, with the annual rate
+    of TKR provision in those aged 50 years and over peaking at 410 per 100,000
+    population in 2018-2023, before falling to 330 per 100,000 in 2038-2042.
+    This trend occurs because the number of TKRs received by those with initial
+    prevalent knee OA (at baseline) rapidly falls away after 2018-2023, as many
+    people in this cohort are by then projected to have either already had a
+    TKR or died.OA-related treatment costs were estimated to be NZ\$156 million
+    per year in 2013-2018 (1 NZD ≈ 0.82 USD in 2013), and NZ\$8.0 billion (in
+    present-value terms, discounted at 3% per annum) over the 30-year time
+    horizon.After adjusting for differences in the baseline age distribution,
+    Māori had a substantially higher burden of OA, in terms of both TKR
+    utilization and OA healthcare costs (Figure 2).
+
+    *Conclusions*
+    Knee OA inflicts a growing cost to the NZ healthcare system. The projected
+    rapid increase in demand for TKR over the next decade will require
+    additional healthcare resources, to an environment in which the provision
+    of joint replacement within the public healthcare sector is already
+    constrained by capacity limitations.Our estimates of the treatment costs
+    associated with OA, while substantial, represent underestimates of the true
+    cost to the health system and society. Only costs associated with the four
+    treatment regimens (NSAIDs and physical therapy, corticosteroid injections,
+    TKR, and revision TKR) have been modelled, and only for the index knee (the
+    model does not capture contralateral TKRs). Furthermore, indirect and
+    non-healthcare costs (such as lost earnings, informal sector care, and
+    community care) have not been considered. These projections indicate a need
+    for a comprehensive national OA strategy in NZ to manage the demands that
+    an ageing population, with increasing OA prevalence and obesity, will place
+    on the NZ healthcare system.
 - conference: Department of Surgical Sciences, Dunedin School of Medicine,
   stub: surgery
   location: Departmental seminar
@@ -304,6 +1020,44 @@
   authors: Wilson R, Abbott JH, Gwynne-Jones D, Kvizhinadze G, Blakely T
   published: _Value in Health_ 2016;19(7):PA548
   doi: 10.1016/j.jval.2016.09.1165
+  abstract: |
+    *Objectives*
+    The NZ-MOA model is a population-based state-transition microsimulation
+    model of knee osteoarthritis (OA) in New Zealand (NZ) currently under
+    development. In this study, we aimed to validate the performance of the
+    model by evaluating its ability to predict the incidence of total knee
+    replacement (TKR) surgery in NZ.
+
+    *Methods*
+    In the NZ-MOA model, individuals drawn from the New Zealand adult
+    population are followed through an annual sequence of OA disease
+    progression and associated health-related quality of life (HRQoL) changes.
+    HRQoL is assessed using the six dimensions of the SF-6D instrument. Based
+    on observed clinical criteria determining eligibility for publically-funded
+    TKR, we defined SF-6D thresholds at which simulated individuals would
+    receive TKR. Model performance was evaluated by comparing the predicted
+    number of TKR with the number actually performed in two regions: the
+    Southern District Health Board (SDHB) catchment area, a region covering a
+    population of approximately 300,000 in the lower South Island of NZ, from
+    which data on clinical criteria were obtained; and nationwide.
+
+    *Results*
+    Applying observed SF-6D thresholds (limitations in Physical Functioning,
+    Role Limitations due to physical health, and moderate or greater Pain,
+    together with radiographic OA), the model predicted an annual rate of 191.1
+    knee replacements per 100,000 population aged 45+ in the SDHB region,
+    compared with an observed rate of 196.5/100,000. Nationwide, slightly less
+    stringent eligibility criteria are applied, resulting in a rate of
+    229.9/100,000; in the NZ-MOA model, this rate corresponded to a threshold
+    in which approximately 50% of those with OA and meeting the pain criterion
+    together with either of the physical limitations criteria also received
+    TKR.
+
+    *Conclusions*
+    The NZ-MOA model was able to accurately predict the annual incidence of
+    TKR. The model will be used in further work to evaluate the
+    cost-effectiveness of various interventions, including TKR, for the
+    treatment of OA.
 - conference: Society for Medical Decision Making 38th Annual Meeting
   stub: smdm
   location: Vancouver
@@ -330,3 +1084,70 @@
   authors: Abbott JH, Usiskin I, Wilson R, Losina E
   published: _Osteoarthritis and Cartilage_ 2016;24(S1):S426
   doi: 10.1016/j.joca.2016.01.768
+  abstract: |
+    *Purpose*
+    To estimate the health loss, in quality-adjusted life years (QALYs), due to
+    knee osteoarthritis in New Zealand (NZ) using an established computer
+    simulation model, and to provide preliminary evidence for the face validity
+    and between-model validity of a new computer simulation model under
+    development in NZ.
+
+    *Methods*
+    We assessed the impact of knee OA on the remaining quality of life in
+    persons aged 40–84 years using the Osteoarthritis Policy (OAPol) model, an
+    established, validated computer simulation model, and the NZ-MOA model, a
+    preliminary model currently under development. Both are state transition,
+    Monte Carlo simulation models; each with a unique underlying model
+    structure. Each simulated person runs through a sequence of annual
+    transitions that track clinical progression from one health state to
+    another. We used a base version of OAPol that did not model the influence
+    of comorbidities. Each model was populated with input data sourced from
+    Statistics NZ, the NZ Health Survey, the NZ Global Burden of Disease study,
+    the 2012 United States (US) National Health Interview Survey, and published
+    research. Each state has an associated quality-of-life utility score from
+    the NZ EQ-5D tariff (Torrance-transformed to correct for methodological
+    over-estimation). In the OAPol model, progression of pain determined QALY
+    loss; in the NZ-MOA model, progression of OA grade determined QALY loss via
+    stratification by the EQ-5D-3L pain item (“I have no/moderate/extreme pain
+    or discomfort”). Each model was run using a simulation sample size of
+    1,000,000 persons to determine stable estimates. Quality-adjusted life
+    expectancy (QALE) estimates were obtained for each 5-year population
+    subgroup, stratified by sex and ethnicity (Maori or non-Maori). QALY losses
+    were calculated as the difference between the average QALY of the groups
+    with knee OA and the expected QALE of the groups without OA. One-way
+    sensitivity analysis was conducted in the NZ-MOA model, varying the
+    proportion of people with grade IV OA experiencing extreme vs. moderate
+    pain, thus affecting QALY loss.
+
+    *Results*
+    The OAPol model estimated 1.65 QALYs lost per-person due to knee OA, and
+    the base case NZ-MOA model (80% of those with grade IV OA in extreme pain)
+    estimated 1.79. In both models, women had greater QALY decrements than men,
+    non-Maori had greater QALY decrements than Maori, and younger age groups
+    had greater QALY decrements than older ages, primarily due to the greater
+    life expectancy of these groups. Increasing/decreasing the proportion of
+    people with grade IV OA experiencing extreme compared to moderate pain
+    increased/decreased the expected QALY losses in the NZ-MOA model. Average
+    QALY losses in the NZ-MOA model were equal to those in the OAPol model when
+    this proportion was approximately 70 percent.
+
+    *Conclusions*
+    The OA-related per-person QALY loss estimates for NZ from both the OAPol
+    model and the NZ-MOA model were consistent with published estimates of US
+    QALY loss due to OA. The preliminary NZ-MOA model under development
+    provided stable estimates very similar to those of the established OAPol
+    model run using similar health-state limitations and NZ input data. QALY
+    loss estimates were slightly higher in the NZ-MOA model for all sex,
+    ethnicity, and age groups, more so in younger age groups due to
+    simplistically applying constant OA grade proportions across all ages.
+    Limitations included not taking account of the influence of comorbidities
+    other than BMI in either model; the NZ knee OA prevalence data was derived
+    using self-report data on all-site OA and converted to knee OA using the
+    ratio of knee OA to all OA found in the US population; NZ utility scores
+    were transformed downward to approximate US methodology, and limited
+    sensitivity analyses. We concluded that the preliminary NZ-MOA model
+    structure was functioning satisfactorily, with adequate face validity and
+    between-model validity. Further development of the NZ-MOA model will
+    include introducing the influence of comorbidities into the model, refining
+    the input data, and extensive internal- and external validity assessment.
+    Between-model cross-validation will be extended to future model iterations.

@@ -12,7 +12,7 @@
   citation: "Wilson R, Pryymachenko Y, Audas R, Abbott JH. #link(\"/research/article/Wilson-2019-long-term-opioid-medication/index.html\")[Long-term opioid medication use before and after joint replacement surgery in New Zealand]. _New Zealand Medical Journal_ 2019;132(1507):33–47.",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Long-term opioid medication use before and after joint replacement surgery in New Zealand
 == New Zealand Medical Journal

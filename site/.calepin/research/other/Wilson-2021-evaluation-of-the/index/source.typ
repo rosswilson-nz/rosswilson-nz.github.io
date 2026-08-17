@@ -8,7 +8,7 @@
   citation: "Wilson J, Wilson R, Abbott JH, Wilson R, Stevenson B, Carter M, Kayem Y. #link(\"/research/other/Wilson-2021-evaluation-of-the/index.html\")[Evaluation of the Mobility Action Programme (MAP)]. Allen + Clarke, Wellington, 29 November 2021. Available at: https://www.health.govt.nz/publications/evaluation-of-the-mobility-action-programme-map",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = Evaluation of the Mobility Action Programme (MAP)
 #smallcaps[Published]\ 29 November 2021

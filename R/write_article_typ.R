@@ -37,7 +37,7 @@ write_article_typ <- function(dta_article) {
     c(
       ")) <website-metadata>",
       "",
-      "Back to #link(\"/research.html/journal-articles\")[publications]",
+      "Back to #link(\"/research.html#journal-articles\")[publications]",
       ""
     ),
     conn

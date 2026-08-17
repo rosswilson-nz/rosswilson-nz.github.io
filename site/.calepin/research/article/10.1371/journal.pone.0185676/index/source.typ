@@ -13,7 +13,7 @@
   citation: "Abbott JH, Usiskin IM, Wilson R, Hansen P, Losina E. #link(\"/research/article/10.1371/journal.pone.0185676/index.html\")[The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation]. _PLOS ONE_ 2017;12(10):e0185676. doi:~#link(\"https://doi.org/10.1371/journal.pone.0185676\")[10.1371/journal.pone.0185676]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = The quality-of-life burden of knee osteoarthritis in New Zealand adults: A model-based evaluation
 == PLOS ONE

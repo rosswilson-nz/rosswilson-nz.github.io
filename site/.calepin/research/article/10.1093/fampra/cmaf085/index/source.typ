@@ -13,7 +13,7 @@
   citation: "Lim YW, Al-Busaidi IS, Caya R, Bricca A, Mangin D, Wilson R, Abbott JH. #link(\"/research/article/10.1093/fampra/cmaf085/index.html\")[Effectiveness of interventions for the management of multimorbidity in primary care and community settings: systematic review and meta-analysis]. _Family Practice_ 2025;42(6):cmaf085. doi:~#link(\"https://doi.org/10.1093/fampra/cmaf085\")[10.1093/fampra/cmaf085]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Effectiveness of interventions for the management of multimorbidity in primary care and community settings: systematic review and meta-analysis
 == Family Practice

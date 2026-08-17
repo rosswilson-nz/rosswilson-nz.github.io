@@ -8,7 +8,7 @@
   citation: "Simmonds S, Wilson R, Carter M, Preval N. #link(\"/research/other/Simmonds-2020-baseline-data-capture:/index.html\")[Baseline Data Capture: Cultural Safety, Partnership, and Health Equity Initiatives]. Allen + Clarke, Wellington, 23 October 2020. Available at: https://www.mcnz.org.nz/our-standards/current-standards/cultural-safety/",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = Baseline Data Capture: Cultural Safety, Partnership, and Health Equity Initiatives
 #smallcaps[Published]\ 23 October 2020

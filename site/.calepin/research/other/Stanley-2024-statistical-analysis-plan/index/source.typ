@@ -8,7 +8,7 @@
   citation: "Stanley J, Wilson R, Darlow B. #link(\"/research/other/Stanley-2024-statistical-analysis-plan/index.html\")[Statistical Analysis Plan for Reducing the burden of knee osteoarthritis through community pharmacy: A randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service]. OUR Archive, 18 October 2024. Available at: https://hdl.handle.net/10523/42913",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = Statistical Analysis Plan for Reducing the burden of knee osteoarthritis through community pharmacy: A randomised controlled trial of the Knee Care for Arthritis through Pharmacy Service
 #smallcaps[Published]\ 18 October 2024

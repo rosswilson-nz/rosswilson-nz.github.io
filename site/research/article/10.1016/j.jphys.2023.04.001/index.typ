@@ -13,7 +13,7 @@
   citation: "Abdel-Shaheed C, Mathieson S, Wilson R, Furmage A-M, Maher C. #link(\"/research/article/10.1016/j.jphys.2023.04.001/index.html\")[Who should judge treatment effects as unimportant?]. _Journal of Physiotherapy_ 2023;69(3):133–135. doi:~#link(\"https://doi.org/10.1016/j.jphys.2023.04.001\")[10.1016/j.jphys.2023.04.001]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Who should judge treatment effects as unimportant?
 == Journal of Physiotherapy

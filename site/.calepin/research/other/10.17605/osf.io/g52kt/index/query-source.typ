@@ -9,7 +9,7 @@
   citation: "Pryymachenko Y, Wilson R, Abbott JH, Choong P, Dowsey M. #link(\"/research/other/10.17605/osf.io/g52kt/index.html\")[The long-term effects of opioid use before joint replacement surgery: A dose-response trial emulation with New Zealand linked register data. Analysis plan]. OSF, 08 September 2023. doi:~#link(\"https://doi.org/10.17605/osf.io/g52kt\")[10.17605/osf.io/g52kt]",
 )) <website-metadata>
 
-Back to #link("/research.html/other-publications")[publications]
+Back to #link("/research.html#other-publications")[publications]
 
 = The long-term effects of opioid use before joint replacement surgery: A dose-response trial emulation with New Zealand linked register data. Analysis plan
 #smallcaps[Published]\ 08 September 2023

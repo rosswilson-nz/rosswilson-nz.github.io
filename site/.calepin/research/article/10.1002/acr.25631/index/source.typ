@@ -13,7 +13,7 @@
   citation: "Pryymachenko Y, Wilson R, Dalbeth N, Abbott JH, Stamp L. #link(\"/research/article/10.1002/acr.25631/index.html\")[Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the \"start-low go-slow\" approach for gout: evidence from a non-inferiority randomised double-blind placebo-controlled trial]. _Arthritis Care & Research_ 2026;78(3):337-343. doi:~#link(\"https://doi.org/10.1002/acr.25631\")[10.1002/acr.25631]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the "start-low go-slow" approach for gout: evidence from a non-inferiority randomised double-blind placebo-controlled trial
 == Arthritis Care & Research

@@ -1162,17 +1162,16 @@
     "href": "research/presentation/acr-2024-cost-effectiveness-of-low/index.html",
     "language": null,
     "meta": {
-      "citation": "Pryymachenko Y, Wilson R, Abbott JH, Dalbeth N, Stamp L. Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the \"Start-Low Go-Slow\" approach for gout. _Arthritis & Rheumatology_ 2024;76(S9). doi:~#link(\"https://doi.org/10.1002/art.42992\")[10.1002/art.42992]",
       "date": "2024-11-14",
       "date_fmt": "November 2024",
-      "description": "Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the \"Start-Low Go-Slow\" approach for gout. ACR Convergence, Washington, D.C.. November 2024",
+      "description": "#link(\"/research/presentation/acr-2024-cost-effectiveness-of-low/index.html\")[Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the \"Start-Low Go-Slow\" approach for gout]. _ACR Convergence_. Washington, D.C., November 2024",
       "doi": "10.1002/art.42992",
       "location": "Washington, D.C.",
       "note": "poster presentation"
     },
     "path": "research/presentation/acr-2024-cost-effectiveness-of-low/index.typ",
     "pdf": null,
-    "title": "index",
+    "title": "Cost-effectiveness of low dose colchicine prophylaxis when starting allopurinol using the \"Start-Low Go-Slow\" approach for gout",
     "translation_key": "research/presentation/acr-2024-cost-effectiveness-of-low/index",
     "translations": {}
   },
@@ -1182,7 +1181,7 @@
     "meta": {
       "date": "2023-10-24",
       "date_fmt": "October 2023",
-      "description": "Economic evaluation in a clinical trial: the LEAP trial. Australia and New Zealand Musculoskeletal Clinical Trials Network (ANZMUSC) Annual Scientific Meeting, Sydney [Virtual]. October 2023",
+      "description": "Economic evaluation in a clinical trial: the LEAP trial. _Australia and New Zealand Musculoskeletal Clinical Trials Network (ANZMUSC) Annual Scientific Meeting_. Sydney [Virtual], October 2023",
       "location": "Sydney [Virtual]",
       "note": "invited presentation"
     },
@@ -1198,7 +1197,7 @@
     "meta": {
       "date": "2021-11-10",
       "date_fmt": "November 2021",
-      "description": "The effect of a guideline-implementation intervention (the FREE approach) on the primary care management of low back pain: Economic evaluation. Back and Neck Pain Forum, Global virtual conference. November 2021",
+      "description": "The effect of a guideline-implementation intervention (the FREE approach) on the primary care management of low back pain: Economic evaluation. _Back and Neck Pain Forum_. Global virtual conference, November 2021",
       "location": "Global virtual conference"
     },
     "path": "research/presentation/bnpf-2021-the-effect-of/index.typ",
@@ -1213,7 +1212,7 @@
     "meta": {
       "date": "2019-12-04",
       "date_fmt": "December 2019",
-      "description": "Modelling the cost-effectiveness of knee osteoarthritis treatments. Health Services Research Association of Australia and New Zealand, 11th Health Services and Policy Research Conference, Auckland. December 2019",
+      "description": "Modelling the cost-effectiveness of knee osteoarthritis treatments. _Health Services Research Association of Australia and New Zealand, 11th Health Services and Policy Research Conference_. Auckland, December 2019",
       "location": "Auckland"
     },
     "path": "research/presentation/hsraanz-2019-modelling-the-cost-effectiveness/index.typ",
@@ -1228,7 +1227,7 @@
     "meta": {
       "date": "2019-12-04",
       "date_fmt": "December 2019",
-      "description": "The convergent validity of seven health state utility instruments. Health Services Research Association of Australia and New Zealand, 11th Health Services and Policy Research Conference, Auckland. December 2019",
+      "description": "The convergent validity of seven health state utility instruments. _Health Services Research Association of Australia and New Zealand, 11th Health Services and Policy Research Conference_. Auckland, December 2019",
       "location": "Auckland"
     },
     "path": "research/presentation/hsraanz-2019-the-convergent-validity/index.typ",
@@ -1241,10 +1240,9 @@
     "href": "research/presentation/ispor-2016-modelling-total-knee/index.html",
     "language": null,
     "meta": {
-      "citation": "Wilson R, Abbott JH, Gwynne-Jones D, Kvizhinadze G, Blakely T. Modelling total knee replacement surgery for osteoarthritis in New Zealand: Validation of a population-based state-transition microsimulation model . _Value in Health_ 2016;19(7):PA548. doi:~#link(\"https://doi.org/10.1016/j.jval.2016.09.1165\")[10.1016/j.jval.2016.09.1165]",
       "date": "2016-11-02",
       "date_fmt": "November 2016",
-      "description": "Modelling total knee replacement surgery for osteoarthritis in New Zealand: Validation of a population-based state-transition microsimulation model . ISPOR 19th Annual European Congress, Vienna. November 2016",
+      "description": "#link(\"/research/presentation/ispor-2016-modelling-total-knee/index.html\")[Modelling total knee replacement surgery for osteoarthritis in New Zealand: Validation of a population-based state-transition microsimulation model ]. _ISPOR 19th Annual European Congress_. Vienna, November 2016",
       "doi": "10.1016/j.jval.2016.09.1165",
       "location": "Vienna",
       "note": "poster presentation"
@@ -1259,10 +1257,9 @@
     "href": "research/presentation/ispor-2025-association-between-barriers/index.html",
     "language": null,
     "meta": {
-      "citation": "Lim YW, Gayed M, Christopherson R, Caya R, Gaspar Fernandes L, Pierobon A, Pryymachenko Y, Magin D, Abbott JH, Wilson R. Association between barriers to accessing general practitioners and emergency department visits in New Zealand. _Value in Health Regional Issues_ 2025;49(1):101203. doi:~#link(\"https://doi.org/10.1016/j.vhri.2025.101203\")[10.1016/j.vhri.2025.101203]",
       "date": "2025-09-28",
       "date_fmt": "September 2025",
-      "description": "Association between barriers to accessing general practitioners and emergency department visits in New Zealand. ISPOR Real-World Evidence Summit, Tokyo. September 2025",
+      "description": "#link(\"/research/presentation/ispor-2025-association-between-barriers/index.html\")[Association between barriers to accessing general practitioners and emergency department visits in New Zealand]. _ISPOR Real-World Evidence Summit_. Tokyo, September 2025",
       "doi": "10.1016/j.vhri.2025.101203",
       "location": "Tokyo",
       "note": "poster presentation"
@@ -1277,10 +1274,9 @@
     "href": "research/presentation/ispor-2025-cost-effectiveness-of-primary/index.html",
     "language": null,
     "meta": {
-      "citation": "Abbott JH, Wilson R. Cost-effectiveness of primary and community care programmes for osteoarthritis: a modeling study using data from a multi-center national pilot program. _Value in Health Regional Issues_ 2025;49(1):101264. doi:~#link(\"https://doi.org/10.1016/j.vhri.2025.101264\")[10.1016/j.vhri.2025.101264]",
       "date": "2025-09-28",
       "date_fmt": "September 2025",
-      "description": "Cost-effectiveness of primary and community care programmes for osteoarthritis: a modeling study using data from a multi-center national pilot program. ISPOR Real-World Evidence Summit, Tokyo. September 2025",
+      "description": "#link(\"/research/presentation/ispor-2025-cost-effectiveness-of-primary/index.html\")[Cost-effectiveness of primary and community care programmes for osteoarthritis: a modeling study using data from a multi-center national pilot program]. _ISPOR Real-World Evidence Summit_. Tokyo, September 2025",
       "doi": "10.1016/j.vhri.2025.101264",
       "location": "Tokyo",
       "note": "poster presentation"
@@ -1295,10 +1291,9 @@
     "href": "research/presentation/ispor-2025-the-long-term-effects/index.html",
     "language": null,
     "meta": {
-      "citation": "Wilson R, Pryymachenko Y, Choong P, Dowsey M, Abbott JH. The long-term effects of opioid use before total joint replacement surgery: a dose-response trial emulation using New Zealand linked administrative data. _Value in Health Regional Issues_ 2025;49(1):101429. doi:~#link(\"https://doi.org/10.1016/j.vhri.2025.101429\")[10.1016/j.vhri.2025.101429]",
       "date": "2025-09-28",
       "date_fmt": "September 2025",
-      "description": "The long-term effects of opioid use before total joint replacement surgery: a dose-response trial emulation using New Zealand linked administrative data. ISPOR Real-World Evidence Summit, Tokyo. September 2025",
+      "description": "#link(\"/research/presentation/ispor-2025-the-long-term-effects/index.html\")[The long-term effects of opioid use before total joint replacement surgery: a dose-response trial emulation using New Zealand linked administrative data]. _ISPOR Real-World Evidence Summit_. Tokyo, September 2025",
       "doi": "10.1016/j.vhri.2025.101429",
       "location": "Tokyo",
       "note": "poster presentation"
@@ -1315,7 +1310,7 @@
     "meta": {
       "date": "2024-07-04",
       "date_fmt": "July 2024",
-      "description": "The long-term impacts of opioid use before and after joint arthroplasty. Bruce McMillan Memorial Seminar, Dunedin. July 2024",
+      "description": "The long-term impacts of opioid use before and after joint arthroplasty. _Bruce McMillan Memorial Seminar_. Dunedin, July 2024",
       "location": "Dunedin",
       "note": "invited presentation"
     },
@@ -1331,7 +1326,7 @@
     "meta": {
       "date": "2024-09-01",
       "date_fmt": "September 2024",
-      "description": "The New Zealand Integrated Data Infrastructure (IDI). National Institute for Public Health, University of Southern Denmark, Seminar. September 2024",
+      "description": "The New Zealand Integrated Data Infrastructure (IDI). _National Institute for Public Health, University of Southern Denmark_. Seminar, September 2024",
       "location": "Seminar"
     },
     "path": "research/presentation/niph-2024-the-new-zealand/index.typ",
@@ -1346,7 +1341,7 @@
     "meta": {
       "date": "2025-06-25",
       "date_fmt": "June 2025",
-      "description": "Clinical practice guideline implementation to improve healthcare delivery and reduce healthcare costs. New Zealand Association of Economists 65th Annual Conference, Wellington. June 2025",
+      "description": "Clinical practice guideline implementation to improve healthcare delivery and reduce healthcare costs. _New Zealand Association of Economists 65th Annual Conference_. Wellington, June 2025",
       "location": "Wellington"
     },
     "path": "research/presentation/nzae-2025-clinical-practice-guideline/index.typ",
@@ -1361,7 +1356,7 @@
     "meta": {
       "date": "2019-10-02",
       "date_fmt": "October 2019",
-      "description": "The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure. New Zealand Orthopaedic Association Annual Scientific Meeting, Dunedin. October 2019",
+      "description": "The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure. _New Zealand Orthopaedic Association Annual Scientific Meeting_. Dunedin, October 2019",
       "location": "Dunedin"
     },
     "path": "research/presentation/nzoa-2019-the-projected-burden/index.typ",
@@ -1376,7 +1371,7 @@
     "meta": {
       "date": "2022-11-17",
       "date_fmt": "November 2022",
-      "description": "Navigating the early-mid career research pathway. Aotearoa Osteoarthritis Research Network Annual Meeting, Wellington. November 2022",
+      "description": "Navigating the early-mid career research pathway. _Aotearoa Osteoarthritis Research Network Annual Meeting_. Wellington, November 2022",
       "location": "Wellington",
       "note": "invited presentation"
     },
@@ -1392,7 +1387,7 @@
     "meta": {
       "date": "2022-11-17",
       "date_fmt": "November 2022",
-      "description": "Optimal treatment of hip and knee OA across the disease course. Aotearoa Osteoarthritis Research Network Annual Meeting, Wellington. November 2022",
+      "description": "Optimal treatment of hip and knee OA across the disease course. _Aotearoa Osteoarthritis Research Network Annual Meeting_. Wellington, November 2022",
       "location": "Wellington"
     },
     "path": "research/presentation/oarnet-2022-optimal-treatment-of/index.typ",
@@ -1407,7 +1402,7 @@
     "meta": {
       "date": "2023-11-02",
       "date_fmt": "November 2023",
-      "description": "The diagnosis and management of osteoarthritis in Aotearoa New Zealand primary care. Aotearoa Osteoarthritis Research Network Annual Meeting, Dunedin. November 2023",
+      "description": "The diagnosis and management of osteoarthritis in Aotearoa New Zealand primary care. _Aotearoa Osteoarthritis Research Network Annual Meeting_. Dunedin, November 2023",
       "location": "Dunedin"
     },
     "path": "research/presentation/oarnet-2023-the-diagnosis-and/index.typ",
@@ -1422,7 +1417,7 @@
     "meta": {
       "date": "2025-07-18",
       "date_fmt": "July 2025",
-      "description": "The long-term effects of opioid use before joint replacement surgery: A dose-response trial emulation using linked administrative data. Aotearoa Osteoarthritis Research Network Annual Meeting, Auckland. July 2025",
+      "description": "The long-term effects of opioid use before joint replacement surgery: A dose-response trial emulation using linked administrative data. _Aotearoa Osteoarthritis Research Network Annual Meeting_. Auckland, July 2025",
       "location": "Auckland"
     },
     "path": "research/presentation/oarnet-2025-the-long-term-effects/index.typ",
@@ -1435,10 +1430,9 @@
     "href": "research/presentation/oarsi-2016-health-loss-burden-of/index.html",
     "language": null,
     "meta": {
-      "citation": "Abbott JH, Usiskin I, Wilson R, Losina E. Health-loss burden of osteoarthritis in New Zealand: Computer-simulation estimate and between-model cross-validation. _Osteoarthritis and Cartilage_ 2016;24(S1):S426. doi:~#link(\"https://doi.org/10.1016/j.joca.2016.01.768\")[10.1016/j.joca.2016.01.768]",
       "date": "2016-03-31",
       "date_fmt": "March 2016",
-      "description": "Health-loss burden of osteoarthritis in New Zealand: Computer-simulation estimate and between-model cross-validation. OARSI World Congress, Amsterdam. March 2016",
+      "description": "#link(\"/research/presentation/oarsi-2016-health-loss-burden-of/index.html\")[Health-loss burden of osteoarthritis in New Zealand: Computer-simulation estimate and between-model cross-validation]. _OARSI World Congress_. Amsterdam, March 2016",
       "doi": "10.1016/j.joca.2016.01.768",
       "location": "Amsterdam",
       "note": "poster presentation"
@@ -1453,10 +1447,9 @@
     "href": "research/presentation/oarsi-2019-integrating-values-and/index.html",
     "language": null,
     "meta": {
-      "citation": "Chua J, Hansen P, Briggs AM, Wilson R, Gwynne-Jones DP, Abbott JH. Integrating values and preferences with the best available evidence: A multi-criteria decision analysis approach. _Osteoarthritis and Cartilage_ 2019;27(S1):S308-9. doi:~#link(\"https://doi.org/10.1016/j.joca.2019.02.705\")[10.1016/j.joca.2019.02.705]",
       "date": "2019-05-02",
       "date_fmt": "May 2019",
-      "description": "Integrating values and preferences with the best available evidence: A multi-criteria decision analysis approach. OARSI World Congress, Toronto. May 2019",
+      "description": "#link(\"/research/presentation/oarsi-2019-integrating-values-and/index.html\")[Integrating values and preferences with the best available evidence: A multi-criteria decision analysis approach]. _OARSI World Congress_. Toronto, May 2019",
       "doi": "10.1016/j.joca.2019.02.705",
       "location": "Toronto",
       "note": "poster presentation"
@@ -1471,10 +1464,9 @@
     "href": "research/presentation/oarsi-2019-projecting-the-healthcare/index.html",
     "language": null,
     "meta": {
-      "citation": "Abbott JH, Wilson R, Sullivan JK, Lenhard NK, Losina E. Projecting the healthcare burden of knee osteoarthritis in New Zealand: Results from a computer simulation model. _Osteoarthritis and Cartilage_ 2019;27(S1):S315. doi:~#link(\"https://doi.org/10.1016/j.joca.2019.02.714\")[10.1016/j.joca.2019.02.714]",
       "date": "2019-05-02",
       "date_fmt": "May 2019",
-      "description": "Projecting the healthcare burden of knee osteoarthritis in New Zealand: Results from a computer simulation model. OARSI World Congress, Toronto. May 2019",
+      "description": "#link(\"/research/presentation/oarsi-2019-projecting-the-healthcare/index.html\")[Projecting the healthcare burden of knee osteoarthritis in New Zealand: Results from a computer simulation model]. _OARSI World Congress_. Toronto, May 2019",
       "doi": "10.1016/j.joca.2019.02.714",
       "location": "Toronto",
       "note": "poster presentation"
@@ -1489,10 +1481,9 @@
     "href": "research/presentation/oarsi-2019-the-cost-effectiveness-of/index.html",
     "language": null,
     "meta": {
-      "citation": "Wilson R, Chua J, Briggs AM, Abbott JH. The cost-effectiveness of recommended adjunctive osteoarthritis management options: Results from a computer simulation model. _Osteoarthritis and Cartilage_ 2019;27(S1):S313. doi:~#link(\"https://doi.org/10.1016/j.joca.2019.02.711\")[10.1016/j.joca.2019.02.711]",
       "date": "2019-05-02",
       "date_fmt": "May 2019",
-      "description": "The cost-effectiveness of recommended adjunctive osteoarthritis management options: Results from a computer simulation model. OARSI World Congress, Toronto. May 2019",
+      "description": "#link(\"/research/presentation/oarsi-2019-the-cost-effectiveness-of/index.html\")[The cost-effectiveness of recommended adjunctive osteoarthritis management options: Results from a computer simulation model]. _OARSI World Congress_. Toronto, May 2019",
       "doi": "10.1016/j.joca.2019.02.711",
       "location": "Toronto",
       "note": "poster presentation"
@@ -1507,10 +1498,9 @@
     "href": "research/presentation/oarsi-2024-health-system-and/index.html",
     "language": null,
     "meta": {
-      "citation": "Wilson R, Pryymachenko Y, Schofield D, Shrestha R, Darlow B, Dowell T, MacRae J, Abbott JH. Health system and societal costs following osteoarthritis diagnosis in primary care. _Osteoarthritis Cartilage_ 2024;32(S1):S333. doi:~#link(\"https://doi.org/10.1016/j.joca.2024.02.490\")[10.1016/j.joca.2024.02.490]",
       "date": "2024-08-18",
       "date_fmt": "August 2024",
-      "description": "Health system and societal costs following osteoarthritis diagnosis in primary care. OARSI World Congress, Vienna. August 2024",
+      "description": "#link(\"/research/presentation/oarsi-2024-health-system-and/index.html\")[Health system and societal costs following osteoarthritis diagnosis in primary care]. _OARSI World Congress_. Vienna, August 2024",
       "doi": "10.1016/j.joca.2024.02.490",
       "location": "Vienna",
       "note": "poster presentation"
@@ -1525,10 +1515,9 @@
     "href": "research/presentation/oarsi-2024-predictive-models-for/index.html",
     "language": null,
     "meta": {
-      "citation": "MacRae J, Darlow B, Dowell T, Stephenson C, Oscroft N, Wilson R, Abbott JH. Predictive models for identifying hip and knee osteoarthritis in primary care electronic records: a natural language processing text classifier approach. _Osteoarthritis Cartilage_ 2024;32(S1):S529. doi:~#link(\"https://doi.org/10.1016/j.joca.2024.02.106\")[10.1016/j.joca.2024.02.106]",
       "date": "2024-08-18",
       "date_fmt": "August 2024",
-      "description": "Predictive models for identifying hip and knee osteoarthritis in primary care electronic records: a natural language processing text classifier approach. OARSI World Congress, Vienna. August 2024",
+      "description": "#link(\"/research/presentation/oarsi-2024-predictive-models-for/index.html\")[Predictive models for identifying hip and knee osteoarthritis in primary care electronic records: a natural language processing text classifier approach]. _OARSI World Congress_. Vienna, August 2024",
       "doi": "10.1016/j.joca.2024.02.106",
       "location": "Vienna",
       "note": "poster presentation"
@@ -1543,10 +1532,9 @@
     "href": "research/presentation/oarsi-2024-the-primary-care/index.html",
     "language": null,
     "meta": {
-      "citation": "Abbott JH, Dowell T, MacRae J, Wilson R, Darlow B. The primary care diagnosis and management of osteoarthritis. _Osteoarthritis Cartilage_ 2024; 32(S1):S73. doi:~#link(\"https://doi.org/10.1016/j.joca.2024.02.786\")[10.1016/j.joca.2024.02.786]",
       "date": "2024-08-18",
       "date_fmt": "August 2024",
-      "description": "The primary care diagnosis and management of osteoarthritis. OARSI World Congress, Vienna. August 2024",
+      "description": "#link(\"/research/presentation/oarsi-2024-the-primary-care/index.html\")[The primary care diagnosis and management of osteoarthritis]. _OARSI World Congress_. Vienna, August 2024",
       "doi": "10.1016/j.joca.2024.02.786",
       "location": "Vienna",
       "note": "poster presentation"
@@ -1561,10 +1549,9 @@
     "href": "research/presentation/oarsi-2025-excess-comorbidity-burden/index.html",
     "language": null,
     "meta": {
-      "citation": "Wilson R, Sharma I, Coppell K, Bell R, Skou S, Abbott JH. Excess comorbidity burden in people with osteoarthritis in Aotearoa New Zealand: Data linkage to a population-based cross-sectional survey. _Osteoarthritis and Cartilage_ 2025;33(Suppl):S264-5. doi:~#link(\"https://doi.org/10.1016/j.joca.2025.02.380\")[10.1016/j.joca.2025.02.380]",
       "date": "2025-04-24",
       "date_fmt": "April 2025",
-      "description": "Excess comorbidity burden in people with osteoarthritis in Aotearoa New Zealand: Data linkage to a population-based cross-sectional survey. OARSI World Congress, Incheon, South Korea. April 2025",
+      "description": "#link(\"/research/presentation/oarsi-2025-excess-comorbidity-burden/index.html\")[Excess comorbidity burden in people with osteoarthritis in Aotearoa New Zealand: Data linkage to a population-based cross-sectional survey]. _OARSI World Congress_. Incheon, South Korea, April 2025",
       "doi": "10.1016/j.joca.2025.02.380",
       "location": "Incheon, South Korea",
       "note": "poster presentation"
@@ -1581,7 +1568,7 @@
     "meta": {
       "date": "2021-11-11",
       "date_fmt": "November 2021",
-      "description": "Incorporating economic evaluation in clinical research to support research impact. University of Otago Division of Health Sciences, Early and Mid-Career Researcher Annual Conference, Dunedin. November 2021",
+      "description": "Incorporating economic evaluation in clinical research to support research impact. _University of Otago Division of Health Sciences, Early and Mid-Career Researcher Annual Conference_. Dunedin, November 2021",
       "location": "Dunedin"
     },
     "path": "research/presentation/otago-2021-incorporating-economic-evaluation/index.typ",
@@ -1596,7 +1583,7 @@
     "meta": {
       "date": "2025-11-25",
       "date_fmt": "November 2025",
-      "description": "Osteoarthritis diagnoses are under-recorded in primary care electronic health records in New Zealand. University of Otago Research Symposium: Harnessing Linked Population-Level Data for Health Research, Dunedin. November 2025",
+      "description": "Osteoarthritis diagnoses are under-recorded in primary care electronic health records in New Zealand. _University of Otago Research Symposium: Harnessing Linked Population-Level Data for Health Research_. Dunedin, November 2025",
       "location": "Dunedin",
       "note": "invited presentation"
     },
@@ -1612,7 +1599,7 @@
     "meta": {
       "date": "2024-11-27",
       "date_fmt": "November 2024",
-      "description": "The long-term effects of opioid use before total joint replacement surgery: a dose-response trial emulation with New Zealand linked administrative data. 8th Pharmacoepidemiology Research Network Symposium, Dunedin. November 2024",
+      "description": "The long-term effects of opioid use before total joint replacement surgery: a dose-response trial emulation with New Zealand linked administrative data. _8th Pharmacoepidemiology Research Network Symposium_. Dunedin, November 2024",
       "location": "Dunedin"
     },
     "path": "research/presentation/prns-2024-the-long-term-effects/index.typ",
@@ -1627,7 +1614,7 @@
     "meta": {
       "date": "2024-09-01",
       "date_fmt": "September 2024",
-      "description": "Why economic evaluations are important in health research and how to get started. PROgrez Research and Implementation Unit, Region Sjælland, Seminar. September 2024",
+      "description": "Why economic evaluations are important in health research and how to get started. _PROgrez Research and Implementation Unit, Region Sjælland_. Seminar, September 2024",
       "location": "Seminar"
     },
     "path": "research/presentation/progrez-2024-why-economic-evaluations/index.typ",
@@ -1642,7 +1629,7 @@
     "meta": {
       "date": "2017-03-30",
       "date_fmt": "March 2017",
-      "description": "The development and validation of a new population-based simulation model of osteoarthritis in New Zealand. Department of Preventive and Social Medicine, Dunedin School of Medicine, University of Otago, and the Public Health Association Otago/Southland, Public Health Seminar. March 2017",
+      "description": "The development and validation of a new population-based simulation model of osteoarthritis in New Zealand. _Department of Preventive and Social Medicine, Dunedin School of Medicine, University of Otago, and the Public Health Association Otago/Southland_. Public Health Seminar, March 2017",
       "location": "Public Health Seminar"
     },
     "path": "research/presentation/psm-2017-the-development-and/index.typ",
@@ -1657,7 +1644,7 @@
     "meta": {
       "date": "2024-09-01",
       "date_fmt": "September 2024",
-      "description": "Health economics for pharmacoepidemiologists – a primer. Clinical Pharmacology, Pharmacy and Environmental Medicine, Department of Public Health, University of Southern Denmark, Seminar. September 2024",
+      "description": "Health economics for pharmacoepidemiologists – a primer. _Clinical Pharmacology, Pharmacy and Environmental Medicine, Department of Public Health, University of Southern Denmark_. Seminar, September 2024",
       "location": "Seminar"
     },
     "path": "research/presentation/sdu-2024-health-economics-for/index.typ",
@@ -1672,7 +1659,7 @@
     "meta": {
       "date": "2024-09-01",
       "date_fmt": "September 2024",
-      "description": "Impacts of preoperative opioid use on outcomes after joint replacement surgery. Department of Sports Science and Clinical Biomechanics, University of Southern Denmark, Seminar. September 2024",
+      "description": "Impacts of preoperative opioid use on outcomes after joint replacement surgery. _Department of Sports Science and Clinical Biomechanics, University of Southern Denmark_. Seminar, September 2024",
       "location": "Seminar"
     },
     "path": "research/presentation/sdu-2024-impacts-of-preoperative/index.typ",
@@ -1687,7 +1674,7 @@
     "meta": {
       "date": "2024-09-01",
       "date_fmt": "September 2024",
-      "description": "Why health economic evaluations are important in muscle and joint research and how to get started. Center for Muscle and Joint Health, University of Southern Denmark, Seminar. September 2024",
+      "description": "Why health economic evaluations are important in muscle and joint research and how to get started. _Center for Muscle and Joint Health, University of Southern Denmark_. Seminar, September 2024",
       "location": "Seminar"
     },
     "path": "research/presentation/sdu-2024-why-health-economic/index.typ",
@@ -1702,7 +1689,7 @@
     "meta": {
       "date": "2016-10-23",
       "date_fmt": "October 2016",
-      "description": "The health-loss burden of osteoarthritis in New Zealand: Results from a new computer simulation model. Society for Medical Decision Making 38th Annual Meeting, Vancouver. October 2016",
+      "description": "The health-loss burden of osteoarthritis in New Zealand: Results from a new computer simulation model. _Society for Medical Decision Making 38th Annual Meeting_. Vancouver, October 2016",
       "location": "Vancouver",
       "note": "poster presentation"
     },
@@ -1718,7 +1705,7 @@
     "meta": {
       "date": "2016-09-19",
       "date_fmt": "September 2016",
-      "description": "The development and validation of a new population-based simulation model of osteoarthritis in New Zealand. Department of Surgical Sciences, Dunedin School of Medicine, Departmental seminar. September 2016",
+      "description": "The development and validation of a new population-based simulation model of osteoarthritis in New Zealand. _Department of Surgical Sciences, Dunedin School of Medicine_. Departmental seminar, September 2016",
       "location": "Departmental seminar"
     },
     "path": "research/presentation/surgery-2016-the-development-and/index.typ",
@@ -1733,7 +1720,7 @@
     "meta": {
       "date": "2018-06-25",
       "date_fmt": "June 2018",
-      "description": "Age, Period, and Cohort Effects on Body Mass Index in New Zealand, 1997–2038. Department of Surgical Sciences, Dunedin School of Medicine,, Departmental seminar. June 2018",
+      "description": "Age, Period, and Cohort Effects on Body Mass Index in New Zealand, 1997–2038. _Department of Surgical Sciences, Dunedin School of Medicine,_. Departmental seminar, June 2018",
       "location": "Departmental seminar"
     },
     "path": "research/presentation/surgery-2018-age,-period,-and/index.typ",
@@ -1748,7 +1735,7 @@
     "meta": {
       "date": "2019-09-30",
       "date_fmt": "September 2019",
-      "description": "The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure. Department of Surgical Sciences, Dunedin School of Medicine, Departmental seminar. September 2019",
+      "description": "The projected burden of knee osteoarthritis in New Zealand: total joint replacement and healthcare expenditure. _Department of Surgical Sciences, Dunedin School of Medicine_. Departmental seminar, September 2019",
       "location": "Departmental seminar"
     },
     "path": "research/presentation/surgery-2019-the-projected-burden/index.typ",
@@ -1763,7 +1750,7 @@
     "meta": {
       "date": "2020-11-16",
       "date_fmt": "November 2020",
-      "description": "The CMOR Collaborative Research Writing initiative (CMOR-CREW). Department of Surgical Sciences, Dunedin School of Medicine, Departmental seminar. November 2020",
+      "description": "The CMOR Collaborative Research Writing initiative (CMOR-CREW). _Department of Surgical Sciences, Dunedin School of Medicine_. Departmental seminar, November 2020",
       "location": "Departmental seminar"
     },
     "path": "research/presentation/surgery-2020-the-cmor-collaborative/index.typ",
@@ -1778,7 +1765,7 @@
     "meta": {
       "date": "2025-08-13",
       "date_fmt": "August 2025",
-      "description": "Long-term health and economic impacts of cruciate ligament injuries. Virtual Health Information Network (VHIN), Webinar. August 2025",
+      "description": "Long-term health and economic impacts of cruciate ligament injuries. _Virtual Health Information Network (VHIN)_. Webinar, August 2025",
       "location": "Webinar",
       "note": "invited presentation"
     },

@@ -12,7 +12,7 @@
   citation: "Wilson R, Derrett S, Hansen P, Langley JD. #link(\"/research/article/10.1136/injuryprev-2011-040252/index.html\")[Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost]. _Injury Prevention_ 2013;19:124–129. doi:~#link(\"https://doi.org/10.1136/injuryprev-2011-040252\")[10.1136/injuryprev-2011-040252]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Costs of injury in New Zealand: Accident Compensation Corporation spending, personal spending and quality-adjusted life years lost
 == Injury Prevention

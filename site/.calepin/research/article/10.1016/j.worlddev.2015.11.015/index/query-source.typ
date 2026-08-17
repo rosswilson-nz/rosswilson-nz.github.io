@@ -12,7 +12,7 @@
   citation: "Wilson R. #link(\"/research/article/10.1016/j.worlddev.2015.11.015/index.html\")[Does Governance Cause Growth? Evidence from China]. _World Development_ 2016;79:138–151. doi:~#link(\"https://doi.org/10.1016/j.worlddev.2015.11.015\")[10.1016/j.worlddev.2015.11.015]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Does Governance Cause Growth? Evidence from China
 == World Development

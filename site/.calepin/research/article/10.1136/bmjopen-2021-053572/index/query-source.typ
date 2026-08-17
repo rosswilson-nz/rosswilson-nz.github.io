@@ -12,7 +12,7 @@
   citation: "Ribeiro DC, Tangrood ZJ, Wilson R, Sole G, Abbott JH. #link(\"/research/article/10.1136/bmjopen-2021-053572/index.html\")[Tailored exercise and manual therapy versus standardised exercise for patients with shoulder subacromial pain: a feasibility randomised controlled trial (the Otago MASTER trial)]. _BMJ Open_ 2022;12:e053572. doi:~#link(\"https://doi.org/10.1136/bmjopen-2021-053572\")[10.1136/bmjopen-2021-053572]",
 )) <website-metadata>
 
-Back to #link("/research.html/journal-articles")[publications]
+Back to #link("/research.html#journal-articles")[publications]
 
 = Tailored exercise and manual therapy versus standardised exercise for patients with shoulder subacromial pain: a feasibility randomised controlled trial (the Otago MASTER trial)
 == BMJ Open
